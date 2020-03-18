@@ -8,31 +8,16 @@
 
 package ru.datana.steel.parser.xml.pojo;
 
+import lombok.ToString;
+
 import javax.xml.bind.annotation.*;
 
 
-/**
- * <p>Java class for itemType complex type.
- *
- * <p>The following schema fragment specifies the expected content contained within this class.
- *
- * <pre>
- * &lt;complexType name="itemType"&gt;
- *   &lt;simpleContent&gt;
- *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="type" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="note" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="tp" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="ts" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *     &lt;/extension&gt;
- *   &lt;/simpleContent&gt;
- * &lt;/complexType&gt;
- * </pre>
- */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "itemType", propOrder = {
         "value"
 })
+@ToString
 public class ItemType {
 
     @XmlValue

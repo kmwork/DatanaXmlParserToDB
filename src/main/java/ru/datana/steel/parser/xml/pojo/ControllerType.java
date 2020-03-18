@@ -8,32 +8,16 @@
 
 package ru.datana.steel.parser.xml.pojo;
 
+import lombok.ToString;
+
 import javax.xml.bind.annotation.*;
 
 
-/**
- * <p>Java class for controllerType complex type.
- *
- * <p>The following schema fragment specifies the expected content contained within this class.
- *
- * <pre>
- * &lt;complexType name="controllerType"&gt;
- *   &lt;simpleContent&gt;
- *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema&gt;string"&gt;
- *       &lt;attribute name="name" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="ip" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="rack" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="slot" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *       &lt;attribute name="note" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
- *     &lt;/extension&gt;
- *   &lt;/simpleContent&gt;
- * &lt;/complexType&gt;
- * </pre>
- */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "controllerType", propOrder = {
         "value"
 })
+@ToString
 public class ControllerType {
 
     @XmlValue
