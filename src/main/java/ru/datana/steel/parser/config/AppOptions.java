@@ -18,12 +18,14 @@ public class AppOptions {
 
     @Getter
     private String dataFileDir;
+
+    @Getter
     private String appVersion;
 
     public void load() throws AppException {
         Properties p = LanitFileUtils.readDataConfig();
         appVersion = ValueParser.readPropAsText(p, "app.version");
-        dataFileDir = ValueParser.readPropAsText(p, "data.file.dir");
+        dataFileDir = ValueParser.readPropAsText(p, "data.file.dir", false);
 
         log.info("[Настройки] Параметры = " + toString());
 

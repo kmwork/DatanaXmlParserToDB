@@ -22,6 +22,8 @@ public class ControllerS7XmlParserApp {
         try {
             AppOptions appOptions = new AppOptions();
             appOptions.load();
+            log.info("Версия XML Парсера для ММК: " + appOptions.getAppVersion());
+
             File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConts.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = XmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
