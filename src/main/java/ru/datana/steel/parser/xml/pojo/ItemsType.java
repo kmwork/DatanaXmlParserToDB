@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@XmlRootElement
+@XmlRootElement(namespace = "", name = "items")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "itemsType", propOrder = {
         "item"
