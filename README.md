@@ -1,5 +1,6 @@
 # Загрузчик файлов настроек завода ММК в базу данных Postgres (типа как для BigData)
-Загрузка конфигурации контроллеров из xml
+#### кратко: Загрузка конфигурации контроллеров из xml
+
 ### Тех задание - https://conf.dds.lanit.ru/pages/viewpage.action?pageId=43683818
 (или файл -NIOKR-43683818-180320-1517-61.pdf в папке <this project>/doc-manual)
 ### Конечная цель - https://conf.dds.lanit.ru/display/NIOKR/PLC+Proxy+Server 

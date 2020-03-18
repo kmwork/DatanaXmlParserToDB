@@ -6,6 +6,8 @@
 
     <groupId>ru.datana</groupId>
     <artifactId>S7ParserXML-K6</artifactId>
+    <description>Загрузка конфигурации контроллеров из xml</description>
+
     <version>1-alfa</version>
     <packaging>jar</packaging>
     <properties>
