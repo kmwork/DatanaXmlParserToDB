@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="word" note="Трайб №1.Ручей №1.Задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0000"/>
+  <item type="word" note="Трайб №1.Ручей №1.Задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0002"/>
+  <item type="word" note="Трайб №1.Ручей №1.Задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0004"/>
+  <item type="word" note="Трайб №1.Ручей №1.Задание.Удельный вес" tp="PLC_LF_DB3540_DBW_" ts="0006"/>
+  <item type="word" note="Трайб №1.Ручей №1.Задание.Вес новой бухты" tp="PLC_LF_DB3540_DBW_" ts="0008"/>
+  <item type="word" note="Трайб №1.Ручей №2.Задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0010"/>
+  <item type="word" note="Трайб №1.Ручей №2.Задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0012"/>
+  <item type="word" note="Трайб №1.Ручей №2.Задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0014"/>
+  <item type="word" note="Трайб №1.Ручей №2.Задание.Удельный вес" tp="PLC_LF_DB3540_DBW_" ts="0016"/>
+  <item type="word" note="Трайб №1.Ручей №2.Задание.Вес новой бухты" tp="PLC_LF_DB3540_DBW_" ts="0018"/>
+  <item type="word" note="Трайб №1.Ручей №3.Задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0020"/>
+  <item type="word" note="Трайб №1.Ручей №3.Задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0022"/>
+  <item type="word" note="Трайб №1.Ручей №3.Задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0024"/>
+  <item type="word" note="Трайб №1.Ручей №3.Задание.Удельный вес" tp="PLC_LF_DB3540_DBW_" ts="0026"/>
+  <item type="word" note="Трайб №1.Ручей №3.Задание.Вес новой бухты" tp="PLC_LF_DB3540_DBW_" ts="0028"/>
+  <item type="word" note="Трайб №1.Ручей №4.Задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0030"/>
+  <item type="word" note="Трайб №1.Ручей №4.Задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0032"/>
+  <item type="word" note="Трайб №1.Ручей №4.Задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0034"/>
+  <item type="word" note="Трайб №1.Ручей №4.Задание.Удельный вес" tp="PLC_LF_DB3540_DBW_" ts="0036"/>
+  <item type="word" note="Трайб №1.Ручей №4.Задание.Вес новой бухты" tp="PLC_LF_DB3540_DBW_" ts="0038"/>
+  <!--40 байт -->
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Неправильное задание Скорости" tp="PLC_LF_DB3540_DBX" ts="320"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Неправильное задание Веса" tp="PLC_LF_DB3540_DBX" ts="321"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Неправильное задание Приоритета" tp="PLC_LF_DB3540_DBX" ts="322"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Неправильное задание Новой бухты" tp="PLC_LF_DB3540_DBX" ts="323"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Работает" tp="PLC_LF_DB3540_DBX" ts="324"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Прерывание" tp="PLC_LF_DB3540_DBX" ts="325"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Авария неподтверждена" tp="PLC_LF_DB3540_DBX" ts="326"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Авария" tp="PLC_LF_DB3540_DBX" ts="327"/>
+  <!--41 байт -->
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Предупреждение неподтверждено" tp="PLC_LF_DB3540_DBX" ts="328"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Предупреждение" tp="PLC_LF_DB3540_DBX" ts="329"/>
+  <item type="bool" note="Трайб №1.Ручей №1.Состояние.Задание неподтверждено" tp="PLC_LF_DB3540_DBX" ts="330"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="331"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="332"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="333"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="334"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="335"/>
+  <!--12_Word-->
+  <item type="word" note="Трайб №1.Направляющая.Задание" tp="PLC_LF_DB3540_DBW_" ts="0042"/>
+  <item type="word" note="Трайб №1.Ручей №1.Принятое задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0044"/>
+  <item type="word" note="Трайб №1.Ручей №1.Принятое задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0046"/>
+  <item type="word" note="Трайб №1.Ручей №1.Принятое задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0048"/>
+  <item type="word" note="Трайб №1.Ручей №1.Принятое задание.Длинна" tp="PLC_LF_DB3540_DBW_" ts="0050"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0052"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0054"/>
+  <item type="word" note="Трайб №1.Ручей №1.Актуальная скорость" tp="PLC_LF_DB3540_DBW_" ts="0056"/>
+  <item type="word" note="Трайб №1.Ручей №1.Актуальный вес" tp="PLC_LF_DB3540_DBW_" ts="0058"/>
+  <item type="word" note="Трайб №1.Ручей №1.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0060"/>
+  <item type="word" note="Трайб №1.Ручей №1.Актуальная длинна" tp="PLC_LF_DB3540_DBW_" ts="0062"/>
+  <item type="word" note="Трайб №1.Ручей №1.Остаток длинны" tp="PLC_LF_DB3540_DBW_" ts="0064"/>
+  <item type="word" note="Трайб №1.Ручей №1.Остаток веса" tp="PLC_LF_DB3540_DBW_" ts="0066"/>
+  <item type="word" note="Трайб №1.Ручей №1.Актуальный вес за плавку" tp="PLC_LF_DB3540_DBW_" ts="0068"/>
+  <!--2_DWord-->
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0070"/>
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0074"/>
+  <!--78 байт -->
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Неправильное задание Скорости" tp="PLC_LF_DB3540_DBX" ts="624"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Неправильное задание Веса" tp="PLC_LF_DB3540_DBX" ts="625"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Неправильное задание Приоритета" tp="PLC_LF_DB3540_DBX" ts="626"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Неправильное задание Новой бухты" tp="PLC_LF_DB3540_DBX" ts="627"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Работает" tp="PLC_LF_DB3540_DBX" ts="628"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Прерывание" tp="PLC_LF_DB3540_DBX" ts="629"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Авария неподтверждена" tp="PLC_LF_DB3540_DBX" ts="630"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Авария" tp="PLC_LF_DB3540_DBX" ts="631"/>
+  <!--79 байт -->
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Предупреждение неподтверждено" tp="PLC_LF_DB3540_DBX" ts="632"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Предупреждение" tp="PLC_LF_DB3540_DBX" ts="633"/>
+  <item type="bool" note="Трайб №1.Ручей №2.Состояние.Задание неподтверждено" tp="PLC_LF_DB3540_DBX" ts="634"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="635"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="636"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="637"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="638"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="639"/>
+  <!--12_Word-->
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0080"/>
+  <item type="word" note="Трайб №1.Ручей №2.Принятое задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0082"/>
+  <item type="word" note="Трайб №1.Ручей №2.Принятое задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0084"/>
+  <item type="word" note="Трайб №1.Ручей №2.Принятое задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0086"/>
+  <item type="word" note="Трайб №1.Ручей №2.Принятое задание.Длинна" tp="PLC_LF_DB3540_DBW_" ts="0088"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0090"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0092"/>
+  <item type="word" note="Трайб №1.Ручей №2.Актуальная скорость" tp="PLC_LF_DB3540_DBW_" ts="0094"/>
+  <item type="word" note="Трайб №1.Ручей №2.Актуальный вес" tp="PLC_LF_DB3540_DBW_" ts="0096"/>
+  <item type="word" note="Трайб №1.Ручей №2.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0098"/>
+  <item type="word" note="Трайб №1.Ручей №2.Актуальная длинна" tp="PLC_LF_DB3540_DBW_" ts="0100"/>
+  <item type="word" note="Трайб №1.Ручей №2.Остаток длинны" tp="PLC_LF_DB3540_DBW_" ts="0102"/>
+  <item type="word" note="Трайб №1.Ручей №2.Остаток веса" tp="PLC_LF_DB3540_DBW_" ts="0104"/>
+  <item type="word" note="Трайб №1.Ручей №2.Актуальный вес за плавку" tp="PLC_LF_DB3540_DBW_" ts="0106"/>
+  <!--2_DWord-->
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0108"/>
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0112"/>
+  <!--116 байт -->
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Неправильное задание Скорости" tp="PLC_LF_DB3540_DBX" ts="928"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Неправильное задание Веса" tp="PLC_LF_DB3540_DBX" ts="929"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Неправильное задание Приоритета" tp="PLC_LF_DB3540_DBX" ts="930"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Неправильное задание Новой бухты" tp="PLC_LF_DB3540_DBX" ts="931"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Работает" tp="PLC_LF_DB3540_DBX" ts="932"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Прерывание" tp="PLC_LF_DB3540_DBX" ts="933"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Авария неподтверждена" tp="PLC_LF_DB3540_DBX" ts="934"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Авария" tp="PLC_LF_DB3540_DBX" ts="935"/>
+  <!--117 байт -->
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Предупреждение неподтверждено" tp="PLC_LF_DB3540_DBX" ts="936"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Предупреждение" tp="PLC_LF_DB3540_DBX" ts="937"/>
+  <item type="bool" note="Трайб №1.Ручей №3.Состояние.Задание неподтверждено" tp="PLC_LF_DB3540_DBX" ts="938"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="939"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="940"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="941"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="942"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="943"/>
+  <!--12_Word-->
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0118"/>
+  <item type="word" note="Трайб №1.Ручей №3.Принятое задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0120"/>
+  <item type="word" note="Трайб №1.Ручей №3.Принятое задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0122"/>
+  <item type="word" note="Трайб №1.Ручей №3.Принятое задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0124"/>
+  <item type="word" note="Трайб №1.Ручей №3.Принятое задание.Длинна" tp="PLC_LF_DB3540_DBW_" ts="0126"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0128"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0130"/>
+  <item type="word" note="Трайб №1.Ручей №3.Актуальная скорость" tp="PLC_LF_DB3540_DBW_" ts="0132"/>
+  <item type="word" note="Трайб №1.Ручей №3.Актуальный вес" tp="PLC_LF_DB3540_DBW_" ts="0134"/>
+  <item type="word" note="Трайб №1.Ручей №3.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0136"/>
+  <item type="word" note="Трайб №1.Ручей №3.Актуальная длинна" tp="PLC_LF_DB3540_DBW_" ts="0138"/>
+  <item type="word" note="Трайб №1.Ручей №3.Остаток длинны" tp="PLC_LF_DB3540_DBW_" ts="0140"/>
+  <item type="word" note="Трайб №1.Ручей №3.Остаток веса" tp="PLC_LF_DB3540_DBW_" ts="0142"/>
+  <item type="word" note="Трайб №1.Ручей №3.Актуальный вес за плавку" tp="PLC_LF_DB3540_DBW_" ts="0144"/>
+  <!--2_DWord-->
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0146"/>
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0150"/>
+  <!--154 байт -->
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Неправильное задание Скорости" tp="PLC_LF_DB3540_DBX" ts="1232"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Неправильное задание Веса" tp="PLC_LF_DB3540_DBX" ts="1233"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Неправильное задание Приоритета" tp="PLC_LF_DB3540_DBX" ts="1234"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Неправильное задание Новой бухты" tp="PLC_LF_DB3540_DBX" ts="1235"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Работает" tp="PLC_LF_DB3540_DBX" ts="1236"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Прерывание" tp="PLC_LF_DB3540_DBX" ts="1237"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Авария неподтверждена" tp="PLC_LF_DB3540_DBX" ts="1238"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Авария" tp="PLC_LF_DB3540_DBX" ts="1239"/>
+  <!--155 байт -->
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Предупреждение неподтверждено" tp="PLC_LF_DB3540_DBX" ts="1240"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Предупреждение" tp="PLC_LF_DB3540_DBX" ts="1241"/>
+  <item type="bool" note="Трайб №1.Ручей №4.Состояние.Задание неподтверждено" tp="PLC_LF_DB3540_DBX" ts="1242"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1243"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1244"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1245"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1246"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1247"/>
+  <!--12_Word-->
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0156"/>
+  <item type="word" note="Трайб №1.Ручей №4.Принятое задание.Скорость" tp="PLC_LF_DB3540_DBW_" ts="0158"/>
+  <item type="word" note="Трайб №1.Ручей №4.Принятое задание.Вес" tp="PLC_LF_DB3540_DBW_" ts="0160"/>
+  <item type="word" note="Трайб №1.Ручей №4.Принятое задание.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0162"/>
+  <item type="word" note="Трайб №1.Ручей №4.Принятое задание.Длинна" tp="PLC_LF_DB3540_DBW_" ts="0164"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0166"/>
+  <item type="word" tp="PLC_LF_DB3540_DBW_" ts="0168"/>
+  <item type="word" note="Трайб №1.Ручей №4.Актуальная скорость" tp="PLC_LF_DB3540_DBW_" ts="0170"/>
+  <item type="word" note="Трайб №1.Ручей №4.Актуальный вес" tp="PLC_LF_DB3540_DBW_" ts="0172"/>
+  <item type="word" note="Трайб №1.Ручей №4.Выбран в работу" tp="PLC_LF_DB3540_DBW_" ts="0174"/>
+  <item type="word" note="Трайб №1.Ручей №4.Актуальная длинна" tp="PLC_LF_DB3540_DBW_" ts="0176"/>
+  <item type="word" note="Трайб №1.Ручей №4.Остаток длинны" tp="PLC_LF_DB3540_DBW_" ts="0178"/>
+  <item type="word" note="Трайб №1.Ручей №4.Остаток веса" tp="PLC_LF_DB3540_DBW_" ts="0180"/>
+  <item type="word" note="Трайб №1.Ручей №4.Актуальный вес за плавку" tp="PLC_LF_DB3540_DBW_" ts="0182"/>
+  <!--2_DWord-->
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0184"/>
+  <item type="dword" tp="PLC_LF_DB3540_DBD_" ts="0188"/>
+  <item type="word" note="Трайб №1.Ручей №1.Коэффициенты/проценты. Процент заполнения" tp="PLC_LF_DB3540_DBW_" ts="0192"/>
+  <item type="word" note="Трайб №1.Ручей №2.Коэффициенты/проценты. Процент заполнения" tp="PLC_LF_DB3540_DBW_" ts="0194"/>
+  <item type="word" note="Трайб №1.Ручей №3.Коэффициенты/проценты. Процент заполнения" tp="PLC_LF_DB3540_DBW_" ts="0196"/>
+  <item type="word" note="Трайб №1.Ручей №4.Коэффициенты/проценты. Процент заполнения" tp="PLC_LF_DB3540_DBW_" ts="0198"/>
+  <item type="word" note="Трайб №1.Ручей №1.Коэффициенты/проценты. Плотность(грамм/см2)" tp="PLC_LF_DB3540_DBW_" ts="0200"/>
+  <item type="word" note="Трайб №1.Ручей №2.Коэффициенты/проценты. Плотность(грамм/см2)" tp="PLC_LF_DB3540_DBW_" ts="0202"/>
+  <item type="word" note="Трайб №1.Ручей №3.Коэффициенты/проценты. Плотность(грамм/см2)" tp="PLC_LF_DB3540_DBW_" ts="0204"/>
+  <item type="word" note="Трайб №1.Ручей №4.Коэффициенты/проценты. Плотность(грамм/см2)" tp="PLC_LF_DB3540_DBW_" ts="0206"/>
+  <item type="word" note="Трайб №1.Счетчик форсирования плавки" tp="PLC_LF_DB3540_DBW_" ts="0208"/>
+  <item type="word" note="Трайб №1.Ручей №1.Тип материала 1=ПП-CAFE,2=ПП-NB,3=ПП-ФТ,4=АВК,5=ПП-СК,6=ПП-V,7=ПП-С" tp="PLC_LF_DB3540_DBW_" ts="0210"/>
+  <item type="word" note="Трайб №1.Ручей №2.Тип материала 1=ПП-CAFE,2=ПП-NB,3=ПП-ФТ,4=АВК,5=ПП-СК,6=ПП-V,7=ПП-С" tp="PLC_LF_DB3540_DBW_" ts="0212"/>
+  <item type="word" note="Трайб №1.Ручей №3.Тип материала 1=ПП-CAFE,2=ПП-NB,3=ПП-ФТ,4=АВК,5=ПП-СК,6=ПП-V,7=ПП-С" tp="PLC_LF_DB3540_DBW_" ts="0214"/>
+  <item type="word" note="Трайб №1.Ручей №4.Тип материала 1=ПП-CAFE,2=ПП-NB,3=ПП-ФТ,4=АВК,5=ПП-СК,6=ПП-V,7=ПП-С" tp="PLC_LF_DB3540_DBW_" ts="0216"/>
+  <item type="word" note="Трайб №1.Ручей №1.Ручной режим.Длина в ручном режиме до блокировки(Если 15 м, то блокирование)" tp="PLC_LF_DB3540_DBW_" ts="0218"/>
+  <item type="word" note="Трайб №1.Ручей №2.Ручной режим.Длина в ручном режиме до блокировки(Если 15 м, то блокирование)" tp="PLC_LF_DB3540_DBW_" ts="0220"/>
+  <item type="word" note="Трайб №1.Ручей №3.Ручной режим.Длина в ручном режиме до блокировки(Если 15 м, то блокирование)" tp="PLC_LF_DB3540_DBW_" ts="0222"/>
+  <item type="word" note="Трайб №1.Ручей №4.Ручной режим.Длина в ручном режиме до блокировки(Если 15 м, то блокирование)" tp="PLC_LF_DB3540_DBW_" ts="0224"/>
+  <item type="word" note="Трайб №1.Ручей №1.Ручной режим.Таймер блок в ручном режиме по достижении 15 м" tp="PLC_LF_DB3540_DBW_" ts="0226"/>
+  <item type="word" note="Трайб №1.Ручей №2.Ручной режим.Таймер блок в ручном режиме по достижении 15 м" tp="PLC_LF_DB3540_DBW_" ts="0228"/>
+  <item type="word" note="Трайб №1.Ручей №3.Ручной режим.Таймер блок в ручном режиме по достижении 15 м" tp="PLC_LF_DB3540_DBW_" ts="0230"/>
+  <item type="word" note="Трайб №1.Ручей №4.Ручной режим.Таймер блок в ручном режиме по достижении 15 м" tp="PLC_LF_DB3540_DBW_" ts="0232"/>
+  <!--234-235 байт -->
+  <item type="bool" note="Трайб №1.Предупреждение о изменении типа проволоки.Ручей №1" tp="PLC_LF_DB3540_DBX" ts="1872"/>
+  <item type="bool" note="Трайб №1.Предупреждение о изменении типа проволоки.Ручей №2" tp="PLC_LF_DB3540_DBX" ts="1873"/>
+  <item type="bool" note="Трайб №1.Предупреждение о изменении типа проволоки.Ручей №3" tp="PLC_LF_DB3540_DBX" ts="1874"/>
+  <item type="bool" note="Трайб №1.Предупреждение о изменении типа проволоки.Ручей №4" tp="PLC_LF_DB3540_DBX" ts="1875"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1876"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1877"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1878"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1879"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1880"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1881"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1882"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1883"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1884"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1885"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1886"/>
+  <item type="bool" tp="PLC_LF_DB3540_DBX" ts="1887"/>
+  <item type="word" note="Трайб №1.Предупреждение о изменении типа проволоки.Счётчик команд на сброс" tp="PLC_LF_DB3540_DBW_" ts="0236"/>
+</items>

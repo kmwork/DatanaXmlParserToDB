@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="0"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Включить реле ЕК122 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="1"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Выбор бункера Управление.Выбрать бункер 1" tp="PLC_LA_DB4001_DBX" ts="2"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Выбор бункера Управление.Выбрать бункер 2" tp="PLC_LA_DB4001_DBX" ts="3"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Выбор бункера Управление.Выбрать бункер 3" tp="PLC_LA_DB4001_DBX" ts="4"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №1-4.Выбор бункера Управление.Выбрать бункер 4" tp="PLC_LA_DB4001_DBX" ts="5"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="6"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Включить реле ЕК122 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="7"/>
+  <!--1 байт -->
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Выбор бункера Управление.Выбрать бункер 5" tp="PLC_LA_DB4001_DBX" ts="8"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Выбор бункера Управление.Выбрать бункер 6" tp="PLC_LA_DB4001_DBX" ts="9"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Выбор бункера Управление.Выбрать бункер 7" tp="PLC_LA_DB4001_DBX" ts="10"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №5-8.Выбор бункера Управление.Выбрать бункер 8" tp="PLC_LA_DB4001_DBX" ts="11"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="12"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Включить реле ЕК122 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="13"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Выбор бункера Управление.Выбрать бункер 9" tp="PLC_LA_DB4001_DBX" ts="14"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Выбор бункера Управление.Выбрать бункер 10" tp="PLC_LA_DB4001_DBX" ts="15"/>
+  <!--2 байт -->
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Выбор бункера Управление.Выбрать бункер 11" tp="PLC_LA_DB4001_DBX" ts="16"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №9-12.Выбор бункера Управление.Выбрать бункер 12" tp="PLC_LA_DB4001_DBX" ts="17"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="18"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Включить реле ЕК122 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="19"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Выбор бункера Управление.Выбрать бункер 13" tp="PLC_LA_DB4001_DBX" ts="20"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Выбор бункера Управление.Выбрать бункер 14" tp="PLC_LA_DB4001_DBX" ts="21"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Выбор бункера Управление.Выбрать бункер 15" tp="PLC_LA_DB4001_DBX" ts="22"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель бункеров №13-16.Выбор бункера Управление.Выбрать бункер 16" tp="PLC_LA_DB4001_DBX" ts="23"/>
+  <!--3 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="24"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="25"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="26"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="27"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="28"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="29"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="30"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="31"/>
+  <!--4 байт -->
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 1.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="32"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 1.Включить реле ЕК112 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="33"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 2.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="34"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 2.Включить реле ЕК112 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="35"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 3.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="36"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 3.Включить реле ЕК112 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="37"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 4.Включить силовой контактор EQ22  " tp="PLC_LA_DB4001_DBX" ts="38"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель весового бункера 4.Включить реле ЕК112 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="39"/>
+  <!--5 байт -->
+  <item type="bool" note="Тракт сыпучих.Вибропитатель крышек.Выбор бункера Управление.Включить контактор 2232_JH02-EQ22 на выбор вибропителя LF1" tp="PLC_LA_DB4001_DBX" ts="40"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель крышек.Выбор бункера Управление.Включить контактор 2233_JH02-EQ22 на выбор вибропителя LF2" tp="PLC_LA_DB4001_DBX" ts="41"/>
+  <item type="bool" note="Тракт сыпучих.Вибропитатель крышек.Включить реле ЕК113 на работу в удаленном режиме  " tp="PLC_LA_DB4001_DBX" ts="42"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="43"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="44"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный конвейер.Контактор вперед EQ21.Включить" tp="PLC_LA_DB4001_DBX" ts="45"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный конвейер.Контактор назад EQ22.Включить" tp="PLC_LA_DB4001_DBX" ts="46"/>
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF1.Контактор вперед EQ21.Включить" tp="PLC_LA_DB4001_DBX" ts="47"/>
+  <!--6 байт -->
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF2.Контактор вперед EQ21.Включить" tp="PLC_LA_DB4001_DBX" ts="48"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="49"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="50"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="51"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="52"/>
+  <item type="bool" note="Аварийный останов.Горизонтальный конвеер.DE_40_2.Сборка аварийного реле  =02231_ZK01-EK331" tp="PLC_LA_DB4001_DBX" ts="53"/>
+  <item type="bool" note="Аварийный останов.Вертикальный конвеер LF1.DE_40_2.Сборка аварийного реле =02232_ZK01-EK341" tp="PLC_LA_DB4001_DBX" ts="54"/>
+  <item type="bool" note="Аварийный останов.Вертикальный конвеер LF2.DE_40_2.Сборка аварийного реле  =02233_ZK02-EK351" tp="PLC_LA_DB4001_DBX" ts="55"/>
+  <!--7 байт -->
+  <item type="bool" note="Аварийный останов.Трайбаппарат LF1.DE_40_2.Сборка аварийного реле 04630_ZK118-EK361.Резерв " tp="PLC_LA_DB4001_DBX" ts="56"/>
+  <item type="bool" note="Аварийный останов.Трайбаппарат LF2.DE_40_2.Сборка аварийного реле 04640_ZK119-EK371.Резерв " tp="PLC_LA_DB4001_DBX" ts="57"/>
+  <item type="bool" note="Аварийный останов.Порошковый эжектор.DE_40_2.Сборка аварийного реле 03500_ZK133-EK401.Резерв " tp="PLC_LA_DB4001_DBX" ts="58"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="59"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="60"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="61"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="62"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="63"/>
+  <!--8 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="64"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="65"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="66"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="67"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="68"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="69"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="70"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="71"/>
+  <!--9 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="72"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="73"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="74"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="75"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="76"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="77"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="78"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="79"/>
+  <!--10 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="80"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="81"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="82"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="83"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="84"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="85"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="86"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="87"/>
+  <!--11 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="88"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="89"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="90"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="91"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="92"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="93"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="94"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="95"/>
+  <!--12 байт -->
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Шибер.Открыть" tp="PLC_LA_DB4001_DBX" ts="96"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Шибер.Закрыть" tp="PLC_LA_DB4001_DBX" ts="97"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Шибер управление.Открыть" tp="PLC_LA_DB4001_DBX" ts="98"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Шибер управление.Закрыть" tp="PLC_LA_DB4001_DBX" ts="99"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Шибер управление.Открыть" tp="PLC_LA_DB4001_DBX" ts="100"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Шибер управление.Закрыть" tp="PLC_LA_DB4001_DBX" ts="101"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Шибер управление.Открыть" tp="PLC_LA_DB4001_DBX" ts="102"/>
+  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Шибер управление.Закрыть" tp="PLC_LA_DB4001_DBX" ts="103"/>
+  <!--13-->
+  <item type="bool" note="Тракт сыпучих.Аварийная емкость.Упраление.Открыть в сторону крышки 1" tp="PLC_LA_DB4001_DBX" ts="104"/>
+  <item type="bool" note="Тракт сыпучих.Аварийная емкость.Упраление.Открыть в сторону контейнера" tp="PLC_LA_DB4001_DBX" ts="105"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный конвейер.Маяк  " tp="PLC_LA_DB4001_DBX" ts="106"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный конвейер.Звуковая сигнализация  " tp="PLC_LA_DB4001_DBX" ts="107"/>
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF1.Маяк  " tp="PLC_LA_DB4001_DBX" ts="108"/>
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF1.Звуковая сигнализация  " tp="PLC_LA_DB4001_DBX" ts="109"/>
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF2.Маяк  " tp="PLC_LA_DB4001_DBX" ts="110"/>
+  <item type="bool" note="Тракт сыпучих.Вертикальный конвейер LF2.Звуковая сигнализация  " tp="PLC_LA_DB4001_DBX" ts="111"/>
+  <!--14 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="112"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="113"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="114"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="115"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="116"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="117"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="118"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="119"/>
+  <!--15-->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="120"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="121"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="122"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="123"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="124"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="125"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="126"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="127"/>
+  <!--16-->
+  <item type="real" abs="true" hysteresis="2.0" note="Тракт сыпучих.Dissomat_1.Актуальный вес" tp="PLC_LA_DB4001_DBR_" ts="0016"/>
+  <item type="real" abs="true" hysteresis="2.0" note="Тракт сыпучих.Dissomat_2.Актуальный вес" tp="PLC_LA_DB4001_DBR_" ts="0020"/>
+  <item type="real" abs="true" hysteresis="2.0" note="Тракт сыпучих.Dissomat_3.Актуальный вес" tp="PLC_LA_DB4001_DBR_" ts="0024"/>
+  <item type="real" abs="true" hysteresis="2.0" note="Тракт сыпучих.Dissomat_4.Актуальный вес" tp="PLC_LA_DB4001_DBR_" ts="0028"/>
+  <!--32 байт -->
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 1.Разрешения.Взвешивание Работа" tp="PLC_LA_DB4001_DBX" ts="256"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 1.Разрешения.Взвешивание Старт(Запуск)" tp="PLC_LA_DB4001_DBX" ts="257"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 1.Разрешения.Загрузка Старт(Запуск)" tp="PLC_LA_DB4001_DBX" ts="258"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 1.Состояние процеса.Идёт Взвешивание" tp="PLC_LA_DB4001_DBX" ts="259"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 1.Состояние процеса.Идёт Загрузка" tp="PLC_LA_DB4001_DBX" ts="260"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="261"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="262"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="263"/>
+  <!--33 байт -->
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 2.Разрешения.Взвешивание Работа" tp="PLC_LA_DB4001_DBX" ts="264"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 2.Разрешения.Взвешивание Старт(Запуск)" tp="PLC_LA_DB4001_DBX" ts="265"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 2.Разрешения.Загрузка Старт(Запуск)" tp="PLC_LA_DB4001_DBX" ts="266"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 2.Состояние процеса.Идёт Взвешивание" tp="PLC_LA_DB4001_DBX" ts="267"/>
+  <item type="bool" note="Тракт сыпучих.Диагностика.Позиция 2.Состояние процеса.Идёт Загрузка" tp="PLC_LA_DB4001_DBX" ts="268"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="269"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="270"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="271"/>
+  <!--34-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по сталевозам 801 901" tp="PLC_LA_DB4001_DBR_" ts="0034"/>
+  <!--38 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по сталевозам 801 901" tp="PLC_LA_DB4001_DBX" ts="304"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по сталевозам 801 901" tp="PLC_LA_DB4001_DBX" ts="305"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="306"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="307"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="308"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="309"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="310"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="311"/>
+  <!--39 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="312"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="313"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="314"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="315"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="316"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="317"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="318"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="319"/>
+  <!--40-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по крышке №1" tp="PLC_LA_DB4001_DBR_" ts="0040"/>
+  <!--44 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по крышке №1" tp="PLC_LA_DB4001_DBX" ts="352"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по крышке №1" tp="PLC_LA_DB4001_DBX" ts="353"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="354"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="355"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="356"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="357"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="358"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="359"/>
+  <!--45 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="360"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="361"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="362"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="363"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="364"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="365"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="366"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="367"/>
+  <!--46-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по № плавки крышки №1" tp="PLC_LA_DB4001_DBR_" ts="0046"/>
+  <!--50 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по № плавки крышки №1" tp="PLC_LA_DB4001_DBX" ts="400"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по № плавки крышки №1" tp="PLC_LA_DB4001_DBX" ts="401"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="402"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="403"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="404"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="405"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="406"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="407"/>
+  <!--51 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="408"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="409"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="410"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="411"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="412"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="413"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="414"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="415"/>
+  <!--52-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по сталевозам 802 902" tp="PLC_LA_DB4001_DBR_" ts="0052"/>
+  <!--56 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по сталевозам 802 902" tp="PLC_LA_DB4001_DBX" ts="448"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по сталевозам 802 902" tp="PLC_LA_DB4001_DBX" ts="449"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="450"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="451"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="452"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="453"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="454"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="455"/>
+  <!--57 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="456"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="457"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="458"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="459"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="460"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="461"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="462"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="463"/>
+  <!--58-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по крышке №2" tp="PLC_LA_DB4001_DBR_" ts="0058"/>
+  <!--62 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по крышке №2" tp="PLC_LA_DB4001_DBX" ts="496"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по крышке №2" tp="PLC_LA_DB4001_DBX" ts="497"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="498"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="499"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="500"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="501"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="502"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="503"/>
+  <!--63 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="504"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="505"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="506"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="507"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="508"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="509"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="510"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="511"/>
+  <!--64-->
+  <item type="real" abs="true" hysteresis="0.9" note="Тракт сыпучих.Блокировки.Счётчик снятия блокировки по № плавки крышки №2" tp="PLC_LA_DB4001_DBR_" ts="0064"/>
+  <!--68 байт -->
+  <item type="bool" note="Тракт сыпучих.Блокировки.Команда на снятие блокировки по № плавки крышки №2" tp="PLC_LA_DB4001_DBX" ts="544"/>
+  <item type="bool" note="Тракт сыпучих.Блокировки.Позиция 2.Блокировка по № плавки крышки №2" tp="PLC_LA_DB4001_DBX" ts="545"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="546"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="547"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="548"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="549"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="550"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="551"/>
+  <!--69 байт -->
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="552"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="553"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="554"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="555"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="556"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="557"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="558"/>
+  <item type="bool" tp="PLC_LA_DB4001_DBX" ts="559"/>
+  <!--70 байт -->
+  <item type="dword" note="Тракт сыпучих.Блокировки.№ плавки слитой с конвертера(от ДИТ)" tp="PLC_LA_DB4001_DBD_" ts="0070"/>
+</items>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="0"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель.Для бункеров №1-4.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="1"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель.Для бункеров №1-4.Включить реле ЕК122 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="2"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Выбрать" tp="PLC_RA_DB4001_DBX" ts="3"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Выбрать" tp="PLC_RA_DB4001_DBX" ts="4"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Выбрать" tp="PLC_RA_DB4001_DBX" ts="5"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Выбрать" tp="PLC_RA_DB4001_DBX" ts="6"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель.Для бункеров №5-8.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="7"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель.Для бункеров №5-8.Включить реле ЕК122 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="8"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Выбрать" tp="PLC_RA_DB4001_DBX" ts="9"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Выбрать" tp="PLC_RA_DB4001_DBX" ts="10"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Выбрать" tp="PLC_RA_DB4001_DBX" ts="11"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Выбрать" tp="PLC_RA_DB4001_DBX" ts="12"/>
+  <item type="bool" note="Тракт сыпучих.Виброционный питатель.Для бункеров №9-12.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="13"/>
+  <item type="bool" note="Тракт сыпучих.Виброционный питатель.Для бункеров №9-12.Включить реле ЕК122 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="14"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Выбрать" tp="PLC_RA_DB4001_DBX" ts="15"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Выбрать" tp="PLC_RA_DB4001_DBX" ts="16"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Выбрать" tp="PLC_RA_DB4001_DBX" ts="17"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Выбрать" tp="PLC_RA_DB4001_DBX" ts="18"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 1.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="19"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 1.Включить реле ЕК112 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="20"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 2.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="21"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 2.Включить реле ЕК112 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="22"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 3.Включить силовой контактор EQ22" tp="PLC_RA_DB4001_DBX" ts="23"/>
+  <item type="bool" note="Тракт сыпучих.Вибрационный питатель весового бункера 3.Включить реле ЕК112 на работу в удаленном режиме" tp="PLC_RA_DB4001_DBX" ts="24"/>
+  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Контактор вперед EQ21.Включить" tp="PLC_RA_DB4001_DBX" ts="25"/>
+  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Контактор вперед EQ22.Включить" tp="PLC_RA_DB4001_DBX" ts="26"/>
+  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Включить контактор EQ21" tp="PLC_RA_DB4001_DBX" ts="27"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер. Включить контактор EQ21" tp="PLC_RA_DB4001_DBX" ts="28"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="29"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="30"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="31"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Включить контактор EQ21" tp="PLC_RA_DB4001_DBX" ts="32"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Включить контактор EQ21" tp="PLC_RA_DB4001_DBX" ts="33"/>
+  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Аварийный стоп.Сборка 02100_ZK01-EK321" tp="PLC_RA_DB4001_DBX" ts="34"/>
+  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Аварийный стоп.Сборка 02100_ZK02-EK331" tp="PLC_RA_DB4001_DBX" ts="35"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Аварийный стоп.Сборка 02100_ZK03-EK341" tp="PLC_RA_DB4001_DBX" ts="36"/>
+  <item type="bool" note="Резерв_Сборка аварийного реле  02110_ZK01-EK351" tp="PLC_RA_DB4001_DBX" ts="37"/>
+  <item type="bool" note="Резерв_Сборка аварийного реле  02120_ZK01-EK361" tp="PLC_RA_DB4001_DBX" ts="38"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="39"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="40"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="41"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="42"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="43"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="44"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="45"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="46"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="47"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="48"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="49"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="50"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="51"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="52"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="53"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="54"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="55"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="56"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="57"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="58"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="59"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="60"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="61"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="62"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="63"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="64"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="65"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="66"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="67"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="68"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="69"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="70"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="71"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="72"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="73"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="74"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="75"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="76"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="77"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="78"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="79"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="80"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="81"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="82"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="83"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="84"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="85"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="86"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="87"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Открыть" tp="PLC_RA_DB4001_DBX" ts="88"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Закрыть" tp="PLC_RA_DB4001_DBX" ts="89"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Открыть" tp="PLC_RA_DB4001_DBX" ts="90"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Закрыть" tp="PLC_RA_DB4001_DBX" ts="91"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Открыть" tp="PLC_RA_DB4001_DBX" ts="92"/>
+  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Закрыть" tp="PLC_RA_DB4001_DBX" ts="93"/>
+  <item type="bool" note="Тракт сыпучих.Переключательный желоб.В позицию RH1" tp="PLC_RA_DB4001_DBX" ts="94"/>
+  <item type="bool" note="Тракт сыпучих.Переключательный желоб.В позицию RH2" tp="PLC_RA_DB4001_DBX" ts="95"/>
+  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Световая сигнализация" tp="PLC_RA_DB4001_DBX" ts="96"/>
+  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Сигнальная сирена" tp="PLC_RA_DB4001_DBX" ts="97"/>
+  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Световая сигнализация " tp="PLC_RA_DB4001_DBX" ts="98"/>
+  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Сигнальная сирена" tp="PLC_RA_DB4001_DBX" ts="99"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Световая сигнализация" tp="PLC_RA_DB4001_DBX" ts="100"/>
+  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Сигнальная сирена" tp="PLC_RA_DB4001_DBX" ts="101"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="102"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="103"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="104"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="105"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="106"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="107"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="108"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="109"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="110"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="111"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="112"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="113"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="114"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="115"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="116"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="117"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="118"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="119"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="120"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="121"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="122"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="123"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="124"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="125"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="126"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="127"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Световая сигнализация" tp="PLC_RA_DB4001_DBX" ts="128"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Сигнальная сирена" tp="PLC_RA_DB4001_DBX" ts="129"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.В FH1" tp="PLC_RA_DB4001_DBX" ts="130"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.В FH2" tp="PLC_RA_DB4001_DBX" ts="131"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="132"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="133"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="134"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="135"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Открыть" tp="PLC_RA_DB4001_DBX" ts="136"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Закрыть" tp="PLC_RA_DB4001_DBX" ts="137"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Открыть" tp="PLC_RA_DB4001_DBX" ts="138"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Закрыть" tp="PLC_RA_DB4001_DBX" ts="139"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Открыть" tp="PLC_RA_DB4001_DBX" ts="140"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Закрыть" tp="PLC_RA_DB4001_DBX" ts="141"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Открыть" tp="PLC_RA_DB4001_DBX" ts="142"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Открыть" tp="PLC_RA_DB4001_DBX" ts="143"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключить" tp="PLC_RA_DB4001_DBX" ts="144"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключить" tp="PLC_RA_DB4001_DBX" ts="145"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="146"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="147"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="148"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="149"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="150"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="151"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="152"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="153"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="154"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="155"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="156"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="157"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="158"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="159"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Световая сигнализация" tp="PLC_RA_DB4001_DBX" ts="160"/>
+  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Сигнальная сирена" tp="PLC_RA_DB4001_DBX" ts="161"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH1" tp="PLC_RA_DB4001_DBX" ts="162"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH2" tp="PLC_RA_DB4001_DBX" ts="163"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="164"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="165"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="166"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="167"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Открыть" tp="PLC_RA_DB4001_DBX" ts="168"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Закрыть" tp="PLC_RA_DB4001_DBX" ts="169"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Открыть" tp="PLC_RA_DB4001_DBX" ts="170"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Закрыть" tp="PLC_RA_DB4001_DBX" ts="171"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер. Шибер 02220_FH03.Открыть" tp="PLC_RA_DB4001_DBX" ts="172"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер. Шибер 02220_FH03.Закрыть" tp="PLC_RA_DB4001_DBX" ts="173"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Открыть" tp="PLC_RA_DB4001_DBX" ts="174"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Открыть" tp="PLC_RA_DB4001_DBX" ts="175"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключить" tp="PLC_RA_DB4001_DBX" ts="176"/>
+  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключить" tp="PLC_RA_DB4001_DBX" ts="177"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="178"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="179"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="180"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="181"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="182"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="183"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="184"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="185"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="186"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="187"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="188"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="189"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="190"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="191"/>
+  <!--24 байт -->
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD12.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0024"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD23.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0026"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD34.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0028"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD45.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0030"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB12.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0032"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB23.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0034"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB34.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0036"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB45.Перепад давления Па" tp="PLC_RA_DB4001_DBW_" ts="0038"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 1 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0040"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 2 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0042"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 3 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0044"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 4 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0046"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 5 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0048"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 6 обмотки" tp="PLC_RA_DB4001_DBW_" ts="0050"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 1 подшипника" tp="PLC_RA_DB4001_DBW_" ts="0052"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Температура 2 подшипника" tp="PLC_RA_DB4001_DBW_" ts="0054"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Вентилятор.Температура 1 подшипника" tp="PLC_RA_DB4001_DBW_" ts="0056"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Вентилятор.Температура 2 подшипника" tp="PLC_RA_DB4001_DBW_" ts="0058"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Наработка в часах" tp="PLC_RA_DB4001_DBW_" ts="0060"/>
+  <item type="real" abs="true" hysteresis=".01" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Вентилятор.Вибрация" tp="PLC_RA_DB4001_DBR_" ts="0062"/>
+  <item type="real" abs="true" hysteresis=".01" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Вентилятор.Вибрация" tp="PLC_RA_DB4001_DBR_" ts="0066"/>
+  <item type="word" bp="PLC_RA_DB4001_DBW_" ts="0070" tp="PLC_RA_DB4001_DBW_"/>
+  <!--72 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_CD12" tp="PLC_RA_DB4001_DBX" ts="576"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_CD23" tp="PLC_RA_DB4001_DBX" ts="577"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_CD34" tp="PLC_RA_DB4001_DBX" ts="578"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_CD45" tp="PLC_RA_DB4001_DBX" ts="579"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_AB12" tp="PLC_RA_DB4001_DBX" ts="580"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_AB23" tp="PLC_RA_DB4001_DBX" ts="581"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_AB34" tp="PLC_RA_DB4001_DBX" ts="582"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка RMV16_AB45" tp="PLC_RA_DB4001_DBX" ts="583"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка ET_ST0" tp="PLC_RA_DB4001_DBX" ts="584"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка ET_ST1" tp="PLC_RA_DB4001_DBX" ts="585"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_CD12" tp="PLC_RA_DB4001_DBX" ts="586"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_CD23" tp="PLC_RA_DB4001_DBX" ts="587"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_CD34" tp="PLC_RA_DB4001_DBX" ts="588"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_CD45" tp="PLC_RA_DB4001_DBX" ts="589"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_AB12" tp="PLC_RA_DB4001_DBX" ts="590"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_AB23" tp="PLC_RA_DB4001_DBX" ts="591"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_AB34" tp="PLC_RA_DB4001_DBX" ts="592"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка Encoder_AB45" tp="PLC_RA_DB4001_DBX" ts="593"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка TempRail_ST0" tp="PLC_RA_DB4001_DBX" ts="594"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Ошибка TempRail_ST1" tp="PLC_RA_DB4001_DBX" ts="595"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="596"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="597"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="598"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="599"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="600"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="601"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="602"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="603"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="604"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="605"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="606"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="607"/>
+  <!--76 байт -->
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0076"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0080"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0084"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0088"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0092"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0096"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0100"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0104"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0108"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0112"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0116"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0120"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0124"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0128"/>
+  <item type="real" tp="PLC_RA_DB4001_DBR_" ts="0132"/>
+  <!--136 байт -->
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_CD12" tp="PLC_RA_DB4001_DBW_" ts="0136"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_CD23" tp="PLC_RA_DB4001_DBW_" ts="0138"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_CD34" tp="PLC_RA_DB4001_DBW_" ts="0140"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_CD45" tp="PLC_RA_DB4001_DBW_" ts="0142"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_AB12" tp="PLC_RA_DB4001_DBW_" ts="0144"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_AB23" tp="PLC_RA_DB4001_DBW_" ts="0146"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_AB34" tp="PLC_RA_DB4001_DBW_" ts="0148"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.RMV16_AB45" tp="PLC_RA_DB4001_DBW_" ts="0150"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.ET_ST0" tp="PLC_RA_DB4001_DBW_" ts="0152"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.ET_ST1" tp="PLC_RA_DB4001_DBW_" ts="0154"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_CD12" tp="PLC_RA_DB4001_DBW_" ts="0156"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_CD23" tp="PLC_RA_DB4001_DBW_" ts="0158"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_CD34" tp="PLC_RA_DB4001_DBW_" ts="0160"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_CD45" tp="PLC_RA_DB4001_DBW_" ts="0162"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_AB12" tp="PLC_RA_DB4001_DBW_" ts="0164"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_AB23" tp="PLC_RA_DB4001_DBW_" ts="0166"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_AB34" tp="PLC_RA_DB4001_DBW_" ts="0168"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.Encoder_AB45" tp="PLC_RA_DB4001_DBW_" ts="0170"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.TempRail_ST0" tp="PLC_RA_DB4001_DBW_" ts="0172"/>
+  <item type="word" note="Газоочистка ВОС для МНЛЗ №6.Profibus.Счетчики ошибок.TempRail_ST1" tp="PLC_RA_DB4001_DBW_" ts="0174"/>
+  <!--176 байт -->
+  <item type="bool" note="Profibus.PLC RA.Ошибка ET_DT20" tp="PLC_RA_DB4001_DBX" ts="1408"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка ET_DT21" tp="PLC_RA_DB4001_DBX" ts="1409"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка ET_DT22" tp="PLC_RA_DB4001_DBX" ts="1410"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка ET_DT23" tp="PLC_RA_DB4001_DBX" ts="1411"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка DpDp_Coupler_Dedust" tp="PLC_RA_DB4001_DBX" ts="1412"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка Siwarex_WE01" tp="PLC_RA_DB4001_DBX" ts="1413"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка Siwarex_WE02" tp="PLC_RA_DB4001_DBX" ts="1414"/>
+  <item type="bool" note="Profibus.PLC RA.Ошибка Siwarex_WE03" tp="PLC_RA_DB4001_DBX" ts="1415"/>
+  <item type="bool" note="Оптика.PLC RA.DD20_OLM20 ПОМЕХА" tp="PLC_RA_DB4001_DBX" ts="1416"/>
+  <item type="bool" note="Оптика.PLC RA.DT20_OLM21 ПОМЕХА" tp="PLC_RA_DB4001_DBX" ts="1417"/>
+  <item type="bool" note="Оптика.PLC RA.DT21_OLM22 ПОМЕХА" tp="PLC_RA_DB4001_DBX" ts="1418"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1419"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1420"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1421"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1422"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1423"/>
+  <!--178 байт -->
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.ET_DT20" tp="PLC_RA_DB4001_DBW_" ts="0178"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.ET_DT21" tp="PLC_RA_DB4001_DBW_" ts="0180"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.ET_DT22" tp="PLC_RA_DB4001_DBW_" ts="0182"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.ET_DT23" tp="PLC_RA_DB4001_DBW_" ts="0184"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.DpDp_Coupler_Dedust" tp="PLC_RA_DB4001_DBW_" ts="0186"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.Siwarex_WE01" tp="PLC_RA_DB4001_DBW_" ts="0188"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.Siwarex_WE02" tp="PLC_RA_DB4001_DBW_" ts="0190"/>
+  <item type="word" note="Profibus.PLC RA.Счетчики ошибок.Siwarex_WE03" tp="PLC_RA_DB4001_DBW_" ts="0192"/>
+  <item type="word" note="Оптика.PLC RA.Счетчики ошибок.OLM20_DD20" tp="PLC_RA_DB4001_DBW_" ts="0194"/>
+  <item type="word" note="Оптика.PLC RA.Счетчики ошибок.OLM21_DT21" tp="PLC_RA_DB4001_DBW_" ts="0196"/>
+  <item type="word" note="Оптика.PLC RA.Счетчики ошибок.OLM22_DT21" tp="PLC_RA_DB4001_DBW_" ts="0198"/>
+  <item type="word" tp="PLC_RA_DB4001_DBW_" ts="0200"/>
+  <!--202 байт -->
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1616"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Удаленный режим упр (0-лок)" tp="PLC_RA_DB4001_DBX" ts="1617"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.В работе" tp="PLC_RA_DB4001_DBX" ts="1618"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Автоматический режим" tp="PLC_RA_DB4001_DBX" ts="1619"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Готовность" tp="PLC_RA_DB4001_DBX" ts="1620"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Последовательность запуска" tp="PLC_RA_DB4001_DBX" ts="1621"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Ошибка OLM" tp="PLC_RA_DB4001_DBX" ts="1622"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Сеть Profibus в порядке" tp="PLC_RA_DB4001_DBX" ts="1623"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Нет общей ошибки" tp="PLC_RA_DB4001_DBX" ts="1624"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Нет ошибки по двигателю вентилятора" tp="PLC_RA_DB4001_DBX" ts="1625"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Нет ошибки по ЗРУ" tp="PLC_RA_DB4001_DBX" ts="1626"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Нет ошибки по фильтрам" tp="PLC_RA_DB4001_DBX" ts="1627"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Нет ошибки по уровню заполнения" tp="PLC_RA_DB4001_DBX" ts="1628"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1629"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1630"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1631"/>
+  <!--204 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Автоматы.2F3 - Упр напряжение" tp="PLC_RA_DB4001_DBX" ts="1632"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Автоматы.2F4 - Освещение шкаф" tp="PLC_RA_DB4001_DBX" ts="1633"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Автоматы.2F6 - Сервис розетка" tp="PLC_RA_DB4001_DBX" ts="1634"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Автоматы.2F7 - Обогрев шкафа" tp="PLC_RA_DB4001_DBX" ts="1635"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Автоматы.5F6 - Кондиционер" tp="PLC_RA_DB4001_DBX" ts="1636"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST0.Кондиционер в норме" tp="PLC_RA_DB4001_DBX" ts="1637"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Аварийный стоп.Аварийная кнопка ST1" tp="PLC_RA_DB4001_DBX" ts="1638"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Аварийный стоп.Аварийная кнопка ST0" tp="PLC_RA_DB4001_DBX" ts="1639"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Аварийный стоп.Сброс аварийного реле кнопка" tp="PLC_RA_DB4001_DBX" ts="1640"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Аварийный стоп.Реле аварийного стопа" tp="PLC_RA_DB4001_DBX" ts="1641"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD13.Автомат защиты двигателя 24Q1" tp="PLC_RA_DB4001_DBX" ts="1642"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD13.Автомат защиты обогрев 24F3" tp="PLC_RA_DB4001_DBX" ts="1643"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD13.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1644"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD35.Автомат защиты двигателя 26Q1" tp="PLC_RA_DB4001_DBX" ts="1645"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD35.Автомат защиты обогрев 26F3" tp="PLC_RA_DB4001_DBX" ts="1646"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD35.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1647"/>
+  <!--206 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB13.Автомат защиты двигателя 28Q1" tp="PLC_RA_DB4001_DBX" ts="1648"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB13.Автомат защиты обогрев 28F3" tp="PLC_RA_DB4001_DBX" ts="1649"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB13.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1650"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB35.Автомат защиты двигателя 30Q1" tp="PLC_RA_DB4001_DBX" ts="1651"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB35.Автомат защиты обогрев 30F3" tp="PLC_RA_DB4001_DBX" ts="1652"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB35.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1653"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Автомат защиты двигателя 32Q1" tp="PLC_RA_DB4001_DBX" ts="1654"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Автомат защиты обогрев 32F3" tp="PLC_RA_DB4001_DBX" ts="1655"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1656"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Автомат защиты двигателя 34Q1" tp="PLC_RA_DB4001_DBX" ts="1657"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Автомат защиты обогрев 34F3" tp="PLC_RA_DB4001_DBX" ts="1658"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1659"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Автомат защиты двигателя 36Q1" tp="PLC_RA_DB4001_DBX" ts="1660"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Автомат защиты обогрев 36F3" tp="PLC_RA_DB4001_DBX" ts="1661"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1662"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Автомат защиты двигателя 38Q1" tp="PLC_RA_DB4001_DBX" ts="1663"/>
+  <!--208 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Автомат защиты обогрев 38F3" tp="PLC_RA_DB4001_DBX" ts="1664"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1665"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Защита сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1666"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Защита сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1667"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Защита сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1668"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Защита сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1669"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Шумозащ колпак.Автоматы двигателей охлаждения" tp="PLC_RA_DB4001_DBX" ts="1670"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Шумозащ колпак.Термозащита" tp="PLC_RA_DB4001_DBX" ts="1671"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Открыта NC" tp="PLC_RA_DB4001_DBX" ts="1672"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Закрыта NC" tp="PLC_RA_DB4001_DBX" ts="1673"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Неполадка NC" tp="PLC_RA_DB4001_DBX" ts="1674"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Автомат обогрева 46F3" tp="PLC_RA_DB4001_DBX" ts="1675"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Открыта NC" tp="PLC_RA_DB4001_DBX" ts="1676"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Закрыта NC" tp="PLC_RA_DB4001_DBX" ts="1677"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Неполадка NC" tp="PLC_RA_DB4001_DBX" ts="1678"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Автомат обогрева 48F3" tp="PLC_RA_DB4001_DBX" ts="1679"/>
+  <!--210 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Двигатель.Мониторинг вращения" tp="PLC_RA_DB4001_DBX" ts="1680"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Виброконтроль.Готовность" tp="PLC_RA_DB4001_DBX" ts="1681"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Виброконтроль.Реле К1" tp="PLC_RA_DB4001_DBX" ts="1682"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Виброконтроль.Реле К2" tp="PLC_RA_DB4001_DBX" ts="1683"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Виброконтроль.Реле К3" tp="PLC_RA_DB4001_DBX" ts="1684"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD12.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1685"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD12.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1686"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD23.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1687"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD23.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1688"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD34.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1689"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD34.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1690"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD45.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1691"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция CD45.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1692"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB12.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1693"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB12.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1694"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB23.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1695"/>
+  <!--212 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB23.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1696"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB34.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1697"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB34.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1698"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB45.Уровень заполнения Hi" tp="PLC_RA_DB4001_DBX" ts="1699"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Секция AB45.Уровень заполнения HiHi" tp="PLC_RA_DB4001_DBX" ts="1700"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Кнопка - секция CD13" tp="PLC_RA_DB4001_DBX" ts="1701"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Кнопка - секция CD35" tp="PLC_RA_DB4001_DBX" ts="1702"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Кнопка - секция AB13." tp="PLC_RA_DB4001_DBX" ts="1703"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Кнопка - секция AB35" tp="PLC_RA_DB4001_DBX" ts="1704"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К1 - Контроль опер напряжения" tp="PLC_RA_DB4001_DBX" ts="1705"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К2 - Аварийное размыкание вакуумного выкл NC" tp="PLC_RA_DB4001_DBX" ts="1706"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К3 - Вакуумный выкл замкнут" tp="PLC_RA_DB4001_DBX" ts="1707"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К4 - Вакуумный выкл разомкнут" tp="PLC_RA_DB4001_DBX" ts="1708"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К5 - Вакуумный выкл выбор упр с PLC" tp="PLC_RA_DB4001_DBX" ts="1709"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К6 - Вакуумный выкл готовность" tp="PLC_RA_DB4001_DBX" ts="1710"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К7 - Резерв" tp="PLC_RA_DB4001_DBX" ts="1711"/>
+  <!--214 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.К8 - Резерв" tp="PLC_RA_DB4001_DBX" ts="1712"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1713"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1714"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1715"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1716"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1717"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1718"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1719"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1720"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1721"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1722"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1723"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1724"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1725"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1726"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1727"/>
+  <!--216 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы.2F3 - Упр напряжение" tp="PLC_RA_DB4001_DBX" ts="1728"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы.2F4 - Освещение шкаф" tp="PLC_RA_DB4001_DBX" ts="1729"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы.2F6 - Сервис розетка" tp="PLC_RA_DB4001_DBX" ts="1730"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы.2F7 - Обогрев шкафа" tp="PLC_RA_DB4001_DBX" ts="1731"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы.5F6 - Кондиционер" tp="PLC_RA_DB4001_DBX" ts="1732"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Кондиционер в норме" tp="PLC_RA_DB4001_DBX" ts="1733"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Автомат защиты двигателя 16Q1" tp="PLC_RA_DB4001_DBX" ts="1734"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Автомат обогрева 16F3" tp="PLC_RA_DB4001_DBX" ts="1735"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1736"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1737"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Автомат защиты двигателя 19Q1" tp="PLC_RA_DB4001_DBX" ts="1738"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Автомат обогрева 19F3" tp="PLC_RA_DB4001_DBX" ts="1739"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1740"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1741"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Автомат защиты двигателя 22Q1" tp="PLC_RA_DB4001_DBX" ts="1742"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Автомат обогрева 22F3" tp="PLC_RA_DB4001_DBX" ts="1743"/>
+  <!--218 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1744"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1745"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Автомат защиты двигателя 25Q1" tp="PLC_RA_DB4001_DBX" ts="1746"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Автомат обогрева 25F3" tp="PLC_RA_DB4001_DBX" ts="1747"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1748"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1749"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Автомат защиты двигателя 28Q1" tp="PLC_RA_DB4001_DBX" ts="1750"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Автомат обогрева 28F3" tp="PLC_RA_DB4001_DBX" ts="1751"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1752"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1753"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Автомат защиты двигателя 31Q1" tp="PLC_RA_DB4001_DBX" ts="1754"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Автомат обогрева 31F3" tp="PLC_RA_DB4001_DBX" ts="1755"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1756"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1757"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Автомат защиты двигателя 34Q1" tp="PLC_RA_DB4001_DBX" ts="1758"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Автомат обогрева 34F3" tp="PLC_RA_DB4001_DBX" ts="1759"/>
+  <!--220 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1760"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1761"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Автомат защиты двигателя 37Q1" tp="PLC_RA_DB4001_DBX" ts="1762"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Автомат обогрева 37F3" tp="PLC_RA_DB4001_DBX" ts="1763"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Положение внизу" tp="PLC_RA_DB4001_DBX" ts="1764"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Положение вверху" tp="PLC_RA_DB4001_DBX" ts="1765"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD12.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1766"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD23.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1767"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD34.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1768"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD45.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1769"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB12.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1770"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB23.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1771"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB34.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1772"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB45.Защита обогрева пневмотруб" tp="PLC_RA_DB4001_DBX" ts="1773"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD12.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1774"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD12.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1775"/>
+  <!--222 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD23.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1776"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD23.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1777"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD34.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1778"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD34.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1779"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD45.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1780"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD45.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1781"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB12.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1782"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB12.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1783"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB23.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1784"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB23.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1785"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB34.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1786"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB34.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1787"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB45.Автомат модуля RMV16" tp="PLC_RA_DB4001_DBX" ts="1788"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB45.Автомат пневмат блока техобсл" tp="PLC_RA_DB4001_DBX" ts="1789"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автомат вытяжного вентилятора пентхауса" tp="PLC_RA_DB4001_DBX" ts="1790"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Датчик температуры пентхауса" tp="PLC_RA_DB4001_DBX" ts="1791"/>
+  <!--224 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Автоматы розеток освещения крана" tp="PLC_RA_DB4001_DBX" ts="1792"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1793"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1794"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1795"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1796"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1797"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1798"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1799"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1800"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1801"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1802"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1803"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1804"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1805"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1806"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1807"/>
+  <!--226 байт -->
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1808"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Аварийный стоп.Сброс аварийного реле" tp="PLC_RA_DB4001_DBX" ts="1809"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD13.Включить" tp="PLC_RA_DB4001_DBX" ts="1810"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD13.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1811"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD35.Включить" tp="PLC_RA_DB4001_DBX" ts="1812"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.CD35.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1813"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB13.Включить" tp="PLC_RA_DB4001_DBX" ts="1814"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB13.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1815"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB35.Включить" tp="PLC_RA_DB4001_DBX" ts="1816"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Лопастные затворы.AB35.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1817"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Включить" tp="PLC_RA_DB4001_DBX" ts="1818"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1819"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Включить" tp="PLC_RA_DB4001_DBX" ts="1820"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1821"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Включить" tp="PLC_RA_DB4001_DBX" ts="1822"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1823"/>
+  <!--228 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Включить" tp="PLC_RA_DB4001_DBX" ts="1824"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1825"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD13.Включить сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1826"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.CD35.Включить сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1827"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB13.Включить сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1828"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шнеки.AB35.Включить сопров обогрева ZRS и шнека" tp="PLC_RA_DB4001_DBX" ts="1829"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Шумозащ колпак.Включить двигатели охлаждения" tp="PLC_RA_DB4001_DBX" ts="1830"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Открыть" tp="PLC_RA_DB4001_DBX" ts="1831"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1832"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 1.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1833"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Открыть" tp="PLC_RA_DB4001_DBX" ts="1834"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1835"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Направляющий аппарат.Заслонка 2.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1836"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1837"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Главный вентилятор.Виброконтроль.Сброс" tp="PLC_RA_DB4001_DBX" ts="1838"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1839"/>
+  <!--230 байт -->
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1840"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Лампа CD13" tp="PLC_RA_DB4001_DBX" ts="1841"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Лампа CD35" tp="PLC_RA_DB4001_DBX" ts="1842"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Лампа AB13" tp="PLC_RA_DB4001_DBX" ts="1843"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Очистные бункера.Смена контейнера.Лампа AB35" tp="PLC_RA_DB4001_DBX" ts="1844"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.Замкнуть вакуумный выкл" tp="PLC_RA_DB4001_DBX" ts="1845"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Высоковольтная часть.Разомкнуть вакуумный выкл" tp="PLC_RA_DB4001_DBX" ts="1846"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1847"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1848"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1849"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1850"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1851"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1852"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1853"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1854"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1855"/>
+  <!--232 байт -->
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1856"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1857"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1858"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1859"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1860"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1861"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1862"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1863"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1864"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1865"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1866"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1867"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1868"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1869"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1870"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1871"/>
+  <!--234 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Открыть" tp="PLC_RA_DB4001_DBX" ts="1872"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1873"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD12.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1874"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Открыть" tp="PLC_RA_DB4001_DBX" ts="1875"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1876"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD23.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1877"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Открыть" tp="PLC_RA_DB4001_DBX" ts="1878"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1879"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD34.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1880"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Открыть" tp="PLC_RA_DB4001_DBX" ts="1881"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1882"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция CD45.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1883"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Открыть" tp="PLC_RA_DB4001_DBX" ts="1884"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1885"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB12.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1886"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Открыть" tp="PLC_RA_DB4001_DBX" ts="1887"/>
+  <!--236 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1888"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB23.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1889"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Открыть" tp="PLC_RA_DB4001_DBX" ts="1890"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1891"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB34.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1892"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Открыть" tp="PLC_RA_DB4001_DBX" ts="1893"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Закрыть" tp="PLC_RA_DB4001_DBX" ts="1894"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Шибера.Секция AB45.Включить обогрев" tp="PLC_RA_DB4001_DBX" ts="1895"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD12.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1896"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD23.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1897"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD34.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1898"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция CD45.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1899"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB12.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1900"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB23.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1901"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB34.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1902"/>
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.Система очистки руковов.Секция AB45.Включить обогрев пневмотрубы" tp="PLC_RA_DB4001_DBX" ts="1903"/>
+  <!--238 байт -->
+  <item type="bool" note="Газоочистка ВОС для МНЛЗ №6.ST1.Включить вытяжной вентилятор пентхауса" tp="PLC_RA_DB4001_DBX" ts="1904"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1905"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1906"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1907"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1908"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1909"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1910"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1911"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1912"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1913"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1914"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1915"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1916"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1917"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1918"/>
+  <item type="bool" tp="PLC_RA_DB4001_DBX" ts="1919"/>
+  <!--240 байт -->
+</items>

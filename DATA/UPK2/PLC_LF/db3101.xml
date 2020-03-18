@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item type="word" note="Система контроля электродов.Вторичное напряжение в V.Электрод А" tp="PLC_LF_DB3101_DBW_" ts="0000"/>
+  <item type="word" note="Система контроля электродов.Вторичное напряжение в V.Электрод В" tp="PLC_LF_DB3101_DBW_" ts="0002"/>
+  <item type="word" note="Система контроля электродов.Вторичное напряжение в V.Электрод С" tp="PLC_LF_DB3101_DBW_" ts="0004"/>
+  <item type="word" note="Система контроля электродов.Вторичный ток в kA.Электрод А" tp="PLC_LF_DB3101_DBW_" ts="0006"/>
+  <item type="word" note="Система контроля электродов.Вторичный ток в kA.Электрод В" tp="PLC_LF_DB3101_DBW_" ts="0008"/>
+  <item type="word" note="Система контроля электродов.Вторичный ток в kA.Электрод С" tp="PLC_LF_DB3101_DBW_" ts="0010"/>
+  <item type="word" note="Система контроля электродов.Управляющий сигна в mV.Электрод А" tp="PLC_LF_DB3101_DBW_" ts="0012"/>
+  <item type="word" note="Система контроля электродов.Управляющий сигна в mV.Электрод В" tp="PLC_LF_DB3101_DBW_" ts="0014"/>
+  <item type="word" note="Система контроля электродов.Управляющий сигна в mV.Электрод С" tp="PLC_LF_DB3101_DBW_" ts="0016"/>
+  <item type="word" note="Система контроля электродов.Номер кривой нагрева Z-curve" tp="PLC_LF_DB3101_DBW_" ts="0018"/>
+  <item type="word" note="Система контроля электродов.Ступень трансформатора.Инверсный сигнал для DECTEQ 1=&gt;10,2=&gt;9   10=&gt;1" tp="PLC_LF_DB3101_DBW_" ts="0020"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Напряжение первичное U a_b,V" tp="PLC_LF_DB3101_DBR_" ts="0022"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Напряжение первичное U b_c,V" tp="PLC_LF_DB3101_DBR_" ts="0026"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Напряжение первичное U c_a,V" tp="PLC_LF_DB3101_DBR_" ts="0030"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Ток первичный I a,A" tp="PLC_LF_DB3101_DBR_" ts="0034"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Ток первичный I b,A" tp="PLC_LF_DB3101_DBR_" ts="0038"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Ток первичный I c,A" tp="PLC_LF_DB3101_DBR_" ts="0042"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.CosPHi_A" tp="PLC_LF_DB3101_DBR_" ts="0046"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.CosPHi_B" tp="PLC_LF_DB3101_DBR_" ts="0050"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.CosPHi_C" tp="PLC_LF_DB3101_DBR_" ts="0054"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А001.SIMEAS P.Суммарная мощность A001,kWh" tp="PLC_LF_DB3101_DBR_" ts="0058"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Напряжение первичное U a_b,V" tp="PLC_LF_DB3101_DBR_" ts="0062"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Напряжение первичное U b_c,V" tp="PLC_LF_DB3101_DBR_" ts="0066"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Напряжение первичное U c_a,V" tp="PLC_LF_DB3101_DBR_" ts="0070"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Ток первичный I a,A" tp="PLC_LF_DB3101_DBR_" ts="0074"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Ток первичный I b,A" tp="PLC_LF_DB3101_DBR_" ts="0078"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Ток первичный I c,A" tp="PLC_LF_DB3101_DBR_" ts="0082"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.CosPHi_A" tp="PLC_LF_DB3101_DBR_" ts="0086"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.CosPHi_B" tp="PLC_LF_DB3101_DBR_" ts="0090"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.CosPHi_C" tp="PLC_LF_DB3101_DBR_" ts="0094"/>
+  <item type="real" abs="true" hysteresis=".01" note="Распредустройства.А002.SIMEAS P.Суммарная мощность A002,kWh" tp="PLC_LF_DB3101_DBR_" ts="0098"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Задание на пропорциональный распределитель А" tp="PLC_LF_DB3101_DBR_" ts="0102"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Задание на пропорциональный распределитель В" tp="PLC_LF_DB3101_DBR_" ts="0106"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Задание на пропорциональный распределитель С" tp="PLC_LF_DB3101_DBR_" ts="0110"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Обратная связь с пропорционального распределителя А" tp="PLC_LF_DB3101_DBR_" ts="0114"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Обратная связь с пропорционального распределителя В" tp="PLC_LF_DB3101_DBR_" ts="0118"/>
+  <item type="real" abs="true" hysteresis=".01" note="Система контроля электродов.Обратная связь с пропорционального распределителя С" tp="PLC_LF_DB3101_DBR_" ts="0122"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Камера высокого давления.Давление 3510 CP01" tp="PLC_LF_DB3101_DBR_" ts="0126"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Камера высокого давления.Вес материала" tp="PLC_LF_DB3101_DBR_" ts="0130"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Давление порошка после машины 1 3500 CP01 EB03" tp="PLC_LF_DB3101_DBR_" ts="0134"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Давление порошка на LF1 3500 CP01 EB04" tp="PLC_LF_DB3101_DBR_" ts="0138"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Давление порошка на LF2 3500 CP01 EB05" tp="PLC_LF_DB3101_DBR_" ts="0142"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Фактический расход порошка" tp="PLC_LF_DB3101_DBR_" ts="0146"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Давление газа на входе 3510 CP05" tp="PLC_LF_DB3101_DBR_" ts="0150"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Температура газа 3510 CT01" tp="PLC_LF_DB3101_DBR_" ts="0154"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Расход аргона/азота 3510 CF04" tp="PLC_LF_DB3101_DBR_" ts="0158"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Процент хода ИМ подачи порошка 3510 CF02" tp="PLC_LF_DB3101_DBR_" ts="0162"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 1.Процент открытия ИМ транспортировочного газа 3510 CF03" tp="PLC_LF_DB3101_DBR_" ts="0166"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Камера высокого давления.Давление 3520 CP01" tp="PLC_LF_DB3101_DBR_" ts="0170"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Камера высокого давления.Вес материала" tp="PLC_LF_DB3101_DBR_" ts="0174"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Давление порошка после машины 2 3500 CP01 EB03" tp="PLC_LF_DB3101_DBR_" ts="0178"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Давление порошка на LF1 3500 CP01 EB04" tp="PLC_LF_DB3101_DBR_" ts="0182"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Давление порошка на LF2 3500 CP01 EB05" tp="PLC_LF_DB3101_DBR_" ts="0186"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Фактический расход порошка" tp="PLC_LF_DB3101_DBR_" ts="0190"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Давление газа на входе 3510 CP05" tp="PLC_LF_DB3101_DBR_" ts="0194"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Температура газа 3510 CT01" tp="PLC_LF_DB3101_DBR_" ts="0198"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Расход аргона/азота 3510 CF04" tp="PLC_LF_DB3101_DBR_" ts="0202"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Процент хода ИМ подачи порошка 3510 CF02" tp="PLC_LF_DB3101_DBR_" ts="0206"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Машина 2.Процент открытия ИМ транспортировочного газа 3510 CF03" tp="PLC_LF_DB3101_DBR_" ts="0210"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 1.Задание количества отдаваемого порошка" tp="PLC_LF_DB3101_DBR_" ts="0214"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 1.Заданный расход конвейера" tp="PLC_LF_DB3101_DBR_" ts="0218"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 1.Заданный расход газа" tp="PLC_LF_DB3101_DBR_" ts="0222"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 1.Заданное значение давления" tp="PLC_LF_DB3101_DBR_" ts="0226"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 2.Задание количества отдаваемого порошка" tp="PLC_LF_DB3101_DBR_" ts="0230"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 2.Заданный расход конвейера" tp="PLC_LF_DB3101_DBR_" ts="0234"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 2.Заданный расход газа" tp="PLC_LF_DB3101_DBR_" ts="0238"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Задание.Машина 2.Заданное значение давления" tp="PLC_LF_DB3101_DBR_" ts="0242"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Система поворота портала.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0246"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Порошковая фурма.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0250"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Порошковая фурма.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0254"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Продувочная фурма.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0258"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Продувочная фурма.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0262"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Температура_ЭДС.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0266"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Пробоотбор.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0270"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Температура_ЭДС.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0274"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Пробоотбор.Актуальное значение" tp="PLC_LF_DB3101_DBR_" ts="0278"/>
+  <item type="word" note="Резерв" tp="PLC_LF_DB3101_DBW_" ts="0282"/>
+  <item type="word" note="Диагностика.Счетчик цикла PLCLF" tp="PLC_LF_DB3101_DBW_" ts="0284"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2288"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2289"/>
+  <item type="bool" note="Энкодер.Система поворота портала.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2290"/>
+  <item type="bool" note="Энкодер.Система поворота портала.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2291"/>
+  <item type="bool" note="Энкодер.Система поворота портала.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2292"/>
+  <item type="bool" note="Энкодер.Система поворота портала.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2293"/>
+  <item type="bool" note="Энкодер.Позиция 1.Порошковая фурма.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2294"/>
+  <item type="bool" note="Энкодер.Позиция 1.Порошковая фурма.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2295"/>
+  <item type="bool" note="Энкодер.Позиция 1.Порошковая фурма.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2296"/>
+  <item type="bool" note="Энкодер.Позиция 1.Порошковая фурма.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2297"/>
+  <item type="bool" note="Энкодер.Позиция 2.Порошковая фурма.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2298"/>
+  <item type="bool" note="Энкодер.Позиция 2.Порошковая фурма.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2299"/>
+  <item type="bool" note="Энкодер.Позиция 2.Порошковая фурма.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2300"/>
+  <item type="bool" note="Энкодер.Позиция 2.Порошковая фурма.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2301"/>
+  <item type="bool" note="Энкодер.Позиция 1.Продувочная фурма.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2302"/>
+  <item type="bool" note="Энкодер.Позиция 1.Продувочная фурма.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2303"/>
+  <item type="bool" note="Энкодер.Позиция 1.Продувочная фурма.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2304"/>
+  <item type="bool" note="Энкодер.Позиция 1.Продувочная фурма.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2305"/>
+  <item type="bool" note="Энкодер.Позиция 2.Продувочная фурма.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2306"/>
+  <item type="bool" note="Энкодер.Позиция 2.Продувочная фурма.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2307"/>
+  <item type="bool" note="Энкодер.Позиция 2.Продувочная фурма.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2308"/>
+  <item type="bool" note="Энкодер.Позиция 2.Продувочная фурма.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2309"/>
+  <item type="bool" note="Энкодер.Позиция 2.Температура_ЭДС.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2310"/>
+  <item type="bool" note="Энкодер.Позиция 2.Температура_ЭДС.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2311"/>
+  <item type="bool" note="Энкодер.Позиция 2.Температура_ЭДС.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2312"/>
+  <item type="bool" note="Энкодер.Позиция 2.Температура_ЭДС.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2313"/>
+  <item type="bool" note="Энкодер.Позиция 2.Пробоотбор.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2314"/>
+  <item type="bool" note="Энкодер.Позиция 2.Пробоотбор.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2315"/>
+  <item type="bool" note="Энкодер.Позиция 2.Пробоотбор.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2316"/>
+  <item type="bool" note="Энкодер.Позиция 2.Пробоотбор.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2317"/>
+  <item type="bool" note="Энкодер.Позиция 1.Температура_ЭДС.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2318"/>
+  <item type="bool" note="Энкодер.Позиция 1.Температура_ЭДС.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2319"/>
+  <item type="bool" note="Энкодер.Позиция 1.Температура_ЭДС.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2320"/>
+  <item type="bool" note="Энкодер.Позиция 1.Температура_ЭДС.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2321"/>
+  <item type="bool" note="Энкодер.Позиция 1.Пробоотбор.Значение верно" tp="PLC_LF_DB3101_DBX" ts="2322"/>
+  <item type="bool" note="Энкодер.Позиция 1.Пробоотбор.Форсировка" tp="PLC_LF_DB3101_DBX" ts="2323"/>
+  <item type="bool" note="Энкодер.Позиция 1.Пробоотбор.Связь по профибасу.ОК" tp="PLC_LF_DB3101_DBX" ts="2324"/>
+  <item type="bool" note="Энкодер.Позиция 1.Пробоотбор.Связь по профибасу.Ошибка" tp="PLC_LF_DB3101_DBX" ts="2325"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2326"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2327"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Система поворота портала.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0292"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Система поворота портала.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0296"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Порошковая фурма.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0300"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Порошковая фурма.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0304"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Порошковая фурма.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0308"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Порошковая фурма.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0312"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Продувочная фурма.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0316"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Продувочная фурма.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0320"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Продувочная фурма.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0324"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Продувочная фурма.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0328"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Температура_ЭДС.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0332"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Температура_ЭДС.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0336"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Пробоотбор.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0340"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 2.Пробоотбор.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0344"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Температура_ЭДС.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0348"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Температура_ЭДС.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0352"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Пробоотбор.Задание.Значение для калибровки" tp="PLC_LF_DB3101_DBR_" ts="0356"/>
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Позиция 1.Пробоотбор.Задание.Значение для форсировки" tp="PLC_LF_DB3101_DBR_" ts="0360"/>
+  <item type="bool" note="Контроль помещений.ПА1.Дверь открыта" tp="PLC_LF_DB3101_DBX" ts="2912"/>
+  <item type="bool" note="Контроль помещений.ПА2.Дверь открыта" tp="PLC_LF_DB3101_DBX" ts="2913"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2914"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2915"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2916"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2917"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2918"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2919"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2920"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2921"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2922"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2923"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2924"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2925"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2926"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2927"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2928"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2929"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2930"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2931"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2932"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2933"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2934"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2935"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2936"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2937"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2938"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2939"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2940"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2941"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2942"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2943"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2944"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2945"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2946"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2947"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2948"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2949"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2950"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2951"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2952"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2953"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2954"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2955"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2956"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2957"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2958"/>
+  <item type="bool" note="Резерв" tp="PLC_LF_DB3101_DBX" ts="2959"/>  
+  <item type="real" abs="true" hysteresis=".01" note="Энкодер.Система поворота портала.Значение виртуального Энкодера" tp="PLC_LF_DB3101_DBR_" ts="0370"/>
+  <item type="word" note="Энкодер.Система поворота портала.Время передвижения портала сек." tp="PLC_LF_DB3101_DBW_" ts="0374"/>
+  <item type="real" abs="true" hysteresis=".05" note="Тракт сыпучих.Вибропитатель крышек.Ток питателя 1 позиции" tp="PLC_LF_DB3101_DBR_" ts="0376"/>
+  <item type="real" abs="true" hysteresis=".05" note="Фурмы.LF1.Продувочная фурма.Подъём.Ток двигателя" tp="PLC_LF_DB3101_DBR_" ts="0380"/>
+  <item type="real" abs="true" hysteresis=".05" note="Фурмы.LF1.Порошковая фурма.Подъём.Ток двигателя" tp="PLC_LF_DB3101_DBR_" ts="0384"/>
+  <item type="real" abs="true" hysteresis=".05" note="Фурмы.LF2.Продувочная фурма.Подъём.Ток двигателя" tp="PLC_LF_DB3101_DBR_" ts="0388"/>
+  <item type="real" abs="true" hysteresis=".05" note="Фурмы.LF2.Порошковая фурма.Подъём.Ток двигателя" tp="PLC_LF_DB3101_DBR_" ts="0392"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Ток двигателя большой" tp="PLC_LF_DB3101_DBX" ts="3168"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Ток двигателя большой" tp="PLC_LF_DB3101_DBX" ts="3169"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Ток двигателя большой" tp="PLC_LF_DB3101_DBX" ts="3170"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Ток двигателя большой" tp="PLC_LF_DB3101_DBX" ts="3171"/> 
+</items>

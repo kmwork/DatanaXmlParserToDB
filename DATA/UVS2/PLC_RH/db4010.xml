@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.МЕДЛЕННО НА RH1 " rt="true" tp="PLC_RH_DB4010_DBX" ts="0"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.МЕДЛЕННО НА RH2" rt="true" tp="PLC_RH_DB4010_DBX" ts="1"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.БЫСТРО НА RH1 " rt="true" tp="PLC_RH_DB4010_DBX" ts="2"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.БЫСТРО НА RH2" rt="true" tp="PLC_RH_DB4010_DBX" ts="3"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="4"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.МЕДЛЕННО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="5"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.МЕДЛЕННО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="6"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.БЫСТРО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="7"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.БЫСТРО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="8"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.ГОТОВ" rt="true" tp="PLC_RH_DB4010_DBX" ts="9"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.ПОЗИЦИЯ 1 " rt="true" tp="PLC_RH_DB4010_DBX" ts="10"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.ПОЗИЦИЯ 2" rt="true" tp="PLC_RH_DB4010_DBX" ts="11"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.ВЕРХНЯЯ ПОЗИЦИЯ " rt="true" tp="PLC_RH_DB4010_DBX" ts="12"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.НИЖНЯЯ ПОЗИЦИЯ " rt="true" tp="PLC_RH_DB4010_DBX" ts="13"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="14"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="15"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="16"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="17"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="18"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="19"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="20"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="21"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="22"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="23"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="24"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="25"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="26"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="27"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="28"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="29"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="30"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="31"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.МЕДЛЕННО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="32"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.МЕДЛЕННО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="33"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.БЫСТРО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="34"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.БЫСТРО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="35"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="36"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.Концевые.ПАРК ПОЗИЦИЯ" rt="true" tp="PLC_RH_DB4010_DBX" ts="37"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.Концевые.ПОЗ ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="38"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.Двигатель.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="39"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.МЕДЛЕННО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="40"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.МЕДЛЕННО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="41"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.БЫСТРО ВВЕРХ" rt="true" tp="PLC_RH_DB4010_DBX" ts="42"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.БЫСТРО ВНИЗ" rt="true" tp="PLC_RH_DB4010_DBX" ts="43"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="44"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.Концевые.ПАРКОВОЧНАЯ ПОЗИЦИЯ" rt="true" tp="PLC_RH_DB4010_DBX" ts="45"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.Концевые.ПОЗИЦИЯ ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="46"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.Двигатель.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="47"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="48"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="49"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="50"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="51"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="52"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="53"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="54"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="55"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="56"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="57"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="58"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="59"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="60"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="61"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="62"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="63"/>
+  <item type="bool" note="Пульты.Х1011.ЛОКАЛЬНЫЙ ВКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="64"/>
+  <item type="bool" note="Пульты.Х1011.ЛОКАЛЬНЫЙ ВЫКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="65"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.ВЫБОР СТАЛЕВОЗА LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="66"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.ВЫБОР СТАЛЕВОЗА RH " rt="true" tp="PLC_RH_DB4010_DBX" ts="67"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ТОЧКА ПЕРЕДАЧИ 2 RH/LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="68"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.RH ПОЗИЦИЯ ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="69"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.СОСУД ПОЗИЦИЯ ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="70"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ХХХ ПОЗИЦИЯ НОМ 3" rt="true" tp="PLC_RH_DB4010_DBX" ts="71"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ТОЧКА ПЕРЕДАЧИ 2 RH/LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="72"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.RH ПОЗИЦИЯ ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="73"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.СОСУД ПОЗИЦИЯ ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="74"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ХХХ ПОЗИЦИЯ НОМ 3" rt="true" tp="PLC_RH_DB4010_DBX" ts="75"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="76"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖ НА LF МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="77"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖ НА LF БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="78"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖ НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="79"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖ НА LTS МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="80"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖ НА LTS БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="81"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="82"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖ НА LF МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="83"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖ НА LF БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="84"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖ НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="85"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖ НА LTS МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="86"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖ НА LTS БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="87"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1011.СТАРТ ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="88"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1011.СТОП ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="89"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="90"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH ПОДЪЕМ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="91"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH ПОДЪЕМ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="92"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="93"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH ОПУСКАНИЕ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="94"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH ОПУСКАНИЕ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="95"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.ПАТРУБОК НА ПОВЕРХ-ТИ СТАЛИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="96"/>
+  <item type="bool" note="Пульты.Х1012.ЛОКАЛЬНЫЙ ПУЛЬТ ВКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="97"/>
+  <item type="bool" note="Пульты.Х1012.ЛОКАЛЬНЫЙ ПУЛЬТ ВЫКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="98"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1012.СТАРТ ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="99"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1012.СТОП ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="100"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="101"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH ПОДЪЕМ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="102"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH ПОДЪЕМ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="103"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="104"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH ОПУСКАНИЕ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="105"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH ОПУСКАНИЕ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="106"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.RH ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="107"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.RH ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="108"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="109"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="110"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="111"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="112"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="113"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="114"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="115"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="116"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="117"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="118"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="119"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="120"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="121"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="122"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="123"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="124"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="125"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="126"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="127"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="128"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="129"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ОКОНЧЕНО ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="130"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ПОМЕХА ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="131"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ДОСТИГНУТ УРОВЕНЬ ГРАНИЦЫ ШЛАК/МЕТАЛЛ " rt="true" tp="PLC_RH_DB4010_DBX" ts="132"/>
+  <item type="bool" note="МЗПП.Станция 1.CELOX.ВЫБОР РАБОТЫ МЗПП/РУЧНАЯ УДОЧКА " rt="true" tp="PLC_RH_DB4010_DBX" ts="133"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="134"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="135"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="136"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="137"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="138"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="139"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="140"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="141"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="142"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="143"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="144"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="145"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="146"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="147"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="148"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="149"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="150"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="151"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="152"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="153"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="154"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="155"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="156"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="157"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="158"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="159"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл азота(510_FH01).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="160"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл азота(510_FH01).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="161"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл азота(510_FH01).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="162"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл аргона(510_FH02).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="163"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл аргона(510_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="164"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл аргона(510_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="165"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="166"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="167"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Запорная заслонка легир желоба(510_FH05).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="168"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Запорная заслонка легир желоба(510_FH05).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="169"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Запорная заслонка легир желоба(510_FH05).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="170"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи N2 в вакуумкамеру(510_FH10).ГОТОВО " rt="true" tp="PLC_RH_DB4010_DBX" ts="171"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи N2 в вакуумкамеру(510_FH10).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="172"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи N2 в вакуумкамеру(510_FH10).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="173"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подач возд на огн защ кольцо(510_FH16).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="174"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подач возд на огн защ кольцо(510_FH16).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="175"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подач возд на огн защ кольцо(510_FH16).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="176"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="177"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="178"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="179"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="180"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="181"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="182"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="183"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="184"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="185"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="186"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="187"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="188"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="189"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="190"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="191"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="192"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="193"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="194"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="195"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="196"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="197"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="198"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="199"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="200"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="201"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="202"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="203"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="204"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="205"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="206"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="207"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.НИЖ ЧАСТЬ ПОДВ ТРУБОПР(01831_CF01)" rt="true" tp="PLC_RH_DB4010_DBX" ts="208"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.ВЕРХ ЧАСТЬ ПОДВ ТРУБОПР(1831_CF02)" rt="true" tp="PLC_RH_DB4010_DBX" ts="209"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.ГАЗООХЛ ЗАСЛОНКА СЛИВА(01831_CF03)" rt="true" tp="PLC_RH_DB4010_DBX" ts="210"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.ГАЗООХЛ НИЖН ЧАСТЬ(01831_CF04)" rt="true" tp="PLC_RH_DB4010_DBX" ts="211"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.НИЖН ЧАСТЬ ГАЗООХЛ(01831_CF05)" rt="true" tp="PLC_RH_DB4010_DBX" ts="212"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.ВЕРХН ЧАСТЬ ГАЗООХЛ(01831_CF06)" rt="true" tp="PLC_RH_DB4010_DBX" ts="213"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Возврат воды на охл.ФЛАНЕЦ ГАЗООХЛАДИТЕЛЯ(01831_CF07)" rt="true" tp="PLC_RH_DB4010_DBX" ts="214"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Подача азота на газоохладитель(01831_CF08)" rt="true" tp="PLC_RH_DB4010_DBX" ts="215"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Наличие воды в газоохладителе(01831_CL01)" rt="true" tp="PLC_RH_DB4010_DBX" ts="216"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH01).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="217"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH01).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="218"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH01).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="219"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Кл заполнения возд вакуум-ры и газоохл(01831_FH02).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="220"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Кл заполнения возд вакуум-ры и газоохл(01831_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="221"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Кл заполнения возд вакуум-ры и газоохл(01831_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="222"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Заслонка слива воды(01831_FH03).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="223"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Заслонка слива воды(01831_FH03).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="224"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Заслонка слива воды(01831_FH03).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="225"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="226"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="227"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="228"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="229"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="230"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="231"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="232"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="233"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="234"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="235"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="236"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="237"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="238"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="239"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="240"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="241"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="242"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="243"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="244"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="245"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="246"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="247"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="248"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="249"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="250"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="251"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="252"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="253"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="254"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="255"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Подача азота на охл тел камеры(04810_CF13)" rt="true" tp="PLC_RH_DB4010_DBX" ts="256"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Воздух на уплотнение(04810_CP17).ВКЛЮЧЕНО" rt="true" tp="PLC_RH_DB4010_DBX" ts="257"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Воздух на уплотнение(04810_CP17).ОТКЛЮЧЕНО" rt="true" tp="PLC_RH_DB4010_DBX" ts="258"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый клапан природного газа(04810_FH01).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="259"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый клапан природного газа(04810_FH01).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="260"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан сброса природного газа(04810_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="261"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан сброса природного газа(04810_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="262"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй клапан природного газа(04810_FH03).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="263"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй клапан природного газа(04810_FH03).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="264"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый клапан О2 для нагрева(04810_FH04).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="265"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый клапан О2 для нагрева(04810_FH04).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="266"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан сброса О2 для нагрева(04810_FH05).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="267"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан сброса О2 для нагрева(04810_FH05).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="268"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй клапан О2 для нагрева(04810_FH06).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="269"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй клапан О2 для нагрева(04810_FH06).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="270"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Перв клапан О2 для продувки(04810_FH07).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="271"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Перв клапан О2 для продувки(04810_FH07).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="272"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Перв клапан О2 для продувки(04810_FH07).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="273"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса О2 для продувки(04810_FH08).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="274"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса О2 для продувки(04810_FH08).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="275"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса О2 для продувки(04810_FH08).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="276"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл О2 для продувки(04810_FH09).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="277"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл О2 для продувки(04810_FH09).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="278"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл О2 для продувки(04810_FH09).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="279"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый кл продувки фурмы N2(04810_FH11).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="280"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый кл продувки фурмы N2(04810_FH11).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="281"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый кл продувки фурмы N2(04810_FH11).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="282"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса продувки фурмы N2(04810_FH12).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="283"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса продувки фурмы N2(04810_FH12).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="284"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса продувки фурмы N2(04810_FH12).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="285"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл продувки фурмы N2(4810_FH13).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="286"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл продувки фурмы N2(4810_FH13).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="287"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл продувки фурмы N2(4810_FH13).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="288"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Впускн кл воды на охл фурмы(04810_FH14).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="289"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Впускн кл воды на охл фурмы(04810_FH14).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="290"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Впускн кл воды на охл фурмы(04810_FH14).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="291"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса воды на охл фурмы(4810_FH15).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="292"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса воды на охл фурмы(4810_FH15).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="293"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса воды на охл фурмы(4810_FH15).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="294"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="295"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="296"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="297"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="298"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="299"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="300"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="301"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.АВАР ПОДЪЁМ КАРЕТКИ ФУРМЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="302"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.ПАРКОВОЧНАЯ ПОЗИЦИЯ " rt="true" tp="PLC_RH_DB4010_DBX" ts="303"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.ПОЗИЦИЯ ОБРАБОТКИ " rt="true" tp="PLC_RH_DB4010_DBX" ts="304"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="305"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="306"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="307"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="308"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="309"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="310"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="311"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="312"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="313"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="314"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="315"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="316"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="317"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="318"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="319"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="320"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="321"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="322"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="323"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="324"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="325"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="326"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="327"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="328"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="329"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="330"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="331"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="332"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="333"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="334"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="335"/>
+  <item type="bool" note="Пульты.Х1021.ЛОКАЛЬНЫЙ ВКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="336"/>
+  <item type="bool" note="Пульты.Х1021.ЛОКАЛЬНЫЙ ВЫКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="337"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ВЫБОР СТАЛЕВОЗА RH " rt="true" tp="PLC_RH_DB4010_DBX" ts="338"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ВЫБОР СТАЛЕВОЗА LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="339"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ХХХ ПОЗИЦИЯ НОМ 3" rt="true" tp="PLC_RH_DB4010_DBX" ts="340"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.СОСУД ПОЗИЦИЯ ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="341"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ТОЧКА ПЕРЕДАЧИ RH" rt="true" tp="PLC_RH_DB4010_DBX" ts="342"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 2 RH/LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="343"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ХХХ ПОЗИЦИЯ НОМ 3" rt="true" tp="PLC_RH_DB4010_DBX" ts="344"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.СОСУД ПОЗИЦИЯ ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="345"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.RH ПОЗИЦИЯ ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="346"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 2 RH/LF" rt="true" tp="PLC_RH_DB4010_DBX" ts="347"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="348"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖ НА LTS МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="349"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖ НА LTS БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="350"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖ НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="351"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖ НА LF МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="352"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖ НА LF БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="353"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="354"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖ НА LTS БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="355"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖ НА LTS МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="356"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖ НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="357"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖ НА LF БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="358"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖ НА LF МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="359"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1021.СТАРТ ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="360"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1021.СТОП ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="361"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="362"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH ПОДЪЕМ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="363"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH ПОДЪЕМ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="364"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="365"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH ОПУСКАНИЕ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="366"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH ОПУСКАНИЕ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="367"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.ПАТРУБОК НА ПОВЕРХНОСТИ СТАЛИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="368"/>
+  <item type="bool" note="Пульты.Х1022.ЛОКАЛЬНЫЙ ВКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="369"/>
+  <item type="bool" note="Пульты.Х1022.ЛОКАЛЬНЫЙ ВЫКЛ" rt="true" tp="PLC_RH_DB4010_DBX" ts="370"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1022.СТАРТ ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="371"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1022.СТОП ГИДРАВЛИКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="372"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.DEADMAN" rt="true" tp="PLC_RH_DB4010_DBX" ts="373"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH ПОДЪЕМ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="374"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH ПОДЪЕМ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="375"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH НУЛЕВОЙ ПОЗИЦИИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="376"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH ОПУСКАНИЕ МЕДЛЕННО" rt="true" tp="PLC_RH_DB4010_DBX" ts="377"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH ОПУСКАНИЕ БЫСТРО" rt="true" tp="PLC_RH_DB4010_DBX" ts="378"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.RH ОБРАБОТКИ" rt="true" tp="PLC_RH_DB4010_DBX" ts="379"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.RH ЗАМЕНЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="380"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="381"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="382"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="383"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="384"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="385"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="386"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="387"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="388"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="389"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="390"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="391"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="392"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="393"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="394"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="395"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="396"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="397"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="398"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="399"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="400"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="401"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ОКОНЧЕНО ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="402"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ПОМЕХА ИЗМЕРЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="403"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ДОСТИГНУТ УРОВЕНЬ ГРАНИЦЫ ШЛАК/МЕТАЛЛ " rt="true" tp="PLC_RH_DB4010_DBX" ts="404"/>
+  <item type="bool" note="МЗПП.Станция 2.CELOX.ВЫБОР РАБОТЫ МЗПП/РУЧНАЯ УДОЧКА " rt="true" tp="PLC_RH_DB4010_DBX" ts="405"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="406"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="407"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="408"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="409"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="410"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="411"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="412"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="413"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="414"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="415"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="416"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="417"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="418"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="419"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="420"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="421"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="422"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="423"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="424"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="425"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="426"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="427"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="428"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="429"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="430"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="431"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Возврат воды на охл.ЛЕГИР ЖЕЛОБ(520_CF06)" rt="true" tp="PLC_RH_DB4010_DBX" ts="432"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Возврат воды на охл.ВЕРХ ЧАСТЬ ФУРМЫ(520_CF08)" rt="true" tp="PLC_RH_DB4010_DBX" ts="433"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл азота(520_FH01).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="434"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл азота(520_FH01).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="435"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл азота(520_FH01).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="436"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл аргона(520_FH02).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="437"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл аргона(520_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="438"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл аргона(520_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="439"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="440"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="441"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Запорная заслонка легир желоба(520_FH05).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="442"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Запорная заслонка легир желоба(520_FH05).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="443"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Запорная заслонка легир желоба(520_FH05).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="444"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи N2 в вакуумкамеру(520_FH10).ГОТОВО " rt="true" tp="PLC_RH_DB4010_DBX" ts="445"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи N2 в вакуумкамеру(520_FH10).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="446"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи N2 в вакуумкамеру(520_FH10).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="447"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подач возд на огн защ кольцо(520_FH16).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="448"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подач возд на огн защ кольцо(520_FH16).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="449"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подач возд на огн защ кольцо(520_FH16).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="450"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="451"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="452"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="453"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="454"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="455"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="456"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="457"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="458"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="459"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="460"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="461"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="462"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="463"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="464"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="465"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="466"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="467"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="468"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="469"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="470"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="471"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="472"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="473"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="474"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="475"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="476"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="477"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="478"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="479"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.НИЖ ЧАСТЬ ПОДВ ТРУБОПР(01832_CF01)" rt="true" tp="PLC_RH_DB4010_DBX" ts="480"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.ВЕРХ ЧАСТЬ ПОДВ ТРУБОПР(1832_CF02)" rt="true" tp="PLC_RH_DB4010_DBX" ts="481"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.ГАЗООХЛ ЗАСЛОНКА СЛИВА(01832_CF03)" rt="true" tp="PLC_RH_DB4010_DBX" ts="482"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.ГАЗООХЛ НИЖН ЧАСТЬ(01832_CF04)" rt="true" tp="PLC_RH_DB4010_DBX" ts="483"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.НИЖН ЧАСТЬ ГАЗООХЛ(01832_CF05)" rt="true" tp="PLC_RH_DB4010_DBX" ts="484"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.ВЕРХН ЧАСТЬ ГАЗООХЛ(01832_CF06)" rt="true" tp="PLC_RH_DB4010_DBX" ts="485"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Возврат воды на охл.ФЛАНЕЦ ГАЗООХЛАДИТЕЛЯ(01832_CF07)" rt="true" tp="PLC_RH_DB4010_DBX" ts="486"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Подача азота на газоохладитель(01832_CF08)" rt="true" tp="PLC_RH_DB4010_DBX" ts="487"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Наличие воды в газоохладителе(01832_CL01)" rt="true" tp="PLC_RH_DB4010_DBX" ts="488"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH01).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="489"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH01).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="490"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH01).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="491"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Кл заполнения возд вакуум-ры и газоохл(01832_FH02).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="492"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Кл заполнения возд вакуум-ры и газоохл(01832_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="493"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Кл заполнения возд вакуум-ры и газоохл(01832_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="494"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Заслонка слива воды(01832_FH03).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="495"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Заслонка слива воды(01832_FH03).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="496"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Заслонка слива воды(01832_FH03).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="497"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="498"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="499"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="500"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="501"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="502"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="503"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="504"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="505"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="506"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="507"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="508"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="509"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="510"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="511"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="512"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="513"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="514"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="515"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="516"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="517"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="518"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="519"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="520"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="521"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="522"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="523"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="524"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="525"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="526"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="527"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Подача азота на охл тел камеры(04820_CF13)" rt="true" tp="PLC_RH_DB4010_DBX" ts="528"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Воздух на уплотнение(04820_CP17).ВКЛЮЧЕНО" rt="true" tp="PLC_RH_DB4010_DBX" ts="529"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Воздух на уплотнение(04820_CP17).ОТКЛЮЧЕНО" rt="true" tp="PLC_RH_DB4010_DBX" ts="530"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый клапан природного газа(04820_FH01).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="531"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый клапан природного газа(04820_FH01).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="532"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан сброса природного газа(04820_FH02).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="533"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан сброса природного газа(04820_FH02).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="534"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй клапан природного газа(04820_FH03).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="535"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй клапан природного газа(04820_FH03).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="536"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый клапан О2 для нагрева(04820_FH04).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="537"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый клапан О2 для нагрева(04820_FH04).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="538"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан сброса О2 для нагрева(04820_FH05).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="539"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан сброса О2 для нагрева(04820_FH05).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="540"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй клапан О2 для нагрева(04820_FH06).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="541"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй клапан О2 для нагрева(04820_FH06).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="542"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Перв клапан О2 для продувки(04820_FH07).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="543"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Перв клапан О2 для продувки(04820_FH07).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="544"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Перв клапан О2 для продувки(04820_FH07).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="545"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса О2 для продувки(04820_FH08).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="546"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса О2 для продувки(04820_FH08).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="547"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса О2 для продувки(04820_FH08).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="548"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл О2 для продувки(04820_FH09).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="549"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл О2 для продувки(04820_FH09).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="550"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл О2 для продувки(04820_FH09).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="551"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый кл продувки фурмы N2(04820_FH11).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="552"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый кл продувки фурмы N2(04820_FH11).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="553"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый кл продувки фурмы N2(04820_FH11).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="554"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса продувки фурмы N2(04820_FH12).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="555"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса продувки фурмы N2(04820_FH12).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="556"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса продувки фурмы N2(04820_FH12).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="557"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл продувки фурмы N2(4820_FH13).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="558"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл продувки фурмы N2(4820_FH13).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="559"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл продувки фурмы N2(4820_FH13).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="560"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Впускн кл воды на охл фурмы(04820_FH14).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="561"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Впускн кл воды на охл фурмы(04820_FH14).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="562"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Впускн кл воды на охл фурмы(04820_FH14).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="563"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса воды на охл фурмы(4820_FH15).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="564"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса воды на охл фурмы(4820_FH15).ОТК" rt="true" tp="PLC_RH_DB4010_DBX" ts="565"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса воды на охл фурмы(4820_FH15).ЗАК" rt="true" tp="PLC_RH_DB4010_DBX" ts="566"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="567"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="568"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="569"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="570"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="571"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="572"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="573"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.АВАР ПОДЪЁМ КАРЕТКИ ФУРМЫ" rt="true" tp="PLC_RH_DB4010_DBX" ts="574"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.ПАРКОВОЧНАЯ ПОЗИЦИЯ " rt="true" tp="PLC_RH_DB4010_DBX" ts="575"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.ПОЗИЦИЯ ОБРАБОТКИ " rt="true" tp="PLC_RH_DB4010_DBX" ts="576"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="577"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="578"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="579"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="580"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="581"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="582"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="583"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="584"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="585"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="586"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="587"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="588"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="589"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="590"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="591"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="592"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="593"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="594"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="595"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="596"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="597"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="598"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="599"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="600"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="601"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="602"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="603"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="604"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="605"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="606"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="607"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.ПРОТОК ГАЗА ЧЕРЕЗ БАРОМЕТ КОЛОДЕЦ(1800_CF08)" rt="true" tp="PLC_RH_DB4010_DBX" ts="608"/>
+  <item type="bool" note="Вакуумная система.Конденс и насосы.Конденсатор С1.УРОВЕНЬ ВОДЫ(01800_CL02)" rt="true" tp="PLC_RH_DB4010_DBX" ts="609"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="610"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="611"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="612"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="613"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="614"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="615"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="616"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="617"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="618"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="619"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Общая неисправность" rt="true" tp="PLC_RH_DB4010_DBX" ts="620"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Неисправность ULTRAMAT 23" rt="true" tp="PLC_RH_DB4010_DBX" ts="621"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Неисправность OXYMAT 16" rt="true" tp="PLC_RH_DB4010_DBX" ts="622"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Детекция газа СО внутри модуля" rt="true" tp="PLC_RH_DB4010_DBX" ts="623"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Неисправность датчика СО внутри модуля" rt="true" tp="PLC_RH_DB4010_DBX" ts="624"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Идет продувка" rt="true" tp="PLC_RH_DB4010_DBX" ts="625"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Состояние кондиционера" rt="true" tp="PLC_RH_DB4010_DBX" ts="626"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи воздуха в ПЭН(01800_FH05).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="627"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи воздуха в ПЭН(01800_FH05).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="628"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи воздуха в ПЭН(01800_FH05).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="629"/>
+  <item type="bool" note="Вакуумная система.Главный паровой клапан(01800_FH06).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="630"/>
+  <item type="bool" note="Вакуумная система.Главный паровой клапан(01800_FH06).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="631"/>
+  <item type="bool" note="Вакуумная система.Главный паровой клапан(01800_FH06).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="632"/>
+  <item type="bool" note="Вакуумная система.Клапан сброса пара(01800_FH07).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="633"/>
+  <item type="bool" note="Вакуумная система.Клапан сброса пара(01800_FH07).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="634"/>
+  <item type="bool" note="Вакуумная система.Клапан сброса пара(01800_FH07).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="635"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S1(01800_FH08).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="636"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S1(01800_FH08).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="637"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S1(01800_FH08).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="638"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S2(01800_FH11).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="639"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S2(01800_FH11).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="640"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S2(01800_FH11).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="641"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3а(01800_FH12).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="642"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3а(01800_FH12).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="643"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3а(01800_FH12).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="644"/>
+  <item type="bool" note="Вакуумная система.Клапан с конденсатора С1 на эжектор S3b(01800_FH13).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="645"/>
+  <item type="bool" note="Вакуумная система.Клапан с конденсатора С1 на эжектор S3b(01800_FH13).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="646"/>
+  <item type="bool" note="Вакуумная система.Клапан с конденсатора С1 на эжектор S3b(01800_FH13).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="647"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3b(01800_FH14).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="648"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3b(01800_FH14).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="649"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3b(01800_FH14).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="650"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи воды от насосов(01800_FH22).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="651"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи воды от насосов(01800_FH22).ОТКРЫТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="652"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи воды от насосов(01800_FH22).ЗАКРЫТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="653"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ЛОКАЛЬНОЕ УПРАВЛЕНИЕ" rt="true" tp="PLC_RH_DB4010_DBX" ts="654"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ЗАКРЫТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="655"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ОТКРЫТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="656"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ОШИБКА" rt="true" tp="PLC_RH_DB4010_DBX" ts="657"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи возд на эжектор удал СО(FH24).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="658"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи возд на эжектор удал СО(FH24).ОТКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="659"/>
+  <item type="bool" note="Вакуумная система.Кл подачи охл воды на С1(01800_FH30).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="660"/>
+  <item type="bool" note="Вакуумная система.Кл подачи охл воды на С1(01800_FH30).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="661"/>
+  <item type="bool" note="Вакуумная система.Кл подачи охл воды на С1(01800_FH30).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="662"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи охл воды(01800_FH31).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="663"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи охл воды(01800_FH31).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="664"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи охл воды(01800_FH31).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="665"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="666"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="667"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="668"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="669"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="670"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="671"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="672"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="673"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="674"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="675"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="676"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="677"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="678"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="679"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="680"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="681"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="682"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="683"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="684"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="685"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="686"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="687"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Проток технической воды(01820_CF09)" rt="true" tp="PLC_RH_DB4010_DBX" ts="688"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Проток технической воды(01820_CF10)" rt="true" tp="PLC_RH_DB4010_DBX" ts="689"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Проток технической воды(01820_CF11)" rt="true" tp="PLC_RH_DB4010_DBX" ts="690"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Проток технической воды(01820_CF12)" rt="true" tp="PLC_RH_DB4010_DBX" ts="691"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Контроль уровня воды.НИЗКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="692"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Контроль уровня воды.ВЫСОКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="693"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Контроль уровня воды.НИЗКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="694"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Контроль уровня воды.ВЫСОКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="695"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Контроль уровня воды.НИЗКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="696"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Контроль уровня воды.ВЫСОКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="697"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Контроль уровня воды.НИЗКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="698"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Контроль уровня воды.ВЫСОКИЙ" rt="true" tp="PLC_RH_DB4010_DBX" ts="699"/>
+  <item type="bool" note="Водокольцевые насосы.Клапан подачи уплотняющей воды(01820_FH01).ГОТОВО" rt="true" tp="PLC_RH_DB4010_DBX" ts="700"/>
+  <item type="bool" note="Водокольцевые насосы.Клапан подачи уплотняющей воды(01820_FH01).ОТКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="701"/>
+  <item type="bool" note="Водокольцевые насосы.Клапан подачи уплотняющей воды(01820_FH01).ЗАКРЫТО" rt="true" tp="PLC_RH_DB4010_DBX" ts="702"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Клапан подачи технической воды(01820_FH02).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="703"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Клапан подачи технической воды(01820_FH02).ОТКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="704"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Клапан подачи технической воды(01820_FH02).ЗАКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="705"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Клапан подачи технической воды(01820_FH03).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="706"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Клапан подачи технической воды(01820_FH03).ОТКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="707"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Клапан подачи технической воды(01820_FH03).ЗАКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="708"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Клапан подачи технической воды(01820_FH04).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="709"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Клапан подачи технической воды(01820_FH04).ОТКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="710"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Клапан подачи технической воды(01820_FH04).ЗАКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="711"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Клапан подачи технической воды(01820_FH05).ГОТ" rt="true" tp="PLC_RH_DB4010_DBX" ts="712"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Клапан подачи технической воды(01820_FH05).ОТКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="713"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Клапан подачи технической воды(01820_FH05).ЗАКР" rt="true" tp="PLC_RH_DB4010_DBX" ts="714"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="715"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="716"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="717"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="718"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="719"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="720"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="721"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="722"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="723"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="724"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="725"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="726"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="727"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="728"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="729"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="730"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="731"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="732"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="733"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="734"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="735"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="736"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="737"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="738"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="739"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="740"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="741"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="742"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="743"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="744"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="745"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="746"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="747"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК01.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="748"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="749"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="750"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="751"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="752"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="753"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="754"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="755"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="756"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="757"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="758"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="759"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="760"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК02.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="761"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="762"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="763"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="764"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="765"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="766"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="767"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="768"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="769"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="770"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="771"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="772"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="773"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК03.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="774"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="775"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="776"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="777"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="778"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="779"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="780"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="781"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="782"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="783"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="784"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="785"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="786"/>
+  <item type="bool" note="Симокод.Водокольцевые насосы.01820_МК04.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="787"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="788"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="789"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="790"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="791"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="792"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="793"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="794"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="795"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="796"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="797"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="798"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="799"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="800"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="801"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="802"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="803"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="804"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="805"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="806"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="807"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="808"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="809"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="810"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="811"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="812"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="813"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="814"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="815"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="816"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="817"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="818"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="819"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="820"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="821"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="822"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="823"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="824"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="825"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="826"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="827"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD01.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="828"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="829"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="830"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="831"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="832"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="833"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="834"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="835"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="836"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="837"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="838"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="839"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="840"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD02.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="841"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="842"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="843"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="844"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="845"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="846"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="847"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="848"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="849"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="850"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="851"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="852"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="853"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="854"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="855"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="856"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="857"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="858"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="859"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="860"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="861"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="862"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="863"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="864"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="865"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="866"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="867"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="868"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="869"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="870"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="871"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="872"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="873"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="874"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="875"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP01.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="876"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="877"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="878"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="879"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="880"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="881"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="882"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="883"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="884"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="885"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="886"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="887"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="888"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP02.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="889"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="890"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="891"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="892"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="893"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="894"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="895"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="896"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="897"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="898"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="899"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="900"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="901"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP03.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="902"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="903"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="904"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="905"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="906"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="907"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="908"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="909"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="910"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="911"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="912"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="913"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="914"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP04.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="915"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="916"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="917"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="918"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Работает" rt="true" tp="PLC_RH_DB4010_DBX" ts="919"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="920"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="921"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="922"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="923"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Плавный пуск Байпас" rt="true" tp="PLC_RH_DB4010_DBX" ts="924"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Плавный пуск готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="925"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Связь Profibus ОК" rt="true" tp="PLC_RH_DB4010_DBX" ts="926"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Связь Profibus Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="927"/>
+  <item type="bool" note="Симокод.Циркуляционные насосы.01800_JP05.Связь Profibus Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="928"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="929"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="930"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="931"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="932"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="933"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="934"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="935"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="936"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="937"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="938"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="939"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="940"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="941"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="942"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="943"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="944"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="945"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="946"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="947"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="948"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="949"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="950"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="951"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="952"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="953"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="954"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="955"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="956"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="957"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="958"/>
+  <item type="bool" tp="PLC_RH_DB4010_DBX" ts="959"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="960"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="961"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="962"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="963"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="964"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="965"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="966"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="967"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="968"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="969"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="970"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="971"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="972"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04810_MM03.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="973"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="974"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="975"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="976"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="977"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="978"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="979"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="980"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="981"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="982"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="983"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="984"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="985"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="986"/>
+  <item type="bool" note="Симокод.Верхняя фурма.04820_MM03.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="987"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="988"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="989"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="990"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="991"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="992"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="993"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_MD03.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="994"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Готовность" rt="true" tp="PLC_RH_DB4010_DBX" ts="995"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Ошибка" rt="true" tp="PLC_RH_DB4010_DBX" ts="996"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Ошибка не подтверждена" rt="true" tp="PLC_RH_DB4010_DBX" ts="997"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Стоп" rt="true" tp="PLC_RH_DB4010_DBX" ts="998"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Предупреждение" rt="true" tp="PLC_RH_DB4010_DBX" ts="999"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Предупреждение не подтверждено" rt="true" tp="PLC_RH_DB4010_DBX" ts="1000"/>
+  <item type="bool" note="Симокод.Гидравлика.01000_GD01.Удалёный режим" rt="true" tp="PLC_RH_DB4010_DBX" ts="1001"/>
+</items>

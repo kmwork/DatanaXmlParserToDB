@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной
+    - note       = (опционально) описание переменной
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Порошковый эжектор.DD60.Контроль аврийного реле EU10" tp="PLC_LF_DB3005_DBX" ts="0"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="2"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="3"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="4"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="5"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="6"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="7"/>
+  <item type="byte" tp="PLC_LF_DB3005_DBB_" ts="0001"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Контроль аврийного реле EK10" tp="PLC_LF_DB3005_DBX" ts="16"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Выбор режима.Ручной" tp="PLC_LF_DB3005_DBX" ts="17"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Выбор режима.Автомат" tp="PLC_LF_DB3005_DBX" ts="18"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан загрузки порошка 3510 FH05.Концевой.Окрыт" tp="PLC_LF_DB3005_DBX" ts="19"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан загрузки порошка 3510 FH05.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="20"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан выгрузки порошка 3510 FH04.Концевой.Окрыт" tp="PLC_LF_DB3005_DBX" ts="21"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан выгрузки порошка 3510 FH04.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="22"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Кнопка.Тест ламп" tp="PLC_LF_DB3005_DBX" ts="23"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан выгрузки порошка 3510 FH07.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="24"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан выгрузки порошка 3510 FH07.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="25"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Уровень 3510 CL01.Мах" tp="PLC_LF_DB3005_DBX" ts="26"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Давление инструментального воздуха 3510 CP03.Меньше минимального" tp="PLC_LF_DB3005_DBX" ts="27"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Давление транс-ого газа 3510 CP04.Меньше минимального" tp="PLC_LF_DB3005_DBX" ts="28"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Давление 3510 CP01.Давление в камере равно 0" tp="PLC_LF_DB3005_DBX" ts="29"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан сброса давления 3510 FH06.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="30"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан сброса давления 3510 FH06.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="31"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Кнопка.Наполнить камеру порошком" tp="PLC_LF_DB3005_DBX" ts="32"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Кнопка.Выгрузить порошок из камеры" tp="PLC_LF_DB3005_DBX" ts="33"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Кнопка.Квитирование" tp="PLC_LF_DB3005_DBX" ts="34"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Кнопка.Старт/стоп заполнения бункера из камеры" tp="PLC_LF_DB3005_DBX" ts="35"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Ключ.Загрузка в бункер Машина 1(3510)" tp="PLC_LF_DB3005_DBX" ts="36"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Ключ.Загрузка в бункер Машина 2(3520)" tp="PLC_LF_DB3005_DBX" ts="37"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Кнопка.Старт" tp="PLC_LF_DB3005_DBX" ts="38"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Кнопка.Стоп " tp="PLC_LF_DB3005_DBX" ts="39"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Уровень 3510 CL03.Max" tp="PLC_LF_DB3005_DBX" ts="40"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="41"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Уровень 3510 CL02.Min" tp="PLC_LF_DB3005_DBX" ts="42"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="43"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="44"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="45"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Сбросной клапан фильтра 3510 FH03.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="46"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Сбросной клапан фильтра 3510 FH03.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="47"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Контроль земли" tp="PLC_LF_DB3005_DBX" ts="48"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="49"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="50"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="51"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан заполнения 3510 FH01.Коневой.Открыт" tp="PLC_LF_DB3005_DBX" ts="52"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан заполнения 3510 FH01.Коневой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="53"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан заполнения 3510 FH02.Коневой.Открыт" tp="PLC_LF_DB3005_DBX" ts="54"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан заполнения 3510 FH02.Коневой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="55"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Аргон.Клапан 3500 FH01.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="56"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Аргон.Клапан 3500 FH01.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="57"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Азот.Клапан 3500 FH02.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="58"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Азот.Клапан 3500 FH02.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="59"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="60"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="61"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="62"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="63"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Контроль аврийного реле EK10" tp="PLC_LF_DB3005_DBX" ts="64"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Выбор режима.Ручной" tp="PLC_LF_DB3005_DBX" ts="65"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Выбор режима.Автомат" tp="PLC_LF_DB3005_DBX" ts="66"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан загрузки порошка 3520 FH05.Концевой.Окрыт" tp="PLC_LF_DB3005_DBX" ts="67"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан загрузки порошка 3520 FH05.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="68"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан выгрузки порошка 3520 FH04.Концевой.Окрыт" tp="PLC_LF_DB3005_DBX" ts="69"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан выгрузки порошка 3520 FH04.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="70"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Кнопка.Тест ламп" tp="PLC_LF_DB3005_DBX" ts="71"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан выгрузки порошка 3520 FH07.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="72"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан выгрузки порошка 3520 FH07.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="73"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Уровень 3520 CL01.Мах" tp="PLC_LF_DB3005_DBX" ts="74"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Давление инструментального воздуха 3520 CP03.Меньше минимального" tp="PLC_LF_DB3005_DBX" ts="75"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Давление транс-ого газа 3520 CP04.Меньше минимального" tp="PLC_LF_DB3005_DBX" ts="76"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.3520.CP01.Давление в камере равно 0" tp="PLC_LF_DB3005_DBX" ts="77"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан сброса давления 3520 FH06.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="78"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан сброса давления 3520 FH06.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="79"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Кнопка.Наполнить камеру порошком" tp="PLC_LF_DB3005_DBX" ts="80"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Кнопка.Выгрузить порошок из камеры" tp="PLC_LF_DB3005_DBX" ts="81"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Кнопка.Квитирование" tp="PLC_LF_DB3005_DBX" ts="82"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Кнопка.Старт/стоп заполнения бункера из камеры" tp="PLC_LF_DB3005_DBX" ts="83"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="84"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="85"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="86"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="87"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Уровень 3520 CL03.Max" tp="PLC_LF_DB3005_DBX" ts="88"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="89"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Уровень 3520 CL02.Min" tp="PLC_LF_DB3005_DBX" ts="90"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="91"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="92"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="93"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Сбросной клапан фильтра 3520 FH03.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="94"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Сбросной клапан фильтра 3520 FH03.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="95"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Контроль земли" tp="PLC_LF_DB3005_DBX" ts="96"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="97"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="98"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="99"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH01.Коневой.Открыт" tp="PLC_LF_DB3005_DBX" ts="100"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH01.Коневой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="101"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH02.Коневой.Открыт" tp="PLC_LF_DB3005_DBX" ts="102"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH02.Коневой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="103"/>
+  <item type="bool" note="Порошковый эжектор.Возврат порошка.Клапан возврата порошка в бункера низкого давления 3500 FH16.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="104"/>
+  <item type="bool" note="Порошковый эжектор.Возврат порошка.Клапан возврата порошка в бункера низкого давления 3500 FH16.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="105"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурмы 3500 FH17.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="106"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурмы 3500 FH17.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="107"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 2 3500 FH19.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="108"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 2 3500 FH19.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="109"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 1 3500 FH18.Концевой.Открыт" tp="PLC_LF_DB3005_DBX" ts="110"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 1 3500 FH18.Концевой.Закрыт" tp="PLC_LF_DB3005_DBX" ts="111"/>
+  <item type="real" abs="true" hysteresis=".01" tp="PLC_LF_DB3005_DBR_" ts="0014"/>
+  <item type="bool" note="Порошковый эжектор.DD60.Собрать реле 3510.EU10" tp="PLC_LF_DB3005_DBX" ts="144"/>
+  <item type="bool" note="Порошковый эжектор.DD60.Собрать реле 3520.EU10" tp="PLC_LF_DB3005_DBX" ts="145"/>
+  <item type="bool" note="Порошковый эжектор.DD60.Собрать реле 3500.EU10" tp="PLC_LF_DB3005_DBX" ts="146"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="147"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="148"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="149"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="150"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="151"/>
+  <item type="byte" tp="PLC_LF_DB3005_DBB_" ts="0019"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Включен ручной режим" tp="PLC_LF_DB3005_DBX" ts="160"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Включен режим автомат" tp="PLC_LF_DB3005_DBX" ts="161"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Готов к работе" tp="PLC_LF_DB3005_DBX" ts="162"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Активировано реле аварийного останова" tp="PLC_LF_DB3005_DBX" ts="163"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Счетчик времени работы" tp="PLC_LF_DB3005_DBX" ts="164"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Неисправность" tp="PLC_LF_DB3005_DBX" ts="165"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Лампа.Идет заполнение бункера из камеры" tp="PLC_LF_DB3005_DBX" ts="166"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="167"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан перемешивания 3510 FH14.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="168"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан выгрузки порошка 3510 FH04.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="169"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан загрузки порошка 3510 FH05.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="170"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан сброса давления 3510 FH06.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="171"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Аргон.Клапан 3500 FH01.Команда.Открыть " tp="PLC_LF_DB3005_DBX" ts="172"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Аргон.Клапан 3500 FH01.Команда.Закрыть" tp="PLC_LF_DB3005_DBX" ts="173"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан выгрузки порошка 3510 FH07.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="174"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан перемешивания 3510 FH08.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="175"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="176"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан сброса давления 3510 FH12.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="177"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Камера высокого давления.Клапан нагнетания давления 3510 FH13.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="178"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Продувка магистрали.Клапан 3510 FH09.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="179"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Сбросной клапан фильтра 3510 FH03.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="180"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Фильтр газоочистки.Команда.Включить" tp="PLC_LF_DB3005_DBX" ts="181"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Азот.Клапан 3500 FH02.Открыть " tp="PLC_LF_DB3005_DBX" ts="182"/>
+  <item type="bool" note="Порошковый эжектор.Выбор газа.Азот.Клапан 3500 FH02.Закрыть " tp="PLC_LF_DB3005_DBX" ts="183"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Клапан подачи транспортировочного газа 3500 FH02.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="184"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Клапан подачи порошка из машины 3500 FH03.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="185"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Клапан подачи газа в машину 3500 FH01.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="186"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи транспортировочного газа 3500 FH10.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="187"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан заполнения 3510 FH01.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="188"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан заполнения 3510 FH02.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="189"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Включить сирену" tp="PLC_LF_DB3005_DBX" ts="190"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Включить световую сигнализацию" tp="PLC_LF_DB3005_DBX" ts="191"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Лампа.Старт загрузки" tp="PLC_LF_DB3005_DBX" ts="192"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Лампа.Выбран бункер 1" tp="PLC_LF_DB3005_DBX" ts="193"/>
+  <item type="bool" note="Порошковый эжектор.Загрузка порошка.Пульт загрузки.Лампа.Выбран бункер 2" tp="PLC_LF_DB3005_DBX" ts="194"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="195"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="196"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="197"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="198"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="199"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="200"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="201"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="202"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="203"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="204"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="205"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="206"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="207"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Включен ручной режим" tp="PLC_LF_DB3005_DBX" ts="208"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Включен режим автомат" tp="PLC_LF_DB3005_DBX" ts="209"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Готов к работе" tp="PLC_LF_DB3005_DBX" ts="210"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Активировано реле аварийного останова" tp="PLC_LF_DB3005_DBX" ts="211"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Счетчик времени работы" tp="PLC_LF_DB3005_DBX" ts="212"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Неисправность" tp="PLC_LF_DB3005_DBX" ts="213"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Лампа.Идет заполнение бункера из камеры" tp="PLC_LF_DB3005_DBX" ts="214"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="215"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан перемешивания 3520 FH14Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="216"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан выгрузки порошка 3520 FH04.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="217"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан загрузки порошка 3520 FH05.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="218"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан сброса давления 3520 FH06.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="219"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="220"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="221"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан выгрузки порошка 3520 FH07.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="222"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан перемешивания 3520 FH08.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="223"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="224"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан сброса давления 3520 FH12.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="225"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Камера высокого давления.Клапан нагнетания давления 3520 FH13.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="226"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Продувка магистрали.Клапан 3520 FH09.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="227"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Сбросной клапан фильтра 3520 FH03.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="228"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Фильтр газоочистки.Команда.Включить" tp="PLC_LF_DB3005_DBX" ts="229"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="230"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="231"/>
+  <item type="bool" note="Порошковый эжектор.Возврат порошка.Клапан возврата порошка в бункера низкого давления 3500 FH16.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="232"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурмы 3500 FH17.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="233"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 1 3500 FH18.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="234"/>
+  <item type="bool" note="Порошковый эжектор.Подача порошка на фурмы.Клапан подачи порошка на фурму 2 3500 FH19.Команда.Открыть FH19" tp="PLC_LF_DB3005_DBX" ts="235"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH01.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="236"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Бункер низкого давления.Клапан возврата порошка из к-ры низкого давления 3520 FH02.Команда.Открыть" tp="PLC_LF_DB3005_DBX" ts="237"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="238"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="239"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Причины прекращения отдачи.Малый расход порошка" tp="PLC_LF_DB3005_DBX" ts="240"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Причины прекращения отдачи.Малый расход газа" tp="PLC_LF_DB3005_DBX" ts="241"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Причины прекращения отдачи.Забита линия" tp="PLC_LF_DB3005_DBX" ts="242"/>
+  <item type="bool" note="Порошковый эжектор.Машина 1.Причины прекращения отдачи.Мало матерриала" tp="PLC_LF_DB3005_DBX" ts="243"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="244"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="245"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="246"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="247"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Причины прекращения отдачи.Малый расход порошка" tp="PLC_LF_DB3005_DBX" ts="248"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Причины прекращения отдачи.Малый расход газа" tp="PLC_LF_DB3005_DBX" ts="249"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Причины прекращения отдачи.Забита линия" tp="PLC_LF_DB3005_DBX" ts="250"/>
+  <item type="bool" note="Порошковый эжектор.Машина 2.Причины прекращения отдачи.Мало матерриала" tp="PLC_LF_DB3005_DBX" ts="251"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="252"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="253"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="254"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="255"/>
+  <item type="bool" note="Порошковый эжектор.Локальный режимWinCC.Команда.FHEY1 открыть/закрыть" tp="PLC_LF_DB3005_DBX" ts="256"/>
+  <item type="bool" note="Порошковый эжектор.Локальный режимWinCC.Команда.FH17 открыть/закрыть" tp="PLC_LF_DB3005_DBX" ts="257"/>
+  <item type="bool" note="Порошковый эжектор.Локальный режимWinCC.Команда.FH18 открыть/закрыть" tp="PLC_LF_DB3005_DBX" ts="258"/>
+  <item type="bool" note="Порошковый эжектор.Локальный режимWinCC.Команда.FH19 открыть/закрыть" tp="PLC_LF_DB3005_DBX" ts="259"/>
+  <item type="bool" note="Порошковый эжектор.Локальный режимWinCC.Команда.Локальный режим вкл/выкл" tp="PLC_LF_DB3005_DBX" ts="260"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.WinCC Режим работы.Автомат" tp="PLC_LF_DB3005_DBX" ts="261"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.WinCC Режим работы.Тест" tp="PLC_LF_DB3005_DBX" ts="262"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.WinCC Режим работы.Ручной" tp="PLC_LF_DB3005_DBX" ts="263"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.WinCC Режим работы.Автомат" tp="PLC_LF_DB3005_DBX" ts="264"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.WinCC Режим работы.Тест" tp="PLC_LF_DB3005_DBX" ts="265"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.WinCC Режим работы.Ручной" tp="PLC_LF_DB3005_DBX" ts="266"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="267"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="268"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="269"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="270"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="271"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Количество отданного порошка.Вес порошка на 1 позицию" tp="PLC_LF_DB3005_DBR_" ts="0034"/>
+  <item type="real" abs="true" hysteresis=".01" note="Порошковый эжектор.Количество отданного порошка.Вес порошка на 2 позицию" tp="PLC_LF_DB3005_DBR_" ts="0038"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Локальный" tp="PLC_LF_DB3005_DBX" ts="336"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="337"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Выключен" tp="PLC_LF_DB3005_DBX" ts="338"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Тест" tp="PLC_LF_DB3005_DBX" ts="339"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Автомат" tp="PLC_LF_DB3005_DBX" ts="340"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.Ручной" tp="PLC_LF_DB3005_DBX" ts="341"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора аргона FH01.С пульта" tp="PLC_LF_DB3005_DBX" ts="342"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="343"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="344"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="345"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="346"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="347"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="348"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="349"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="350"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="351"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Локальный" tp="PLC_LF_DB3005_DBX" ts="352"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="353"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Выключен" tp="PLC_LF_DB3005_DBX" ts="354"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Тест" tp="PLC_LF_DB3005_DBX" ts="355"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Автомат" tp="PLC_LF_DB3005_DBX" ts="356"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.Ручной" tp="PLC_LF_DB3005_DBX" ts="357"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Клапан выбора азота FH02.С пульта" tp="PLC_LF_DB3005_DBX" ts="358"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="359"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="360"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="361"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="362"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="363"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="364"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="365"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="366"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="367"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Локальный" tp="PLC_LF_DB3005_DBX" ts="368"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="369"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Выключен" tp="PLC_LF_DB3005_DBX" ts="370"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Тест" tp="PLC_LF_DB3005_DBX" ts="371"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Автомат" tp="PLC_LF_DB3005_DBX" ts="372"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.Ручной" tp="PLC_LF_DB3005_DBX" ts="373"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 1 FH03.С пульта" tp="PLC_LF_DB3005_DBX" ts="374"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="375"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="376"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="377"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="378"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="379"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="380"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="381"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="382"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="383"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Локальный" tp="PLC_LF_DB3005_DBX" ts="384"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="385"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Выключен" tp="PLC_LF_DB3005_DBX" ts="386"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Тест" tp="PLC_LF_DB3005_DBX" ts="387"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Автомат" tp="PLC_LF_DB3005_DBX" ts="388"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.Ручной" tp="PLC_LF_DB3005_DBX" ts="389"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 1 FH04.С пульта" tp="PLC_LF_DB3005_DBX" ts="390"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="391"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="392"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="393"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="394"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="395"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="396"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="397"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="398"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="399"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Локальный" tp="PLC_LF_DB3005_DBX" ts="400"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="401"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Выключен" tp="PLC_LF_DB3005_DBX" ts="402"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Тест" tp="PLC_LF_DB3005_DBX" ts="403"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Автомат" tp="PLC_LF_DB3005_DBX" ts="404"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.Ручной" tp="PLC_LF_DB3005_DBX" ts="405"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Байпас 2 FH05.С пульта" tp="PLC_LF_DB3005_DBX" ts="406"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="407"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="408"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="409"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="410"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="411"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="412"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="413"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="414"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="415"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Локальный" tp="PLC_LF_DB3005_DBX" ts="416"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Удаленный" tp="PLC_LF_DB3005_DBX" ts="417"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Выключен" tp="PLC_LF_DB3005_DBX" ts="418"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Тест" tp="PLC_LF_DB3005_DBX" ts="419"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Автомат" tp="PLC_LF_DB3005_DBX" ts="420"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.Ручной" tp="PLC_LF_DB3005_DBX" ts="421"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Отсечной 2 FH06.С пульта" tp="PLC_LF_DB3005_DBX" ts="422"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="423"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="424"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="425"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="426"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="427"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="428"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="429"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="430"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="431"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 1 CF01.Локальный" tp="PLC_LF_DB3005_DBX" ts="432"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 1 CF01.Тест" tp="PLC_LF_DB3005_DBX" ts="433"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 1 CF01.Включен" tp="PLC_LF_DB3005_DBX" ts="434"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 1 CF01.Автомат" tp="PLC_LF_DB3005_DBX" ts="435"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 1 CF01.Ручной" tp="PLC_LF_DB3005_DBX" ts="436"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="437"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="438"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="439"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="440"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="441"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="442"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="443"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="444"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="445"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="446"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="447"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 2 CF02.Локальный" tp="PLC_LF_DB3005_DBX" ts="448"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 2 CF02.Тест" tp="PLC_LF_DB3005_DBX" ts="449"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 2 CF02.Включен" tp="PLC_LF_DB3005_DBX" ts="450"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 2 CF02.Автомат" tp="PLC_LF_DB3005_DBX" ts="451"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Пробки.Инфлау 2 CF02.Ручной" tp="PLC_LF_DB3005_DBX" ts="452"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="453"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="454"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="455"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="456"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="457"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="458"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="459"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="460"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="461"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="462"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="463"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Локальный" tp="PLC_LF_DB3005_DBX" ts="464"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="465"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Выключен" tp="PLC_LF_DB3005_DBX" ts="466"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Тест" tp="PLC_LF_DB3005_DBX" ts="467"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Автомат" tp="PLC_LF_DB3005_DBX" ts="468"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.Ручной" tp="PLC_LF_DB3005_DBX" ts="469"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора аргона FH01.С пульта" tp="PLC_LF_DB3005_DBX" ts="470"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="471"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="472"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="473"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="474"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="475"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="476"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="477"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="478"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="479"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Локальный" tp="PLC_LF_DB3005_DBX" ts="480"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="481"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Выключен" tp="PLC_LF_DB3005_DBX" ts="482"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Тест" tp="PLC_LF_DB3005_DBX" ts="483"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Автомат" tp="PLC_LF_DB3005_DBX" ts="484"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.Ручной" tp="PLC_LF_DB3005_DBX" ts="485"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Клапан выбора азота FH02.С пульта" tp="PLC_LF_DB3005_DBX" ts="486"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="487"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="488"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="489"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="490"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="491"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="492"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="493"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="494"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="495"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Локальный" tp="PLC_LF_DB3005_DBX" ts="496"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="497"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Выключен" tp="PLC_LF_DB3005_DBX" ts="498"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Тест" tp="PLC_LF_DB3005_DBX" ts="499"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Автомат" tp="PLC_LF_DB3005_DBX" ts="500"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.Ручной" tp="PLC_LF_DB3005_DBX" ts="501"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 1 FH03.С пульта" tp="PLC_LF_DB3005_DBX" ts="502"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="503"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="504"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="505"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="506"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="507"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="508"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="509"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="510"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="511"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Локальный" tp="PLC_LF_DB3005_DBX" ts="512"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="513"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Выключен" tp="PLC_LF_DB3005_DBX" ts="514"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Тест" tp="PLC_LF_DB3005_DBX" ts="515"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Автомат" tp="PLC_LF_DB3005_DBX" ts="516"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.Ручной" tp="PLC_LF_DB3005_DBX" ts="517"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 1 FH04.С пульта" tp="PLC_LF_DB3005_DBX" ts="518"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="519"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="520"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="521"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="522"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="523"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="524"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="525"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="526"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="527"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Локальный" tp="PLC_LF_DB3005_DBX" ts="528"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="529"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Выключен" tp="PLC_LF_DB3005_DBX" ts="530"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Тест" tp="PLC_LF_DB3005_DBX" ts="531"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Автомат" tp="PLC_LF_DB3005_DBX" ts="532"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.Ручной" tp="PLC_LF_DB3005_DBX" ts="533"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Байпас 2 FH05.С пульта" tp="PLC_LF_DB3005_DBX" ts="534"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="535"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="536"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="537"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="538"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="539"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="540"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="541"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="542"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="543"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Локальный" tp="PLC_LF_DB3005_DBX" ts="544"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Удаленный" tp="PLC_LF_DB3005_DBX" ts="545"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Выключен" tp="PLC_LF_DB3005_DBX" ts="546"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Тест" tp="PLC_LF_DB3005_DBX" ts="547"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Автомат" tp="PLC_LF_DB3005_DBX" ts="548"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.Ручной" tp="PLC_LF_DB3005_DBX" ts="549"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Отсечной 2 FH06.С пульта" tp="PLC_LF_DB3005_DBX" ts="550"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="551"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="552"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="553"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="554"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="555"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="556"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="557"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="558"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="559"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 1 CF01.Локальный" tp="PLC_LF_DB3005_DBX" ts="560"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 1 CF01.Тест" tp="PLC_LF_DB3005_DBX" ts="561"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 1 CF01.Включен" tp="PLC_LF_DB3005_DBX" ts="562"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 1 CF01.Автомат" tp="PLC_LF_DB3005_DBX" ts="563"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 1 CF01.Ручной" tp="PLC_LF_DB3005_DBX" ts="564"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="565"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="566"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="567"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="568"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="569"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="570"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="571"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="572"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="573"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="574"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="575"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 2 CF02.Локальный" tp="PLC_LF_DB3005_DBX" ts="576"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 2 CF02.Тест" tp="PLC_LF_DB3005_DBX" ts="577"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 2 CF02.Включен" tp="PLC_LF_DB3005_DBX" ts="578"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 2 CF02.Автомат" tp="PLC_LF_DB3005_DBX" ts="579"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Пробки.Инфлау 2 CF02.Ручной" tp="PLC_LF_DB3005_DBX" ts="580"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="581"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="582"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="583"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="584"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="585"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="586"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="587"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="588"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="589"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="590"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="591"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 1 FH01.Выключен" tp="PLC_LF_DB3005_DBX" ts="592"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 1 FH01.Тест" tp="PLC_LF_DB3005_DBX" ts="593"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 1 FH01.Автомат" tp="PLC_LF_DB3005_DBX" ts="594"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="595"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="596"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="597"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="598"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="599"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="600"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="601"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="602"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="603"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="604"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="605"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="606"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="607"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 2 FH02.Выключен" tp="PLC_LF_DB3005_DBX" ts="608"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 2 FH02.Тест" tp="PLC_LF_DB3005_DBX" ts="609"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 2 FH02.Автомат" tp="PLC_LF_DB3005_DBX" ts="610"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="611"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="612"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="613"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="614"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="615"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="616"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="617"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="618"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="619"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="620"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="621"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="622"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="623"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 3 FH03.Выключен" tp="PLC_LF_DB3005_DBX" ts="624"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 3 FH03.Тест" tp="PLC_LF_DB3005_DBX" ts="625"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан насоса 3 FH03.Автомат" tp="PLC_LF_DB3005_DBX" ts="626"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="627"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="628"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="629"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="630"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="631"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="632"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="633"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="634"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="635"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="636"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="637"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="638"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="639"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.Локальный" tp="PLC_LF_DB3005_DBX" ts="640"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="641"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04..Выключен" tp="PLC_LF_DB3005_DBX" ts="642"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.Тест" tp="PLC_LF_DB3005_DBX" ts="643"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.Автомат" tp="PLC_LF_DB3005_DBX" ts="644"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.Ручной" tp="PLC_LF_DB3005_DBX" ts="645"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан циркуляции FH04.С пульта" tp="PLC_LF_DB3005_DBX" ts="646"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="647"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="648"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="649"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="650"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="651"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="652"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="653"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="654"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="655"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Локальный" tp="PLC_LF_DB3005_DBX" ts="656"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="657"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Выключен" tp="PLC_LF_DB3005_DBX" ts="658"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Тест" tp="PLC_LF_DB3005_DBX" ts="659"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Автомат" tp="PLC_LF_DB3005_DBX" ts="660"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.Ручной" tp="PLC_LF_DB3005_DBX" ts="661"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан охлаждения FH05.С пульта" tp="PLC_LF_DB3005_DBX" ts="662"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="663"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="664"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="665"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="666"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="667"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="668"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="669"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="670"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="671"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан аккумулятора FH06.Выключен" tp="PLC_LF_DB3005_DBX" ts="672"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан аккумулятора FH06.Тест" tp="PLC_LF_DB3005_DBX" ts="673"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Управляющий клапан аккумулятора FH06.Автомат" tp="PLC_LF_DB3005_DBX" ts="674"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="675"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="676"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="677"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="678"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="679"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="680"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="681"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="682"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="683"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="684"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="685"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="686"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="687"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Клапан блокировки пропорциональника FH07.Выключен" tp="PLC_LF_DB3005_DBX" ts="688"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Клапан блокировки пропорциональника FH07.Тест" tp="PLC_LF_DB3005_DBX" ts="689"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Клапан блокировки пропорциональника FH07.Автомат" tp="PLC_LF_DB3005_DBX" ts="690"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="691"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="692"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="693"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="694"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="695"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="696"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="697"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="698"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="699"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="700"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="701"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="702"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="703"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Гидрозамок FH09.Выключен" tp="PLC_LF_DB3005_DBX" ts="704"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Гидрозамок FH09.Тест" tp="PLC_LF_DB3005_DBX" ts="705"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Гидрозамок FH09.Автомат" tp="PLC_LF_DB3005_DBX" ts="706"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="707"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="708"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="709"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="710"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="711"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="712"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="713"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="714"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="715"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="716"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="717"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="718"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="719"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Клапан блокировки пропорциональника FH10.Выключен" tp="PLC_LF_DB3005_DBX" ts="720"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Клапан блокировки пропорциональника FH10.Тест" tp="PLC_LF_DB3005_DBX" ts="721"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Клапан блокировки пропорциональника FH10.Автомат" tp="PLC_LF_DB3005_DBX" ts="722"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="723"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="724"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="725"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="726"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="727"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="728"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="729"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="730"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="731"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="732"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="733"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="734"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="735"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Гидрозамок FH12.Выключен" tp="PLC_LF_DB3005_DBX" ts="736"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Гидрозамок FH12.Тест" tp="PLC_LF_DB3005_DBX" ts="737"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Гидрозамок FH12.Автомат" tp="PLC_LF_DB3005_DBX" ts="738"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="739"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="740"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="741"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="742"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="743"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="744"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="745"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="746"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="747"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="748"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="749"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="750"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="751"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Клапан блокировки пропорциональника FH13.Выключен" tp="PLC_LF_DB3005_DBX" ts="752"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Клапан блокировки пропорциональника FH13.Тест" tp="PLC_LF_DB3005_DBX" ts="753"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Клапан блокировки пропорциональника FH13.Автомат" tp="PLC_LF_DB3005_DBX" ts="754"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="755"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="756"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="757"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="758"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="759"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="760"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="761"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="762"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="763"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="764"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="765"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="766"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="767"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Гидрозамок FH15.Выключен" tp="PLC_LF_DB3005_DBX" ts="768"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Гидрозамок FH15.Тест" tp="PLC_LF_DB3005_DBX" ts="769"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Гидрозамок FH15.Автомат" tp="PLC_LF_DB3005_DBX" ts="770"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="771"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="772"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="773"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="774"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="775"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="776"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="777"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="778"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="779"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="780"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="781"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="782"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="783"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Зажимная щека FH16.Выключен" tp="PLC_LF_DB3005_DBX" ts="784"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Зажимная щека FH16.Тест" tp="PLC_LF_DB3005_DBX" ts="785"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Зажимная щека FH16.Автомат" tp="PLC_LF_DB3005_DBX" ts="786"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="787"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="788"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="789"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="790"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="791"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="792"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="793"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="794"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="795"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="796"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="797"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="798"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="799"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Зажимная щека FH17.Выключен" tp="PLC_LF_DB3005_DBX" ts="800"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Зажимная щека FH17.Тест" tp="PLC_LF_DB3005_DBX" ts="801"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Зажимная щека FH17.Автомат" tp="PLC_LF_DB3005_DBX" ts="802"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="803"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="804"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="805"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="806"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="807"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="808"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="809"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="810"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="811"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="812"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="813"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="814"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="815"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Зажимная щека FH18.Выключен" tp="PLC_LF_DB3005_DBX" ts="816"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Зажимная щека FH18.Тест" tp="PLC_LF_DB3005_DBX" ts="817"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Зажимная щека FH18.Автомат" tp="PLC_LF_DB3005_DBX" ts="818"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="819"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="820"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="821"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="822"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="823"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="824"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="825"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="826"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="827"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="828"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="829"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="830"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="831"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Управление FH22.Выключен" tp="PLC_LF_DB3005_DBX" ts="832"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Управление FH22.Тест" tp="PLC_LF_DB3005_DBX" ts="833"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Управление FH22.Автомат" tp="PLC_LF_DB3005_DBX" ts="834"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="835"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="836"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="837"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="838"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="839"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="840"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="841"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="842"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="843"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="844"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="845"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="846"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="847"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Промывка цилиндра FH23.Выключен" tp="PLC_LF_DB3005_DBX" ts="848"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Промывка цилиндра FH23.Тест" tp="PLC_LF_DB3005_DBX" ts="849"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Промывка цилиндра FH23.Автомат" tp="PLC_LF_DB3005_DBX" ts="850"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="851"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="852"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="853"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="854"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="855"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="856"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="857"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="858"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="859"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="860"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="861"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="862"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="863"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Промывка цилиндра FH25.Выключен" tp="PLC_LF_DB3005_DBX" ts="864"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Промывка цилиндра FH25.Тест" tp="PLC_LF_DB3005_DBX" ts="865"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Промывка цилиндра FH25.Автомат" tp="PLC_LF_DB3005_DBX" ts="866"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="867"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="868"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="869"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="870"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="871"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="872"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="873"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="874"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="875"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="876"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="877"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="878"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="879"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Промывка цилиндра FH24.Выключен" tp="PLC_LF_DB3005_DBX" ts="880"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Промывка цилиндра FH24.Тест" tp="PLC_LF_DB3005_DBX" ts="881"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Промывка цилиндра FH24.Автомат" tp="PLC_LF_DB3005_DBX" ts="882"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="883"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="884"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="885"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="886"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="887"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="888"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="889"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="890"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="891"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="892"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="893"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="894"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="895"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Локальный" tp="PLC_LF_DB3005_DBX" ts="896"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="897"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Выключен" tp="PLC_LF_DB3005_DBX" ts="898"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Тест" tp="PLC_LF_DB3005_DBX" ts="899"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Автомат" tp="PLC_LF_DB3005_DBX" ts="900"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.Ручной" tp="PLC_LF_DB3005_DBX" ts="901"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD01.С пульта" tp="PLC_LF_DB3005_DBX" ts="902"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="903"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="904"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="905"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="906"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="907"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="908"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="909"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="910"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="911"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Локальный" tp="PLC_LF_DB3005_DBX" ts="912"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="913"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Выключен" tp="PLC_LF_DB3005_DBX" ts="914"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Тест" tp="PLC_LF_DB3005_DBX" ts="915"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Автомат" tp="PLC_LF_DB3005_DBX" ts="916"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.Ручной" tp="PLC_LF_DB3005_DBX" ts="917"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD02.С пульта" tp="PLC_LF_DB3005_DBX" ts="918"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="919"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="920"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="921"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="922"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="923"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="924"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="925"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="926"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="927"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Локальный" tp="PLC_LF_DB3005_DBX" ts="928"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="929"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Выключен" tp="PLC_LF_DB3005_DBX" ts="930"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Тест" tp="PLC_LF_DB3005_DBX" ts="931"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Автомат" tp="PLC_LF_DB3005_DBX" ts="932"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.Ручной" tp="PLC_LF_DB3005_DBX" ts="933"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Насосы.MD03.С пульта" tp="PLC_LF_DB3005_DBX" ts="934"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="935"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="936"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="937"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="938"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="939"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="940"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="941"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="942"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="943"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Локальный" tp="PLC_LF_DB3005_DBX" ts="944"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="945"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Выключен" tp="PLC_LF_DB3005_DBX" ts="946"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Тест" tp="PLC_LF_DB3005_DBX" ts="947"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Автомат" tp="PLC_LF_DB3005_DBX" ts="948"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.Ручной" tp="PLC_LF_DB3005_DBX" ts="949"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd01.С пульта" tp="PLC_LF_DB3005_DBX" ts="950"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="951"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="952"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="953"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="954"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="955"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="956"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="957"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="958"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="959"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Локальный" tp="PLC_LF_DB3005_DBX" ts="960"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="961"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Выключен" tp="PLC_LF_DB3005_DBX" ts="962"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Тест" tp="PLC_LF_DB3005_DBX" ts="963"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Автомат" tp="PLC_LF_DB3005_DBX" ts="964"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.Ручной" tp="PLC_LF_DB3005_DBX" ts="965"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Обогрев.Тэн 1 gd02.С пульта" tp="PLC_LF_DB3005_DBX" ts="966"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="967"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="968"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="969"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="970"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="971"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="972"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="973"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="974"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="975"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Локальный" tp="PLC_LF_DB3005_DBX" ts="976"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="977"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Выключен" tp="PLC_LF_DB3005_DBX" ts="978"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Тест" tp="PLC_LF_DB3005_DBX" ts="979"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Автомат" tp="PLC_LF_DB3005_DBX" ts="980"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.Ручной" tp="PLC_LF_DB3005_DBX" ts="981"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 1 md04.С пульта" tp="PLC_LF_DB3005_DBX" ts="982"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="983"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="984"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="985"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="986"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="987"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="988"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="989"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="990"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="991"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Локальный" tp="PLC_LF_DB3005_DBX" ts="992"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="993"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Выключен" tp="PLC_LF_DB3005_DBX" ts="994"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Тест" tp="PLC_LF_DB3005_DBX" ts="995"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Автомат" tp="PLC_LF_DB3005_DBX" ts="996"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.Ручной" tp="PLC_LF_DB3005_DBX" ts="997"/>
+  <item type="bool" note="Режимы работы.Гидравлика.Циркуляция.Циркуляциоонный насос 2 md05.С пульта" tp="PLC_LF_DB3005_DBX" ts="998"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="999"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1000"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1001"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1002"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1003"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1004"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1005"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1006"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1007"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Пропорциональник FH08.Выключен" tp="PLC_LF_DB3005_DBX" ts="1008"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Пропорциональник FH08.Тест" tp="PLC_LF_DB3005_DBX" ts="1009"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Пропорциональник FH08.Автомат" tp="PLC_LF_DB3005_DBX" ts="1010"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1011"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1012"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1013"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1014"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1015"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1016"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1017"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1018"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1019"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1020"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1021"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1022"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1023"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Пропорциональник FH11.Выключен" tp="PLC_LF_DB3005_DBX" ts="1024"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Пропорциональник FH11.Тест" tp="PLC_LF_DB3005_DBX" ts="1025"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Пропорциональник FH11.Автомат" tp="PLC_LF_DB3005_DBX" ts="1026"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1027"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1028"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1029"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1030"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1031"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1032"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1033"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1034"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1035"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1036"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1037"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1038"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1039"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Пропорциональник FH14.Выключен" tp="PLC_LF_DB3005_DBX" ts="1040"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Пропорциональник FH14.Тест" tp="PLC_LF_DB3005_DBX" ts="1041"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Пропорциональник FH14.Автомат" tp="PLC_LF_DB3005_DBX" ts="1042"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1043"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1044"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1045"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1046"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1047"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1048"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1049"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1050"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1051"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1052"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1053"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1054"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1055"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Пропорциональник FH19.Выключен" tp="PLC_LF_DB3005_DBX" ts="1056"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Пропорциональник FH19.Тест" tp="PLC_LF_DB3005_DBX" ts="1057"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Пропорциональник FH19.Автомат" tp="PLC_LF_DB3005_DBX" ts="1058"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1059"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1060"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1061"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1062"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1063"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1064"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1065"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1066"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1067"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1068"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1069"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1070"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1071"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Пропорциональник FH20.Выключен" tp="PLC_LF_DB3005_DBX" ts="1072"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Пропорциональник FH20.Тест" tp="PLC_LF_DB3005_DBX" ts="1073"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Пропорциональник FH20.Автомат" tp="PLC_LF_DB3005_DBX" ts="1074"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1075"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1076"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1077"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1078"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1079"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1080"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1081"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1082"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1083"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1084"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1085"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1086"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1087"/>
+  <item type="bool" note="Режимы работы.Портал.Поворот.Пропорциональник FH21.Выключен" tp="PLC_LF_DB3005_DBX" ts="1088"/>
+  <item type="bool" note="Режимы работы.Портал.Поворот.Пропорциональник FH21.Тест" tp="PLC_LF_DB3005_DBX" ts="1089"/>
+  <item type="bool" note="Режимы работы.Портал.Поворот.Пропорциональник FH21.Автомат" tp="PLC_LF_DB3005_DBX" ts="1090"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1091"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1092"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1093"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1094"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1095"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1096"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1097"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1098"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1099"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1100"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1101"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1102"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1103"/>
+  <item type="real" tp="PLC_LF_DB3005_DBR_" ts="0138"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1136"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1137"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Выключен" tp="PLC_LF_DB3005_DBX" ts="1138"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Тест" tp="PLC_LF_DB3005_DBX" ts="1139"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1140"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1141"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Смотровое окно FH03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1142"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1143"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1144"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1145"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1146"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1147"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1148"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1149"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1150"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1151"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Локальный" tp="PLC_LF_DB3005_DBX" ts="1152"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1153"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Выключен" tp="PLC_LF_DB3005_DBX" ts="1154"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Тест" tp="PLC_LF_DB3005_DBX" ts="1155"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Автомат" tp="PLC_LF_DB3005_DBX" ts="1156"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.Ручной" tp="PLC_LF_DB3005_DBX" ts="1157"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Шаровый затвор тракта сыпучих FH04.С пульта" tp="PLC_LF_DB3005_DBX" ts="1158"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1159"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1160"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1161"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1162"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1163"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1164"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1165"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1166"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1167"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Локальный" tp="PLC_LF_DB3005_DBX" ts="1168"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1169"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Выключен" tp="PLC_LF_DB3005_DBX" ts="1170"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Тест" tp="PLC_LF_DB3005_DBX" ts="1171"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Автомат" tp="PLC_LF_DB3005_DBX" ts="1172"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.Ручной" tp="PLC_LF_DB3005_DBX" ts="1173"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Крышка.Задвижка охлаждающей воды FH08.С пульта" tp="PLC_LF_DB3005_DBX" ts="1174"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1175"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1176"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1177"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1178"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1179"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1180"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1181"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1182"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1183"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1184"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1185"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Выключен" tp="PLC_LF_DB3005_DBX" ts="1186"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Тест" tp="PLC_LF_DB3005_DBX" ts="1187"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1188"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1189"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Смотровое окно FH03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1190"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1191"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1192"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1193"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1194"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1195"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1196"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1197"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1198"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1199"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Локальный" tp="PLC_LF_DB3005_DBX" ts="1200"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1201"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Выключен" tp="PLC_LF_DB3005_DBX" ts="1202"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Тест" tp="PLC_LF_DB3005_DBX" ts="1203"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Автомат" tp="PLC_LF_DB3005_DBX" ts="1204"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.Ручной" tp="PLC_LF_DB3005_DBX" ts="1205"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Шаровый затвор тракта сыпучих FH04.С пульта" tp="PLC_LF_DB3005_DBX" ts="1206"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1207"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1208"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1209"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1210"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1211"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1212"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1213"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1214"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1215"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Локальный" tp="PLC_LF_DB3005_DBX" ts="1216"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1217"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Выключен" tp="PLC_LF_DB3005_DBX" ts="1218"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Тест" tp="PLC_LF_DB3005_DBX" ts="1219"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Автомат" tp="PLC_LF_DB3005_DBX" ts="1220"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.Ручной" tp="PLC_LF_DB3005_DBX" ts="1221"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Крышка.Задвижка охлаждающей воды FH08.С пульта" tp="PLC_LF_DB3005_DBX" ts="1222"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1223"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1224"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1225"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1226"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1227"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1228"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1229"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1230"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1231"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1232"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1233"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1234"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Тест" tp="PLC_LF_DB3005_DBX" ts="1235"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1236"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1237"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.1.Концевые 01610 md01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1238"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1239"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1240"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1241"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1242"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1243"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1244"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1245"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1246"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1247"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1248"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1249"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1250"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Тест" tp="PLC_LF_DB3005_DBX" ts="1251"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1252"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1253"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.2.Концевые 01610 md02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1254"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1255"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1256"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1257"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1258"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1259"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1260"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1261"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1262"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1263"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1264"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1265"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Выключен" tp="PLC_LF_DB3005_DBX" ts="1266"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Тест" tp="PLC_LF_DB3005_DBX" ts="1267"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1268"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1269"/>
+  <item type="bool" note="Режимы работы.Портал.Электроды.3.Концевые 01610 md03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1270"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1271"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1272"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1273"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1274"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1275"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1276"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1277"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1278"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1279"/>
+  <item type="real" tp="PLC_LF_DB3005_DBR_" ts="0160"/>
+  <item type="real" tp="PLC_LF_DB3005_DBR_" ts="0164"/>
+  <item type="real" tp="PLC_LF_DB3005_DBR_" ts="0168"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1376"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1377"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1378"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1379"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1380"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1381"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Задвижка газохода 02410 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1382"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1383"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1384"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1385"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1386"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1387"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1388"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1389"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1390"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1391"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1392"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1393"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1394"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Тест" tp="PLC_LF_DB3005_DBX" ts="1395"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1396"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1397"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Задвижка газохода 02410 mm02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1398"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1399"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1400"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1401"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1402"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1403"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1404"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1405"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1406"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1407"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1408"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1409"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1410"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Тест" tp="PLC_LF_DB3005_DBX" ts="1411"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1412"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1413"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Наклон 03530 fh01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1414"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1415"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1416"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1417"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1418"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1419"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1420"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1421"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1422"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1423"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1424"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1425"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1426"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Тест" tp="PLC_LF_DB3005_DBX" ts="1427"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1428"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1429"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Зажим 03530 fh02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1430"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1431"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1432"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1433"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1434"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1435"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1436"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1437"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1438"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1439"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1440"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1441"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1442"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1443"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1444"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1445"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Порошковая фурма.Двигатель 03530 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1446"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1447"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1448"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1449"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1450"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1451"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1452"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1453"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1454"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1455"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1456"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1457"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1458"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Тест" tp="PLC_LF_DB3005_DBX" ts="1459"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1460"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1461"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Наклон 03540 fh01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1462"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1463"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1464"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1465"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1466"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1467"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1468"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1469"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1470"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1471"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1472"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1473"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1474"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Тест" tp="PLC_LF_DB3005_DBX" ts="1475"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1476"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1477"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Зажим 03540 fh02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1478"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1479"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1480"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1481"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1482"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1483"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1484"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1485"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1486"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1487"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1488"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1489"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1490"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1491"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1492"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1493"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Порошковая фурма.Двигатель 03540 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1494"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1495"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1496"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1497"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1498"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1499"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1500"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1501"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1502"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1503"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1504"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1505"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1506"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1507"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1508"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Двигатель колонны фурм 04410 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1509"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1510"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1511"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1512"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1513"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1514"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1515"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1516"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1517"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1518"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1519"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1520"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1521"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.Тест" tp="PLC_LF_DB3005_DBX" ts="1522"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1523"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1524"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 1 04410 mm02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1525"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1526"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1527"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1528"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1529"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1530"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1531"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1532"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1533"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1534"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1535"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1536"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1537"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.Тест" tp="PLC_LF_DB3005_DBX" ts="1538"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1539"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1540"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Магазин фурм 2 04410 mm03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1541"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1542"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1543"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1544"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1545"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1546"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1547"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1548"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1549"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1550"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1551"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1552"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1553"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1554"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.Тест" tp="PLC_LF_DB3005_DBX" ts="1555"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1556"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1557"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Локальная маслостанция 04410 JH01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1558"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1559"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1560"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1561"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1562"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1563"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1564"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1565"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1566"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1567"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1568"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1569"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1570"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1571"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1572"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Двигатель колонны фурм 04420 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1573"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1574"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1575"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1576"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1577"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1578"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1579"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1580"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1581"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1582"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1583"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1584"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1585"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.Тест" tp="PLC_LF_DB3005_DBX" ts="1586"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1587"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1588"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 1 04420 mm02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1589"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1590"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1591"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1592"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1593"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1594"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1595"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1596"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1597"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1598"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1599"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1600"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1601"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.Тест" tp="PLC_LF_DB3005_DBX" ts="1602"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1603"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1604"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Магазин фурм 2 04420 mm03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1605"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1606"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1607"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1608"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1609"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1610"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1611"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1612"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1613"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1614"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1615"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1616"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1617"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1618"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.Тест" tp="PLC_LF_DB3005_DBX" ts="1619"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1620"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1621"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Локальная маслостанция 04420 JH01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1622"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1623"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1624"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1625"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1626"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1627"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1628"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1629"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1630"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1631"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1632"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1633"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1634"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Тест" tp="PLC_LF_DB3005_DBX" ts="1635"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1636"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1637"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной азота 04430 fh01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1638"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1639"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1640"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1641"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1642"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1643"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1644"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1645"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1646"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1647"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1648"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1649"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1650"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Тест" tp="PLC_LF_DB3005_DBX" ts="1651"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1652"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1653"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Отсечной аргона 04430 fh02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1654"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1655"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1656"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1657"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1658"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1659"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1660"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1661"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1662"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1663"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1664"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1665"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Выключен" tp="PLC_LF_DB3005_DBX" ts="1666"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Тест" tp="PLC_LF_DB3005_DBX" ts="1667"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1668"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1669"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Инфлау 04430 fh03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1670"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1671"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1672"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1673"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1674"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1675"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1676"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1677"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1678"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1679"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Локальный" tp="PLC_LF_DB3005_DBX" ts="1680"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1681"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Выключен" tp="PLC_LF_DB3005_DBX" ts="1682"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Тест" tp="PLC_LF_DB3005_DBX" ts="1683"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Автомат" tp="PLC_LF_DB3005_DBX" ts="1684"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.Ручной" tp="PLC_LF_DB3005_DBX" ts="1685"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Наклон 04430 fh04.С пульта" tp="PLC_LF_DB3005_DBX" ts="1686"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1687"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1688"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1689"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1690"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1691"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1692"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1693"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1694"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1695"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Локальный" tp="PLC_LF_DB3005_DBX" ts="1696"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1697"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Выключен" tp="PLC_LF_DB3005_DBX" ts="1698"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Тест" tp="PLC_LF_DB3005_DBX" ts="1699"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Автомат" tp="PLC_LF_DB3005_DBX" ts="1700"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.Ручной" tp="PLC_LF_DB3005_DBX" ts="1701"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Зажим 04430 fh05.С пульта" tp="PLC_LF_DB3005_DBX" ts="1702"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1703"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1704"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1705"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1706"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1707"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1708"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1709"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1710"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1711"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1712"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1713"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1714"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1715"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1716"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1717"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Двигатель 04430 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1718"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1719"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1720"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1721"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1722"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1723"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1724"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1725"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1726"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1727"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Расход 04430 cf01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1728"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Расход 04430 cf01.Тест" tp="PLC_LF_DB3005_DBX" ts="1729"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Расход 04430 cf01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1730"/>
+  <item type="bool" note="Режимы работы.Позиция 1.Продувочная фурма.Расход 04430 cf01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1731"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1732"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1733"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1734"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1735"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1736"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1737"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1738"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1739"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1740"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1741"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1742"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1743"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1744"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1745"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1746"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Тест" tp="PLC_LF_DB3005_DBX" ts="1747"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1748"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1749"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной азота 04440 fh01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1750"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1751"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1752"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1753"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1754"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1755"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1756"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1757"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1758"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1759"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Локальный" tp="PLC_LF_DB3005_DBX" ts="1760"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1761"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Выключен" tp="PLC_LF_DB3005_DBX" ts="1762"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Тест" tp="PLC_LF_DB3005_DBX" ts="1763"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Автомат" tp="PLC_LF_DB3005_DBX" ts="1764"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.Ручной" tp="PLC_LF_DB3005_DBX" ts="1765"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Отсечной аргона 04440 fh02.С пульта" tp="PLC_LF_DB3005_DBX" ts="1766"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1767"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1768"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1769"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1770"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1771"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1772"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1773"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1774"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1775"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Локальный" tp="PLC_LF_DB3005_DBX" ts="1776"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1777"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Выключен" tp="PLC_LF_DB3005_DBX" ts="1778"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Тест" tp="PLC_LF_DB3005_DBX" ts="1779"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Автомат" tp="PLC_LF_DB3005_DBX" ts="1780"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.Ручной" tp="PLC_LF_DB3005_DBX" ts="1781"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Инфлау 04440 fh03.С пульта" tp="PLC_LF_DB3005_DBX" ts="1782"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1783"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1784"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1785"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1786"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1787"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1788"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1789"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1790"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1791"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Локальный" tp="PLC_LF_DB3005_DBX" ts="1792"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1793"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Выключен" tp="PLC_LF_DB3005_DBX" ts="1794"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Тест" tp="PLC_LF_DB3005_DBX" ts="1795"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Автомат" tp="PLC_LF_DB3005_DBX" ts="1796"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.Ручной" tp="PLC_LF_DB3005_DBX" ts="1797"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Наклон 04440 fh04.С пульта" tp="PLC_LF_DB3005_DBX" ts="1798"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1799"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1800"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1801"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1802"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1803"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1804"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1805"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1806"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1807"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Локальный" tp="PLC_LF_DB3005_DBX" ts="1808"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1809"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Выключен" tp="PLC_LF_DB3005_DBX" ts="1810"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Тест" tp="PLC_LF_DB3005_DBX" ts="1811"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Автомат" tp="PLC_LF_DB3005_DBX" ts="1812"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.Ручной" tp="PLC_LF_DB3005_DBX" ts="1813"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Зажим 04440 fh05.С пульта" tp="PLC_LF_DB3005_DBX" ts="1814"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1815"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1816"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1817"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1818"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1819"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1820"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1821"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1822"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1823"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1824"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1825"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Выключен" tp="PLC_LF_DB3005_DBX" ts="1826"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Тест" tp="PLC_LF_DB3005_DBX" ts="1827"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1828"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1829"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Двигатель 04440 mm01.С пульта" tp="PLC_LF_DB3005_DBX" ts="1830"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1831"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1832"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1833"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1834"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1835"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1836"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1837"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1838"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1839"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Расход 04440 cf01.Локальный" tp="PLC_LF_DB3005_DBX" ts="1840"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Расход 04440 cf01.Тест" tp="PLC_LF_DB3005_DBX" ts="1841"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Расход 04440 cf01.Автомат" tp="PLC_LF_DB3005_DBX" ts="1842"/>
+  <item type="bool" note="Режимы работы.Позиция 2.Продувочная фурма.Расход 04440 cf01.Ручной" tp="PLC_LF_DB3005_DBX" ts="1843"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1844"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1845"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1846"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1847"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1848"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1849"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1850"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1851"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1852"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1853"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1854"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1855"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Локальный" tp="PLC_LF_DB3005_DBX" ts="1856"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Удаленный" tp="PLC_LF_DB3005_DBX" ts="1857"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Выключен" tp="PLC_LF_DB3005_DBX" ts="1858"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Тест" tp="PLC_LF_DB3005_DBX" ts="1859"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Автомат" tp="PLC_LF_DB3005_DBX" ts="1860"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.Ручной" tp="PLC_LF_DB3005_DBX" ts="1861"/>
+  <item type="bool" note="Режимы работы.Портал.Стопор.Устройство в целом.С пульта" tp="PLC_LF_DB3005_DBX" ts="1862"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1863"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1864"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1865"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1866"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1867"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1868"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1869"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1870"/>
+  <item type="bool" tp="PLC_LF_DB3005_DBX" ts="1871"/>
+</items>

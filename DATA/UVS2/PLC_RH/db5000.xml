@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item type="bool" note="Торкретмашина.DD01.Аварийный стоп" tp="PLC_RH_DB5000_DBX" ts="0"/>
+  <item type="bool" note="Торкретмашина.DD01.Ручной режим" tp="PLC_RH_DB5000_DBX" ts="1"/>
+  <item type="bool" note="Торкретмашина.DD01.Автоматический режим" tp="PLC_RH_DB5000_DBX" ts="2"/>
+  <item type="bool" note="Торкретмашина.DD01.Давление воды в норме" tp="PLC_RH_DB5000_DBX" ts="3"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="4"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="5"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="6"/>
+  <item type="bool" note="Торкретмашина.DD01.Тест ламп" tp="PLC_RH_DB5000_DBX" ts="7"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="8"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="9"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="10"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="11"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="12"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="13"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="14"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="15"/>
+  <item type="bool" note="Торкретмашина.DD01.Вращение колонны.Концевой.Правый" tp="PLC_RH_DB5000_DBX" ts="16"/>
+  <item type="bool" note="Торкретмашина.DD01.Вращение колонны.Концевой.Левый" tp="PLC_RH_DB5000_DBX" ts="17"/>
+  <item type="bool" note="Торкретмашина.DD01.Подъем колонны.Концевой.Верхний" tp="PLC_RH_DB5000_DBX" ts="18"/>
+  <item type="bool" note="Торкретмашина.DD01.Подъем колонны.Концевой.Нижний" tp="PLC_RH_DB5000_DBX" ts="19"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="20"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="21"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="22"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="23"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="24"/>
+  <item type="bool" note="Торкретмашина.DD01.Поворот фурмы.Температура двигателя в норме" tp="PLC_RH_DB5000_DBX" ts="25"/>
+  <item type="bool" note="Торкретмашина.DD01.Поворот колонны.Температура двигателя в норме" tp="PLC_RH_DB5000_DBX" ts="26"/>
+  <item type="bool" note="Торкретмашина.DD01.Подъем/опускание колонны.Температура двигателя в норме" tp="PLC_RH_DB5000_DBX" ts="27"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="28"/>
+  <item type="bool" note="Торкретмашина.DD01.Тормозное сопротивление в норме" tp="PLC_RH_DB5000_DBX" ts="29"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="30"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="31"/>
+  <item type="bool" note="Торкретмашина.DD01.Режим управления.Переключатель Местное/Радио управление" tp="PLC_RH_DB5000_DBX" ts="32"/>
+  <item type="bool" note="Торкретмашина.DD01.Кнопка Старт" tp="PLC_RH_DB5000_DBX" ts="33"/>
+  <item type="bool" note="Торкретмашина.DD01.Кнопка Стоп" tp="PLC_RH_DB5000_DBX" ts="34"/>
+  <item type="bool" note="Торкретмашина.DD01.Позиция 1.Обработка снаружи" tp="PLC_RH_DB5000_DBX" ts="35"/>
+  <item type="bool" note="Торкретмашина.DD01.Позиция 2.Обработка внутри" tp="PLC_RH_DB5000_DBX" ts="36"/>
+  <item type="bool" note="Торкретмашина.DD01.Позиция 1.Обработка внутри" tp="PLC_RH_DB5000_DBX" ts="37"/>
+  <item type="bool" note="Торкретмашина.DD01.Позиция 2.Обработка снаружи" tp="PLC_RH_DB5000_DBX" ts="38"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="39"/>
+  <item type="bool" note="Торкретмашина.DD01.Платформа.Вперед" tp="PLC_RH_DB5000_DBX" ts="40"/>
+  <item type="bool" note="Торкретмашина.DD01.Платформа.Назад" tp="PLC_RH_DB5000_DBX" ts="41"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="42"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="43"/>
+  <item type="bool" note="Торкретмашина.DD01.Режим управления манипулятора.Ручной/Автоматический" tp="PLC_RH_DB5000_DBX" ts="44"/>
+  <item type="bool" note="Торкретмашина.DD01.Манипулятор.Парковочная позиция" tp="PLC_RH_DB5000_DBX" ts="45"/>
+  <item type="bool" note="Торкретмашина.DD01.Режим торкретирования.Манипулятор/Ручная фурма" tp="PLC_RH_DB5000_DBX" ts="46"/>
+  <item type="bool" note="Торкретмашина.DD01.Сброс ошибок" tp="PLC_RH_DB5000_DBX" ts="47"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="48"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="49"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="50"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="51"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="52"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="53"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="54"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="55"/>
+  <item type="bool" note="Торкретмашина.DD01.Перемещение платформы.Правый концевой" tp="PLC_RH_DB5000_DBX" ts="56"/>
+  <item type="bool" note="Торкретмашина.DD01.Перемещение платформы.Левый концевой" tp="PLC_RH_DB5000_DBX" ts="57"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="58"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="59"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="60"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="61"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="62"/>
+  <item type="bool" note="Торкретмашина.DD01.Тормоз на фурму.Включить/Выключить" tp="PLC_RH_DB5000_DBX" ts="63"/>
+  <item type="bool" note="Торкретмашина.DT01.Аварийный стоп" tp="PLC_RH_DB5000_DBX" ts="64"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="65"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="66"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="67"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="68"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="69"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="70"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="71"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="72"/>
+  <item type="bool" note="Торкретмашина.DT01.Давление в камере.Превышено" tp="PLC_RH_DB5000_DBX" ts="73"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача торкретмассы.Заслонка 1.Открыта" tp="PLC_RH_DB5000_DBX" ts="74"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача торкретмассы.Заслонка 2.Открыта" tp="PLC_RH_DB5000_DBX" ts="75"/>
+  <item type="bool" note="Торкретмашина.DT01.Уровень заполнения.Максимальный" tp="PLC_RH_DB5000_DBX" ts="76"/>
+  <item type="bool" note="Торкретмашина.DT01.Уровень заполнения.Минимальный" tp="PLC_RH_DB5000_DBX" ts="77"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="78"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="79"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="80"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="81"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="82"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="83"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="84"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="85"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="86"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="87"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="88"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="89"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="90"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="91"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="92"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="93"/>
+  <item type="bool" note="Торкретмашина.DT01.Температырный переключатель" tp="PLC_RH_DB5000_DBX" ts="94"/>
+  <item type="bool" note="Торкретмашина.DT01.Главный привод.Температура в норме" tp="PLC_RH_DB5000_DBX" ts="95"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Ручной режим" tp="PLC_RH_DB5000_DBX" ts="96"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Автоматический режим" tp="PLC_RH_DB5000_DBX" ts="97"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Готовность к работе" tp="PLC_RH_DB5000_DBX" ts="98"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Наличие напряжения управления" tp="PLC_RH_DB5000_DBX" ts="99"/>
+  <item type="bool" note="Торкретмашина.DD01.Работа счетчика рабочих часов" tp="PLC_RH_DB5000_DBX" ts="100"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Ошибка" tp="PLC_RH_DB5000_DBX" ts="101"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="102"/>
+  <item type="bool" note="Торкретмашина.DD01.Режим торкретирования.Выбор Манипулятор/Ручная фурма" tp="PLC_RH_DB5000_DBX" ts="103"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="104"/>
+  <item type="bool" note="Торкретмашина.DD01.Водяной насос.Включить" tp="PLC_RH_DB5000_DBX" ts="105"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="106"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="107"/>
+  <item type="bool" note="Торкретмашина.DD01.Ручная фурма.Клапан подачи воды.Открыть" tp="PLC_RH_DB5000_DBX" ts="108"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="109"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="110"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="111"/>
+  <item type="bool" note="Торкретмашина.DD01.Клапан подачи сжатого воздуха.Открыть" tp="PLC_RH_DB5000_DBX" ts="112"/>
+  <item type="bool" note="Торкретмашина.DD01.Клапан подачи воды.Открыть" tp="PLC_RH_DB5000_DBX" ts="113"/>
+  <item type="bool" note="Торкретмашина.DD01.Слив воды.Клапан 02500_FH09.Открыть" tp="PLC_RH_DB5000_DBX" ts="114"/>
+  <item type="bool" note="Торкретмашина.DD01.Слив воды.Клапан 02500_FH10.Открыть" tp="PLC_RH_DB5000_DBX" ts="115"/>
+  <item type="bool" note="Торкретмашина.DD01.Слив воды.Клапан 02500_FH15.Открыть" tp="PLC_RH_DB5000_DBX" ts="116"/>
+  <item type="bool" note="Торкретмашина.DD01.Слив воды.Клапан 02500_FH11.Открыть" tp="PLC_RH_DB5000_DBX" ts="117"/>
+  <item type="bool" note="Торкретмашина.DD01.Манипулятор.Клапан подачи воды.Открыть" tp="PLC_RH_DB5000_DBX" ts="118"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="119"/>
+  <item type="bool" note="Торкретмашина.DD01.Напряжение управления.Включить" tp="PLC_RH_DB5000_DBX" ts="120"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Парковочная позиция" tp="PLC_RH_DB5000_DBX" ts="121"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Ошибка" tp="PLC_RH_DB5000_DBX" ts="122"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Торкретмашина включена" tp="PLC_RH_DB5000_DBX" ts="123"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Старт" tp="PLC_RH_DB5000_DBX" ts="124"/>
+  <item type="bool" note="Торкретмашина.DD01.Лампа.Начальная позиция" tp="PLC_RH_DB5000_DBX" ts="125"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="126"/>
+  <item type="bool" note="Торкретмашина.DD01.Двигатели.Растормозить" tp="PLC_RH_DB5000_DBX" ts="127"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="128"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="129"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="130"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="131"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="132"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="133"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="134"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="135"/>
+  <item type="bool" note="Торкретмашина.DT01.Сброс давления.Клапан 02500_FH07.Открыть" tp="PLC_RH_DB5000_DBX" ts="136"/>
+  <item type="bool" note="Торкретмашина.DT01.Клапан 02500_FH08.Открыть" tp="PLC_RH_DB5000_DBX" ts="137"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача сжатого воздуха в бункер.Клапан 02500_FH05.Открыть" tp="PLC_RH_DB5000_DBX" ts="138"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача сжатого воздуха в бункер.Клапан 02500_FH06.Открыть" tp="PLC_RH_DB5000_DBX" ts="139"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача сжатого воздуха в систему.Клапан 02500_FH01.Открыть" tp="PLC_RH_DB5000_DBX" ts="140"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача сжатого воздуха в систему.Клапан 02500_FH04.Открыть" tp="PLC_RH_DB5000_DBX" ts="141"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача торкретмассы.Заслонка 1.Открыть" tp="PLC_RH_DB5000_DBX" ts="142"/>
+  <item type="bool" note="Торкретмашина.DT01.Подача торкретмассы.Заслонка 2.Открыть" tp="PLC_RH_DB5000_DBX" ts="143"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="144"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="145"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="146"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="147"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="148"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="149"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="150"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="151"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="152"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="153"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="154"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="155"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="156"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="157"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="158"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="159"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка Simovert_Maindrive_Car (8)" tp="PLC_RH_DB5000_DBX" ts="160"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка Simovert_Column_Rotation (9)" tp="PLC_RH_DB5000_DBX" ts="161"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка Simovert_Column_Lifting (10)" tp="PLC_RH_DB5000_DBX" ts="162"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка Simovert_Lance_Rotation (11)" tp="PLC_RH_DB5000_DBX" ts="163"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="164"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка Radio_Control (15)" tp="PLC_RH_DB5000_DBX" ts="165"/>
+  <item type="bool" note="Profibus.Торкретмашина.Ошибка ET_DT01 (20)" tp="PLC_RH_DB5000_DBX" ts="166"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="167"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="168"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="169"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийное отключение" tp="PLC_RH_DB5000_DBX" ts="170"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Главный привод" tp="PLC_RH_DB5000_DBX" ts="171"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Вращение колонны" tp="PLC_RH_DB5000_DBX" ts="172"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Подъем колонны" tp="PLC_RH_DB5000_DBX" ts="173"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Перемещения фурмы" tp="PLC_RH_DB5000_DBX" ts="174"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Энкодер фурмы" tp="PLC_RH_DB5000_DBX" ts="175"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Энкодер вращение колонны" tp="PLC_RH_DB5000_DBX" ts="176"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Энкодер подъем колонны" tp="PLC_RH_DB5000_DBX" ts="177"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Давление воды" tp="PLC_RH_DB5000_DBX" ts="178"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Манипулятор не в исходном состоянии" tp="PLC_RH_DB5000_DBX" ts="179"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Неверное положение платформы" tp="PLC_RH_DB5000_DBX" ts="180"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="181"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Шиберная заслонка 1.Не открылась" tp="PLC_RH_DB5000_DBX" ts="182"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Шиберная заслонка 1.Не закрылась" tp="PLC_RH_DB5000_DBX" ts="183"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Шиберная заслонка 2.Не открылась" tp="PLC_RH_DB5000_DBX" ts="184"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Шиберная заслонка 2.Не закрылась" tp="PLC_RH_DB5000_DBX" ts="185"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="186"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="187"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Поворотная платформа" tp="PLC_RH_DB5000_DBX" ts="188"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="189"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой вращения колонны.Правый" tp="PLC_RH_DB5000_DBX" ts="190"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой вращения колонны.Левый" tp="PLC_RH_DB5000_DBX" ts="191"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой подъема колонны.Верхний" tp="PLC_RH_DB5000_DBX" ts="192"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой подъема колонны.Нижний" tp="PLC_RH_DB5000_DBX" ts="193"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="194"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="195"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой поворот платформы.Левый" tp="PLC_RH_DB5000_DBX" ts="196"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Аварийный концевой поворот платформы.Правый" tp="PLC_RH_DB5000_DBX" ts="197"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="198"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="199"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="200"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="201"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="202"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="203"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Вниз" tp="PLC_RH_DB5000_DBX" ts="204"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Вверх" tp="PLC_RH_DB5000_DBX" ts="205"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Повернуть влево" tp="PLC_RH_DB5000_DBX" ts="206"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Повернуть вправо" tp="PLC_RH_DB5000_DBX" ts="207"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Фурма.Повернуть влево" tp="PLC_RH_DB5000_DBX" ts="208"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Фурма.Повернуть вправо" tp="PLC_RH_DB5000_DBX" ts="209"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Подача воды.Меньше" tp="PLC_RH_DB5000_DBX" ts="210"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Подача воды.Больше" tp="PLC_RH_DB5000_DBX" ts="211"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Режим управления.Ручной" tp="PLC_RH_DB5000_DBX" ts="212"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Режим управления.Автоматический" tp="PLC_RH_DB5000_DBX" ts="213"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Позиция 1.Торкретирование снаружи" tp="PLC_RH_DB5000_DBX" ts="214"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Позиция 2.Торкретирование внутри" tp="PLC_RH_DB5000_DBX" ts="215"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Позиция 1.Торкретирование внутри" tp="PLC_RH_DB5000_DBX" ts="216"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Позиция 2.Торкретирование снаружи" tp="PLC_RH_DB5000_DBX" ts="217"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Выбор программы.Программа 1" tp="PLC_RH_DB5000_DBX" ts="218"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Выбор программы.Программа 2" tp="PLC_RH_DB5000_DBX" ts="219"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Выбор программы.Программа 3" tp="PLC_RH_DB5000_DBX" ts="220"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Выбор программы.Программа 4" tp="PLC_RH_DB5000_DBX" ts="221"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.В парковочную позицию" tp="PLC_RH_DB5000_DBX" ts="222"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Старт торкретирования" tp="PLC_RH_DB5000_DBX" ts="223"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Манипулятор.Стоп торкретирования" tp="PLC_RH_DB5000_DBX" ts="224"/>
+  <item type="bool" note="Торкретмашина.Дистанционное управление.Сброс ошибок" tp="PLC_RH_DB5000_DBX" ts="225"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="226"/>
+  <item type="bool" note="Торкретмашина.Ошибка.Не выбран режим торкретирования" tp="PLC_RH_DB5000_DBX" ts="227"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="228"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="229"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="230"/>
+  <item type="bool" tp="PLC_RH_DB5000_DBX" ts="231"/>
+</items>

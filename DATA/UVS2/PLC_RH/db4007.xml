@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной
+    - note       = (опционально) описание переменной
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="real" abs="true" hysteresis="1" note="Система поднятия сосуда.Уровень масла в гидравл баке (01000_CL01).Знач " tp="PLC_RH_DB4007_DBR_" ts="0000"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Уровень масла в гидравл баке (01000_CL01).мА " tp="PLC_RH_DB4007_DBR_" ts="0004"/>
+  <item type="real" abs="true" hysteresis="1" note="Система поднятия сосуда.Уровень масла в гидравл баке (01000_CL01).мин " tp="PLC_RH_DB4007_DBR_" ts="0008"/>
+  <item type="real" abs="true" hysteresis="1" note="Система поднятия сосуда.Уровень масла в гидравл баке (01000_CL01).макс " tp="PLC_RH_DB4007_DBR_" ts="0012"/>
+  <item type="real" abs="true" hysteresis="1" note="Система поднятия сосуда.Уровень масла в гидравл баке (01000_CL01).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0016"/>
+  <item type="real" abs="true" hysteresis="1" note="Система поднятия сосуда.Температура масла в гидравл баке (01000_CТ01).Знач " tp="PLC_RH_DB4007_DBR_" ts="0020"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Температура масла в гидравл баке (01000_CТ01).мА " tp="PLC_RH_DB4007_DBR_" ts="0024"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Система поднятия сосуда.Температура масла в гидравл баке (01000_CТ01).мин " tp="PLC_RH_DB4007_DBR_" ts="0028"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Система поднятия сосуда.Температура масла в гидравл баке (01000_CТ01).макс " tp="PLC_RH_DB4007_DBR_" ts="0032"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Система поднятия сосуда.Температура масла в гидравл баке (01000_CТ01).Форс знач" tp="PLC_RH_DB4007_DBR_" ts="0036"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С2(01800_CL03).Знач " tp="PLC_RH_DB4007_DBR_" ts="0040"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С2(01800_CL03).мА " tp="PLC_RH_DB4007_DBR_" ts="0044"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С2(01800_CL03).мин " tp="PLC_RH_DB4007_DBR_" ts="0048"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С2(01800_CL03).макс " tp="PLC_RH_DB4007_DBR_" ts="0052"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С2(01800_CL03).Форс зна" tp="PLC_RH_DB4007_DBR_" ts="0056"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С1(01800_CL30).Знач " tp="PLC_RH_DB4007_DBR_" ts="0060"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С1(01800_CL30).мА " tp="PLC_RH_DB4007_DBR_" ts="0064"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С1(01800_CL30).мин " tp="PLC_RH_DB4007_DBR_" ts="0068"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С1(01800_CL30).макс " tp="PLC_RH_DB4007_DBR_" ts="0072"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Уровень Н2О на сливе С1(01800_CL30).Форс зна" tp="PLC_RH_DB4007_DBR_" ts="0076"/>
+  <item type="real" abs="true" hysteresis="0.01" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP03).Знач " tp="PLC_RH_DB4007_DBR_" ts="0080"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP03).мА " tp="PLC_RH_DB4007_DBR_" ts="0084"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP03).мин " tp="PLC_RH_DB4007_DBR_" ts="0088"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP03).макс " tp="PLC_RH_DB4007_DBR_" ts="0092"/>
+  <item type="real" abs="true" hysteresis="0.01" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP03).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0096"/>
+  <item type="real" abs="true" hysteresis="0.01" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP04).Знач " tp="PLC_RH_DB4007_DBR_" ts="0100"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP04).мА " tp="PLC_RH_DB4007_DBR_" ts="0104"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP04).мин " tp="PLC_RH_DB4007_DBR_" ts="0108"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP04).макс " tp="PLC_RH_DB4007_DBR_" ts="0112"/>
+  <item type="real" abs="true" hysteresis="0.01" note="Вакуумная система.Вакуумметр давление вакуумного насоса(01800_CP04).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0116"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Проток отходящего газа (01800_CF09).Знач " tp="PLC_RH_DB4007_DBR_" ts="0120"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Барометр колодец.Проток отходящего газа (01800_CF09).мА " tp="PLC_RH_DB4007_DBR_" ts="0124"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Проток отходящего газа (01800_CF09).мин " tp="PLC_RH_DB4007_DBR_" ts="0128"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Проток отходящего газа (01800_CF09).макс " tp="PLC_RH_DB4007_DBR_" ts="0132"/>
+  <item type="real" abs="true" hysteresis="1" note="Вакуумная система.Барометр колодец.Проток отходящего газа (01800_CF09).Форс зна" tp="PLC_RH_DB4007_DBR_" ts="0136"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO.Знач " tp="PLC_RH_DB4007_DBR_" ts="0140"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ02_CO.мА " tp="PLC_RH_DB4007_DBR_" ts="0144"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO.мин " tp="PLC_RH_DB4007_DBR_" ts="0148"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO.макс " tp="PLC_RH_DB4007_DBR_" ts="0152"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0156"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO2.Знач " tp="PLC_RH_DB4007_DBR_" ts="0160"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ02_CO2.мА " tp="PLC_RH_DB4007_DBR_" ts="0164"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO2.мин " tp="PLC_RH_DB4007_DBR_" ts="0168"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO2.макс " tp="PLC_RH_DB4007_DBR_" ts="0172"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_CO2.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0176"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_O2.Знач " tp="PLC_RH_DB4007_DBR_" ts="0180"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ02_O2.мА " tp="PLC_RH_DB4007_DBR_" ts="0184"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_O2.мин " tp="PLC_RH_DB4007_DBR_" ts="0188"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_O2.макс " tp="PLC_RH_DB4007_DBR_" ts="0192"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ02_O2.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0196"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ01.Знач " tp="PLC_RH_DB4007_DBR_" ts="0200"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ01.мА " tp="PLC_RH_DB4007_DBR_" ts="0204"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ01.мин " tp="PLC_RH_DB4007_DBR_" ts="0208"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ01.макс " tp="PLC_RH_DB4007_DBR_" ts="0212"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ01.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0216"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ03.Знач " tp="PLC_RH_DB4007_DBR_" ts="0220"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ03.мА " tp="PLC_RH_DB4007_DBR_" ts="0224"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ03.мин " tp="PLC_RH_DB4007_DBR_" ts="0228"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ03.макс " tp="PLC_RH_DB4007_DBR_" ts="0232"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ03.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0236"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ04.Знач " tp="PLC_RH_DB4007_DBR_" ts="0240"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ04.мА " tp="PLC_RH_DB4007_DBR_" ts="0244"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ04.мин " tp="PLC_RH_DB4007_DBR_" ts="0248"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ04.макс " tp="PLC_RH_DB4007_DBR_" ts="0252"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ04.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0256"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ05.Знач " tp="PLC_RH_DB4007_DBR_" ts="0260"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Газоанализатор.01800_CQ05.мА " tp="PLC_RH_DB4007_DBR_" ts="0264"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ05.мин " tp="PLC_RH_DB4007_DBR_" ts="0268"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ05.макс " tp="PLC_RH_DB4007_DBR_" ts="0272"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Газоанализатор.01800_CQ05.Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0276"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С1.T воды (01800_CT12).Знач " tp="PLC_RH_DB4007_DBR_" ts="0280"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Конденсатор С1.T воды (01800_CT12).мА " tp="PLC_RH_DB4007_DBR_" ts="0284"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С1.T воды (01800_CT12).мин " tp="PLC_RH_DB4007_DBR_" ts="0288"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С1.T воды (01800_CT12).макс " tp="PLC_RH_DB4007_DBR_" ts="0292"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С1.T воды (01800_CT12).Форс знач" tp="PLC_RH_DB4007_DBR_" ts="0296"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С2.T воды (01800_CT14).Знач " tp="PLC_RH_DB4007_DBR_" ts="0300"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Конденсатор С2.T воды (01800_CT14).мА " tp="PLC_RH_DB4007_DBR_" ts="0304"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С2.T воды (01800_CT14).мин " tp="PLC_RH_DB4007_DBR_" ts="0308"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С2.T воды (01800_CT14).макс " tp="PLC_RH_DB4007_DBR_" ts="0312"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Вакуумная система.Конденс и насосы.Конденсатор С2.T воды (01800_CT14).Форс знач" tp="PLC_RH_DB4007_DBR_" ts="0316"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Давление отработанного газа на выходе(01820_CP17).Знач " tp="PLC_RH_DB4007_DBR_" ts="0320"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Давление отработанного газа на выходе(01820_CP17).мА " tp="PLC_RH_DB4007_DBR_" ts="0324"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Давление отработанного газа на выходе(01820_CP17).мин " tp="PLC_RH_DB4007_DBR_" ts="0328"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Давление отработанного газа на выходе(01820_CP17).макс " tp="PLC_RH_DB4007_DBR_" ts="0332"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Давление отработанного газа на выходе(01820_CP17).Форс зна" tp="PLC_RH_DB4007_DBR_" ts="0336"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ01).Знач " tp="PLC_RH_DB4007_DBR_" ts="0340"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ01).мА " tp="PLC_RH_DB4007_DBR_" ts="0344"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ01).мин " tp="PLC_RH_DB4007_DBR_" ts="0348"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ01).макс " tp="PLC_RH_DB4007_DBR_" ts="0352"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ01).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0356"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ02).Знач " tp="PLC_RH_DB4007_DBR_" ts="0360"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ02).мА " tp="PLC_RH_DB4007_DBR_" ts="0364"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ02).мин " tp="PLC_RH_DB4007_DBR_" ts="0368"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ02).макс " tp="PLC_RH_DB4007_DBR_" ts="0372"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Помещение.Содержание СО(01820_CQ02).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0376"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №1.Т воды внутри насоса(01820_CT05).Знач " tp="PLC_RH_DB4007_DBR_" ts="0380"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Насос №1.Т воды внутри насоса(01820_CT05).мА " tp="PLC_RH_DB4007_DBR_" ts="0384"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №1.Т воды внутри насоса(01820_CT05).мин " tp="PLC_RH_DB4007_DBR_" ts="0388"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №1.Т воды внутри насоса(01820_CT05).макс " tp="PLC_RH_DB4007_DBR_" ts="0392"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №1.Т воды внутри насоса(01820_CT05).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0396"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №2.Т воды внутри насоса(01820_CT06).Знач " tp="PLC_RH_DB4007_DBR_" ts="0400"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Насос №2.Т воды внутри насоса(01820_CT06).мА " tp="PLC_RH_DB4007_DBR_" ts="0404"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №2.Т воды внутри насоса(01820_CT06).мин " tp="PLC_RH_DB4007_DBR_" ts="0408"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №2.Т воды внутри насоса(01820_CT06).макс " tp="PLC_RH_DB4007_DBR_" ts="0412"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №2.Т воды внутри насоса(01820_CT06).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0416"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №3.Т воды внутри насоса(01820_CT07).Знач " tp="PLC_RH_DB4007_DBR_" ts="0420"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Насос №3.Т воды внутри насоса(01820_CT07).мА " tp="PLC_RH_DB4007_DBR_" ts="0424"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №3.Т воды внутри насоса(01820_CT07).мин " tp="PLC_RH_DB4007_DBR_" ts="0428"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №3.Т воды внутри насоса(01820_CT07).макс " tp="PLC_RH_DB4007_DBR_" ts="0432"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №3.Т воды внутри насоса(01820_CT07).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0436"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №4.Т воды внутри насоса(01820_CT08).Знач " tp="PLC_RH_DB4007_DBR_" ts="0440"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Водокольцевые насосы.Насос №4.Т воды внутри насоса(01820_CT08).мА " tp="PLC_RH_DB4007_DBR_" ts="0444"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №4.Т воды внутри насоса(01820_CT08).мин " tp="PLC_RH_DB4007_DBR_" ts="0448"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №4.Т воды внутри насоса(01820_CT08).макс " tp="PLC_RH_DB4007_DBR_" ts="0452"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Водокольцевые насосы.Насос №4.Т воды внутри насоса(01820_CT08).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0456"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 1.Вакуум на выходе газоохлодителя(01831_CP02).Знач " tp="PLC_RH_DB4007_DBR_" ts="0460"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Газоохладитель.Станция 1.Вакуум на выходе газоохлодителя(01831_CP02).мА " tp="PLC_RH_DB4007_DBR_" ts="0464"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 1.Вакуум на выходе газоохлодителя(01831_CP02).мин " tp="PLC_RH_DB4007_DBR_" ts="0468"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 1.Вакуум на выходе газоохлодителя(01831_CP02).макс " tp="PLC_RH_DB4007_DBR_" ts="0472"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 1.Вакуум на выходе газоохлодителя(01831_CP02).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0476"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 2.Вакуум на выходе газоохлодителя(01832_CP02).Знач " tp="PLC_RH_DB4007_DBR_" ts="0480"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Газоохладитель.Станция 2.Вакуум на выходе газоохлодителя(01832_CP02).мА " tp="PLC_RH_DB4007_DBR_" ts="0484"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 2.Вакуум на выходе газоохлодителя(01832_CP02).мин " tp="PLC_RH_DB4007_DBR_" ts="0488"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 2.Вакуум на выходе газоохлодителя(01832_CP02).макс " tp="PLC_RH_DB4007_DBR_" ts="0492"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Газоохладитель.Станция 2.Вакуум на выходе газоохлодителя(01832_CP02).Форс знач " tp="PLC_RH_DB4007_DBR_" ts="0496"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Сжигание отработан газа.Давление азота резервуара горелки (01850_CP01).Знач " tp="PLC_RH_DB4007_DBR_" ts="0500"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Сжигание отработан газа.Давление азота резервуара горелки (01850_CP01).мА " tp="PLC_RH_DB4007_DBR_" ts="0504"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Сжигание отработан газа.Давление азота резервуара горелки (01850_CP01).мин " tp="PLC_RH_DB4007_DBR_" ts="0508"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Сжигание отработан газа.Давление азота резервуара горелки (01850_CP01).макс " tp="PLC_RH_DB4007_DBR_" ts="0512"/>
+  <item type="real" abs="true" hysteresis="0.5" note="Сжигание отработан газа.Давление азота резервуара горелки (01850_CP01).Форс зна" tp="PLC_RH_DB4007_DBR_" ts="0516"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Давление масла в системе (01000_CP_Oil).Знач" tp="PLC_RH_DB4007_DBR_" ts="0520"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP01(01800_CP20).Значение" tp="PLC_RH_DB4007_DBR_" ts="0524"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP01(01800_CP20).мА" tp="PLC_RH_DB4007_DBR_" ts="0528"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP01(01800_CP20).мин" tp="PLC_RH_DB4007_DBR_" ts="0532"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP01(01800_CP20).макс" tp="PLC_RH_DB4007_DBR_" ts="0536"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP01(01800_CP20).Форс значение" tp="PLC_RH_DB4007_DBR_" ts="0540"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP02(01800_CP21).Значение" tp="PLC_RH_DB4007_DBR_" ts="0544"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP02(01800_CP21).мА" tp="PLC_RH_DB4007_DBR_" ts="0548"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP02(01800_CP21).мин" tp="PLC_RH_DB4007_DBR_" ts="0552"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP02(01800_CP21).макс" tp="PLC_RH_DB4007_DBR_" ts="0556"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP02(01800_CP21).Форс значение" tp="PLC_RH_DB4007_DBR_" ts="0560"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP03(01800_CP22).Значение" tp="PLC_RH_DB4007_DBR_" ts="0564"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP03(01800_CP22).мА" tp="PLC_RH_DB4007_DBR_" ts="0568"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP03(01800_CP22).мин" tp="PLC_RH_DB4007_DBR_" ts="0572"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP03(01800_CP22).макс" tp="PLC_RH_DB4007_DBR_" ts="0576"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP03(01800_CP22).Форс значение" tp="PLC_RH_DB4007_DBR_" ts="0580"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP04(01800_CP31).Значение" tp="PLC_RH_DB4007_DBR_" ts="0584"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP04(01800_CP31).мА" tp="PLC_RH_DB4007_DBR_" ts="0588"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP04(01800_CP31).мин" tp="PLC_RH_DB4007_DBR_" ts="0592"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP04(01800_CP31).макс" tp="PLC_RH_DB4007_DBR_" ts="0596"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP04(01800_CP31).Форс значение" tp="PLC_RH_DB4007_DBR_" ts="0600"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP05(01800_CP32).Значение" tp="PLC_RH_DB4007_DBR_" ts="0604"/>
+  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP05(01800_CP32).мА" tp="PLC_RH_DB4007_DBR_" ts="0608"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP05(01800_CP32).мин" tp="PLC_RH_DB4007_DBR_" ts="0612"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP05(01800_CP32).макс" tp="PLC_RH_DB4007_DBR_" ts="0616"/>
+  <item type="real" abs="true" hysteresis="0.05" note="Вакуумная система.Конденс и насосы.Дав Н2О на выходе JP05(01800_CP32).Форс значение" tp="PLC_RH_DB4007_DBR_" ts="0620"/>
+  <!--624 байт -->
+</items>

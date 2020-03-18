@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="0"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="1"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="2"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="3"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="4"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="5"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="6"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="7"/>
+  <!--1 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="8"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="9"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="10"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="11"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="12"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="13"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="14"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="15"/>
+  <!--2 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="16"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="17"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="18"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="19"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="20"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="21"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="22"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="23"/>
+  <!--3 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="24"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="25"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="26"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="27"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="28"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="29"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="30"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="31"/>
+  <!--4 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="32"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="33"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="34"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="35"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="36"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="37"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="38"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="39"/>
+  <!--6_Real -->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0006"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0010"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0014"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0018"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0022"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №1.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0026"/>
+  <!--30 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="240"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="241"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="242"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="243"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="244"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="245"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="246"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="247"/>
+  <!--31 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="248"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="249"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="250"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="251"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="252"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="253"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="254"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="255"/>
+  <!--32 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="256"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="257"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="258"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="259"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="260"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="261"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="262"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="263"/>
+  <!--33 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="264"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="265"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="266"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="267"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="268"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="269"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="270"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="271"/>
+  <!--34 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="272"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="273"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="274"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="275"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="276"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="277"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="278"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="279"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0036"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0040"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0044"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0048"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0052"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1.Линия №2.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0056"/>
+  <!--60 байт -->
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="480"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="481"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="482"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="483"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="484"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="485"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="486"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="487"/>
+  <!--61-->
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="488"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="489"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="490"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="491"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="492"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="493"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="494"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="495"/>
+  <!--62 байт -->
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="496"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="497"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="498"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="499"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="500"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="501"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="502"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="503"/>
+  <!--63-->
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="504"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="505"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="506"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="507"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="508"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="509"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="510"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="511"/>
+  <!--64 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="512"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="513"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="514"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="515"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="516"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="517"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="518"/>
+  <item type="bool" note="Продувка.Фурма LF1.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="519"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0066"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0070"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0074"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0078"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0082"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0086"/>
+  <!--90 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="720"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="721"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="722"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="723"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="724"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="725"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="726"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="727"/>
+  <!--91 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="728"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="729"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="730"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="731"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="732"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="733"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="734"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="735"/>
+  <!--92 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="736"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="737"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="738"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="739"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="740"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="741"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="742"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="743"/>
+  <!--93 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="744"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="745"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="746"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="747"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="748"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="749"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="750"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="751"/>
+  <!--94 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="752"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="753"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="754"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="755"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="756"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="757"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="758"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="759"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0096"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0100"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0104"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0108"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0112"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №1.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0116"/>
+  <!--120 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="960"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="961"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="962"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="963"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="964"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="965"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="966"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="967"/>
+  <!--121 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="968"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="969"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="970"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="971"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="972"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="973"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="974"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="975"/>
+  <!--122 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="976"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="977"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="978"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="979"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="980"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="981"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="982"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="983"/>
+  <!--123 байт -->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="984"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="985"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="986"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="987"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="988"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="989"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="990"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="991"/>
+  <!--124 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="992"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="993"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="994"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="995"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="996"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="997"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="998"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="999"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0126"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0130"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0134"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0138"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0142"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2.Линия №2.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0146"/>
+  <!--150 байт -->
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ошибка измерения" tp="PLC_LF_DB3003_DBX" ts="1200"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ошибка измерения неподтверждена" tp="PLC_LF_DB3003_DBX" ts="1201"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Превышение HiHi" tp="PLC_LF_DB3003_DBX" ts="1202"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Превышение HiHi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="1203"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Превышение Hi" tp="PLC_LF_DB3003_DBX" ts="1204"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Превышение Hi неподтверждено" tp="PLC_LF_DB3003_DBX" ts="1205"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ниже Lo" tp="PLC_LF_DB3003_DBX" ts="1206"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ниже Lo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="1207"/>
+  <!--151 байт -->
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ниже LoLo" tp="PLC_LF_DB3003_DBX" ts="1208"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ниже LoLo неподтверждено" tp="PLC_LF_DB3003_DBX" ts="1209"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Общая ошибка" tp="PLC_LF_DB3003_DBX" ts="1210"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Общая ошибка неподтверждена" tp="PLC_LF_DB3003_DBX" ts="1211"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Выбран RTD или TC сигнал" tp="PLC_LF_DB3003_DBX" ts="1212"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Значение форсировано" tp="PLC_LF_DB3003_DBX" ts="1213"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включен 1 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="1214"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включен 2 фильтр низких частот" tp="PLC_LF_DB3003_DBX" ts="1215"/>
+  <!--152 байт -->
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Достигнут HiHi предел" tp="PLC_LF_DB3003_DBX" ts="1216"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Достигнут Hi предел" tp="PLC_LF_DB3003_DBX" ts="1217"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Достигнут Lo предел" tp="PLC_LF_DB3003_DBX" ts="1218"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Достигнут LoLo предел" tp="PLC_LF_DB3003_DBX" ts="1219"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Предупреждение" tp="PLC_LF_DB3003_DBX" ts="1220"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Предупреждение неподтверждено" tp="PLC_LF_DB3003_DBX" ts="1221"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1222"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1223"/>
+  <!--153 байт -->
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Активировать ошибку HiHi" tp="PLC_LF_DB3003_DBX" ts="1224"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Активировать ошибку Hi" tp="PLC_LF_DB3003_DBX" ts="1225"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Активировать ошибку Lo" tp="PLC_LF_DB3003_DBX" ts="1226"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Активировать ошибку LoLo" tp="PLC_LF_DB3003_DBX" ts="1227"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3003_DBX" ts="1228"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ток на линии больше 20 mA" tp="PLC_LF_DB3003_DBX" ts="1229"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ошибка по температуре для корректировки" tp="PLC_LF_DB3003_DBX" ts="1230"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Ошибка по давлению для корректировки" tp="PLC_LF_DB3003_DBX" ts="1231"/>
+  <!--154 байт -->
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1232"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1233"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1234"/>
+  <item type="bool" tp="PLC_LF_DB3003_DBX" ts="1235"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включена компенсация по N2" tp="PLC_LF_DB3003_DBX" ts="1236"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включена компенсация по T" tp="PLC_LF_DB3003_DBX" ts="1237"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включена компенсация по T и P" tp="PLC_LF_DB3003_DBX" ts="1238"/>
+  <item type="bool" note="Продувка.Фурма LF2.Расход.Включена компенсация по Vortex " tp="PLC_LF_DB3003_DBX" ts="1239"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.В заданных единицах" tp="PLC_LF_DB3003_DBR_" ts="0156"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.В mA" tp="PLC_LF_DB3003_DBR_" ts="0160"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.Значение при 0 mA" tp="PLC_LF_DB3003_DBR_" ts="0164"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.Значение при 20 mA" tp="PLC_LF_DB3003_DBR_" ts="0168"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.Значение при форсировке" tp="PLC_LF_DB3003_DBR_" ts="0172"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2.Расход.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3003_DBR_" ts="0176"/>
+  <!--12_Real-->
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF1.Линия №1.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0180"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF1.Линия №1.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0184"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF1.Линия №2.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0188"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF1.Линия №2.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0192"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Фурма LF1.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0196"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Фурма LF1.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0200"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF2.Линия №1.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0204"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF2.Линия №1.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0208"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF2.Линия №2.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0212"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Пробки LF2.Линия №2.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0216"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Фурма LF2.Расход.Задание с WinCC" tp="PLC_LF_DB3003_DBR_" ts="0220"/>
+  <item type="real" abs="true" hysteresis=".1" note="Продувка.Фурма LF2.Расход.Задание на In-Flow" tp="PLC_LF_DB3003_DBR_" ts="0224"/>
+  <!--228 байт -->
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Вверху влючена имитация" tp="PLC_LF_DB3003_DBX" ts="1824"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Вверху для программы" tp="PLC_LF_DB3003_DBX" ts="1825"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Вверху влючена имитация" tp="PLC_LF_DB3003_DBX" ts="1826"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Вверху для программы" tp="PLC_LF_DB3003_DBX" ts="1827"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Вверху влючена имитация" tp="PLC_LF_DB3003_DBX" ts="1828"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Вверху для программы" tp="PLC_LF_DB3003_DBX" ts="1829"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Вверху влючена имитация" tp="PLC_LF_DB3003_DBX" ts="1830"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Вверху для программы" tp="PLC_LF_DB3003_DBX" ts="1831"/>
+</items>

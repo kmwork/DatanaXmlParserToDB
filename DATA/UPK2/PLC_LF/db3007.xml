@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <!--4430CP10-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0000"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0004"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0008"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0012"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0016"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF1. Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0020"/>
+  <!--4430CP11-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0024"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0028"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0032"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0036"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0040"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №1 Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0044"/>
+  <!--4430CP12-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0048"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0052"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0056"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0060"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0064"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF1. Линия №2 Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0068"/>
+  <!--4440CP10-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0072"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0076"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0080"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0084"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0088"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Фурма LF2. Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0092"/>
+  <!--4440CP11-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0096"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0100"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0104"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0108"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0112"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №1 Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0116"/>
+  <!--4440CP12-->
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. В заданных единицах" tp="PLC_LF_DB3007_DBR_" ts="0120"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. В mA" tp="PLC_LF_DB3007_DBR_" ts="0124"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. Значение при 0 mA" tp="PLC_LF_DB3007_DBR_" ts="0128"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. Значение при 20 mA" tp="PLC_LF_DB3007_DBR_" ts="0132"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. Значение при форсировке" tp="PLC_LF_DB3007_DBR_" ts="0136"/>
+  <item type="real" abs="true" hysteresis=".01" note="Продувка.Пробки LF2. Линия №2 Давление. Значение времени низкочастотных фильтров" tp="PLC_LF_DB3007_DBR_" ts="0140"/>
+  <item type="real" abs="true" hysteresis=".05" note="Энкодер.Позиция 1.Давление газа на охлаждение энкодеров фурмы" tp="PLC_LF_DB3007_DBR_" ts="0144"/>
+  <item type="real" abs="true" hysteresis=".05" note="Энкодер.Позиция 2.Давление газа на охлаждение энкодеров фурмы" tp="PLC_LF_DB3007_DBR_" ts="0148"/>
+  <!--Задания-->
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0152"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0156"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0160"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0164"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0168"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0172"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0176"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0180"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0184"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0188"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0192"/>
+  <item type="real" abs="true" hysteresis=".1" tp="PLC_LF_DB3007_DBR_" ts="0196"/>
+  <!--Таймера продувки-->
+  <item type="dword" note="Акт плавка.LF1.Паспорт качества.Время продувки после фериков в сек" tp="PLC_LF_DB3007_DBD_" ts="0200"/>
+  <item type="dword" note="Акт плавка.LF2.Паспорт качества.Время продувки после фериков в сек" tp="PLC_LF_DB3007_DBD_" ts="0204"/>
+  <item type="bool" note="Акт плавка.LF1.Паспорт качества.Время продувки после фериков в норме" tp="PLC_LF_DB3007_DBX" ts="1664"/>
+  <item type="bool" note="Акт плавка.LF2.Паспорт качества.Время продувки после фериков в норме" tp="PLC_LF_DB3007_DBX" ts="1665"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1666"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1667"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1668"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1669"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1670"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1671"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1672"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1673"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1674"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1675"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1676"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1677"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1678"/>
+  <item type="bool" note="" tp="PLC_LF_DB3007_DBX" ts="1679"/>
+  <!--Время продувки через фурму-->
+  <item type="word" note="Продувка.Фурма LF1.Время продувки через фурму с WinCC" tp="PLC_LF_DB3007_DBW_" ts="0210"/>
+  <item type="word" note="Продувка.Фурма LF2.Время продувки через фурму с WinCC" tp="PLC_LF_DB3007_DBW_" ts="0212"/>
+  <item type="word" note="Продувка.Фурма LF1.Время продувки через фурму в 4 позиции" tp="PLC_LF_DB3007_DBW_" ts="0214"/>
+  <item type="word" note="Продувка.Фурма LF2.Время продувки через фурму в 4 позиции" tp="PLC_LF_DB3007_DBW_" ts="0216"/>
+  <item type="dword" note="Акт плавка.LF1.Паспорт качества.Время продувки после нагрева в сек" tp="PLC_LF_DB3007_DBD_" ts="0218"/>
+  <item type="dword" note="Акт плавка.LF2.Паспорт качества.Время продувки после нагрева в сек" tp="PLC_LF_DB3007_DBD_" ts="0222"/>
+  <!--Имитация энкодера аргона 1 позиции-->
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Продувочная фурма.Подъём.Скорость опускания на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0226"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Продувочная фурма.Подъём.Скорость опускания на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0230"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Продувочная фурма.Подъём.Скорость подъёма на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0234"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Продувочная фурма.Подъём.Скорость подъёма на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0238"/>
+  <item type="real" abs="true" hysteresis=".1" note="Энкодер.Позиция 1.Продувочная фурма.Симуляция энкодера" tp="PLC_LF_DB3007_DBR_" ts="0242"/>
+  <!--Имитация энкодера аргона 2 позиции-->
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Продувочная фурма.Подъём.Скорость опускания на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0246"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Продувочная фурма.Подъём.Скорость опускания на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0250"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Продувочная фурма.Подъём.Скорость подъёма на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0254"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Продувочная фурма.Подъём.Скорость подъёма на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0258"/>
+  <item type="real" abs="true" hysteresis=".1" note="Энкодер.Позиция 2.Продувочная фурма.Симуляция энкодера" tp="PLC_LF_DB3007_DBR_" ts="0262"/>
+  <!--Темепратура в шкафах-->
+  <item type="real" abs="true" hysteresis=".2" note="Температура в шкафах.Шкаф трансформатора DT46" tp="PLC_LF_DB3007_DBR_" ts="0266"/>
+  <item type="real" abs="true" hysteresis=".2" note="Температура в шкафах.ПА №2 шкаф DT44" tp="PLC_LF_DB3007_DBR_" ts="0270"/>
+  <item type="real" abs="true" hysteresis=".2" note="Температура в шкафах.ПА №1 шкаф DT42" tp="PLC_LF_DB3007_DBR_" ts="0274"/>
+  <!--Имитация энкодера порошка 1 позиции-->
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Порошковая фурма.Подъём.Скорость опускания на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0278"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Порошковая фурма.Подъём.Скорость опускания на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0282"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Порошковая фурма.Подъём.Скорость подъёма на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0286"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF1.Порошковая фурма.Подъём.Скорость подъёма на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0290"/>
+  <item type="real" abs="true" hysteresis=".1" note="Энкодер.Позиция 1.Порошковая фурма.Симуляция энкодера" tp="PLC_LF_DB3007_DBR_" ts="0294"/>
+  <!--Имитация энкодера порошка 2 позиции-->
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Порошковая фурма.Подъём.Скорость опускания на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0298"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Порошковая фурма.Подъём.Скорость опускания на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0302"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Порошковая фурма.Подъём.Скорость подъёма на большой скорости" tp="PLC_LF_DB3007_DBR_" ts="0306"/>
+  <item type="real" abs="true" hysteresis=".1" note="Фурмы.LF2.Порошковая фурма.Подъём.Скорость подъёма на малой скорости" tp="PLC_LF_DB3007_DBR_" ts="0310"/>
+  <item type="real" abs="true" hysteresis=".1" note="Энкодер.Позиция 2.Порошковая фурма.Симуляция энкодера" tp="PLC_LF_DB3007_DBR_" ts="0314"/>
+</items>

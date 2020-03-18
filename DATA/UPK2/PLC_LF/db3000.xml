@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_1.Общий ввод питания.Питание включено(00000_RM40-EQ11)" tp="PLC_LF_DB3000_DBX" ts="0"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_1.Общий ввод питания.Ошибка(EQ11)" tp="PLC_LF_DB3000_DBX" ts="1"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_6.Разделительный трансформатор.Включен(00000_RM41-EF11,12)" tp="PLC_LF_DB3000_DBX" ts="2"/>
+  <item type="bool" note="Питание.RM_40.240 V.RM_4_6.Вспомогательное напряжение.Включен(00000_RM41-EF21-64)" tp="PLC_LF_DB3000_DBX" ts="3"/>
+  <item type="bool" note="Питание.RM_40.240 V.RM_4_6.Питание обогрева шкафов.Включен(00000_RM71-EF21-114)" tp="PLC_LF_DB3000_DBX" ts="4"/>
+  <item type="bool" note="Питание.RM_40.240 V.RM_4_1.Разделительный трансформатор.Включен(00000_RM42-EF11,12)" tp="PLC_LF_DB3000_DBX" ts="5"/>
+  <item type="bool" note="Питание.RM_50.400 V.RM_4_3.Общий ввод питания.Питание включено(00000_RM50-EQ11)" tp="PLC_LF_DB3000_DBX" ts="6"/>
+  <item type="bool" note="Питание.RM_50.400 V.RM_4_3.Общий ввод питания.Ошибка(EQ11)" tp="PLC_LF_DB3000_DBX" ts="7"/>
+  <!--1 байт -->
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_JP01-EF11.Включен " tp="PLC_LF_DB3000_DBX" ts="8"/>
+  <item type="bool" note="Аварийный останов.Трайба №1.04630.JH01+D61(EK01,02)" tp="PLC_LF_DB3000_DBX" ts="9"/>
+  <item type="bool" note="Аварийный останов.Трайба №2.04640.JH01+D61(EK01,02)" tp="PLC_LF_DB3000_DBX" ts="10"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Вентиляция.Низковольтное помещение(03710_GD01)" tp="PLC_LF_DB3000_DBX" ts="11"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Вентиляция.ГПУ(03710_GD02)" tp="PLC_LF_DB3000_DBX" ts="12"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Вентиляция.Трансформатор(03710_GD03)" tp="PLC_LF_DB3000_DBX" ts="13"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Вентиляция.Высоковольтное РУ(03710_GD04)" tp="PLC_LF_DB3000_DBX" ts="14"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Вентиляция.Гидравлика(03710_GD05)" tp="PLC_LF_DB3000_DBX" ts="15"/>
+  <!--2 байт -->
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Питание трайба №1.Включен(04630_JH01-EF11)" tp="PLC_LF_DB3000_DBX" ts="16"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Питание трайба №2.Включен(04640_JH01-EF11)" tp="PLC_LF_DB3000_DBX" ts="17"/>
+  <item type="bool" note="АБП.Автоматы питания шкафов включены.00000_UPS-EF31-142" tp="PLC_LF_DB3000_DBX" ts="18"/>
+  <item type="bool" note="АБП.Выходной автомат включен.00000_UPS-EQ21" tp="PLC_LF_DB3000_DBX" ts="19"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF11.Включен " tp="PLC_LF_DB3000_DBX" ts="20"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF12.Включен" tp="PLC_LF_DB3000_DBX" ts="21"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF13.Включен" tp="PLC_LF_DB3000_DBX" ts="22"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF14.Включен" tp="PLC_LF_DB3000_DBX" ts="23"/>
+  <!--3 байт -->
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF15.Включен" tp="PLC_LF_DB3000_DBX" ts="24"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EF21.Включен" tp="PLC_LF_DB3000_DBX" ts="25"/>
+  <item type="bool" note="Питание.RM_40.400 V.RM_4_3.Резервный автомат 00000_RM40-EQ21.Включен" tp="PLC_LF_DB3000_DBX" ts="26"/>
+  <item type="bool" note="Трансформатор.Охлаждение.Маслонасос.Электроготовность(03100_MD01-EF11)" tp="PLC_LF_DB3000_DBX" ts="27"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Электроготовность(03100_MX01-EF11)" tp="PLC_LF_DB3000_DBX" ts="28"/>
+  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.400 V.Включен(04410_JH01-EF11)" tp="PLC_LF_DB3000_DBX" ts="29"/>
+  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.400 V.Включен(04410_JH01-EF11)" tp="PLC_LF_DB3000_DBX" ts="30"/>
+  <item type="bool" note="Оптика.OLM 40(DD40).Ошибка" tp="PLC_LF_DB3000_DBX" ts="31"/>
+  <!--4 байт -->
+  <item type="bool" note="Аварийный останов.DE_40_1.X2011.Состояние реле 00000_ZK111-EK111" tp="PLC_LF_DB3000_DBX" ts="32"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2001_1.Состояние реле 00000_ZK101-EK121" tp="PLC_LF_DB3000_DBX" ts="33"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2013.Состояние реле 00000_ZK113-EK131" tp="PLC_LF_DB3000_DBX" ts="34"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2014.Состояние реле 00000_ZK114-EK141" tp="PLC_LF_DB3000_DBX" ts="35"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2015.Состояние реле 00000_ZK115-EK151" tp="PLC_LF_DB3000_DBX" ts="36"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2021.Состояние реле 00000_ZK121-EK211" tp="PLC_LF_DB3000_DBX" ts="37"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2001_3.Состояние реле 00000_ZK103-EK221" tp="PLC_LF_DB3000_DBX" ts="38"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2023.Состояние реле 00000_ZK123-EK231" tp="PLC_LF_DB3000_DBX" ts="39"/>
+  <!--5 байт -->
+  <item type="bool" note="Аварийный останов.DE_40_1.X2024.Состояние реле 00000_ZK124-EK241" tp="PLC_LF_DB3000_DBX" ts="40"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2025.Состояние реле 00000_ZK125-EK251" tp="PLC_LF_DB3000_DBX" ts="41"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2001_2.Состояние реле 00000_ZK102-EK311" tp="PLC_LF_DB3000_DBX" ts="42"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.X2004.Состояние реле 00000_ZK104-EK321" tp="PLC_LF_DB3000_DBX" ts="43"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.Система нагрева(резерв).Состояние реле 01600_ZK131-EK381" tp="PLC_LF_DB3000_DBX" ts="44"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.Газоочистка.Состояние реле 02410_ZK132-EK391" tp="PLC_LF_DB3000_DBX" ts="45"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.Распредустройства(резерв).Состояние реле 03100_ZK134-EK411" tp="PLC_LF_DB3000_DBX" ts="46"/>
+  <item type="bool" note="Аварийный останов.DE_40_1.Машина скачивания шлака.Состояние реле 00000_ZK100-EK421" tp="PLC_LF_DB3000_DBX" ts="47"/>
+  <!--6 байт -->
+  <item type="bool" note="Аварийный останов.DE_40_2.LF1.Сталевозы.I_00130_ZK00-EK451,452" tp="PLC_LF_DB3000_DBX" ts="48"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF1.Крышки.I_01130_ZK00-EK451,452" tp="PLC_LF_DB3000_DBX" ts="49"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF1.МЗП.I_01930_ZK00-EK461,462" tp="PLC_LF_DB3000_DBX" ts="50"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF1.Фурмы.I_04410_ZK00-EK461,462,463,464" tp="PLC_LF_DB3000_DBX" ts="51"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF2.Сталевозы.I_00140_ZK00-EK471,472" tp="PLC_LF_DB3000_DBX" ts="52"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF2.Крышки.I_01140_ZK00-EK471,472" tp="PLC_LF_DB3000_DBX" ts="53"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF2.МЗП.I_01940_ZK00-EK481,482" tp="PLC_LF_DB3000_DBX" ts="54"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.LF2.Фурмы.I_04420_ZK00-EK481,482,483,484" tp="PLC_LF_DB3000_DBX" ts="55"/>
+  <!--7 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="56"/>
+  <!--7-->
+  <item type="bool" note="Аварийный останов.DE_40_2.Машина скачивания шлака.Колпак газоочистки и газоходы крышек.I_02410_ZK00-EK491,492" tp="PLC_LF_DB3000_DBX" ts="57"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="58"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.Гидравлика.I_00900_ZK00-EK501,502,503,504" tp="PLC_LF_DB3000_DBX" ts="59"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.Система нагрева(резерв).I_01600_ZK00-EK501,501" tp="PLC_LF_DB3000_DBX" ts="60"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="61"/>
+  <item type="bool" note="Аварийный останов.DE_40_2.Распредустройства(A001,002).I_03100_ZK00-EK511,512" tp="PLC_LF_DB3000_DBX" ts="62"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="63"/>
+  <!--8 байт -->
+  <item type="bool" note="АБП.Акумуляторная батарея исправна" tp="PLC_LF_DB3000_DBX" ts="64"/>
+  <item type="bool" note="АБП.Байпас включен" tp="PLC_LF_DB3000_DBX" ts="65"/>
+  <item type="bool" note="АБП.Готовность" tp="PLC_LF_DB3000_DBX" ts="66"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="67"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="68"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="69"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="70"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="71"/>
+  <!--9 байт -->
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Включен автомат 00900_MD04-EQ21" tp="PLC_LF_DB3000_DBX" ts="72"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Удалёный режим(00900_MD04-EK21)" tp="PLC_LF_DB3000_DBX" ts="73"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Готовность.00900_MD04-EF11,EQ21" tp="PLC_LF_DB3000_DBX" ts="74"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Нет ошибок.00900_MD04-EF11" tp="PLC_LF_DB3000_DBX" ts="75"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Включен автомат 00900_MD05-EQ21" tp="PLC_LF_DB3000_DBX" ts="76"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Удалёный режим(00900_MD05-EK21)" tp="PLC_LF_DB3000_DBX" ts="77"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Готовность.00900_MD05-EF11,EQ21" tp="PLC_LF_DB3000_DBX" ts="78"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Нет ошибок.00900_MD05-EF11" tp="PLC_LF_DB3000_DBX" ts="79"/>
+  <!--10 байт -->
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 1-4.Включен автомат 00900_GD01-EQ21" tp="PLC_LF_DB3000_DBX" ts="80"/>
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 1-4.Готовность.I_00900_GD01-EF11,21,12,13,14,15" tp="PLC_LF_DB3000_DBX" ts="81"/>
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 1-4.Нет ошибок.I_00900_GD01-EF11" tp="PLC_LF_DB3000_DBX" ts="82"/>
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 5-8.Включен автомат 00900_GD05-EQ21" tp="PLC_LF_DB3000_DBX" ts="83"/>
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 5-8.Готовность.I_00900_GD05-EF11,21,12,13,14,15" tp="PLC_LF_DB3000_DBX" ts="84"/>
+  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 5-8.Нет ошибок.I_00900_GD05-EF11" tp="PLC_LF_DB3000_DBX" ts="85"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №1.Подтверждение перемещения в работу" tp="PLC_LF_DB3000_DBX" ts="86"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №2.Подтверждение перемещения в работу" tp="PLC_LF_DB3000_DBX" ts="87"/>
+  <!--11 байт -->
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №1.Подтверждение перемещения в парковку" tp="PLC_LF_DB3000_DBX" ts="88"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №2.Подтверждение перемещения в парковку" tp="PLC_LF_DB3000_DBX" ts="89"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="90"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №1.Готовность оборудования(02410_JJ01-EF21,EF11)" tp="PLC_LF_DB3000_DBX" ts="91"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Двигатель №2.Готовность оборудования(02410_JJ01-EF21,EF41)" tp="PLC_LF_DB3000_DBX" ts="92"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Аварийные концевые.Позиция скачивания шлака(EK31)" tp="PLC_LF_DB3000_DBX" ts="93"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Аварийные концевые.Позиция парковки(EK32)" tp="PLC_LF_DB3000_DBX" ts="94"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Нет ошибок.02410_JJ01-EF11,EF41" tp="PLC_LF_DB3000_DBX" ts="95"/>
+  <!--12 байт -->
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Подтверждение подъёма" tp="PLC_LF_DB3000_DBX" ts="96"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Подтверждение опускания" tp="PLC_LF_DB3000_DBX" ts="97"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="98"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Готовность(01930_MM01-EF21,EF11,EF12)" tp="PLC_LF_DB3000_DBX" ts="99"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="100"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Аварийные концевые.Верхний" tp="PLC_LF_DB3000_DBX" ts="101"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Аварийные концевые.Нижний" tp="PLC_LF_DB3000_DBX" ts="102"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Нет ошибок.01930_MM01-EF11,12" tp="PLC_LF_DB3000_DBX" ts="103"/>
+  <!--13-->
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Подтверждение подъёма" tp="PLC_LF_DB3000_DBX" ts="104"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Подтверждение опускания" tp="PLC_LF_DB3000_DBX" ts="105"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="106"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Готовность(01930_MM02-EF21,EF11,EF12)" tp="PLC_LF_DB3000_DBX" ts="107"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="108"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Аварийные концевые.Верхний" tp="PLC_LF_DB3000_DBX" ts="109"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Аварийные концевые.Нижний" tp="PLC_LF_DB3000_DBX" ts="110"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Нет ошибок.01930_MM02-EF11,12" tp="PLC_LF_DB3000_DBX" ts="111"/>
+  <!--14 байт -->
+  <item type="bool" note="МЗП.LF1.Наклон.Подтверждение перемещения в работу" tp="PLC_LF_DB3000_DBX" ts="112"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Подтверждение перемещения в парковку" tp="PLC_LF_DB3000_DBX" ts="113"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="114"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Готовность оборудования(EF21,EF11)" tp="PLC_LF_DB3000_DBX" ts="115"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Аварийные концевые.Рабочая позиция" tp="PLC_LF_DB3000_DBX" ts="116"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Аварийные концевые.Парковочная позиция" tp="PLC_LF_DB3000_DBX" ts="117"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Нет ошибок.01930_MM03_EF11" tp="PLC_LF_DB3000_DBX" ts="118"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="119"/>
+  <!--15-->
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Подтверждение подъёма" tp="PLC_LF_DB3000_DBX" ts="120"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Подтверждение опускания" tp="PLC_LF_DB3000_DBX" ts="121"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="122"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Готовность(01940_MM01-EF21,EF11,EF12)" tp="PLC_LF_DB3000_DBX" ts="123"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="124"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Аварийные концевые.Верхний" tp="PLC_LF_DB3000_DBX" ts="125"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Аварийные концевые.Нижний" tp="PLC_LF_DB3000_DBX" ts="126"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Нет ошибок.01940_MM01-EF11,12" tp="PLC_LF_DB3000_DBX" ts="127"/>
+  <!--16 байт -->
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Подтверждение подъёма" tp="PLC_LF_DB3000_DBX" ts="128"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Подтверждение опускания" tp="PLC_LF_DB3000_DBX" ts="129"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="130"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Готовность(01940_MM02-EF21,EF11,EF12)" tp="PLC_LF_DB3000_DBX" ts="131"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="132"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Аварийные концевые.Верхний" tp="PLC_LF_DB3000_DBX" ts="133"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Аварийные концевые.Нижний" tp="PLC_LF_DB3000_DBX" ts="134"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Нет ошибок.01940_MM02-EF11,12" tp="PLC_LF_DB3000_DBX" ts="135"/>
+  <!--17 байт -->
+  <item type="bool" note="МЗП.LF2.Наклон.Подтверждение перемещения в работу" tp="PLC_LF_DB3000_DBX" ts="136"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Подтверждение перемещения в парковку" tp="PLC_LF_DB3000_DBX" ts="137"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="138"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Готовность оборудования(01940_MM03-EF21,EF11)" tp="PLC_LF_DB3000_DBX" ts="139"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Аварийные концевые.Рабочая позиция" tp="PLC_LF_DB3000_DBX" ts="140"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Аварийные концевые.Парковочная позиция" tp="PLC_LF_DB3000_DBX" ts="141"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Нет ошибок.01940_MM03-EF11" tp="PLC_LF_DB3000_DBX" ts="142"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="143"/>
+  <!--18 байт -->
+  <item type="bool" note="Крышки.LF1.Газоход.Концевые.Открыта" tp="PLC_LF_DB3000_DBX" ts="144"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Концевые.Закрыта" tp="PLC_LF_DB3000_DBX" ts="145"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Подтверждение открытия" tp="PLC_LF_DB3000_DBX" ts="146"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Подтверждение открытия" tp="PLC_LF_DB3000_DBX" ts="147"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="148"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Готовность оборудования(02410_MM01-EF21,EF11)" tp="PLC_LF_DB3000_DBX" ts="149"/>
+  <item type="bool" note="Крышки.LF1.Газоход.Нет ошибок.02410_MM01-EF11" tp="PLC_LF_DB3000_DBX" ts="150"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="151"/>
+  <!--19 байт -->
+  <item type="bool" note="Крышки.LF2.Газоход.Концевые.Открыта" tp="PLC_LF_DB3000_DBX" ts="152"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Концевые.Закрыта" tp="PLC_LF_DB3000_DBX" ts="153"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Подтверждение открытия" tp="PLC_LF_DB3000_DBX" ts="154"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Подтверждение открытия" tp="PLC_LF_DB3000_DBX" ts="155"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="156"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Готовность оборудования(02410_MM02-EF21,EF11)" tp="PLC_LF_DB3000_DBX" ts="157"/>
+  <item type="bool" note="Крышки.LF2.Газоход.Нет ошибок.02410_MM02-EF11" tp="PLC_LF_DB3000_DBX" ts="158"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="159"/>
+  <!--20 байт -->
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Подтверждение медленно вверх" tp="PLC_LF_DB3000_DBX" ts="160"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Подтверждение медленно вниз" tp="PLC_LF_DB3000_DBX" ts="161"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Подтверждение быстро вверх" tp="PLC_LF_DB3000_DBX" ts="162"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Подтверждение быстро вниз" tp="PLC_LF_DB3000_DBX" ts="163"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="164"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Готовность оборудования(03530_MM01-EF21,11,12,13)" tp="PLC_LF_DB3000_DBX" ts="165"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Тепловая защита.Авария(03530_MM01-EK21)" tp="PLC_LF_DB3000_DBX" ts="166"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Тепловая защита.Предупреждение(03530_MM01-EK22)" tp="PLC_LF_DB3000_DBX" ts="167"/>
+  <!--21 байт -->
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="168"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Аварийные концевые.Верхний(03530_MM01-EK51)" tp="PLC_LF_DB3000_DBX" ts="169"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Аварийные концевые.Нижний(03530_MM01-EK52)" tp="PLC_LF_DB3000_DBX" ts="170"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Нет ошибок 03530_MM01-EK21,EF11,12,13" tp="PLC_LF_DB3000_DBX" ts="171"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Подтверждение медленно вверх" tp="PLC_LF_DB3000_DBX" ts="172"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Подтверждение медленно вниз" tp="PLC_LF_DB3000_DBX" ts="173"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Подтверждение быстро вверх" tp="PLC_LF_DB3000_DBX" ts="174"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Подтверждение быстро вниз" tp="PLC_LF_DB3000_DBX" ts="175"/>
+  <!--22 байт -->
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="176"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Готовность оборудования(04430_MM01-EF21,11,12,13)" tp="PLC_LF_DB3000_DBX" ts="177"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Тепловая защита.Авария(04430_MM01-EK21)" tp="PLC_LF_DB3000_DBX" ts="178"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Тепловая защита.Предупреждение(04430_MM01-EK22)" tp="PLC_LF_DB3000_DBX" ts="179"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="180"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Аварийные концевые.Верхний(04430_MM01-EK51)" tp="PLC_LF_DB3000_DBX" ts="181"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Аварийные концевые.Нижний(04430_MM01-EK52)" tp="PLC_LF_DB3000_DBX" ts="182"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Нет ошибок I_04430_MM01-EK21,EF11,12,13" tp="PLC_LF_DB3000_DBX" ts="183"/>
+  <!--23 байт -->
+  <item type="bool" note="Фурмы.LF1.Поворот.Подтверждение поворота в работу продувочной фурмы" tp="PLC_LF_DB3000_DBX" ts="184"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Подтверждение поворота в работу порошковой фурмы" tp="PLC_LF_DB3000_DBX" ts="185"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="186"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Готовность оборудования(04410_MM01-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="187"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Аварийные концевые.Продувочная фурма в обработке" tp="PLC_LF_DB3000_DBX" ts="188"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Аварийные концевые.Порошковая фурма в обработке" tp="PLC_LF_DB3000_DBX" ts="189"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Нет ошибок(04410_MM01-E11)" tp="PLC_LF_DB3000_DBX" ts="190"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="191"/>
+  <!--24 байт -->
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Подтверждение поворота вправо" tp="PLC_LF_DB3000_DBX" ts="192"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Подтверждение поворота влево" tp="PLC_LF_DB3000_DBX" ts="193"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="194"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Готовность(04410_MM02-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="195"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Нет ошибок(04410_MM02-E11)" tp="PLC_LF_DB3000_DBX" ts="196"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Подтверждение поворота вправо" tp="PLC_LF_DB3000_DBX" ts="197"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Подтверждение поворота влево" tp="PLC_LF_DB3000_DBX" ts="198"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="199"/>
+  <!--25 байт -->
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Готовность(04410_MM03-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="200"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Нет ошибок(04410_MM03-E11)" tp="PLC_LF_DB3000_DBX" ts="201"/>
+  <item type="bool" note="Система контроля электродов.DT40_2.Измерительные трансформаторы U.Предохранители включены" tp="PLC_LF_DB3000_DBX" ts="202"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="203"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="204"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="205"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="206"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="207"/>
+  <!--26 байт -->
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Подтверждение медленно вверх" tp="PLC_LF_DB3000_DBX" ts="208"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Подтверждение медленно вниз" tp="PLC_LF_DB3000_DBX" ts="209"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Подтверждение быстро вверх" tp="PLC_LF_DB3000_DBX" ts="210"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Подтверждение быстро вниз" tp="PLC_LF_DB3000_DBX" ts="211"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="212"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Готовность(03540_MM01-EF21,11,12,13)" tp="PLC_LF_DB3000_DBX" ts="213"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Тепловая защита.Авария(03530_MM01-EK21)" tp="PLC_LF_DB3000_DBX" ts="214"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Тепловая защита.Предупреждение(03540_MM01-EK22)" tp="PLC_LF_DB3000_DBX" ts="215"/>
+  <!--27 байт -->
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="216"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Аварийные концевые.Верхний(03540_MM01-EK51)" tp="PLC_LF_DB3000_DBX" ts="217"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Аварийные концевые.Нижний(03540_MM01-EK52)" tp="PLC_LF_DB3000_DBX" ts="218"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Нет ошибок.03540_MM01-EK21,EF11,12,13" tp="PLC_LF_DB3000_DBX" ts="219"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="220"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="221"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="222"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Нет ошибок micromaster 440" tp="PLC_LF_DB3000_DBX" ts="223"/>
+  <!--28 байт -->
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Подтверждение медленно вверх" tp="PLC_LF_DB3000_DBX" ts="224"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Подтверждение медленно вниз" tp="PLC_LF_DB3000_DBX" ts="225"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Подтверждение быстро вверх" tp="PLC_LF_DB3000_DBX" ts="226"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Подтверждение быстро вниз" tp="PLC_LF_DB3000_DBX" ts="227"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="228"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Готовность(04440_MM01-EF21,11,12,13)" tp="PLC_LF_DB3000_DBX" ts="229"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Тепловая защита.Авария(04440_MM01-EK21)" tp="PLC_LF_DB3000_DBX" ts="230"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Тепловая защита.Предупреждение(04440_MM01-EK22)" tp="PLC_LF_DB3000_DBX" ts="231"/>
+  <!--29 байт -->
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Подтверждение разторможения" tp="PLC_LF_DB3000_DBX" ts="232"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Аварийные концевые.Верхний(04440_MM01-EK51)" tp="PLC_LF_DB3000_DBX" ts="233"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Аварийные концевые.Нижний(04440_MM01-EK52)" tp="PLC_LF_DB3000_DBX" ts="234"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Нет ошибок.I_04440_MM01-EK21,EF11,12,13" tp="PLC_LF_DB3000_DBX" ts="235"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Подтверждение поворота в работу продувочной фурмы" tp="PLC_LF_DB3000_DBX" ts="236"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Подтверждение поворота в работу порошковой фурмы" tp="PLC_LF_DB3000_DBX" ts="237"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="238"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Готовность оборудования(04420_MM01-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="239"/>
+  <!--30 байт -->
+  <item type="bool" note="Фурмы.LF2.Поворот.Аварийные концевые.Продувочная фурма в обработке" tp="PLC_LF_DB3000_DBX" ts="240"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Аварийные концевые.Порошковая фурма в обработке" tp="PLC_LF_DB3000_DBX" ts="241"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Нет ошибок(04420_MM01-E11)" tp="PLC_LF_DB3000_DBX" ts="242"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="243"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Подтверждение поворота вправо" tp="PLC_LF_DB3000_DBX" ts="244"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Подтверждение поворота влево" tp="PLC_LF_DB3000_DBX" ts="245"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="246"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Готовность(04420_MM02-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="247"/>
+  <!--31 байт -->
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Нет ошибок(04420_MM01-E11)" tp="PLC_LF_DB3000_DBX" ts="248"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Подтверждение поворота вправо" tp="PLC_LF_DB3000_DBX" ts="249"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Подтверждение поворота влево" tp="PLC_LF_DB3000_DBX" ts="250"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Выбор режима.Дистанция" tp="PLC_LF_DB3000_DBX" ts="251"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Готовность(04420_MM03-EF21,11)" tp="PLC_LF_DB3000_DBX" ts="252"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Нет ошибок(04420_MM03-E11)" tp="PLC_LF_DB3000_DBX" ts="253"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="254"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="255"/>
+  <!--32 байт -->
+  <item type="bool" note="Оптика.OLM 41(DT41).Ошибка" tp="PLC_LF_DB3000_DBX" ts="256"/>
+  <item type="bool" note="Оптика.OLM 47(X2003).Ошибка" tp="PLC_LF_DB3000_DBX" ts="257"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="258"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="259"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Включить" tp="PLC_LF_DB3000_DBX" ts="260"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Выключить" tp="PLC_LF_DB3000_DBX" ts="261"/>
+  <item type="bool" note="Тест ламп.Х2001_1" tp="PLC_LF_DB3000_DBX" ts="262"/>
+  <item type="bool" note="Сталевозы.LF 901.Выбор сталевоза.Выбран Печи-Ковша" tp="PLC_LF_DB3000_DBX" ts="263"/>
+  <!--33 байт -->
+  <item type="bool" note="Сталевозы.LF 801.Выбор сталевоза.Выбран Вакууматора" tp="PLC_LF_DB3000_DBX" ts="264"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.На LF конечная позиция" tp="PLC_LF_DB3000_DBX" ts="265"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.На точку передачи 1 LF" tp="PLC_LF_DB3000_DBX" ts="266"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.На LF позиция обработки" tp="PLC_LF_DB3000_DBX" ts="267"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.На точку передачи 2 RH/LF" tp="PLC_LF_DB3000_DBX" ts="268"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.На точку передачи 1 LF" tp="PLC_LF_DB3000_DBX" ts="269"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.На LF позиция обработки" tp="PLC_LF_DB3000_DBX" ts="270"/>
+  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.На точку передачи 2 RH/LF" tp="PLC_LF_DB3000_DBX" ts="271"/>
+  <!--34 байт -->
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="272"/>
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.В сторону LF медленно" tp="PLC_LF_DB3000_DBX" ts="273"/>
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.В сторону LF быстро" tp="PLC_LF_DB3000_DBX" ts="274"/>
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="275"/>
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.В сторону RH медленно" tp="PLC_LF_DB3000_DBX" ts="276"/>
+  <item type="bool" note="Сталевозы.LF 901.Джойстик.В сторону RH быстро" tp="PLC_LF_DB3000_DBX" ts="277"/>
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="278"/>
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.В сторону LF медленно" tp="PLC_LF_DB3000_DBX" ts="279"/>
+  <!--35 байт -->
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.В сторону LF быстро" tp="PLC_LF_DB3000_DBX" ts="280"/>
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="281"/>
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.В сторону RH медленно" tp="PLC_LF_DB3000_DBX" ts="282"/>
+  <item type="bool" note="Сталевозы.RH 801.Джойстик.В сторону RH быстро" tp="PLC_LF_DB3000_DBX" ts="283"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="284"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="285"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="286"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="287"/>
+  <!--36 байт -->
+  <item type="bool" note="Портал.Выбор поста.Х2001_2.Включить" tp="PLC_LF_DB3000_DBX" ts="288"/>
+  <item type="bool" note="Портал.Выбор поста.Х2001_2.Выключить" tp="PLC_LF_DB3000_DBX" ts="289"/>
+  <item type="bool" note="Тест ламп.Х2001_2" tp="PLC_LF_DB3000_DBX" ts="290"/>
+  <item type="bool" note="Вакуумный выключатель.Х2001_2.Выключить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="291"/>
+  <item type="bool" note="Вакуумный выключатель.Х2001_2.Включить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="292"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Х2001_2.Ступень поднять" tp="PLC_LF_DB3000_DBX" ts="293"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Х2001_2.Ступень понизить" tp="PLC_LF_DB3000_DBX" ts="294"/>
+  <item type="bool" note="Система контроля электродов.Х2001_2.В автоматический режим" tp="PLC_LF_DB3000_DBX" ts="295"/>
+  <!--37 байт -->
+  <item type="bool" note="Система контроля электродов.Х2001_2.В ручной режим" tp="PLC_LF_DB3000_DBX" ts="296"/>
+  <item type="bool" note="Система контроля электродов.Х2001_2.Нагрев старт" tp="PLC_LF_DB3000_DBX" ts="297"/>
+  <item type="bool" note="Система контроля электродов.Х2001_2.Нагрев стоп" tp="PLC_LF_DB3000_DBX" ts="298"/>
+  <item type="bool" note="Портал.Электрод А.Х2001_2.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="299"/>
+  <item type="bool" note="Портал.Электрод А.Х2001_2.Джойстик.Подъем" tp="PLC_LF_DB3000_DBX" ts="300"/>
+  <item type="bool" note="Портал.Электрод А.Х2001_2.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="301"/>
+  <item type="bool" note="Портал.Электрод А.Х2001_2.Джойстик.Опускание" tp="PLC_LF_DB3000_DBX" ts="302"/>
+  <item type="bool" note="Портал.Электрод В.Х2001_2.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="303"/>
+  <!--38 байт -->
+  <item type="bool" note="Портал.Электрод В.Х2001_2.Джойстик.Подъем" tp="PLC_LF_DB3000_DBX" ts="304"/>
+  <item type="bool" note="Портал.Электрод В.Х2001_2.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="305"/>
+  <item type="bool" note="Портал.Электрод В.Х2001_2.Джойстик.Опускание" tp="PLC_LF_DB3000_DBX" ts="306"/>
+  <item type="bool" note="Портал.Электрод С.Х2001_2.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="307"/>
+  <item type="bool" note="Портал.Электрод С.Х2001_2.Джойстик.Подъем" tp="PLC_LF_DB3000_DBX" ts="308"/>
+  <item type="bool" note="Портал.Электрод С.Х2001_2.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="309"/>
+  <item type="bool" note="Портал.Электрод В.Х2001_2.Джойстик.Опускание" tp="PLC_LF_DB3000_DBX" ts="310"/>
+  <item type="bool" note="Портал.Электрод А-С.Х2001_2.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="311"/>
+  <!--39 байт -->
+  <item type="bool" note="Портал.Электрод А-С.Х2001_2.Джойстик.Подъем" tp="PLC_LF_DB3000_DBX" ts="312"/>
+  <item type="bool" note="Портал.Электрод А-С.Х2001_2.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="313"/>
+  <item type="bool" note="Портал.Электрод А-С.Х2001_2.Джойстик.Опускание" tp="PLC_LF_DB3000_DBX" ts="314"/>
+  <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Ключ Разрешение" tp="PLC_LF_DB3000_DBX" ts="315"/>
+  <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Ключ Запрет" tp="PLC_LF_DB3000_DBX" ts="316"/>
+  <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Ключ Собрать" tp="PLC_LF_DB3000_DBX" ts="317"/>
+  <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Ключ Разобрать" tp="PLC_LF_DB3000_DBX" ts="318"/>
+  <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Ключ Заземлить" tp="PLC_LF_DB3000_DBX" ts="319"/>
+  <!--40 байт -->
+  <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Ключ Разземлить" tp="PLC_LF_DB3000_DBX" ts="320"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="321"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="322"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="323"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Включить" tp="PLC_LF_DB3000_DBX" ts="324"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Выключить" tp="PLC_LF_DB3000_DBX" ts="325"/>
+  <item type="bool" note="Тест ламп.Х2001_3" tp="PLC_LF_DB3000_DBX" ts="326"/>
+  <item type="bool" note="Сталевозы.LF 902.Выбор сталевоза.Выбран Печи-Ковша" tp="PLC_LF_DB3000_DBX" ts="327"/>
+  <!--41 байт -->
+  <item type="bool" note="Сталевозы.RH 802.Выбор сталевоза.Вакууматора" tp="PLC_LF_DB3000_DBX" ts="328"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.На LF конечная позиция" tp="PLC_LF_DB3000_DBX" ts="329"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.На точку передачи 1 LF" tp="PLC_LF_DB3000_DBX" ts="330"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.На LF позиция обработки" tp="PLC_LF_DB3000_DBX" ts="331"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.На точку передачи 2 RH/LF" tp="PLC_LF_DB3000_DBX" ts="332"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.На точку передачи 1 LF" tp="PLC_LF_DB3000_DBX" ts="333"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.На LF позиция обработки" tp="PLC_LF_DB3000_DBX" ts="334"/>
+  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.На точку передачи 2 RH/LF" tp="PLC_LF_DB3000_DBX" ts="335"/>
+  <!--42 байт -->
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="336"/>
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.В сторону LF медленно" tp="PLC_LF_DB3000_DBX" ts="337"/>
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.В сторону LF быстро" tp="PLC_LF_DB3000_DBX" ts="338"/>
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="339"/>
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.В сторону RH медленно" tp="PLC_LF_DB3000_DBX" ts="340"/>
+  <item type="bool" note="Сталевозы.LF 902.Джойстик.В сторону RH быстро" tp="PLC_LF_DB3000_DBX" ts="341"/>
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="342"/>
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.В сторону LF медленно" tp="PLC_LF_DB3000_DBX" ts="343"/>
+  <!--43 байт -->
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.В сторону LF быстро" tp="PLC_LF_DB3000_DBX" ts="344"/>
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.Нейтральное положение" tp="PLC_LF_DB3000_DBX" ts="345"/>
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.В сторону RH медленно" tp="PLC_LF_DB3000_DBX" ts="346"/>
+  <item type="bool" note="Сталевозы.RH 802.Джойстик.В сторону RH быстро" tp="PLC_LF_DB3000_DBX" ts="347"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="348"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="349"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="350"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="351"/>
+  <!--44 байт -->
+  <item type="bool" note="Celox.LF1.Готов к измерению" tp="PLC_LF_DB3000_DBX" ts="352"/>
+  <item type="bool" note="Celox.LF1.Идет измерение" tp="PLC_LF_DB3000_DBX" ts="353"/>
+  <item type="bool" note="Celox.LF1.Измерение завершено" tp="PLC_LF_DB3000_DBX" ts="354"/>
+  <item type="bool" note="Celox.LF1.Измерение не прошло" tp="PLC_LF_DB3000_DBX" ts="355"/>
+  <item type="bool" note="Celox.LF1.Достигнут уровень шлак-металл" tp="PLC_LF_DB3000_DBX" ts="356"/>
+  <item type="bool" note="Hydris.LF1.Готов к измерению" tp="PLC_LF_DB3000_DBX" ts="357"/>
+  <item type="bool" note="Hydris.LF1.Идет измерение" tp="PLC_LF_DB3000_DBX" ts="358"/>
+  <item type="bool" note="Hydris.LF1.Измерение завершено" tp="PLC_LF_DB3000_DBX" ts="359"/>
+  <!--45 байт -->
+  <item type="bool" note="Celox.LF2.Готов к измерению" tp="PLC_LF_DB3000_DBX" ts="360"/>
+  <item type="bool" note="Celox.LF2.Идет измерение" tp="PLC_LF_DB3000_DBX" ts="361"/>
+  <item type="bool" note="Celox.LF2.Измерение завершено" tp="PLC_LF_DB3000_DBX" ts="362"/>
+  <item type="bool" note="Celox.LF2.Измерение не прошло" tp="PLC_LF_DB3000_DBX" ts="363"/>
+  <item type="bool" note="Celox.LF2.Достигнут уровень шлак-металл" tp="PLC_LF_DB3000_DBX" ts="364"/>
+  <item type="bool" note="Hydris.LF2.Готов к измерению" tp="PLC_LF_DB3000_DBX" ts="365"/>
+  <item type="bool" note="Hydris.LF2.Идет измерение" tp="PLC_LF_DB3000_DBX" ts="366"/>
+  <item type="bool" note="Hydris.LF2.Измерение завершено" tp="PLC_LF_DB3000_DBX" ts="367"/>
+  <!--46 байт -->
+  <item type="bool" note="Машина скачивания шлака.Аварийный стоп.Кнопка(но)" tp="PLC_LF_DB3000_DBX" ts="368"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.В позицию парковки (кнопка)" tp="PLC_LF_DB3000_DBX" ts="369"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.В позицию обработки (кнопка)" tp="PLC_LF_DB3000_DBX" ts="370"/>
+  <item type="bool" note="Машина скачивания шлака.Аварийный стоп.Сборка реле(кнопка)" tp="PLC_LF_DB3000_DBX" ts="371"/>
+  <item type="bool" note="Машина скачивания шлака.Температура масла ОК" tp="PLC_LF_DB3000_DBX" ts="372"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="373"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="374"/>
+  <item type="bool" note="Машина скачивания шлака.Тест ламп" tp="PLC_LF_DB3000_DBX" ts="375"/>
+  <!--47 байт -->
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Концевой.В позиции обработки" tp="PLC_LF_DB3000_DBX" ts="376"/>
+  <item type="bool" note="Машина скачивания шлака.Колпак газочистки.Концевой.В позиции парковки" tp="PLC_LF_DB3000_DBX" ts="377"/>
+  <item type="bool" note="Сталевозы.Деблокировка.Сталевоз 901" tp="PLC_LF_DB3000_DBX" ts="378"/>
+  <item type="bool" note="Сталевозы.Деблокировка.Сталевоз 801" tp="PLC_LF_DB3000_DBX" ts="379"/>
+  <item type="bool" note="Сталевозы.Деблокировка.Сталевоз 902" tp="PLC_LF_DB3000_DBX" ts="380"/>
+  <item type="bool" note="Машина скачивания шлака.Пылеулавливающая заслонка.Концевой.Открыта" tp="PLC_LF_DB3000_DBX" ts="381"/>
+  <item type="bool" note="Машина скачивания шлака.Пылеулавливающая заслонка.Концевой.Закрыта" tp="PLC_LF_DB3000_DBX" ts="382"/>
+  <item type="bool" note="Сталевозы.Деблокировка.Сталевоз 802" tp="PLC_LF_DB3000_DBX" ts="383"/>
+  <!--48 байт -->
+  <item type="bool" note="Портал.Выбор поста.Х2004.Включить" tp="PLC_LF_DB3000_DBX" ts="384"/>
+  <item type="bool" note="Портал.Выбор поста.Х2004.Выключить" tp="PLC_LF_DB3000_DBX" ts="385"/>
+  <item type="bool" note="Тест ламп.Х2004" tp="PLC_LF_DB3000_DBX" ts="386"/>
+  <item type="bool" note="Гидравлика.X2004.Старт гидравлики(кнопка)" tp="PLC_LF_DB3000_DBX" ts="387"/>
+  <item type="bool" note="Гидравлика.X2004.Стоп гидравлики(кнопка)" tp="PLC_LF_DB3000_DBX" ts="388"/>
+  <item type="bool" note="Портал.Блокиратор.Х2004.Разблокировать(кнопка)" tp="PLC_LF_DB3000_DBX" ts="389"/>
+  <item type="bool" note="Портал.Блокиратор.Х2004.Заблокировать(кнопка)" tp="PLC_LF_DB3000_DBX" ts="390"/>
+  <item type="bool" note="Портал.Поворот.Х2004.Выбор конечной точки LF 1" tp="PLC_LF_DB3000_DBX" ts="391"/>
+  <!--49 байт -->
+  <item type="bool" note="Портал.Поворот.Х2004.Выбор конечной точки Стенд настройки" tp="PLC_LF_DB3000_DBX" ts="392"/>
+  <item type="bool" note="Портал.Поворот.Х2004.Выбор конечной точки LF 2" tp="PLC_LF_DB3000_DBX" ts="393"/>
+  <item type="bool" note="Портал.Поворот.Х2004.СТАРТ(кнопка)" tp="PLC_LF_DB3000_DBX" ts="394"/>
+  <item type="bool" note="Портал.Поворот.Х2004.СТОП(кнопка)" tp="PLC_LF_DB3000_DBX" ts="395"/>
+  <item type="bool" note="Портал.Электрод А.Х2004.Джойстик.Разблокировать" tp="PLC_LF_DB3000_DBX" ts="396"/>
+  <item type="bool" note="Портал.Электрод А.Х2004.Джойстик.Вверх" tp="PLC_LF_DB3000_DBX" ts="397"/>
+  <item type="bool" note="Портал.Электрод А.Х2004.Джойстик.Стоп" tp="PLC_LF_DB3000_DBX" ts="398"/>
+  <item type="bool" note="Портал.Электрод А.Х2004.Джойстик.Вниз" tp="PLC_LF_DB3000_DBX" ts="399"/>
+  <!--50 байт -->
+  <item type="bool" note="Портал.Электрод А.Х2004.Зажим.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="400"/>
+  <item type="bool" note="Портал.Электрод А.Х2004.Зажим.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="401"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Джойстик.Разблокировать" tp="PLC_LF_DB3000_DBX" ts="402"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Джойстик.Вверх" tp="PLC_LF_DB3000_DBX" ts="403"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Джойстик.Стоп" tp="PLC_LF_DB3000_DBX" ts="404"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Джойстик.Вниз" tp="PLC_LF_DB3000_DBX" ts="405"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Зажим.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="406"/>
+  <item type="bool" note="Портал.Электрод В.Х2004.Зажим.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="407"/>
+  <!--51 байт -->
+  <item type="bool" note="Портал.Электрод С.Х2004.Джойстик.Разблокировать" tp="PLC_LF_DB3000_DBX" ts="408"/>
+  <item type="bool" note="Портал.Электрод С.Х2004.Джойстик.Вверх" tp="PLC_LF_DB3000_DBX" ts="409"/>
+  <item type="bool" note="Портал.Электрод С.Х2004.Джойстик.Стоп" tp="PLC_LF_DB3000_DBX" ts="410"/>
+  <item type="bool" note="Портал.Электрод С.Х2004.Джойстик.Вниз" tp="PLC_LF_DB3000_DBX" ts="411"/>
+  <item type="bool" note="Портал.Электрод С.Х2004.Зажим.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="412"/>
+  <item type="bool" note="Портал.Электрод С.Х2004.Зажим.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="413"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="414"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="415"/>
+  <!--52 байт -->
+  <item type="bool" note="Продувка.DT42.Питание.24VDC-EG21.Питание клапанов(промсеть)" tp="PLC_LF_DB3000_DBX" ts="416"/>
+  <item type="bool" note="Продувка.DT42.Питание.24VDC-EG31.Питание BRONKHORST(UPS)" tp="PLC_LF_DB3000_DBX" ts="417"/>
+  <item type="bool" note="Оптика.OLM 42(DT42).Ошибка " tp="PLC_LF_DB3000_DBX" ts="418"/>
+  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Наличие питания шкафа управления" tp="PLC_LF_DB3000_DBX" ts="419"/>
+  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Маслонасосы включены" tp="PLC_LF_DB3000_DBX" ts="420"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="421"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="422"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="423"/>
+  <!--53 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="424"/>
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="425"/>
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="426"/>
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="427"/>
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="428"/>
+  <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="429"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Байпас(FH03).Готовность" tp="PLC_LF_DB3000_DBX" ts="430"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Байпас(FH03).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="431"/>
+  <!--54 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Байпас(FH03).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="432"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Отсечной клапан(FH04).Готовность" tp="PLC_LF_DB3000_DBX" ts="433"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Отсечной клапан(FH04).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="434"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Отсечной клапан(FH04).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="435"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Байпас(FH03).Готовность" tp="PLC_LF_DB3000_DBX" ts="436"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Байпас(FH03).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="437"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Байпас(FH03).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="438"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Отсечной клапан(FH04).Готовность" tp="PLC_LF_DB3000_DBX" ts="439"/>
+  <!--55 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Отсечной клапан(FH04).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="440"/>
+  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Отсечной клапан(FH04).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="441"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="442"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="443"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="444"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="445"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="446"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="447"/>
+  <!--56 байт -->
+  <item type="bool" note="Охлаждение.Крышка №1.Расход воды на выходе" tp="PLC_LF_DB3000_DBX" ts="448"/>
+  <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="449"/>
+  <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="450"/>
+  <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="451"/>
+  <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="452"/>
+  <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="453"/>
+  <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="454"/>
+  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Готовность" tp="PLC_LF_DB3000_DBX" ts="455"/>
+  <!--57 байт -->
+  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="456"/>
+  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="457"/>
+  <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Готовность" tp="PLC_LF_DB3000_DBX" ts="458"/>
+  <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="459"/>
+  <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="460"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="461"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="462"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="463"/>
+  <!--58 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="464"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="465"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="466"/>
+  <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Готовность" tp="PLC_LF_DB3000_DBX" ts="467"/>
+  <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="468"/>
+  <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="469"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="470"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="471"/>
+  <!--59 байт -->
+  <item type="bool" note="МЗП.LF1.Температурная фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="472"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="473"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="474"/>
+  <item type="bool" note="МЗП.LF1.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="475"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="476"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="477"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="478"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="479"/>
+  <!--60 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="480"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="481"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="482"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="483"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="484"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="485"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="486"/>
+  <item type="bool" note="Фурмы.LF1.Поворот.Концевые.Продувочная фурма в обработке " tp="PLC_LF_DB3000_DBX" ts="487"/>
+  <!--61 байт -->
+  <item type="bool" note="Фурмы.LF1.Поворот.Концевые.Порошковая фурма в обработке " tp="PLC_LF_DB3000_DBX" ts="488"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="489"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="490"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="491"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="492"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="493"/>
+  <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="494"/>
+  <item type="bool" note="Продувка.Фурма LF1.Отсечной клапан FH03.Готовность" tp="PLC_LF_DB3000_DBX" ts="495"/>
+  <!--62 байт -->
+  <item type="bool" note="Продувка.Фурма LF1.Отсечной клапан FH03.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="496"/>
+  <item type="bool" note="Продувка.Фурма LF1.Отсечной клапан FH03.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="497"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="498"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="499"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="500"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="501"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="502"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="503"/>
+  <!--63 байт -->
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="504"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Поворот.Концевые.В нипеле" tp="PLC_LF_DB3000_DBX" ts="505"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="506"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="507"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="508"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="509"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="510"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="511"/>
+  <!--64 байт -->
+  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Уровень масла" tp="PLC_LF_DB3000_DBX" ts="512"/>
+  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Температура масла(термореле)" tp="PLC_LF_DB3000_DBX" ts="513"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="514"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="515"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="516"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="517"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="518"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="519"/>
+  <!--65 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="520"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="521"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="522"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="523"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="524"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="525"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="526"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="527"/>
+  <!--66 байт -->
+  <item type="bool" note="Крышки.LF1.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="528"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="529"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Включение аргона" tp="PLC_LF_DB3000_DBX" ts="530"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Верхняя точка качания" tp="PLC_LF_DB3000_DBX" ts="531"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Концевые.Нижняя точка качания" tp="PLC_LF_DB3000_DBX" ts="532"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Включение аргона" tp="PLC_LF_DB3000_DBX" ts="533"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Верхняя точка качания" tp="PLC_LF_DB3000_DBX" ts="534"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Концевые.Нижняя точка качания" tp="PLC_LF_DB3000_DBX" ts="535"/>
+  <!--67 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="536"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="537"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="538"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="539"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="540"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="541"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="542"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="543"/>
+  <!--68 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="544"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="545"/>
+  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="546"/>
+  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="547"/>
+  <item type="bool" note="Тест ламп.X2013" tp="PLC_LF_DB3000_DBX" ts="548"/>
+  <item type="bool" note="Фурмы.LF1.Шибер.X2013.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="549"/>
+  <item type="bool" note="Фурмы.LF1.Шибер.X2013.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="550"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="551"/>
+  <!--69 байт -->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="552"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Поворот.X2013.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="553"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.Наклонить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="554"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.В вертикаль(кнопка)" tp="PLC_LF_DB3000_DBX" ts="555"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Поднять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="556"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Опустить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="557"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="558"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="559"/>
+  <!--70 байт -->
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Поворот.X2013.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="560"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="561"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В парковку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="562"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Поднять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="563"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Опустить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="564"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="565"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="566"/>
+  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Автомат" tp="PLC_LF_DB3000_DBX" ts="567"/>
+  <!--71 байт -->
+  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Ручной" tp="PLC_LF_DB3000_DBX" ts="568"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Вперёд(кнопка)" tp="PLC_LF_DB3000_DBX" ts="569"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Назад(кнопка)" tp="PLC_LF_DB3000_DBX" ts="570"/>
+  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Выбран в работу " tp="PLC_LF_DB3000_DBX" ts="571"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Выбран в работу " tp="PLC_LF_DB3000_DBX" ts="572"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Вперёд(кнопка)" tp="PLC_LF_DB3000_DBX" ts="573"/>
+  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Назад(кнопка)" tp="PLC_LF_DB3000_DBX" ts="574"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="575"/>
+  <!--72 байт -->
+  <item type="bool" note="Крышки.LF1.X2014.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="576"/>
+  <item type="bool" note="Крышки.LF1.X2014.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="577"/>
+  <item type="bool" note="Тест ламп.X2014" tp="PLC_LF_DB3000_DBX" ts="578"/>
+  <item type="bool" note="Крышки.LF1.Рабочее окно.X2014.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="579"/>
+  <item type="bool" note="Крышки.LF1.Рабочее окно.X2014.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="580"/>
+  <item type="bool" note="Продувка.Фурма LF1.X2014.Старт продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="581"/>
+  <item type="bool" note="Продувка.Фурма LF1.X2014.Стоп продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="582"/>
+  <item type="bool" note="Продувка.Фурма LF1.X2014.Больше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="583"/>
+  <!--71 байт -->
+  <item type="bool" note="Продувка.Фурма LF1.X2014.Меньше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="584"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Выбор пробки.1 " tp="PLC_LF_DB3000_DBX" ts="585"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Выбор пробки.2 " tp="PLC_LF_DB3000_DBX" ts="586"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Выбор пробки.1+2" tp="PLC_LF_DB3000_DBX" ts="587"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Старт продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="588"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Стоп продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="589"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Больше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="590"/>
+  <item type="bool" note="Продувка.Пробки LF1.X2014.Меньше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="591"/>
+  <!--74 байт -->
+  <item type="bool" note="Продувка.Пробки LF1.Байпас.X2014.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="592"/>
+  <item type="bool" note="Гидравлика.X2014.Старт гидравлики(кнопка) " tp="PLC_LF_DB3000_DBX" ts="593"/>
+  <item type="bool" note="Гидравлика.X2014.Стоп гидравлики(кнопка) " tp="PLC_LF_DB3000_DBX" ts="594"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="595"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Медленно вверх" tp="PLC_LF_DB3000_DBX" ts="596"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Быстро вверх" tp="PLC_LF_DB3000_DBX" ts="597"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Стоп" tp="PLC_LF_DB3000_DBX" ts="598"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Медленно вниз" tp="PLC_LF_DB3000_DBX" ts="599"/>
+  <!--75 байт -->
+  <item type="bool" note="Крышки.LF1.Подъём.Джойстик.Быстро вниз" tp="PLC_LF_DB3000_DBX" ts="600"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="601"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="602"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="603"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="604"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="605"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="606"/>
+  <item type="bool" note="Вакуумный выключатель.Калитки ограждения портала закрыты" tp="PLC_LF_DB3000_DBX" ts="607"/>
+  <!--76 байт -->
+  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="608"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="609"/>
+  <item type="bool" note="Тест ламп.X2015" tp="PLC_LF_DB3000_DBX" ts="610"/>
+  <item type="bool" note="МЗП.LF1.X2015.Задатчик уровня шлака.Отменить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="611"/>
+  <item type="bool" note="МЗП.LF1.X2015.Задатчик уровня шлака.Принять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="612"/>
+  <item type="bool" note="МЗП.LF1.X2015.Задатчик уровня шлака.Больше(кнопка)" tp="PLC_LF_DB3000_DBX" ts="613"/>
+  <item type="bool" note="МЗП.LF1.X2015.Задатчик уровня шлака.Меньше(кнопка)" tp="PLC_LF_DB3000_DBX" ts="614"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Пробник одет(кнопка)" tp="PLC_LF_DB3000_DBX" ts="615"/>
+  <!--77 байт -->
+  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Проба взята(кнопка)" tp="PLC_LF_DB3000_DBX" ts="616"/>
+  <item type="bool" note="МЗП.LF1.X2015.Старт последовательности" tp="PLC_LF_DB3000_DBX" ts="617"/>
+  <item type="bool" note="МЗП.LF1.X2015.Стоп последовательности" tp="PLC_LF_DB3000_DBX" ts="618"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Последовательный(ключ)" tp="PLC_LF_DB3000_DBX" ts="619"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Ручной(ключ)" tp="PLC_LF_DB3000_DBX" ts="620"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор типа измерения.Температура" tp="PLC_LF_DB3000_DBX" ts="621"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор типа измерения.Температура и ЭДС" tp="PLC_LF_DB3000_DBX" ts="622"/>
+  <item type="bool" note="МЗП.LF1.X2015.Выбор типа измерения.Температура, ЭДС, Проба" tp="PLC_LF_DB3000_DBX" ts="623"/>
+  <!--78 байт -->
+  <item type="bool" note="МЗП.LF1.X2015.Выбор типа измерения.Проба" tp="PLC_LF_DB3000_DBX" ts="624"/>
+  <item type="bool" note="МЗП.LF1.Шибер.X2015.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="625"/>
+  <item type="bool" note="МЗП.LF1.Шибер.X2015.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="626"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="627"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="628"/>
+  <item type="bool" note="МЗП.LF1.Наклон.X2015.В парковку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="629"/>
+  <item type="bool" note="МЗП.LF1.Наклон.X2015.В измерение(кнопка)" tp="PLC_LF_DB3000_DBX" ts="630"/>
+  <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Вверх(кнопка)" tp="PLC_LF_DB3000_DBX" ts="631"/>
+  <!--79-->
+  <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Вниз(кнопка)" tp="PLC_LF_DB3000_DBX" ts="632"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вверх(кнопка)" tp="PLC_LF_DB3000_DBX" ts="633"/>
+  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вниз(кнопка)" tp="PLC_LF_DB3000_DBX" ts="634"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="635"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="636"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="637"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="638"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="639"/>
+  <!--80-->
+  <item type="bool" note="Продувка.DT44.Питание 24VDC -EG21.Питание клапанов(промсеть)" tp="PLC_LF_DB3000_DBX" ts="640"/>
+  <item type="bool" note="Продувка.DT44.Питание 24VDC -EG31.Питание BRONKHORST(UPS)" tp="PLC_LF_DB3000_DBX" ts="641"/>
+  <item type="bool" note="Оптика.OLM 43(DT44).Ошибка " tp="PLC_LF_DB3000_DBX" ts="642"/>
+  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Наличие питания шкафа управления" tp="PLC_LF_DB3000_DBX" ts="643"/>
+  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Маслонасосы включены" tp="PLC_LF_DB3000_DBX" ts="644"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="645"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="646"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="647"/>
+  <!--81-->
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="648"/>
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="649"/>
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="650"/>
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="651"/>
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="652"/>
+  <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="653"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Байпас(FH03).Готовность" tp="PLC_LF_DB3000_DBX" ts="654"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Байпас(FH03).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="655"/>
+  <!--82-->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Байпас(FH03).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="656"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Отсечной клапан(FH04).Готовность" tp="PLC_LF_DB3000_DBX" ts="657"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Отсечной клапан(FH04).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="658"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Отсечной клапан(FH04).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="659"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Байпас(FH03).Готовность" tp="PLC_LF_DB3000_DBX" ts="660"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Байпас(FH03).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="661"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Байпас(FH03).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="662"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Отсечной клапан(FH04).Готовность" tp="PLC_LF_DB3000_DBX" ts="663"/>
+  <!--83-->
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Отсечной клапан(FH04).Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="664"/>
+  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Отсечной клапан(FH04).Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="665"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="666"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="667"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="668"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="669"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="670"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="671"/>
+  <!--84-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="672"/>
+  <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="673"/>
+  <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="674"/>
+  <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="675"/>
+  <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="676"/>
+  <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="677"/>
+  <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="678"/>
+  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Готовность" tp="PLC_LF_DB3000_DBX" ts="679"/>
+  <!--85-->
+  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="680"/>
+  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="681"/>
+  <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Готовность" tp="PLC_LF_DB3000_DBX" ts="682"/>
+  <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="683"/>
+  <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="684"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="685"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="686"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="687"/>
+  <!--86-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="688"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="689"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="690"/>
+  <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Готовность" tp="PLC_LF_DB3000_DBX" ts="691"/>
+  <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="692"/>
+  <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="693"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="694"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="695"/>
+  <!--87-->
+  <item type="bool" note="МЗП.LF2.Температурная фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="696"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="697"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="698"/>
+  <item type="bool" note="МЗП.LF2.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="699"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="700"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="701"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="702"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="703"/>
+  <!--88-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="704"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="705"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="706"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="707"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="708"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="709"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="710"/>
+  <item type="bool" note="Фурмы.LF2.Поворот.Концевые.Продувочная фурма в обработке " tp="PLC_LF_DB3000_DBX" ts="711"/>
+  <!--89-->
+  <item type="bool" note="Фурмы.LF2.Поворот.Концевые.Порошковая фурма в обработке " tp="PLC_LF_DB3000_DBX" ts="712"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Готовность" tp="PLC_LF_DB3000_DBX" ts="713"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="714"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="715"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Готовность" tp="PLC_LF_DB3000_DBX" ts="716"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="717"/>
+  <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="718"/>
+  <item type="bool" note="Продувка.Фурма LF2.Отсечной клапан FH03.Готовность " tp="PLC_LF_DB3000_DBX" ts="719"/>
+  <!--90-->
+  <item type="bool" note="Продувка.Фурма LF2.Отсечной клапан FH03.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="720"/>
+  <item type="bool" note="Продувка.Фурма LF2.Отсечной клапан FH03.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="721"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="722"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Концевые.В парковке" tp="PLC_LF_DB3000_DBX" ts="723"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Концевые.В обработке" tp="PLC_LF_DB3000_DBX" ts="724"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="725"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.Концевые.Открыт" tp="PLC_LF_DB3000_DBX" ts="726"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.Концевые.Закрыт" tp="PLC_LF_DB3000_DBX" ts="727"/>
+  <!--91-->
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="728"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Поворот.Концевые.В нипеле" tp="PLC_LF_DB3000_DBX" ts="729"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="730"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="731"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="732"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="733"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="734"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="735"/>
+  <!--92-->
+  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Уровень масла" tp="PLC_LF_DB3000_DBX" ts="736"/>
+  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Темпаратура масла(термореле)" tp="PLC_LF_DB3000_DBX" ts="737"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="738"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="739"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="740"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="741"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="742"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="743"/>
+  <!--93-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="744"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="745"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="746"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="747"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="748"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="749"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="750"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="751"/>
+  <!--94-->
+  <item type="bool" note="Крышки.LF2.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="752"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="753"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Включение аргона" tp="PLC_LF_DB3000_DBX" ts="754"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Верхняя точка качания" tp="PLC_LF_DB3000_DBX" ts="755"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Концевые.Нижняя точка качания" tp="PLC_LF_DB3000_DBX" ts="756"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Включение аргона" tp="PLC_LF_DB3000_DBX" ts="757"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Верхняя точка качания" tp="PLC_LF_DB3000_DBX" ts="758"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Концевые.Нижняя точка качания" tp="PLC_LF_DB3000_DBX" ts="759"/>
+  <!--95-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="760"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="761"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="762"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="763"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="764"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="765"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="766"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="767"/>
+  <!--96-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="768"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="769"/>
+  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="770"/>
+  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="771"/>
+  <item type="bool" note="Тест ламп.X2023" tp="PLC_LF_DB3000_DBX" ts="772"/>
+  <item type="bool" note="Фурмы.LF2.Шибер.X2023.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="773"/>
+  <item type="bool" note="Фурмы.LF2.Шибер.X2023.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="774"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="775"/>
+  <!--97-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="776"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Поворот.X2023.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="777"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.Наклонить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="778"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.В вертикаль(кнопка)" tp="PLC_LF_DB3000_DBX" ts="779"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Поднять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="780"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Опустить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="781"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="782"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="783"/>
+  <!--98-->
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Поворот.X2023.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="784"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В обработку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="785"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В парковку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="786"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Поднять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="787"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Опустить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="788"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="789"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="790"/>
+  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Автомат" tp="PLC_LF_DB3000_DBX" ts="791"/>
+  <!--99-->
+  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Ручной" tp="PLC_LF_DB3000_DBX" ts="792"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Вперёд(кнопка)" tp="PLC_LF_DB3000_DBX" ts="793"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Назад(кнопка)" tp="PLC_LF_DB3000_DBX" ts="794"/>
+  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Выбран в работу " tp="PLC_LF_DB3000_DBX" ts="795"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Выбран в работу " tp="PLC_LF_DB3000_DBX" ts="796"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Вперёд(кнопка)" tp="PLC_LF_DB3000_DBX" ts="797"/>
+  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Назад(кнопка)" tp="PLC_LF_DB3000_DBX" ts="798"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="799"/>
+  <!--100-->
+  <item type="bool" note="Крышки.LF2.X2024.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="800"/>
+  <item type="bool" note="Крышки.LF2.X2024.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="801"/>
+  <item type="bool" note="Тест ламп.X2024" tp="PLC_LF_DB3000_DBX" ts="802"/>
+  <item type="bool" note="Крышки.LF2.Рабочее окно.X2024.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="803"/>
+  <item type="bool" note="Крышки.LF2.Рабочее окно.X2024.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="804"/>
+  <item type="bool" note="Продувка.Фурма LF2.X2024.Старт продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="805"/>
+  <item type="bool" note="Продувка.Фурма LF2.X2024.Стоп продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="806"/>
+  <item type="bool" note="Продувка.Фурма LF2.X2024.Больше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="807"/>
+  <!--101-->
+  <item type="bool" note="Продувка.Фурма LF2.X2024.Меньше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="808"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Выбор пробки.1 " tp="PLC_LF_DB3000_DBX" ts="809"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Выбор пробки.2 " tp="PLC_LF_DB3000_DBX" ts="810"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Выбор пробки.1+2" tp="PLC_LF_DB3000_DBX" ts="811"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Старт продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="812"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Стоп продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="813"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Больше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="814"/>
+  <item type="bool" note="Продувка.Пробки LF2.X2024.Меньше продувки(кнопка)" tp="PLC_LF_DB3000_DBX" ts="815"/>
+  <!--102-->
+  <item type="bool" note="Продувка.Пробки LF2.Байпас.X2024Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="816"/>
+  <item type="bool" note="Гидравлика.X2024.Старт гидравлики(кнопка)" tp="PLC_LF_DB3000_DBX" ts="817"/>
+  <item type="bool" note="Гидравлика.X2024.Стоп гидравлики(кнопка)" tp="PLC_LF_DB3000_DBX" ts="818"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Разблокировать(положение утоплено)" tp="PLC_LF_DB3000_DBX" ts="819"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Медленно вверх" tp="PLC_LF_DB3000_DBX" ts="820"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Быстро вверх" tp="PLC_LF_DB3000_DBX" ts="821"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Стоп" tp="PLC_LF_DB3000_DBX" ts="822"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Медленно вниз" tp="PLC_LF_DB3000_DBX" ts="823"/>
+  <!--103-->
+  <item type="bool" note="Крышки.LF2.Подъём.Джойстик.Быстро вниз" tp="PLC_LF_DB3000_DBX" ts="824"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="825"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="826"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="827"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="828"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="829"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="830"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="831"/>
+  <!--104-->
+  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Локальный(ключ)" tp="PLC_LF_DB3000_DBX" ts="832"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Удалёный(ключ)" tp="PLC_LF_DB3000_DBX" ts="833"/>
+  <item type="bool" note="Тест ламп.X2025" tp="PLC_LF_DB3000_DBX" ts="834"/>
+  <item type="bool" note="МЗП.LF2.X2025.Задатчик уровня шлака.Отменить(кнопка)" tp="PLC_LF_DB3000_DBX" ts="835"/>
+  <item type="bool" note="МЗП.LF2.X2025.Задатчик уровня шлака.Принять(кнопка)" tp="PLC_LF_DB3000_DBX" ts="836"/>
+  <item type="bool" note="МЗП.LF2.X2025.Задатчик уровня шлака.Больше(кнопка)" tp="PLC_LF_DB3000_DBX" ts="837"/>
+  <item type="bool" note="МЗП.LF2.X2025.Задатчик уровня шлака.Меньше(кнопка)" tp="PLC_LF_DB3000_DBX" ts="838"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025Пробник одет(кнопка)" tp="PLC_LF_DB3000_DBX" ts="839"/>
+  <!--105-->
+  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Проба взята(кнопка)" tp="PLC_LF_DB3000_DBX" ts="840"/>
+  <item type="bool" note="МЗП.LF2.X2025.Старт последовательности" tp="PLC_LF_DB3000_DBX" ts="841"/>
+  <item type="bool" note="МЗП.LF2.X2025.Стоп последовательности" tp="PLC_LF_DB3000_DBX" ts="842"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Последовательный(ключ)" tp="PLC_LF_DB3000_DBX" ts="843"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Ручной(ключ)" tp="PLC_LF_DB3000_DBX" ts="844"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор типа измерения.Температура" tp="PLC_LF_DB3000_DBX" ts="845"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор типа измерения.Температура и ЭДС" tp="PLC_LF_DB3000_DBX" ts="846"/>
+  <item type="bool" note="МЗП.LF2.X2025.Выбор типа измерения.Температура, ЭДС, Проба" tp="PLC_LF_DB3000_DBX" ts="847"/>
+  <!--106-->
+  <item type="bool" note="МЗП.LF2.X2025.Выбор типа измерения.Проба" tp="PLC_LF_DB3000_DBX" ts="848"/>
+  <item type="bool" note="МЗП.LF2.Шибер.X2025.Открыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="849"/>
+  <item type="bool" note="МЗП.LF2.Шибер.X2025.Закрыть(кнопка)" tp="PLC_LF_DB3000_DBX" ts="850"/>
+  <item type="bool" note="Резерв_X2025_ES117" tp="PLC_LF_DB3000_DBX" ts="851"/>
+  <item type="bool" note="Резерв_X2025_ES118" tp="PLC_LF_DB3000_DBX" ts="852"/>
+  <item type="bool" note="МЗП.LF2.Наклон.X2025.В парковку(кнопка)" tp="PLC_LF_DB3000_DBX" ts="853"/>
+  <item type="bool" note="МЗП.LF2.Наклон.X2025.В измерение(кнопка)" tp="PLC_LF_DB3000_DBX" ts="854"/>
+  <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Вверх(кнопка)" tp="PLC_LF_DB3000_DBX" ts="855"/>
+  <!--107-->
+  <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Вниз(кнопка)" tp="PLC_LF_DB3000_DBX" ts="856"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вверх(кнопка)" tp="PLC_LF_DB3000_DBX" ts="857"/>
+  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вниз(кнопка)" tp="PLC_LF_DB3000_DBX" ts="858"/>
+  <item type="bool" note="Резерв_X2025" tp="PLC_LF_DB3000_DBX" ts="859"/>
+  <item type="bool" note="Резерв_X2025" tp="PLC_LF_DB3000_DBX" ts="860"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="861"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="862"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="863"/>
+  <!--108-->
+  <item type="bool" note="Оптика.OLM 44(DT46).Ошибка " tp="PLC_LF_DB3000_DBX" ts="864"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="865"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="866"/>
+  <item type="bool" note="Охлаждение.Крышка №2.Расход воды на выходе" tp="PLC_LF_DB3000_DBX" ts="867"/>
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе консоли " tp="PLC_LF_DB3000_DBX" ts="868"/>
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе зажима " tp="PLC_LF_DB3000_DBX" ts="869"/>
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе контактной колодки " tp="PLC_LF_DB3000_DBX" ts="870"/>
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе кабеля " tp="PLC_LF_DB3000_DBX" ts="871"/>
+  <!--109-->
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе контактов трансформатора " tp="PLC_LF_DB3000_DBX" ts="872"/>
+  <item type="bool" note="Охлаждение.Фаза №1.Расход воды на выходе опоры консоли " tp="PLC_LF_DB3000_DBX" ts="873"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе консоли " tp="PLC_LF_DB3000_DBX" ts="874"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе зажима " tp="PLC_LF_DB3000_DBX" ts="875"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе контактной колодки " tp="PLC_LF_DB3000_DBX" ts="876"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе кабеля " tp="PLC_LF_DB3000_DBX" ts="877"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе контактов трансформатора " tp="PLC_LF_DB3000_DBX" ts="878"/>
+  <item type="bool" note="Охлаждение.Фаза №2.Расход воды на выходе опоры консоли " tp="PLC_LF_DB3000_DBX" ts="879"/>
+  <!--110-->
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе консоли " tp="PLC_LF_DB3000_DBX" ts="880"/>
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе зажима " tp="PLC_LF_DB3000_DBX" ts="881"/>
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе контактной колодки " tp="PLC_LF_DB3000_DBX" ts="882"/>
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе кабеля " tp="PLC_LF_DB3000_DBX" ts="883"/>
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе контактов трансформатора " tp="PLC_LF_DB3000_DBX" ts="884"/>
+  <item type="bool" note="Охлаждение.Фаза №3.Расход воды на выходе опоры консоли " tp="PLC_LF_DB3000_DBX" ts="885"/>
+  <item type="bool" note="Охлаждение.Траверса(Крепёж короткой сети).Расход воды на выходе " tp="PLC_LF_DB3000_DBX" ts="886"/>
+  <item type="bool" note="Охлаждение.Трансформатор.Масляный радиатор.Расход воды на выходе " tp="PLC_LF_DB3000_DBX" ts="887"/>
+  <!--111-->
+  <item type="bool" note="Система контроля электродов.DT46.Измерительные трансформаторы U.Автоматы включены(-LF-F42,45,47) " tp="PLC_LF_DB3000_DBX" ts="888"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="889"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="890"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="891"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="892"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="893"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="894"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="895"/>
+  <!--112-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="896"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="897"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="898"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="899"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="900"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="901"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="902"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="903"/>
+  <!--113-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="904"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="905"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="906"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="907"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="908"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="909"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="910"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="911"/>
+  <!--114-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="912"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="913"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="914"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="915"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="916"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="917"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="918"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="919"/>
+  <!--115-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="920"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="921"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="922"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="923"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="924"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="925"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="926"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="927"/>
+  <!--116-->
+  <item type="bool" note="Трансформатор.Маслонасос.Наличие 380V " tp="PLC_LF_DB3000_DBX" ts="928"/>
+  <item type="bool" note="Трансформатор.Ввод питания 220V.Обогрев шкафа '+AK1'(Автомат F2)" tp="PLC_LF_DB3000_DBX" ts="929"/>
+  <item type="bool" note="Трансформатор.Температура масла.&gt; 90°C " tp="PLC_LF_DB3000_DBX" ts="930"/>
+  <item type="bool" note="Трансформатор.Температура масла.&gt; 105°C " tp="PLC_LF_DB3000_DBX" ts="931"/>
+  <item type="bool" note="Трансформатор.Температура масла.&gt; 90°C " tp="PLC_LF_DB3000_DBX" ts="932"/>
+  <item type="bool" note="Трансформатор.Резерв" tp="PLC_LF_DB3000_DBX" ts="933"/>
+  <item type="bool" note="Трансформатор.Температура обмотки.&gt; 105°C " tp="PLC_LF_DB3000_DBX" ts="934"/>
+  <item type="bool" note="Трансформатор.Температура обмотки.&gt; 135°C " tp="PLC_LF_DB3000_DBX" ts="935"/>
+  <!--117-->
+  <item type="bool" note="Трансформатор.Температура обмотки.&gt; 105°C " tp="PLC_LF_DB3000_DBX" ts="936"/>
+  <item type="bool" note="Трансформатор.Резерв" tp="PLC_LF_DB3000_DBX" ts="937"/>
+  <item type="bool" note="Трансформатор.Реле Бухгольца" tp="PLC_LF_DB3000_DBX" ts="938"/>
+  <item type="bool" note="Трансформатор.Резерв" tp="PLC_LF_DB3000_DBX" ts="939"/>
+  <item type="bool" note="Трансформатор.Уровеньмасла.Min " tp="PLC_LF_DB3000_DBX" ts="940"/>
+  <item type="bool" note="Трансформатор.Уровеньмасла.Max " tp="PLC_LF_DB3000_DBX" ts="941"/>
+  <item type="bool" note="Трансформатор.Уровеньмасла OLTC.Min " tp="PLC_LF_DB3000_DBX" ts="942"/>
+  <item type="bool" note="Трансформатор.Уровеньмасла OLTC.Max " tp="PLC_LF_DB3000_DBX" ts="943"/>
+  <!--118-->
+  <item type="bool" note="Трансформатор.Устройство сброса давления(+HTR-S40)" tp="PLC_LF_DB3000_DBX" ts="944"/>
+  <item type="bool" note="Трансформатор.Реле защиты OLTC" tp="PLC_LF_DB3000_DBX" ts="945"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="946"/>
+  <item type="bool" note="Трансформатор.Устройство сброса давления OLTC(+HTR-S46)" tp="PLC_LF_DB3000_DBX" ts="947"/>
+  <item type="bool" note="Трансформатор.Реле утечки воды маслоохладителя(+HTR-S50)" tp="PLC_LF_DB3000_DBX" ts="948"/>
+  <item type="bool" note="Трансформатор.Реле протока масла маслоохладителя(+HTR-S60)" tp="PLC_LF_DB3000_DBX" ts="949"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="950"/>
+  <item type="bool" note="Трансформатор.Ввод питания 220V.Питание на блок питания -P1(24V на реле протока масла) " tp="PLC_LF_DB3000_DBX" ts="951"/>
+  <!--119-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="952"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="953"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="954"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="955"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="956"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="957"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="958"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="959"/>
+  <!--120-->
+  <item type="bool" note="Трансформатор.Переключатель ступеней.В работе " tp="PLC_LF_DB3000_DBX" ts="960"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Локальный режим " tp="PLC_LF_DB3000_DBX" ts="961"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Переключение не окончено " tp="PLC_LF_DB3000_DBX" ts="962"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Оперативное напряжение(F12) " tp="PLC_LF_DB3000_DBX" ts="963"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Нагреватель в работе(F13)" tp="PLC_LF_DB3000_DBX" ts="964"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Питание двигателя 380V(Q1) " tp="PLC_LF_DB3000_DBX" ts="965"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Блок контроля питания двигателя(F2) " tp="PLC_LF_DB3000_DBX" ts="966"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Включен/Выключен(S35) " tp="PLC_LF_DB3000_DBX" ts="967"/>
+  <!--121-->
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Концевые.Конечное нижнее положение " tp="PLC_LF_DB3000_DBX" ts="968"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Концевые.Конечное верхнее положение " tp="PLC_LF_DB3000_DBX" ts="969"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Маслонасос.Питание двигателя 380V(Q4) " tp="PLC_LF_DB3000_DBX" ts="970"/>
+  <item type="bool" note="Трансформатор.Переключатель ступеней.Маслонасос.Включить двигатель(К7) " tp="PLC_LF_DB3000_DBX" ts="971"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="972"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="973"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="974"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="975"/>
+  <!--122-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="976"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="977"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="978"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="979"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="980"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="981"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="982"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="983"/>
+  <!--123-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="984"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="985"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="986"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="987"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="988"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="989"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="990"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="991"/>
+  <!--124-->
+  <item type="bool" note="Гидравлика.Питание 24В.Питание клапанов(дискретных).00000_DT47_EG21 " tp="PLC_LF_DB3000_DBX" ts="992"/>
+  <item type="bool" note="Гидравлика.Питание 24В.Питание клапанов(аналоговых).00000_DT47_EG31 " tp="PLC_LF_DB3000_DBX" ts="993"/>
+  <item type="bool" note="Оптика.OLM 45(DT47).Ошибка " tp="PLC_LF_DB3000_DBX" ts="994"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="995"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="996"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="997"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="998"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="999"/>
+  <!--125-->
+  <item type="bool" note="Охлаждение.Гидравлика.Расход воды на выходе маслорадиатора " tp="PLC_LF_DB3000_DBX" ts="1000"/>
+  <item type="bool" note="Гидравлика.Главный насос №1.Датчик давления фильтра.00900_CP1_PAL " tp="PLC_LF_DB3000_DBX" ts="1001"/>
+  <item type="bool" note="Гидравлика.Главный насос №2.Датчик давления фильтра.00900_CP2_PAL " tp="PLC_LF_DB3000_DBX" ts="1002"/>
+  <item type="bool" note="Гидравлика.Главный насос №3.Датчик давления фильтра.00900_CP3_PAL " tp="PLC_LF_DB3000_DBX" ts="1003"/>
+  <item type="bool" note="Гидравлика.Возвратный филитр №1.Датчик давления 00900_CP4_PAL " tp="PLC_LF_DB3000_DBX" ts="1004"/>
+  <item type="bool" note="Гидравлика.Возвратный филитр №2.Датчик давления 00900_CP5_PAL " tp="PLC_LF_DB3000_DBX" ts="1005"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Датчик давления.Циркуляционный фильтр.00900_CP6_PAL " tp="PLC_LF_DB3000_DBX" ts="1006"/>
+  <item type="bool" note="Гидравлика.Главный насос №1.Датчик давления после двигателя.00900_CP7_PAL " tp="PLC_LF_DB3000_DBX" ts="1007"/>
+  <!--126-->
+  <item type="bool" note="Гидравлика.Главный насос №2.Датчик давления после двигателя.00900_CP8_PAL " tp="PLC_LF_DB3000_DBX" ts="1008"/>
+  <item type="bool" note="Гидравлика.Главный насос №3.Датчик давления после двигателя.00900_CP9_PAL " tp="PLC_LF_DB3000_DBX" ts="1009"/>
+  <item type="bool" note="Гидравлика.Датчик давления на общей магистрали 00900_CP10_PAL " tp="PLC_LF_DB3000_DBX" ts="1010"/>
+  <item type="bool" note="Портал.Электрод А.Датчик давления в полости гидроцилиндра.00900_CP11_PAL " tp="PLC_LF_DB3000_DBX" ts="1011"/>
+  <item type="bool" note="Портал.Электрод В.Датчик давления в полости гидроцилиндра.00900_CP12_PAL " tp="PLC_LF_DB3000_DBX" ts="1012"/>
+  <item type="bool" note="Портал.Электрод С.Датчик давления в полости гидроцилиндра.00900_CP13_PAL " tp="PLC_LF_DB3000_DBX" ts="1013"/>
+  <item type="bool" note="Гидравлика.Аккмуляторы.Давление со стороны масла. Датчик давления 00900_CP15_PAL " tp="PLC_LF_DB3000_DBX" ts="1014"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Датчик давления 00900_CP16_PAL " tp="PLC_LF_DB3000_DBX" ts="1015"/>
+  <!--127-->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Датчик давления 00900_CP17_PAL " tp="PLC_LF_DB3000_DBX" ts="1016"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Датчик давления 00900_CP18_PAL " tp="PLC_LF_DB3000_DBX" ts="1017"/>
+  <item type="bool" note="Портал.Электрод А.Датчик температуры в полости гидроцилиндра.00900_CT02_TSL " tp="PLC_LF_DB3000_DBX" ts="1018"/>
+  <item type="bool" note="Портал.Электрод В.Датчик температуры в полости гидроцилиндра.00900_CT03_TSL " tp="PLC_LF_DB3000_DBX" ts="1019"/>
+  <item type="bool" note="Портал.Электрод С.Датчик температуры в полости гидроцилиндра.00900_CT04_TSL " tp="PLC_LF_DB3000_DBX" ts="1020"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Датчик температуры в полости гидроцилиндра.00900_CT05_TSL " tp="PLC_LF_DB3000_DBX" ts="1021"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Датчик температуры в полости гидроцилиндра.00900_CT06_TSL " tp="PLC_LF_DB3000_DBX" ts="1022"/>
+  <item type="bool" note="Портал.Поворот.Датчик температуры в полости гидроцилиндра.00900_CT07_TSL " tp="PLC_LF_DB3000_DBX" ts="1023"/>
+  <!--128-->
+  <item type="bool" note="Портал.Блокиратор.Датчик температуры в полости гидроцилиндра.00900_CT08_TSL " tp="PLC_LF_DB3000_DBX" ts="1024"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1025"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1026"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1027"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1028"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1029"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1030"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1031"/>
+  <!--129-->
+  <item type="bool" note="Гидравлика.Главный насос №1.Ручной вентиль.Открыт" tp="PLC_LF_DB3000_DBX" ts="1032"/>
+  <item type="bool" note="Гидравлика.Главный насос №2.Ручной вентиль.Открыт" tp="PLC_LF_DB3000_DBX" ts="1033"/>
+  <item type="bool" note="Гидравлика.Главный насос №3.Ручной вентиль.Открыт" tp="PLC_LF_DB3000_DBX" ts="1034"/>
+  <item type="bool" note="Гидравлика.Главный насос №1.Управляющий клапан.Готовность.00900_FH01 " tp="PLC_LF_DB3000_DBX" ts="1035"/>
+  <item type="bool" note="Гидравлика.Главный насос №2.Управляющий клапан.Готовность.00900_FH02 " tp="PLC_LF_DB3000_DBX" ts="1036"/>
+  <item type="bool" note="Гидравлика.Главный насос №3.Управляющий клапан.Готовность.00900_FH03 " tp="PLC_LF_DB3000_DBX" ts="1037"/>
+  <item type="bool" note="Гидравлика.Циркуляция.Управляющий клапан.Готовность.00900_FH04 " tp="PLC_LF_DB3000_DBX" ts="1038"/>
+  <item type="bool" note="Охлаждение.Гидравлика.Управляющий клапан.Готовность.00900_FH05 " tp="PLC_LF_DB3000_DBX" ts="1039"/>
+  <!--130-->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Управляющий клапан.Готовность.00900_FH06 " tp="PLC_LF_DB3000_DBX" ts="1040"/>
+  <item type="bool" note="Портал.Электрод А.Клапан блокировки пропорциональника.Готовность.00900_FH07 " tp="PLC_LF_DB3000_DBX" ts="1041"/>
+  <item type="bool" note="Портал.Электрод А.Гидрозамок.Готовность.00900_FH09 " tp="PLC_LF_DB3000_DBX" ts="1042"/>
+  <item type="bool" note="Портал.Электрод В.Клапан блокировки пропорциональника.Готовность.00900_FH10 " tp="PLC_LF_DB3000_DBX" ts="1043"/>
+  <item type="bool" note="Портал.Электрод В.Гидрозамок.Готовность.00900_FH12 " tp="PLC_LF_DB3000_DBX" ts="1044"/>
+  <item type="bool" note="Портал.Электрод С.Клапан блокировки пропорциональника.Готовность.00900_FH13 " tp="PLC_LF_DB3000_DBX" ts="1045"/>
+  <item type="bool" note="Портал.Электрод С.Гидрозамок.Готовность.00900_FH15 " tp="PLC_LF_DB3000_DBX" ts="1046"/>
+  <item type="bool" note="Портал.Электрод А.Зажим.Управляющий клапан.Готовность.00900_FH16" tp="PLC_LF_DB3000_DBX" ts="1047"/>
+  <!--131-->
+  <item type="bool" note="Портал.Электрод В.Зажим.Управляющий клапан.Готовность.00900_FH17" tp="PLC_LF_DB3000_DBX" ts="1048"/>
+  <item type="bool" note="Портал.Электрод С.Зажим.Управляющий клапан.Готовность.00900_FH18" tp="PLC_LF_DB3000_DBX" ts="1049"/>
+  <item type="bool" note="Портал.Блокиратор.Управляющий клапан.Готовность.00900_FH22 " tp="PLC_LF_DB3000_DBX" ts="1050"/>
+  <item type="bool" note="Портал.Поворот.Управляющий клапан промывки.Готовность.00900_FH23 " tp="PLC_LF_DB3000_DBX" ts="1051"/>
+  <item type="bool" note="Крышки.LF2.Подъём.Управляющий клапан промывки.Готовность.00900_FH24" tp="PLC_LF_DB3000_DBX" ts="1052"/>
+  <item type="bool" note="Крышки.LF1.Подъём.Управляющий клапан промывки.Готовность.00900_FH25" tp="PLC_LF_DB3000_DBX" ts="1053"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1054"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1055"/>
+  <!--132-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1056"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1057"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1058"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1059"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1060"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1061"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1062"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1063"/>
+  <!--133-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1064"/>
+  <item type="bool" note="Портал.Электрод А.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="1065"/>
+  <item type="bool" note="Портал.Электрод А.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="1066"/>
+  <item type="bool" note="Портал.Электрод В.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="1067"/>
+  <item type="bool" note="Портал.Электрод В.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="1068"/>
+  <item type="bool" note="Портал.Электрод С.Подъём.Концевые.Вверху" tp="PLC_LF_DB3000_DBX" ts="1069"/>
+  <item type="bool" note="Портал.Электрод С.Подъём.Концевые.Внизу" tp="PLC_LF_DB3000_DBX" ts="1070"/>
+  <item type="bool" note="Портал.Поворот.Концевой аварийный LF1 " tp="PLC_LF_DB3000_DBX" ts="1071"/>
+  <!--134-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1072"/>
+  <item type="bool" note="Портал.Поворот.Концевой аварийный LF2 " tp="PLC_LF_DB3000_DBX" ts="1073"/>
+  <item type="bool" note="Портал.Блокиратор.Концевые.Вверху(разблокирован)" tp="PLC_LF_DB3000_DBX" ts="1074"/>
+  <item type="bool" note="Портал.Блокиратор.Концевые.Внизу(заблокирован) " tp="PLC_LF_DB3000_DBX" ts="1075"/>
+  <item type="bool" note="Портал.Поворот.Концевой торможения левый SQ1" tp="PLC_LF_DB3000_DBX" ts="1076"/>
+  <item type="bool" note="Портал.Поворот.Концевой останова позиция 1 SQ2" tp="PLC_LF_DB3000_DBX" ts="1077"/>
+  <item type="bool" note="Портал.Поворот.Концевой останова позиция 2 SQ3" tp="PLC_LF_DB3000_DBX" ts="1078"/>
+  <item type="bool" note="Портал.Поворот.Концевой торможения правый SQ4" tp="PLC_LF_DB3000_DBX" ts="1079"/>
+  <!--135-->
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1080"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1081"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1082"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1083"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1084"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1085"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1086"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1087"/>
+  <!--136-->
+  <item type="bool" note="Распредустройства.А001.Выбор режима.Местное " tp="PLC_LF_DB3000_DBX" ts="1088"/>
+  <item type="bool" note="Распредустройства.А001.Выбор режима.Дистанция " tp="PLC_LF_DB3000_DBX" ts="1089"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Концевые.Отключен " tp="PLC_LF_DB3000_DBX" ts="1090"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1091"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Готов к включению " tp="PLC_LF_DB3000_DBX" ts="1092"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F301(Siprotec).I&gt; " tp="PLC_LF_DB3000_DBX" ts="1093"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F301(Siprotec).I&gt;&gt; " tp="PLC_LF_DB3000_DBX" ts="1094"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1095"/>
+  <!--137-->
+  <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1096"/>
+  <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1097"/>
+  <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1098"/>
+  <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1099"/>
+  <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1100"/>
+  <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1101"/>
+  <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1102"/>
+  <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1103"/>
+  <!--138-->
+  <item type="bool" note="Распредустройства.А001.Наличие управляющего напряжения " tp="PLC_LF_DB3000_DBX" ts="1104"/>
+  <item type="bool" note="Распредустройства.А001.Двери ячейки закрыты " tp="PLC_LF_DB3000_DBX" ts="1105"/>
+  <item type="bool" note="Тест ламп.Распредустройства.А001 " tp="PLC_LF_DB3000_DBX" ts="1106"/>
+  <item type="bool" note="Распредустройства.А001.Квитирование " tp="PLC_LF_DB3000_DBX" ts="1107"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Двигатель -М1 (взвода пружины)запитан " tp="PLC_LF_DB3000_DBX" ts="1108"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Пружина взведена " tp="PLC_LF_DB3000_DBX" ts="1109"/>
+  <item type="bool" note="Распредустройства.А001.Выбор ячейки.Выбрана линия №1 " tp="PLC_LF_DB3000_DBX" ts="1110"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1111"/>
+  <!--139-->
+  <item type="bool" note="Распредустройства.А001.Вакуумный выключатель подстанции.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1112"/>
+  <item type="bool" note="Распредустройства.А001.Вакуумный выключатель подстанции.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1113"/>
+  <item type="bool" note="Вакуумный выключатель.А001.Разрешение на включение от трансформатора " tp="PLC_LF_DB3000_DBX" ts="1114"/>
+  <item type="bool" note="Распредустройства.А001.Вставлена ремонтная изолирующая пластина " tp="PLC_LF_DB3000_DBX" ts="1115"/>
+  <item type="bool" note="Трансформаторный разъединитель.А001.Реле положения.Отключен(HVLF+A001-KAT11(13:14)) " tp="PLC_LF_DB3000_DBX" ts="1116"/>
+  <item type="bool" note="Трансформаторный разъединитель.А001.Реле положения.Включен(HVLF+A001-KET11(13:14)) " tp="PLC_LF_DB3000_DBX" ts="1117"/>
+  <item type="bool" note="Трансформаторный заземлитель.А001.Реле положения.Отключен(HVLF+A001-KAT15(13:14)) " tp="PLC_LF_DB3000_DBX" ts="1118"/>
+  <item type="bool" note="Трансформаторный заземлитель.А001.Реле положения.Заземлён(HVLF+A001-KET15(13:14)) " tp="PLC_LF_DB3000_DBX" ts="1119"/>
+  <!--140-->
+  <item type="bool" note="Распредустройства.А001.SIMEAS P.Импульс активной мощности " tp="PLC_LF_DB3000_DBX" ts="1120"/>
+  <item type="bool" note="Распредустройства.А001.SIMEAS P.Импульс реактивной мощности " tp="PLC_LF_DB3000_DBX" ts="1121"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F301(Siprotec).R5 " tp="PLC_LF_DB3000_DBX" ts="1122"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F301(Siprotec).R6 " tp="PLC_LF_DB3000_DBX" ts="1123"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F301(Siprotec).Работает " tp="PLC_LF_DB3000_DBX" ts="1124"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F302(WOODWARD MRU3_1).U низкое" tp="PLC_LF_DB3000_DBX" ts="1125"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F302(WOODWARD MRU3_1).U высокое " tp="PLC_LF_DB3000_DBX" ts="1126"/>
+  <item type="bool" note="Распредустройства.А001.Устройство защиты -F302(WOODWARD MRU3_1).Работает " tp="PLC_LF_DB3000_DBX" ts="1127"/>
+  <!--141-->
+  <item type="bool" note="Распредустройства.А001.Устройство контроля наличия напряжения(CAVIN).Работает " tp="PLC_LF_DB3000_DBX" ts="1128"/>
+  <item type="bool" note="Распредустройства.А001.Устройство контроля наличия напряжения(CAVIN).Нет высокого напряжения " tp="PLC_LF_DB3000_DBX" ts="1129"/>
+  <item type="bool" note="Распредустройства.А001.Вставлена ремонтная пластина кабельного разъединителя " tp="PLC_LF_DB3000_DBX" ts="1130"/>
+  <item type="bool" note="Распредустройства.А001.Вставлена ремонтная пластина выходного разъединителя " tp="PLC_LF_DB3000_DBX" ts="1131"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1132"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1133"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1134"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1135"/>
+  <!--142-->
+  <item type="bool" note="Распредустройства.А002.Выбор режима.Местное " tp="PLC_LF_DB3000_DBX" ts="1136"/>
+  <item type="bool" note="Распредустройства.А002.Выбор режима.Дистанция " tp="PLC_LF_DB3000_DBX" ts="1137"/>
+  <item type="bool" note="Вакуумный выключатель.А002.Концевые.Отключен " tp="PLC_LF_DB3000_DBX" ts="1138"/>
+  <item type="bool" note="Вакуумный выключатель.А002.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1139"/>
+  <item type="bool" note="Вакуумный выключатель.А002.Готов к включению " tp="PLC_LF_DB3000_DBX" ts="1140"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F301(Siprotec).I&gt; " tp="PLC_LF_DB3000_DBX" ts="1141"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F301(Siprotec).I&gt;&gt; " tp="PLC_LF_DB3000_DBX" ts="1142"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1143"/>
+  <!--143-->
+  <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1144"/>
+  <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1145"/>
+  <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1146"/>
+  <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1147"/>
+  <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1148"/>
+  <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1149"/>
+  <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1150"/>
+  <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1151"/>
+  <!--144-->
+  <item type="bool" note="Распредустройства.А002.Наличие управляющего напряжения " tp="PLC_LF_DB3000_DBX" ts="1152"/>
+  <item type="bool" note="Распредустройства.А002.Двери ячейки закрыты " tp="PLC_LF_DB3000_DBX" ts="1153"/>
+  <item type="bool" note="Тест ламп.Распредустройства.А002 " tp="PLC_LF_DB3000_DBX" ts="1154"/>
+  <item type="bool" note="Распредустройства.А002.Квитирование " tp="PLC_LF_DB3000_DBX" ts="1155"/>
+  <item type="bool" note="Вакуумный выключатель.А002.Двигатель -М1 (взвода пружины)запитан " tp="PLC_LF_DB3000_DBX" ts="1156"/>
+  <item type="bool" note="Вакуумный выключатель.А002.Пружина взведена " tp="PLC_LF_DB3000_DBX" ts="1157"/>
+  <item type="bool" note="Распредустройства.А002.Выбор ячейки.Выбрана линия №2 " tp="PLC_LF_DB3000_DBX" ts="1158"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1159"/>
+  <!--145-->
+  <item type="bool" note="Распредустройства.А002.Вакуумный выключатель подстанции.Концевые.Выключен " tp="PLC_LF_DB3000_DBX" ts="1160"/>
+  <item type="bool" note="Распредустройства.А002.Вакуумный выключатель подстанции.Концевые.Включен " tp="PLC_LF_DB3000_DBX" ts="1161"/>
+  <item type="bool" note="Распредустройства.А002.Разрешение на включение от трансформатора " tp="PLC_LF_DB3000_DBX" ts="1162"/>
+  <item type="bool" note="Распредустройства.А002.Вставлена ремонтная изолирующая пластина " tp="PLC_LF_DB3000_DBX" ts="1163"/>
+  <item type="bool" note="Трансформаторный разъединитель.А002.Реле положения.Отключен(HVLF+A001-KAT11(23:24)) " tp="PLC_LF_DB3000_DBX" ts="1164"/>
+  <item type="bool" note="Трансформаторный разъединитель.А002.Реле положения.Включен(HVLF+A001-KET11(23:24)) " tp="PLC_LF_DB3000_DBX" ts="1165"/>
+  <item type="bool" note="Трансформаторный заземлитель.А002.Реле положения.Отключен(HVLF+A001-KAT15(23:24)) " tp="PLC_LF_DB3000_DBX" ts="1166"/>
+  <item type="bool" note="Трансформаторный заземлитель.А002.Реле положения.Заземлён(HVLF+A001-KET15(23:24)) " tp="PLC_LF_DB3000_DBX" ts="1167"/>
+  <!--146-->
+  <item type="bool" note="Распредустройства.А002.SIMEAS P.Импульс активной мощности " tp="PLC_LF_DB3000_DBX" ts="1168"/>
+  <item type="bool" note="Распредустройства.А002.SIMEAS P.Импульс реактивной мощности " tp="PLC_LF_DB3000_DBX" ts="1169"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F301(Siprotec).R5 " tp="PLC_LF_DB3000_DBX" ts="1170"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F301(Siprotec).R6 " tp="PLC_LF_DB3000_DBX" ts="1171"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F301(Siprotec).Работает " tp="PLC_LF_DB3000_DBX" ts="1172"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F302(WOODWARD MRU3_1).U низкое" tp="PLC_LF_DB3000_DBX" ts="1173"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F302(WOODWARD MRU3_1).U высокое" tp="PLC_LF_DB3000_DBX" ts="1174"/>
+  <item type="bool" note="Распредустройства.А002.Устройство защиты -F302(WOODWARD MRU3_1).Работает " tp="PLC_LF_DB3000_DBX" ts="1175"/>
+  <!--147-->
+  <item type="bool" note="Распредустройства.А002.Устройство контроля наличия напряжения(CAVIN).Работает " tp="PLC_LF_DB3000_DBX" ts="1176"/>
+  <item type="bool" note="Распредустройства.А002.Устройство контроля наличия напряжения(CAVIN).Нет высокого напряжения " tp="PLC_LF_DB3000_DBX" ts="1177"/>
+  <item type="bool" note="Распредустройства.А002.Вставлена ремонтная пластина кабельного разъединителя " tp="PLC_LF_DB3000_DBX" ts="1178"/>
+  <item type="bool" note="Распредустройства.А002.Вставлена ремонтная пластина выходного разъединителя " tp="PLC_LF_DB3000_DBX" ts="1179"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1180"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1181"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1182"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1183"/>
+  <item type="real" abs="true" hysteresis=".01" note="Celox.LF1.Значение температуры" tp="PLC_LF_DB3000_DBR_" ts="0148"/>
+  <item type="real" abs="true" hysteresis=".01" note="Celox.LF2.Значение температуры" tp="PLC_LF_DB3000_DBR_" ts="0152"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.LF1.Значение водорода" tp="PLC_LF_DB3000_DBR_" ts="0156"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.LF2.Значение водорода" tp="PLC_LF_DB3000_DBR_" ts="0160"/>
+  <item type="real" abs="true" hysteresis=".01" note="Celox.LF1.Значение окисленности" tp="PLC_LF_DB3000_DBR_" ts="0164"/>
+  <item type="real" abs="true" hysteresis=".01" note="Celox.LF2.Значение окисленности" tp="PLC_LF_DB3000_DBR_" ts="0168"/>
+  <item type="word" note="Celox.LF1.Плавка заявлена(1-да)" tp="PLC_LF_DB3000_DBW_" ts="0172"/>
+  <item type="word" note="Celox.LF2.Плавка заявлена(1-да)" tp="PLC_LF_DB3000_DBW_" ts="0174"/>
+  <item type="word" note="Hydris.LF1.Плавка заявлена(1-да)" tp="PLC_LF_DB3000_DBW_" ts="0176"/>
+  <item type="word" note="Hydris.LF2.Плавка заявлена(1-да)" tp="PLC_LF_DB3000_DBW_" ts="0178"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.LF1.Парциальное давление водорода" tp="PLC_LF_DB3000_DBR_" ts="0180"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.LF2.Парциальное давление водорода" tp="PLC_LF_DB3000_DBR_" ts="0184"/>
+  <item type="real" abs="true" hysteresis=".01" note="Акт плавка.LF1.Номер плавки" tp="PLC_LF_DB3000_DBR_" ts="0188"/>
+  <item type="real" abs="true" hysteresis=".01" note="Акт плавка.LF2.Номер плавки" tp="PLC_LF_DB3000_DBR_" ts="0192"/>
+  <item type="dword" note="Акт плавка.LF1.Номер плавки заявленной 1 поз" tp="PLC_LF_DB3000_DBD_" ts="0196"/>
+  <item type="dword" note="Акт плавка.LF2.Номер плавки заявленной 2 поз" tp="PLC_LF_DB3000_DBD_" ts="0200"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.New.LF1.Значение водорода" tp="PLC_LF_DB3000_DBR_" ts="0204"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.New.LF1.Парциальное давление" tp="PLC_LF_DB3000_DBR_" ts="0208"/>
+  <item type="word" note="Hydris.New.LF1.Идентификатор замера" tp="PLC_LF_DB3000_DBW_" ts="0212"/>
+  <!--214-->
+  <item type="bool" note="Hydris.New.LF1.Ошибка связи" tp="PLC_LF_DB3000_DBX" ts="1712"/>
+  <item type="bool" note="Портал.Поворот.Диагностика.Портал в позиции 1 более 10 минут с горячими электродами" tp="PLC_LF_DB3000_DBX" ts="1713"/>
+  <item type="bool" note="Портал.Поворот.Диагностика.Портал в позиции 2 более 10 минут с горячими электродами" tp="PLC_LF_DB3000_DBX" ts="1714"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1715"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1716"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1717"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1718"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1719"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1720"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1721"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1722"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1723"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1724"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1725"/>
+  <item type="bool" tp="PLC_LF_DB3000_DBX" ts="1726"/>
+  <item type="dword" abs="true" hysteresis=".01" note="Celox.LF1.Счетчик непрошедших замеров" tp="PLC_LF_DB3000_DBD_" ts="0216"/>
+  <item type="dword" abs="true" hysteresis=".01" note="Celox.LF2.Счетчик непрошедших замеров" tp="PLC_LF_DB3000_DBD_" ts="0220"/>
+  <item type="word" note="Портал.Поворот.Диагностика.Время портала в позиции 1 с горячими электродами" tp="PLC_LF_DB3000_DBW_" ts="0224"/>
+  <item type="word" note="Портал.Поворот.Диагностика.Время портала в позиции 2 с горячими электродами" tp="PLC_LF_DB3000_DBW_" ts="0226"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.New.LF2.Значение водорода" tp="PLC_LF_DB3000_DBR_" ts="0228"/>
+  <item type="real" abs="true" hysteresis=".01" note="Hydris.New.LF2.Парциальное давление" tp="PLC_LF_DB3000_DBR_" ts="0232"/>
+  <item type="word" note="Hydris.New.LF2.Идентификатор замера" tp="PLC_LF_DB3000_DBW_" ts="0236"/>
+</items>

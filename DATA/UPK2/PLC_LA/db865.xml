@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items><item type="word" note="Резерв" tp="PLC_LA_DB865_DBW_" ts="0000"/>
+  <item type="word" note="Profibus.LA.Контролер DD50 DP 1.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0002"/>
+  <item type="word" note="Резерв" tp="PLC_LA_DB865_DBW_" ts="0004"/>
+  <item type="word" note="Profibus.LA.DT50-ED501 DP 3.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0006"/>
+  <item type="word" note="Profibus.LA.DT51-ED511 DP 4.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0008"/>
+  <item type="word" note="Profibus.LA.Disomat 1 DP 11.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0010"/>
+  <item type="word" note="Profibus.LA.Disomat 2 DP 12.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0012"/>
+  <item type="word" note="Profibus.LA.Disomat 3 DP 13.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0014"/>
+  <item type="word" note="Profibus.LA.Disomat 4 DP 14.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0016"/>
+  <item type="word" note="Profibus.LA.Net Analyzer DP20.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0018"/>
+  <item type="word" note="Profibus.LA.OLM50 шкаф DD50.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0020"/>
+  <item type="word" note="Profibus.LA.OLM51 шкаф DT51.Счётчик ошибок" tp="PLC_LA_DB865_DBW_" ts="0022"/>
+  <item type="word" note="Резерв" tp="PLC_LA_DB865_DBW_" ts="0024"/>
+  <item type="word" note="Резерв" tp="PLC_LA_DB865_DBW_" ts="0026"/>
+  <item type="word" note="Резерв" tp="PLC_LA_DB865_DBW_" ts="0028"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="240"/>
+  <item type="bool" note="Profibus.LA.Контролер DD50 DP 1.Ошибка" tp="PLC_LA_DB865_DBX" ts="241"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="242"/>
+  <item type="bool" note="Profibus.LA.DT50-ED501 DP 3.Ошибка" tp="PLC_LA_DB865_DBX" ts="243"/>
+  <item type="bool" note="Profibus.LA.DT51-ED511 DP 4.Ошибка" tp="PLC_LA_DB865_DBX" ts="244"/>
+  <item type="bool" note="Profibus.LA.Disomat 1 DP 11.Ошибка" tp="PLC_LA_DB865_DBX" ts="245"/>
+  <item type="bool" note="Profibus.LA.Disomat 2 DP 12.Ошибка" tp="PLC_LA_DB865_DBX" ts="246"/>
+  <item type="bool" note="Profibus.LA.Disomat 3 DP 13.Ошибка" tp="PLC_LA_DB865_DBX" ts="247"/>
+  <item type="bool" note="Profibus.LA.Disomat 4 DP 14.Ошибка" tp="PLC_LA_DB865_DBX" ts="248"/>
+  <item type="bool" note="Profibus.LA.Net Analyzer DP20.Ошибка" tp="PLC_LA_DB865_DBX" ts="249"/>
+  <item type="bool" note="Profibus.LA.OLM50 шкаф DD50.Ошибка" tp="PLC_LA_DB865_DBX" ts="250"/>
+  <item type="bool" note="Profibus.LA.OLM51 шкаф DT51.Ошибка" tp="PLC_LA_DB865_DBX" ts="251"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="252"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="253"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="254"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="255"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="256"/>
+  <item type="bool" note="Profibus.LA.Контролер DD50 DP 1.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="257"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="258"/>
+  <item type="bool" note="Profibus.LA.DT50-ED501 DP 3.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="259"/>
+  <item type="bool" note="Profibus.LA.DT51-ED511 DP 4.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="260"/>
+  <item type="bool" note="Profibus.LA.Disomat 1 DP 11.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="261"/>
+  <item type="bool" note="Profibus.LA.Disomat 2 DP 12.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="262"/>
+  <item type="bool" note="Profibus.LA.Disomat 3 DP 13.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="263"/>
+  <item type="bool" note="Profibus.LA.Disomat 4 DP 14.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="264"/>
+  <item type="bool" note="Profibus.LA.Net Analyzer DP20.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="265"/>
+  <item type="bool" note="Profibus.LA.OLM50 шкаф DD50.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="266"/>
+  <item type="bool" note="Profibus.LA.OLM51 шкаф DT51.Сброс ошибки" tp="PLC_LA_DB865_DBX" ts="267"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="268"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="269"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="270"/>
+  <item type="bool" note="Резерв" tp="PLC_LA_DB865_DBX" ts="271"/>
+</items>

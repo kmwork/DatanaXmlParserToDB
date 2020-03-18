@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Система аварийных стопов.ГЛ ПУЛЬТ OMS +X1001 - ПОВТОРНЫЙ ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="0"/>
+  <item type="bool" note="Система аварийных стопов.ГЛ ПУЛЬТ УПРАВЛЕНИЯ X1011 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="1"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1013 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="2"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1014 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="3"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1015 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="4"/>
+  <item type="bool" note="Система аварийных стопов. ГИДРАВ УЗЕЛ 00510-ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="5"/>
+  <item type="bool" note="Система аварийных стопов.ГЛ ПУЛЬТ УПРАВЛЕНИЯ X1021 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="6"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1023 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="7"/>
+  <!--1 байт -->
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1024 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="8"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1025-ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="9"/>
+  <item type="bool" note="Система аварийных стопов.ГИДРАВЛИЧЕСКИЙ УЗЕЛ 00520 -ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="10"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1003 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="11"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1004 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="12"/>
+  <item type="bool" note="Система аварийных стопов.ЛОКАЛ ПУЛЬТ УПРАВЛ X1005 - ПОВТОР ЗАПУСК АВАР СТОПА" tp="PLC_RH_DB4001_DBX" ts="13"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="14"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="15"/>
+  <!--2 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="16"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="17"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="18"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="19"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="20"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="21"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="22"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="23"/>
+  <!--3 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="24"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="25"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="26"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="27"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="28"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="29"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="30"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="31"/>
+  <!--4 байт -->
+  <item type="bool" note="Система поднятия сосуда.Циркуляционный насос.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="32"/>
+  <item type="bool" note="Система поднятия сосуда.Масляный нагреватель.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="33"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.МЕДЛЕННО НА RH1(команда)" tp="PLC_RH_DB4001_DBX" ts="34"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.МЕДЛЕННО НА RH2(команда)" tp="PLC_RH_DB4001_DBX" ts="35"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.БЫСТРО НА RH1(команда)" tp="PLC_RH_DB4001_DBX" ts="36"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.БЫСТРО НА RH2(команда)" tp="PLC_RH_DB4001_DBX" ts="37"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм перемещения.ТОРМОЗ выключить" tp="PLC_RH_DB4001_DBX" ts="38"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.МЕДЛЕННО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="39"/>
+  <!--5 байт -->
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.МЕДЛЕННО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="40"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.БЫСТРО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="41"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.БЫСТРО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="42"/>
+  <item type="bool" note="Подвижный трубопровод.Механизм подъёма.ТОРМОЗ выключить" tp="PLC_RH_DB4001_DBX" ts="43"/>
+  <item type="bool" note="Водокольцевые насосы.Воздушный вентилятор №1.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="44"/>
+  <item type="bool" note="Водокольцевые насосы.Воздушный вентилятор №1.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="45"/>
+  <item type="bool" note="Вакуумная система.Вентилятор в помещении сливных насосов.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="46"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="47"/>
+  <!--6 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="48"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="49"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="50"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="51"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="52"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="53"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="54"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="55"/>
+  <!--7 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="56"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="57"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="58"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="59"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="60"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="61"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="62"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="63"/>
+  <!--8 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="64"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="65"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="66"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="67"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="68"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="69"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="70"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="71"/>
+  <!--9 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="72"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="73"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="74"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="75"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="76"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="77"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="78"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="79"/>
+  <!--10 байт -->
+  <item type="bool" note="Пульты.Х1003.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="80"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В ПОЗИЦИИ УДАЛЕН НАСТЫЛЕЙ 1(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="81"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В ПОЗИЦИИ ТОРКРЕТ ОБРАБОТКИ 1(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="82"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В ПАРКОВОЧНОЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="83"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В ПОЗИЦИИ ТОРКРЕТ ОБРАБОТКИ 2(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="84"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В ПОЗИЦИИ УДАЛЕНИЯ НАСТЫЛЕЙ 2(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="85"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1003.В РАБОТЕ/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="86"/>
+  <item type="bool" note="Пульты.Х1004.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="87"/>
+  <!--11 байт -->
+  <item type="bool" note="Тележка для ремонта патрубков №1.Пульт Х1004.В КОНЕЧНОЙ ПОЗИЦИИ СТЕНД1(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="88"/>
+  <item type="bool" note="Тележка для ремонта патрубков №1.Пульт Х1004.В КОНЕЧНОЙ ПОЗИЦИИ СТЕНД2(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="89"/>
+  <item type="bool" note="Тележка для ремонта патрубков №1.Пульт Х1004.В РАБОТЕ/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="90"/>
+  <item type="bool" note="Пульты.Х1005.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="91"/>
+  <item type="bool" note="Тележка для ремонта патрубков №2.Пульт Х1005.В КОНЕЧНОЙ ПОЗИЦИИ СТЕНД3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="92"/>
+  <item type="bool" note="Тележка для ремонта патрубков №2.Пульт Х1005.В КОНЕЧНОЙ ПОЗИЦИИ СТЕНД4(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="93"/>
+  <item type="bool" note="Тележка для ремонта патрубков №2.Пульт Х1005.В РАБОТЕ/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="94"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="95"/>
+  <!--12 байт -->
+  <item type="bool" note="МЗПП.Станция 1.Фурма измерения t.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="96"/>
+  <item type="bool" note="МЗПП.Станция 1.Фурма измерения t.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="97"/>
+  <item type="bool" note="МЗПП.Станция 1.Фурма пробоотбора.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="98"/>
+  <item type="bool" note="МЗПП.Станция 1.Фурма пробоотбора.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="99"/>
+  <item type="bool" note="МЗПП.Станция 1.Фурма шлаколомателя.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="100"/>
+  <item type="bool" note="МЗПП.Станция 1.Фурма шлаколомателя.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="101"/>
+  <item type="bool" note="МЗПП.Станция 1.Устройство перемещения фурм.В ПОЗИЦИЮ ИЗМЕРЕНИЕ" tp="PLC_RH_DB4001_DBX" ts="102"/>
+  <item type="bool" note="МЗПП.Станция 1.Устройство перемещения фурм.В ПАРКОВОЧНУЮ ПОЗИЦИЮ" tp="PLC_RH_DB4001_DBX" ts="103"/>
+  <!--13 байт -->
+  <item type="bool" note="МЗПП.Станция 2.Фурма измерения t.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="104"/>
+  <item type="bool" note="МЗПП.Станция 2.Фурма измерения t.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="105"/>
+  <item type="bool" note="МЗПП.Станция 2.Фурма пробоотбора.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="106"/>
+  <item type="bool" note="МЗПП.Станция 2.Фурма пробоотбора.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="107"/>
+  <item type="bool" note="МЗПП.Станция 2.Фурма шлаколомателя.ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="108"/>
+  <item type="bool" note="МЗПП.Станция 2.Фурма шлаколомателя.ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="109"/>
+  <item type="bool" note="МЗПП.Станция 2.Устройство перемещения фурм.В ПОЗИЦИЮ ИЗМЕРЕНИЕ" tp="PLC_RH_DB4001_DBX" ts="110"/>
+  <item type="bool" note="МЗПП.Станция 2.Устройство перемещения фурм.В ПАРКОВОЧНУЮ ПОЗИЦИЮ" tp="PLC_RH_DB4001_DBX" ts="111"/>
+  <!--14 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="112"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="113"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Двигатель.PTC ПОВТОРНЫЙ ЗАПУСК" tp="PLC_RH_DB4001_DBX" ts="114"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="115"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="116"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="117"/>
+  <item type="bool" note="Нагревающие горелки.Воздушный вентилятор вытяжной трубы.В РАБОТУ" tp="PLC_RH_DB4001_DBX" ts="118"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="119"/>
+  <!--15 байт -->
+  <item type="bool" note="Диагностика.Внешнецеховое освещение.Команда включить" tp="PLC_RH_DB4001_DBX" ts="120"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="121"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="122"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="123"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="124"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="125"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="126"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="127"/>
+  <!--16 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="128"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="129"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="130"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="131"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="132"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="133"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="134"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="135"/>
+  <!--17 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="136"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="137"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.МЕДЛЕННО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="138"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.МЕДЛЕННО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="139"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.БЫСТРО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="140"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.БЫСТРО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="141"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.ТОРМОЗ выключить" tp="PLC_RH_DB4001_DBX" ts="142"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Каретка фурмы.Двигатель.PTC ПОВТОРНЫЙ ЗАПУСК" tp="PLC_RH_DB4001_DBX" ts="143"/>
+  <!--18 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.Команды.В ПАРКОВОЧНУЮ ПОЗИЦИЮ" tp="PLC_RH_DB4001_DBX" ts="144"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Поворот устр-во.Команды.В ПОЗИЦИЮ ОБРАБОТКИ" tp="PLC_RH_DB4001_DBX" ts="145"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.МЕДЛЕННО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="146"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.МЕДЛЕННО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="147"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.БЫСТРО ВВЕРХ(команда)" tp="PLC_RH_DB4001_DBX" ts="148"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.БЫСТРО ВНИЗ(команда)" tp="PLC_RH_DB4001_DBX" ts="149"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.ТОРМОЗ выключить" tp="PLC_RH_DB4001_DBX" ts="150"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Каретка фурмы.Двигатель.PTC ПОВТОРНЫЙ ЗАПУСК" tp="PLC_RH_DB4001_DBX" ts="151"/>
+  <!--19 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.Команды.В ПАРКОВОЧНУЮ ПОЗИЦИЮ" tp="PLC_RH_DB4001_DBX" ts="152"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Поворот устр-во.Команды.В ПОЗИЦИЮ ОБРАБОТКИ" tp="PLC_RH_DB4001_DBX" ts="153"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="154"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="155"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="156"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="157"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="158"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="159"/>
+  <!--20 байт -->
+  <item type="bool" note="Вакуумная система.Присутствие СО" tp="PLC_RH_DB4001_DBX" ts="160"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="161"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="162"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="163"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="164"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="165"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="166"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="167"/>
+  <!--21 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="168"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="169"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="170"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="171"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="172"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="173"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="174"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="175"/>
+  <!--22 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="176"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="177"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="178"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="179"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="180"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="181"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="182"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="183"/>
+  <!--23 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="184"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="185"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="186"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="187"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="188"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="189"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="190"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="191"/>
+  <!--24 байт -->
+  <item type="bool" note="Пульты.Х1011.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="192"/>
+  <item type="bool" note="Пульты.Х1011.В РАБОТЕ ОТ LF X1001A ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="193"/>
+  <item type="bool" note="Пульты.Х1011.ПОЛ ЦЕХА X1003 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="194"/>
+  <item type="bool" note="Пульты.Х1011.В РАБОТЕ ОТ RH X1011 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="195"/>
+  <item type="bool" note="Пульты.Х1011.В РАБОТЕ ОТ LTS X1017 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="196"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.LF СТАЛЕВОЗ В КОНЕЧНОЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="197"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.В ТОЧКЕ ПЕРЕДАЧИ 1 LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="198"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.LF СТАЛЕВОЗ В ПОЗИЦИИ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="199"/>
+  <!--25 байт -->
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.В ТОЧКЕ ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="200"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011. RH СТАЛЕВОЗ В ПОЗИЦИИ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="201"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.СОСУД В ПОЗИЦИИ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="202"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.В ХХХ ПОЗИЦИИ НОМ 3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="203"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.В LTS СТАНЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="204"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.В ТОЧКЕ ПЕРЕДАЧИ 4(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="205"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1011.RH СТАЛЕВОЗ В КОНЕЧНОЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="206"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.В ТОЧКУ ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="207"/>
+  <!--26 байт -->
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.В RH ПОЗИЦИЮ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="208"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.СОСУД В ПОЗИЦИЮ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="209"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.В ХХХ ПОЗИЦИЮ НОМ 3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="210"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.В ТОЧКУ ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="211"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.В RH ПОЗИЦИЮ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="212"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.СОСУД В ПОЗИЦИЮ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="213"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.В ХХХ ПОЗИЦИЮ НОМ 3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="214"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1011.ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="215"/>
+  <!--27 байт -->
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="216"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1011.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="217"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1011.ГИДРАВЛИКА  В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="218"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1011.ГИДР ИСПОЛЬЗ СТАНЦИЕЙ 2(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="219"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1011.ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="220"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH В ВЕРХНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="221"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.СОСУД RH В НИЖНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="222"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1011.ПОДЪЕМ/ОПУСКАНИЕ/ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="223"/>
+  <!--28 байт -->
+  <item type="bool" note="Пульты.Х1012.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="224"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1012.ГИДРАВЛИКА РАБОТАЕТ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="225"/>
+  <item type="bool" note="Пульты.Сталевоз 2(801-RH) .Пульт Х1012.ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="226"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH В ВЕРХНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="227"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.СОСУД RH В НИЖНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="228"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1012.ПОДЪЕМ/ОПУСКАНИЕ/ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="229"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1012.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="230"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2(801-RH) .Пульт Х1012.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="231"/>
+  <!--29 байт -->
+  <item type="bool" note="Пульты.Х1013.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="232"/>
+  <item type="bool" note="Пульты.Х1013.В РАБОТЕ ОТ LF X2001-1 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="233"/>
+  <item type="bool" note="Пульты.Х1013.ПОЛ ЦЕХА X1013 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="234"/>
+  <item type="bool" note="Пульты.Х1013.В РАБОТЕ ОТ RH X1011 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="235"/>
+  <item type="bool" note="Пульты.Х1013.В РАБОТЕ ОТ LTS X1017 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="236"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.КОНЕЧНАЯ ПОЗИЦИЯ LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="237"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ТОЧКА ПЕРЕДАЧИ 1 LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="238"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="239"/>
+  <!--30 байт -->
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ТОЧКА ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="240"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="241"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.СОСУД ПОЗИЦИЯ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="242"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ХХХ ПОЗИЦИЯ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="243"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.LTS СТАНЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="244"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.ТОЧКА ПЕРЕДАЧИ 4(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="245"/>
+  <item type="bool" note="Система транс-ки ковша 1.Пульт Х1013.КОНЕЧНАЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="246"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1013.ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="247"/>
+  <!--31 байт -->
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1013.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="248"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1013.ХХХ ПОЗ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="249"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2 (801-RH) .Пульт Х1013.ПОЗ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="250"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2 (801-RH) .Пульт Х1013.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="251"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2 (801-RH) .Пульт Х1013.ХХХ ПОЗ НОМ 3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="252"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 1(901-LF) .Пульт Х1013.ДВИЖЕНИЕ РАЗР/ПОМЕХА (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="253"/>
+  <item type="bool" note="Система транс-ки ковша 1.Сталевоз 2 (801-RH) .Пульт Х1013.ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="254"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1013.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="255"/>
+  <!--32 байт -->
+  <item type="bool" note="Пульты.Х1014.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="256"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ИЗМЕРЕНИЕ ГОТОВО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="257"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.АВТОРЕЖИМ В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="258"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ИЗМЕРЕНИЕ В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="259"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ИЗМЕРЕНИЕ ОКОНЧЕНО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="260"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМА ДЛЯ ОТБОРА ПРОБ ПОДГОТОВЛЕНА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="261"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ПРОБА ВЗЯТА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="262"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ОПРОКИДЫВАНИЕ В ПОЗ ПАРКОВКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="263"/>
+  <!--33 байт -->
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМЫ В ПОЗИЦИИ ИЗМЕРЕНИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="264"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ШЛАКОЛОМАТЕЛЬ ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="265"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ШЛАКОЛОМАТЕЛЬ НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="266"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМА ТЕМП ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="267"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМА ТЕМП НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="268"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМА ОТБОРА ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="269"/>
+  <item type="bool" note="МЗПП.Станция 1.Пульт Х1014.ФУРМА ОТБОРА НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="270"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="271"/>
+  <!--34 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="272"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="273"/>
+  <item type="bool" note="Система поднятия сосуда.СИРЕНА И МАЯК- позиция 1(КОМАНДА)" tp="PLC_RH_DB4001_DBX" ts="274"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="275"/>
+  <item type="bool" note="Пульты.Х1016.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="276"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Пульт Х1016.ГАЗООХЛАДИТЕЛЬ ВЕНТИЛИРУЕТСЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="277"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Пульт Х1016.ЗАДВИЖКА ОТКРЫТА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="278"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Пульт Х1016.СОСУД В ПОЗ УДАЛЕНИЯ ЗАГРЯЗНЕНИЙ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="279"/>
+  <!--35 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="280"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="281"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="282"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="283"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="284"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="285"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="286"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="287"/>
+  <!--36 байт -->
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл азота(510_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="288"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл азота(510_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="289"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл аргона(510_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="290"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Кл аргона(510_FH02).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="291"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="292"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="293"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Запорная заслонка легир желоба(510_FH05).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="294"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Запорная заслонка легир желоба(510_FH05).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="295"/>
+  <!--37 байт -->
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи N2 в вакуумкамеру(510_FH10).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="296"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подач возд на огн защ кольцо(510_FH16).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="297"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подач возд на огн защ кольцо(510_FH16).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="298"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="299"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="300"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="301"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="302"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="303"/>
+  <!--38 байт -->
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="304"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH03).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="305"/>
+  <item type="bool" note="Газоохладитель.Станция 1.Клапан охлажд азотом газоохл(01831_FH03).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="306"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="307"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="308"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="309"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="310"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="311"/>
+  <!--39 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="312"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="313"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="314"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="315"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="316"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="317"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="318"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="319"/>
+  <!--40 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.СИРЕНА И МАЯК-04810_CQ01(команда)" tp="PLC_RH_DB4001_DBX" ts="320"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Перв клапан О2 для продувки(04810_FH07).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="321"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса О2 для продувки(04810_FH08).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="322"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл О2 для продувки(04810_FH09).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="323"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый кл продувки фурмы N2(04810_FH11).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="324"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Первый кл продувки фурмы N2(04810_FH11).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="325"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса продувки фурмы N2(04810_FH12)ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="326"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса продувки фурмы N2(04810_FH12)ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="327"/>
+  <!--41 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл продувки фурмы N2(4810_FH13).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="328"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Второй кл продувки фурмы N2(4810_FH13).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="329"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Впускн кл воды на охл фурмы(04810_FH14).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="330"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Впускн кл воды на охл фурмы(04810_FH14).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="331"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса воды на охл фурмы(4810_FH15).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="332"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Кл сброса воды на охл фурмы(4810_FH15).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="333"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан подачи сж воздуха(04810_FH17)ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="334"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Клапан подачи сж воздуха(04810_FH17)ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="335"/>
+  <!--42 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="336"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Расширительная муфта.ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="337"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Запальная горелка.Управление.Пуск" tp="PLC_RH_DB4001_DBX" ts="338"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Запальная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="339"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Запальная горелка.Управление.Сброс неисправности" tp="PLC_RH_DB4001_DBX" ts="340"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Запальная горелка.Управление.Разблокировка местного режима" tp="PLC_RH_DB4001_DBX" ts="341"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Основная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="342"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Основная горелка.Управление.В работе" tp="PLC_RH_DB4001_DBX" ts="343"/>
+  <!--43 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="344"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Основная горелка.Управление.Неисправность" tp="PLC_RH_DB4001_DBX" ts="345"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="346"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="347"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="348"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="349"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="350"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="351"/>
+  <!--44 байт -->
+  <item type="bool" note="Пульты.Х1015.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="352"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Воздух на уплотнение.ЗАКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="353"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Воздух на уплотнение.ОТКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="354"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1015.Огнеупорное защитное кольцо.ЗАКРЫТ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="355"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Пульт Х1015.Огнеупорное защитное кольцо.ОТКРЫТ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="356"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.В ПОЗИЦИИ ПАРКОВКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="357"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.В ПОЗИЦИИ ОБРАБОТКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="358"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.ПОДЪЕМ ВЕРХНЕЙ ФУРМЫ(лампа)" tp="PLC_RH_DB4001_DBX" ts="359"/>
+  <!--45 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.ОПУСКАНИЕ ВЕРХНЕЙ ФУРМЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="360"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.ПОЗИЦИЯ ЗАМЕНЫ(лампа)" tp="PLC_RH_DB4001_DBX" ts="361"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.ПОЗИЦИЯ ПАРКОВКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="362"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.Фурма.НИЖНЯЯ ПОЗИЦИЯ(лампа)" tp="PLC_RH_DB4001_DBX" ts="363"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.КОМПЕНСАТОР.ОТКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="364"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.Пульт Х1015.КОМПЕНСАТОР.ЗАКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="365"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="366"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="367"/>
+  <!--46 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Запальная горелка.Управление.Продувка запальной горелки-открыть" tp="PLC_RH_DB4001_DBX" ts="368"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Основная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="369"/>
+  <item type="bool" note="Система верхней фурмы.Станция 1.ГКГ.Основная горелка.Управление.Пуск" tp="PLC_RH_DB4001_DBX" ts="370"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="371"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="372"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="373"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="374"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="375"/>
+  <!--47 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="376"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="377"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="378"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="379"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="380"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="381"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="382"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="383"/>
+  <!--48 байт -->
+  <item type="bool" note="Пульты.Х1021.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="384"/>
+  <item type="bool" note="Пульты.Х1021.В РАБОТЕ ОТ LF X2001-3 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="385"/>
+  <item type="bool" note="Пульты.Х1021.НОЛЬ ЦЕХА X1023 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="386"/>
+  <item type="bool" note="Пульты.Х1021.В РАБОТЕ ОТ RH X1021 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="387"/>
+  <item type="bool" note="Пульты.Х1021.В РАБОТЕ ОТ LTS X1027 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="388"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.RH СТАЛЕВОЗ КОНЕЧНАЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="389"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 4(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="390"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.LTS СТАНЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="391"/>
+  <!--49 байт -->
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ХХХ ПОЗИЦИЯ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="392"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.СОСУД ПОЗИЦИЯ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="393"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.RH СТАЛЕВОЗ ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="394"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="395"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.LF СТАЛЕВОЗ ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="396"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 1 LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="397"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1021.LF СТАЛЕВОЗ КОНЕЧНАЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="398"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ХХХ ПОЗИЦИЯ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="399"/>
+  <!--50 байт -->
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="400"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.RH ПОЗ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="401"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="402"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ХХХ ПОЗИЦИЯ НОМ 3(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="403"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="404"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.RH ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="405"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ТОЧКА ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="406"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF) .Пульт Х1021.ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="407"/>
+  <!--51 байт -->
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="408"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1021.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="409"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1021.ГИДРАВЛИКА  В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="410"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1021.ГИДР ИСПОЛЬЗ СТАНЦИЕЙ 1(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="411"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1021.СТАЛЕВОЗ-ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="412"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH В ВЕРХНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="413"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.СОСУД RH В НИЖНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="414"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1021.ПОДЪЕМ/ОПУСКАНИЕ/РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="415"/>
+  <!--52 байт -->
+  <item type="bool" note="Пульты.Х1022.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="416"/>
+  <item type="bool" note="Система поднятия сосуда.Пульт Х1022.ГИДРАВЛИКА РАБОТАЕТ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="417"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1022.СТАЛЕВОЗ-ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="418"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH В ВЕРХНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="419"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.СОСУД RH В НИЖНЕЙ ПОЗИЦИИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="420"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1022.ПОДЪЕМ/ОПУСКАНИЕ/РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="421"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1022.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="422"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1022.СОСУД ПОЗ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="423"/>
+  <!--53 байт -->
+  <item type="bool" note="Пульты.Х1023.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="424"/>
+  <item type="bool" note="Пульты.Х1023.В РАБОТЕ ОТ LF X2001-3 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="425"/>
+  <item type="bool" note="Пульты.Х1023.RH НОЛЬ ЦЕХА X1023 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="426"/>
+  <item type="bool" note="Пульты.Х1023.В РАБОТЕ ОТ RH X1021 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="427"/>
+  <item type="bool" note="Пульты.Х1023.В РАБОТЕ ОТ LTS X1027 ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="428"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.RH СТАЛЕВОЗ - КОНЕЧНАЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="429"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.ТОЧКА ПЕРЕДАЧИ 4(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="430"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.LTS СТАНЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="431"/>
+  <!--54 байт -->
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.ХХХ ПОЗИЦИЯ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="432"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.СОСУД ПОЗИЦИЯ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="433"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.RH СТАЛЕВОЗА - ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="434"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.ТОЧКА ПЕРЕДАЧИ 2 RH/LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="435"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.LF СТАЛЕВОЗ - ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="436"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.ТОЧКА ПЕРЕДАЧИ 1 LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="437"/>
+  <item type="bool" note="Система транс-ки ковша 2.Пульт Х1023.КОНЕЧНАЯ ПОЗИЦИЯ LF(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="438"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1023.ХХХ ПОЗ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="439"/>
+  <!--55 байт -->
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1023.СТАЛЕВОЗ-СОСУД ПОЗИЦИЯ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="440"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1023.СТАЛЕВОЗ-RH ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="441"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF).Пульт Х1023.ХХХ ПОЗИЦИЯ НОМ 3 (ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="442"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF).Пульт Х1023.СТАЛЕВОЗ-СОСУД ПОЗИЦИЯ ЗАМЕНЫ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="443"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF).Пульт Х1023.СТАЛЕВОЗ-RH ПОЗИЦИЯ ОБРАБОТКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="444"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 3(902-LF).Пульт Х1023.СТАЛЕВОЗ-ДВИЖЕНИЕ РАЗР/ ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="445"/>
+  <item type="bool" note="Система транс-ки ковша 2.Сталевоз 4(802-RH) .Пульт Х1023.СТАЛЕВОЗ-ДВИЖЕНИЕ РАЗР/ПОМЕХА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="446"/>
+  <item type="bool" note="Тележка обслуживания патрубков.Пульт Х1023.ТЕЛЕЖКА ПАТРУБКОВ В ПАРКОВ ПОЗИЦИИ" tp="PLC_RH_DB4001_DBX" ts="447"/>
+  <!--56 байт -->
+  <item type="bool" note="Пульты.Х1024.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="448"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ИЗМЕРЕНИЕ ГОТОВО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="449"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.АВТОРЕЖИМ В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="450"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ИЗМЕРЕНИЕ В РАБОТЕ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="451"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ИЗМЕРЕНИЕ ОКОНЧЕНО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="452"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМА ДЛЯ ОТБОРА ПРОБ ПОДГОТОВЛЕНА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="453"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ПРОБА ВЗЯТА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="454"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ОПРОКИДЫВАНИЕ В ПОЗ ПАРКОВКИ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="455"/>
+  <!--57 байт -->
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМЫ В ПОЗИЦИИ ИЗМЕРЕНИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="456"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ШЛАКОЛОМАТЕЛЬ ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="457"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ШЛАКОЛОМАТЕЛЬ НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="458"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМА ТЕМП ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="459"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМА ТЕМП НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="460"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМА ОТБОРА ВЕРХНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="461"/>
+  <item type="bool" note="МЗПП.Станция 2.Пульт Х1024.ФУРМА ОТБОРА НИЖНЯЯ ПОЗИЦИЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="462"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="463"/>
+  <!--58 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="464"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="465"/>
+  <item type="bool" note="Система поднятия сосуда.СИРЕНА И МАЯК- позиция 2(КОМАНДА)" tp="PLC_RH_DB4001_DBX" ts="466"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="467"/>
+  <item type="bool" note="Пульты.Х1026.ЛОКАЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="468"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Пульт Х1026.ГАЗООХЛАДИТЕЛЬ ВЕНТИЛИРУЕТСЯ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="469"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Пульт Х1026.ЗАДВИЖКА ОТКРЫТА(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="470"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Пульт Х1026.СОСУД В ПОЗ УДАЛЕНИЯ ЗАГРЯЗНЕНИЙ(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="471"/>
+  <!--59 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="472"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="473"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="474"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="475"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="476"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="477"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="478"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="479"/>
+  <!--60 байт -->
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл азота(520_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="480"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл азота(520_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="481"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл аргона(520_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="482"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Кл аргона(520_FH02).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="483"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(520_FH04).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="484"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(520_FH04).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="485"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Запорная заслонка легир желоба(520_FH05).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="486"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Запорная заслонка легир желоба(520_FH05).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="487"/>
+  <!--61 байт -->
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи N2 в вакуумкамеру(520_FH10).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="488"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подач возд на огн защ кольцо(520_FH16).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="489"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подач возд на огн защ кольцо(520_FH16).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="490"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="491"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="492"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="493"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="494"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="495"/>
+  <!--62 байт -->
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="496"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH03).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="497"/>
+  <item type="bool" note="Газоохладитель.Станция 2.Клапан охлажд азотом газоохл(01832_FH03).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="498"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="499"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="500"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="501"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="502"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="503"/>
+  <!--63 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="504"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="505"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="506"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="507"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="508"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="509"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="510"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="511"/>
+  <!--64 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.СИРЕНА И МАЯК -04820_CQ01(команда)" tp="PLC_RH_DB4001_DBX" ts="512"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Перв клапан О2 для продувки(04820_FH07).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="513"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса О2 для продувки(04820_FH08).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="514"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл О2 для продувки(04820_FH09).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="515"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый кл продувки фурмы N2(04820_FH11).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="516"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Первый кл продувки фурмы N2(04820_FH11).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="517"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса продувки фурмы N2(04820_FH12)ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="518"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса продувки фурмы N2(04820_FH12)ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="519"/>
+  <!--65 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл продувки фурмы N2(4820_FH13).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="520"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Второй кл продувки фурмы N2(4820_FH13).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="521"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Впускн кл воды на охл фурмы(04820_FH14).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="522"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Впускн кл воды на охл фурмы(04820_FH14).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="523"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса воды на охл фурмы(4820_FH15).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="524"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Кл сброса воды на охл фурмы(4820_FH15).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="525"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан подачи сж воздуха(04820_FH17)ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="526"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Клапан подачи сж воздуха(04820_FH17)ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="527"/>
+  <!--66 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="528"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Расширительная муфта.ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="529"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Запальная горелка.Управление.Пуск" tp="PLC_RH_DB4001_DBX" ts="530"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Запальная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="531"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Запальная горелка.Управление.Сброс неисправности" tp="PLC_RH_DB4001_DBX" ts="532"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Запальная горелка.Управление.Разблокировка местного режима" tp="PLC_RH_DB4001_DBX" ts="533"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Основная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="534"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Основная горелка.Управление.В работе" tp="PLC_RH_DB4001_DBX" ts="535"/>
+  <!--67 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="536"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Основная горелка.Управление.Неисправность" tp="PLC_RH_DB4001_DBX" ts="537"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="538"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="539"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="540"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="541"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="542"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="543"/>
+  <!--68 байт -->
+  <item type="bool" note="Пульты.Х1025.ЛОКАЛЬНЫЙ КОНТРОЛЬНЫЙ ВКЛЮЧЕН(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="544"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Воздух на уплотнение.ЗАКРЫТО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="545"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Воздух на уплотнение.ОТКРЫТО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="546"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1025.Огнеупорное защитное кольцо.ЗАКРЫТО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="547"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Пульт Х1025.Огнеупорное защитное кольцо.ОТКРЫТО(ЛАМПА)" tp="PLC_RH_DB4001_DBX" ts="548"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.В ПОЗИЦИИ ПАРКОВКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="549"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.В ПОЗИЦИИ ОБРАБОТКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="550"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.ПОДЪЕМ ВЕРХНЕЙ ФУРМЫ(лампа)" tp="PLC_RH_DB4001_DBX" ts="551"/>
+  <!--69 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.ОПУСКАНИЕ ВЕРХН ФУРМЫ(лампа)" tp="PLC_RH_DB4001_DBX" ts="552"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.ПОЗИЦИЯ ЗАМЕНЫ(лампа)" tp="PLC_RH_DB4001_DBX" ts="553"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.ПОЗИЦИЯ ПАРКОВКИ(лампа)" tp="PLC_RH_DB4001_DBX" ts="554"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.Фурма.НИЖНЯЯ ПОЗИЦИЯ(лампа)" tp="PLC_RH_DB4001_DBX" ts="555"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.КОМПЕНСАТОР.ОТКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="556"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.Пульт Х1025.КОМПЕНСАТОР.ЗАКРЫТ(лампа)" tp="PLC_RH_DB4001_DBX" ts="557"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="558"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="559"/>
+  <!--70 байт -->
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Запальная горелка.Управление.Продувка запальной горелки-открыть" tp="PLC_RH_DB4001_DBX" ts="560"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Основная горелка.Управление.Разрешение работы" tp="PLC_RH_DB4001_DBX" ts="561"/>
+  <item type="bool" note="Система верхней фурмы.Станция 2.ГКГ.Основная горелка.Управление.Пуск" tp="PLC_RH_DB4001_DBX" ts="562"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="563"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="564"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="565"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="566"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="567"/>
+  <!--71 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="568"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="569"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="570"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="571"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="572"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="573"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="574"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="575"/>
+  <!--72 байт -->
+  <item type="bool" note="Вакуумная система.Газоанализатор.Старт авт продувки и обнуления газоанализатора 1800_CQ02" tp="PLC_RH_DB4001_DBX" ts="576"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.Старт измерений газоанализатора 01800_CQ02" tp="PLC_RH_DB4001_DBX" ts="577"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="578"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="579"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.СО КОНТРОЛЬ БАРОМЕТРИЧЕСКОГО КОЛОДЦА(СИРЕНА И МАЯК )1800_CQ01" tp="PLC_RH_DB4001_DBX" ts="580"/>
+  <item type="bool" note="Вакуумная система.Газоанализатор.СО-КОНТРОЛЬ ПОМЕЩЕНИЕ ЦИРК НАСОСОВ(СИРЕНА И МАЯК )1800_CQ03" tp="PLC_RH_DB4001_DBX" ts="581"/>
+  <item type="bool" note="Водокольцевые насосы.Газоанализатор.СО-КОНТРОЛЬ В ПОМЕЩЕНИИ ВОД НАСОСОВ(СИРЕНА И МАЯК)1820_CQ01" tp="PLC_RH_DB4001_DBX" ts="582"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="583"/>
+  <!--73 байт -->
+  <item type="bool" note="Вакуумная система.Клапан подачи воздуха в ПЭН(01800_FH05).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="584"/>
+  <item type="bool" note="Вакуумная система.Главный паровой клапан(01800_FH06).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="585"/>
+  <item type="bool" note="Вакуумная система.Клапан сброса пара(01800_FH07).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="586"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S1(01800_FH08).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="587"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S2(01800_FH11).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="588"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3а(01800_FH12).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="589"/>
+  <item type="bool" note="Вакуумная система.Клапан с конденсатора С1 на эжектор S3b(01800_FH13).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="590"/>
+  <item type="bool" note="Вакуумная система.Клапан подачи пара на эжектор S3b(01800_FH14).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="591"/>
+  <!--74 байт -->
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи воды от насосов(01800_FH22).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="592"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="593"/>
+  <item type="bool" note="Вакуумная система.Главный вакуумный затвор(01800_FH23).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="594"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи возд на эжектор удал СО(FH24).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="595"/>
+  <item type="bool" note="Вакуумная система.Кл подачи охл воды на С1(01800_FH30).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="596"/>
+  <item type="bool" note="Вакуумная система.Барометр колодец.Кл подачи охл воды(01800_FH31).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="597"/>
+  <item type="bool" note="Водокольцевые насосы.Газоанализатор.СО КОНТРОЛЬ СЛИВНЫХ НАСОСОВ(СИРЕНА И МАЯК)1820_CQ03" tp="PLC_RH_DB4001_DBX" ts="598"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="599"/>
+  <!--75 байт -->
+  <item type="bool" note="Водокольцевые насосы.Клапан подачи уплотняющей воды(01820_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="600"/>
+  <item type="bool" note="Водокольцевые насосы.Клапан подачи уплотняющей воды(01820_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="601"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №1.Клапан подачи технической воды(01820_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="602"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №2.Клапан подачи технической воды(01820_FH03).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="603"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №3.Клапан подачи технической воды(01820_FH04).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="604"/>
+  <item type="bool" note="Водокольцевые насосы.Насос №4.Клапан подачи технической воды(01820_FH05).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="605"/>
+  <item type="bool" note="Сжигание отработан газа.Входной клапан подачи азота на горелку(01850_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="606"/>
+  <item type="bool" note="Сжигание отработан газа.Входной клапан подачи азота на горелку(01850_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="607"/>
+  <!--76 байт -->
+  <item type="bool" note="Сжигание отработан газа.Стенд факельной трубы(01850_GA01).Разрешение(команда)" tp="PLC_RH_DB4001_DBX" ts="608"/>
+  <item type="bool" note="Сжигание отработан газа.Стенд факельной трубы(01850_GA01).Старт(команда)" tp="PLC_RH_DB4001_DBX" ts="609"/>
+  <item type="bool" note="Сжигание отработан газа.Стенд факельной трубы(01850_GA01).Квитирование(команда)" tp="PLC_RH_DB4001_DBX" ts="610"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="611"/>
+  <item type="bool" note="Паровой котёл.Главный запрос на работу" tp="PLC_RH_DB4001_DBX" ts="612"/>
+  <item type="bool" note="Паровой котёл.Запрос на стартовое количество" tp="PLC_RH_DB4001_DBX" ts="613"/>
+  <item type="bool" note="Паровой котёл.Запрос на достаточное количество" tp="PLC_RH_DB4001_DBX" ts="614"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="615"/>
+  <!--77 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="616"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="617"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="618"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="619"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="620"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="621"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="622"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="623"/>
+  <!--78 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="624"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="625"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="626"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="627"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="628"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="629"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="630"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="631"/>
+  <!--79 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="632"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="633"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="634"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="635"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="636"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="637"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="638"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="639"/>
+  <!--80 байт -->
+  <item type="bool" note="Нагревающие горелки.Станция 1.Клапан подачи азота на патрубки(02610_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="640"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.Клапан подачи азота на патрубки(02610_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="641"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.Клапан подачи азота на патрубки(02610_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="642"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.Клапан подачи азота на патрубки(02610_FH02).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="643"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Клапан подачи азота на патрубки(02620_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="644"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Клапан подачи азота на патрубки(02620_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="645"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Клапан подачи азота на патрубки(02620_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="646"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Клапан подачи азота на патрубки(02620_FH02).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="647"/>
+  <!--81 байт -->
+  <item type="bool" note="Нагревающие горелки.Станция 3.Клапан подачи азота на патрубки(02630_FH01).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="648"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Клапан подачи азота на патрубки(02630_FH01).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="649"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Клапан подачи азота на патрубки(02630_FH02).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="650"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Клапан подачи азота на патрубки(02630_FH02).ЗАКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="651"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="652"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="653"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="654"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="655"/>
+  <!--82 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="656"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="657"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="658"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="659"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="660"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="661"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="662"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="663"/>
+  <!--83 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="664"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="665"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="666"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="667"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="668"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="669"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="670"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="671"/>
+  <!--84 байт -->
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан главного насоса 1(01000_FH03).Включено низкое давление" tp="PLC_RH_DB4001_DBX" ts="672"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан главного насоса 1(01000_FH03).Включено высокое давление" tp="PLC_RH_DB4001_DBX" ts="673"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан главного насоса 2(01000_FH04).Включено низкое давление" tp="PLC_RH_DB4001_DBX" ts="674"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан главного насоса 2(01000_FH04).Включено высокое давление" tp="PLC_RH_DB4001_DBX" ts="675"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан циркуляции(01000_FH05).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="676"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан охлаждения(01000_FH06).ОТКРЫТЬ" tp="PLC_RH_DB4001_DBX" ts="677"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан подвижной площадки 1(01010_FH08).Вверх" tp="PLC_RH_DB4001_DBX" ts="678"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан подвижной площадки 1(01010_FH08).Вниз" tp="PLC_RH_DB4001_DBX" ts="679"/>
+  <!--85 байт -->
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан подвижной площадки 2(01010_FH10).Вверх" tp="PLC_RH_DB4001_DBX" ts="680"/>
+  <item type="bool" note="Система поднятия сосуда.Управляющий клапан подвижной площадки 2(01010_FH10).Вниз" tp="PLC_RH_DB4001_DBX" ts="681"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="682"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="683"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="684"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="685"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="686"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="687"/>
+  <!--86 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="688"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="689"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="690"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="691"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="692"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="693"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="694"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="695"/>
+  <!--87 байт -->
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="696"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="697"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="698"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="699"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="700"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="701"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="702"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="703"/>
+  <!--88 байт -->
+  <item type="bool" note="Диагностика.Позиция 1.Счётчик газохода.Сброс счетчиков стойкости газохода" tp="PLC_RH_DB4001_DBX" ts="704"/>
+  <item type="bool" note="Диагностика.Позиция 1.Счётчик вакуумкамеры.Сброс счетчиков стойкости вакуумкамеры" tp="PLC_RH_DB4001_DBX" ts="705"/>
+  <item type="bool" note="Диагностика.Позиция 1.Счётчик патрубков.Сброс счетчиков стойкости патрубков" tp="PLC_RH_DB4001_DBX" ts="706"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="707"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="708"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="709"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="710"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="711"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 1.Счётчик газохода.Минутный счетчик стойкости газохода в работ" tp="PLC_RH_DB4001_DBR_" ts="0090"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 1.Счётчик вакуумкамеры.Минутный счетчик стойкости вакуумкамеры в работе" tp="PLC_RH_DB4001_DBR_" ts="0094"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 1.Счётчик патрубков.Минутный счетчик стойкости патрубков в работе" tp="PLC_RH_DB4001_DBR_" ts="0098"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 1.Счётчик газохода.Часовой счетчик стойкости газохода" tp="PLC_RH_DB4001_DBR_" ts="0102"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 1.Счётчик вакуумкамеры.Часовой счетчик стойкости вакуумкамеры" tp="PLC_RH_DB4001_DBR_" ts="0106"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 1.Счётчик патрубков.Часовой счетчик стойкости патрубков" tp="PLC_RH_DB4001_DBR_" ts="0110"/>
+  <item type="dword" note="Диагностика.Позиция 1.Счётчик газохода. Хранение даты и времени замены от WinCC газоход" tp="PLC_RH_DB4001_DBD_" ts="0114"/>
+  <item type="dword" note="Диагностика.Позиция 1.Счётчик вакуумкамеры.Хранение даты и времени замены от WinCC Вакуумкамера" tp="PLC_RH_DB4001_DBD_" ts="0118"/>
+  <item type="dword" note="Диагностика.Позиция 1.Счётчик патрубков.Хранение даты и времени замены от WinCC Патрубки" tp="PLC_RH_DB4001_DBD_" ts="0122"/>
+  <item type="word" note="Диагностика.Позиция 1.Счётчик газохода.Хранение номера газохода " tp="PLC_RH_DB4001_DBW_" ts="0126"/>
+  <item type="word" note="Диагностика.Позиция 1.Счётчик вакуумкамеры.Хранение номера вакуумкамеры" tp="PLC_RH_DB4001_DBW_" ts="0128"/>
+  <item type="word" note="Диагностика.Позиция 1.Счётчик патрубков.Хранение номера патрубков" tp="PLC_RH_DB4001_DBW_" ts="0130"/>
+  <!--132 байт -->
+  <item type="bool" note="Диагностика.Позиция 2.Счётчик газохода.Сброс счетчиков стойкости газохода" tp="PLC_RH_DB4001_DBX" ts="1056"/>
+  <item type="bool" note="Диагностика.Позиция 2.Счётчик вакуумкамеры.Сброс счетчиков стойкости вакуумкамеры" tp="PLC_RH_DB4001_DBX" ts="1057"/>
+  <item type="bool" note="Диагностика.Позиция 2.Счётчик патрубков.Сброс счетчиков стойкости патрубков" tp="PLC_RH_DB4001_DBX" ts="1058"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1059"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1060"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1061"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1062"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1063"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 2.Счётчик газохода.Минутный счетчик стойкости газохода в работ" tp="PLC_RH_DB4001_DBR_" ts="0134"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 2.Счётчик вакуумкамеры.Минутный счетчик стойкости вакуумкамеры в работе" tp="PLC_RH_DB4001_DBR_" ts="0138"/>
+  <item type="real" abs="true" hysteresis="1" note="Диагностика.Позиция 2.Счётчик патрубков.Минутный счетчик стойкости патрубков в работе" tp="PLC_RH_DB4001_DBR_" ts="0142"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 2.Счётчик газохода.Часовой счетчик стойкости газохода" tp="PLC_RH_DB4001_DBR_" ts="0146"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 2.Счётчик вакуумкамеры.Часовой счетчик стойкости вакуумкамеры" tp="PLC_RH_DB4001_DBR_" ts="0150"/>
+  <item type="real" abs="true" hysteresis=".5" note="Диагностика.Позиция 2.Счётчик патрубков.Часовой счетчик стойкости патрубков" tp="PLC_RH_DB4001_DBR_" ts="0154"/>
+  <item type="dword" note="Диагностика.Позиция 2.Счётчик газохода. Хранение даты и времени замены от WinCC газоход" tp="PLC_RH_DB4001_DBD_" ts="0158"/>
+  <item type="dword" note="Диагностика.Позиция 2.Счётчик вакуумкамеры.Хранение даты и времени замены от WinCC Вакуумкамера" tp="PLC_RH_DB4001_DBD_" ts="0162"/>
+  <item type="dword" note="Диагностика.Позиция 2.Счётчик патрубков.Хранение даты и времени замены от WinCC Патрубки" tp="PLC_RH_DB4001_DBD_" ts="0166"/>
+  <item type="word" note="Диагностика.Позиция 2.Счётчик газохода.Хранение номера газохода " tp="PLC_RH_DB4001_DBW_" ts="0170"/>
+  <item type="word" note="Диагностика.Позиция 2.Счётчик вакуумкамеры.Хранение номера вакуумкамеры" tp="PLC_RH_DB4001_DBW_" ts="0172"/>
+  <item type="word" note="Диагностика.Позиция 2.Счётчик патрубков.Хранение номера патрубков" tp="PLC_RH_DB4001_DBW_" ts="0174"/>
+  <!--176 байт -->
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT10_1" tp="PLC_RH_DB4001_DBX" ts="1408"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT10_2" tp="PLC_RH_DB4001_DBX" ts="1409"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT10_3" tp="PLC_RH_DB4001_DBX" ts="1410"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT11" tp="PLC_RH_DB4001_DBX" ts="1411"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT12" tp="PLC_RH_DB4001_DBX" ts="1412"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT13_1" tp="PLC_RH_DB4001_DBX" ts="1413"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT13_2" tp="PLC_RH_DB4001_DBX" ts="1414"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT14" tp="PLC_RH_DB4001_DBX" ts="1415"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT15" tp="PLC_RH_DB4001_DBX" ts="1416"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT16_1" tp="PLC_RH_DB4001_DBX" ts="1417"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT16_2" tp="PLC_RH_DB4001_DBX" ts="1418"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT17_1" tp="PLC_RH_DB4001_DBX" ts="1419"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT17_2" tp="PLC_RH_DB4001_DBX" ts="1420"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT18" tp="PLC_RH_DB4001_DBX" ts="1421"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка ET_DT19" tp="PLC_RH_DB4001_DBX" ts="1422"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка 01910_Celox" tp="PLC_RH_DB4001_DBX" ts="1423"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка 01920_Celox" tp="PLC_RH_DB4001_DBX" ts="1424"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MK01" tp="PLC_RH_DB4001_DBX" ts="1425"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MK02" tp="PLC_RH_DB4001_DBX" ts="1426"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MK03" tp="PLC_RH_DB4001_DBX" ts="1427"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MK04" tp="PLC_RH_DB4001_DBX" ts="1428"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_JP01" tp="PLC_RH_DB4001_DBX" ts="1429"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_JP02" tp="PLC_RH_DB4001_DBX" ts="1430"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_JP03" tp="PLC_RH_DB4001_DBX" ts="1431"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_JP04" tp="PLC_RH_DB4001_DBX" ts="1432"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_JP05" tp="PLC_RH_DB4001_DBX" ts="1433"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MD01" tp="PLC_RH_DB4001_DBX" ts="1434"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Simocode_MD02" tp="PLC_RH_DB4001_DBX" ts="1435"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_1010_CG01" tp="PLC_RH_DB4001_DBX" ts="1436"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_1010_CG02" tp="PLC_RH_DB4001_DBX" ts="1437"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_1020_CG01" tp="PLC_RH_DB4001_DBX" ts="1438"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_1020_CG02" tp="PLC_RH_DB4001_DBX" ts="1439"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_4810_CG01" tp="PLC_RH_DB4001_DBX" ts="1440"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Encoder_4820_CG01" tp="PLC_RH_DB4001_DBX" ts="1441"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка DpDp Coupler LadleCars" tp="PLC_RH_DB4001_DBX" ts="1442"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка DpDp Coupler 2610_Burner" tp="PLC_RH_DB4001_DBX" ts="1443"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка DpDp Coupler 2620_Burner" tp="PLC_RH_DB4001_DBX" ts="1444"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка DpDp Coupler 2500_Gunning" tp="PLC_RH_DB4001_DBX" ts="1445"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Drive Snorkel Maint Car" tp="PLC_RH_DB4001_DBX" ts="1446"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Drive Snorkel Exch Cars 1" tp="PLC_RH_DB4001_DBX" ts="1447"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Drive Snorkel Exch Cars 2" tp="PLC_RH_DB4001_DBX" ts="1448"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Net Analyser RM01" tp="PLC_RH_DB4001_DBX" ts="1449"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Net Analyser RM02" tp="PLC_RH_DB4001_DBX" ts="1450"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Net Analyser RM01_1" tp="PLC_RH_DB4001_DBX" ts="1451"/>
+  <item type="bool" note="Profibus.PLC RH.Ошибка Net Analyser RM01_2" tp="PLC_RH_DB4001_DBX" ts="1452"/>
+  <item type="bool" note="Оптика.PLC RH.ЭП17_OLM12 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="1453"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1454"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="1455"/>
+  <!--182 байт -->
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT10_1" tp="PLC_RH_DB4001_DBW_" ts="0182"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT10_2" tp="PLC_RH_DB4001_DBW_" ts="0184"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT10_3" tp="PLC_RH_DB4001_DBW_" ts="0186"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT11" tp="PLC_RH_DB4001_DBW_" ts="0188"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT12" tp="PLC_RH_DB4001_DBW_" ts="0190"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT13_1" tp="PLC_RH_DB4001_DBW_" ts="0192"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT13_2" tp="PLC_RH_DB4001_DBW_" ts="0194"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT14" tp="PLC_RH_DB4001_DBW_" ts="0196"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT15" tp="PLC_RH_DB4001_DBW_" ts="0198"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT16_1" tp="PLC_RH_DB4001_DBW_" ts="0200"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT16_2" tp="PLC_RH_DB4001_DBW_" ts="0202"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT17_1" tp="PLC_RH_DB4001_DBW_" ts="0204"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT17_2" tp="PLC_RH_DB4001_DBW_" ts="0206"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT18" tp="PLC_RH_DB4001_DBW_" ts="0208"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.ET_DT19" tp="PLC_RH_DB4001_DBW_" ts="0210"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.01910_Celox" tp="PLC_RH_DB4001_DBW_" ts="0212"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.01920_Celox" tp="PLC_RH_DB4001_DBW_" ts="0214"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MK01" tp="PLC_RH_DB4001_DBW_" ts="0216"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MK02" tp="PLC_RH_DB4001_DBW_" ts="0218"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MK03" tp="PLC_RH_DB4001_DBW_" ts="0220"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MK04" tp="PLC_RH_DB4001_DBW_" ts="0222"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_JP01" tp="PLC_RH_DB4001_DBW_" ts="0224"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_JP02" tp="PLC_RH_DB4001_DBW_" ts="0226"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_JP03" tp="PLC_RH_DB4001_DBW_" ts="0228"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_JP04" tp="PLC_RH_DB4001_DBW_" ts="0230"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_JP05" tp="PLC_RH_DB4001_DBW_" ts="0232"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MD01" tp="PLC_RH_DB4001_DBW_" ts="0234"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Simocode_MD02" tp="PLC_RH_DB4001_DBW_" ts="0236"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_1010_CG01" tp="PLC_RH_DB4001_DBW_" ts="0238"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_1010_CG02" tp="PLC_RH_DB4001_DBW_" ts="0240"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_1020_CG01" tp="PLC_RH_DB4001_DBW_" ts="0242"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_1020_CG02" tp="PLC_RH_DB4001_DBW_" ts="0244"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_4810_CG01" tp="PLC_RH_DB4001_DBW_" ts="0246"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Encoder_4820_CG01" tp="PLC_RH_DB4001_DBW_" ts="0248"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.DpDp Coupler LadleCars" tp="PLC_RH_DB4001_DBW_" ts="0250"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.DpDp Coupler 2610_Burner" tp="PLC_RH_DB4001_DBW_" ts="0252"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.DpDp Coupler 2620_Burner" tp="PLC_RH_DB4001_DBW_" ts="0254"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.DpDp Coupler 2500_Gunning" tp="PLC_RH_DB4001_DBW_" ts="0256"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Drive Snorkel Maint Car" tp="PLC_RH_DB4001_DBW_" ts="0258"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Drive Snorkel Exch Cars 1" tp="PLC_RH_DB4001_DBW_" ts="0260"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Drive Snorkel Exch Cars 2" tp="PLC_RH_DB4001_DBW_" ts="0262"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Net Analyser RM01" tp="PLC_RH_DB4001_DBW_" ts="0264"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Net Analyser RM02" tp="PLC_RH_DB4001_DBW_" ts="0266"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Net Analyser RM01_1" tp="PLC_RH_DB4001_DBW_" ts="0268"/>
+  <item type="word" note="Profibus.PLC RH.Счетчики ошибок.Net Analyser RM01_2" tp="PLC_RH_DB4001_DBW_" ts="0270"/>
+  <!--272 байт -->
+  <item type="bool" note="Оптика.PLC RH.DD10_OLM10 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2176"/>
+  <item type="bool" note="Оптика.PLC RH.DT10_OLM11 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2177"/>
+  <item type="bool" note="Оптика.PLC RH.DT14_OLM14 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2178"/>
+  <item type="bool" note="Оптика.PLC RH.DT11_OLM13 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2179"/>
+  <item type="bool" note="Оптика.PLC RH.Х1006_OLM19 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2180"/>
+  <item type="bool" note="Оптика.PLC RH.DT19_OLM15 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2181"/>
+  <item type="bool" note="Оптика.PLC RH.EP17_OLM12 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2182"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2183"/>
+  <item type="bool" note="Оптика.PLC RH.DT17_OLM16 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2184"/>
+  <item type="bool" note="Оптика.PLC RH.DT18_OLM17 ПОМЕХА" tp="PLC_RH_DB4001_DBX" ts="2185"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2186"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2187"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2188"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2189"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2190"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2191"/>
+  <!--274 байт -->
+  <item type="word" tp="PLC_RH_DB4001_DBW_" ts="0274"/>
+  <item type="word" tp="PLC_RH_DB4001_DBW_" ts="0276"/>
+  <item type="word" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Кнопка нагрев выше 800С (счетчик)" tp="PLC_RH_DB4001_DBW_" ts="0278"/>
+  <item type="word" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Кнопка нагрев выше 800С (счетчик)" tp="PLC_RH_DB4001_DBW_" ts="0280"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DD10_OLM10" tp="PLC_RH_DB4001_DBW_" ts="0282"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT10_OLM11" tp="PLC_RH_DB4001_DBW_" ts="0284"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT14_OLM14" tp="PLC_RH_DB4001_DBW_" ts="0286"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT11_OLM13" tp="PLC_RH_DB4001_DBW_" ts="0288"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.X1006_OLM19" tp="PLC_RH_DB4001_DBW_" ts="0290"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT19_OLM15" tp="PLC_RH_DB4001_DBW_" ts="0292"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.ЭП17_OLM12" tp="PLC_RH_DB4001_DBW_" ts="0294"/>
+  <item type="word" tp="PLC_RH_DB4001_DBW_" ts="0296"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT17_OLM16" tp="PLC_RH_DB4001_DBW_" ts="0298"/>
+  <item type="word" note="Оптика.PLC RH.Счетчики ошибок.DT18_OLM17" tp="PLC_RH_DB4001_DBW_" ts="0300"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.Radio_Control (15)" tp="PLC_RH_DB4001_DBW_" ts="0302"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.Simovert_Column_Rotation (9)" tp="PLC_RH_DB4001_DBW_" ts="0304"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.Simovert_Column_Lifting (10)" tp="PLC_RH_DB4001_DBW_" ts="0306"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.Simovert_Lance_Rotation (11)" tp="PLC_RH_DB4001_DBW_" ts="0308"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.Simovert_Maindrive_Car (8)" tp="PLC_RH_DB4001_DBW_" ts="0310"/>
+  <item type="word" note="Profibus.Торкретмашина.Счетчики ошибок.ET_DT01 (20)" tp="PLC_RH_DB4001_DBW_" ts="0312"/>
+  <item type="real" abs="true" hysteresis=".1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков. Суммарный расход аргона" tp="PLC_RH_DB4001_DBR_" ts="0314"/>
+  <item type="real" abs="true" hysteresis=".1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков. Суммарный расход аргона" tp="PLC_RH_DB4001_DBR_" ts="0318"/>
+  <item type="word" note="Система вакуумкамер.Вакуум-ра 1.Количество обработок на агрегате" tp="PLC_RH_DB4001_DBW_" ts="0322"/>
+  <item type="word" note="Система вакуумкамер.Вакуум-ра 2.Количество обработок на агрегате" tp="PLC_RH_DB4001_DBW_" ts="0324"/>
+  <item type="dword" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков. Суммарное время циркуляции" tp="PLC_RH_DB4001_DBD_" ts="0326"/>
+  <item type="dword" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков. Суммарное время циркуляции" tp="PLC_RH_DB4001_DBD_" ts="0330"/>
+  <!--334-335 байты -->
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).Удалёный(контролер)" tp="PLC_RH_DB4001_DBX" ts="2672"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).Локальный(электрики)" tp="PLC_RH_DB4001_DBX" ts="2673"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).Тест(WinCC)" tp="PLC_RH_DB4001_DBX" ts="2674"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).Автомат(контролер)" tp="PLC_RH_DB4001_DBX" ts="2675"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 2.Кл подачи сж возд на охл цоколя(00520_FH04).Ручной(WinCC)" tp="PLC_RH_DB4001_DBX" ts="2676"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).Удалёный(контролер)" tp="PLC_RH_DB4001_DBX" ts="2677"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).Локальный(электрики)" tp="PLC_RH_DB4001_DBX" ts="2678"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).Тест(WinCC)" tp="PLC_RH_DB4001_DBX" ts="2679"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).Автомат(контролер)" tp="PLC_RH_DB4001_DBX" ts="2680"/>
+  <item type="bool" note="Система вакуумкамер.Вакуум-ра 1.Кл подачи сж возд на охл цоколя(510_FH04).Ручной(WinCC)" tp="PLC_RH_DB4001_DBX" ts="2681"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2682"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2683"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2684"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2685"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2686"/>
+  <item type="bool" tp="PLC_RH_DB4001_DBX" ts="2687"/>
+</items>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="dword" note="Номер_плавки_1_стенд_1" rt="true" tp="PLC_LF_DB2222_DBD_" ts="0000"/>
+  <item type="word" note="Номер_плавки_1_стенд_2" rt="true" tp="PLC_LF_DB2222_DBW_" ts="0004"/>
+  <item type="dword" note="Номер_плавки_2_стенд_1" rt="true" tp="PLC_LF_DB2222_DBD_" ts="0006"/>
+  <item type="word" note="Номер_плавки_2_стенд_2" rt="true" tp="PLC_LF_DB2222_DBW_" ts="0010"/>
+  <item type="word" note="Состояние_плавки_1_стенд" rt="true" tp="PLC_LF_DB2222_DBW_" ts="0012"/>
+  <item type="word" note="Состояние_плавки_2_стенд" rt="true" tp="PLC_LF_DB2222_DBW_" ts="0014"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_температуры_1_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0016"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_температуры_2_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0020"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_водорода_1_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0024"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_водорода_2_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0028"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_окисленности_1_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0032"/>
+  <item type="real" abs="true"  hysteresis= ".01" note="Замер_окисленности_2_стенд" rt="true" tp="PLC_LF_DB2222_DBR_" ts="0036"/>
+
+
+</items>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root >
+  <controllers>
+   <controller name="PLC_LF"   ip="172.30.27.4" rack="0" slot="2" note="UPK2"/>
+   <controller name="PLC_LA" ip="172.30.27.5" rack="0" slot="2" note="UPK2"/>
+   <controller name="PLC_RH"   ip="172.30.27.7" rack="0" slot="2" note="UVS2"/>
+   <controller name="PLC_RA" ip="172.30.27.8" rack="0" slot="2" note="UVS2"/>   
+  </controllers> 
+</root>

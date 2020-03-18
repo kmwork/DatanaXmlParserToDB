@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Кол-во строк в матрице" tp="PLC_LA_DB612_DBW_" ts="0000"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Кол-во колонок в матрице" tp="PLC_LA_DB612_DBW_" ts="0002"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 1.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0004"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0006"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 1.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0008"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0010"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 1.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0012"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 1.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="128"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="129"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="130"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="131"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="132"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="133"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="134"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="135"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="136"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="137"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="138"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="139"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="140"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="141"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="142"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="143"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0018"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 1.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0020"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 2.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0024"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0026"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 2.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0028"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0030"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 2.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0032"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 2.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="288"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="289"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="290"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="291"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="292"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="293"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="294"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="295"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="296"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="297"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="298"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="299"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="300"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="301"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="302"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="303"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0038"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 2.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0040"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 3.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0044"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0046"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 3.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0048"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0050"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 3.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0052"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 3.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="448"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="449"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="450"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="451"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="452"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="453"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="454"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="455"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="456"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="457"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="458"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="459"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="460"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="461"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="462"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="463"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0058"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 3.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0060"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 4.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0064"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0066"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 4.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0068"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0070"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 4.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0072"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 4.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="608"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="609"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="610"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="611"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="612"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="613"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="614"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="615"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="616"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="617"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="618"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="619"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="620"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="621"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="622"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="623"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0078"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 4.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0080"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 5.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0084"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0086"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 5.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0088"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0090"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 5.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0092"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 5.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="768"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="769"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="770"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="771"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="772"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="773"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="774"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="775"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="776"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="777"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="778"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="779"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="780"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="781"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="782"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="783"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0098"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 5.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0100"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 6.Линия в задании с WinCC" tp="PLC_LA_DB612_DBW_" ts="0104"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0106"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 6.Номер бункера" tp="PLC_LA_DB612_DBW_" ts="0108"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0110"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 6.Актуальный вес" tp="PLC_LA_DB612_DBR_" ts="0112"/>
+<item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 6.Разрешение смешивания материалов" tp="PLC_LA_DB612_DBX" ts="928"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="929"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="930"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="931"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="932"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="933"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="934"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="935"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="936"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="937"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="938"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="939"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="940"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="941"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="942"/>
+<item type="bool" tp="PLC_LA_DB612_DBX" ts="943"/>
+<item type="word" tp="PLC_LA_DB612_DBW_" ts="0118"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Материал 6.Вычисленный объём" tp="PLC_LA_DB612_DBR_" ts="0120"/>
+<item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Текущий материал" tp="PLC_LA_DB612_DBW_" ts="0124"/>
+<item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Взешивающий бункер 2.Таблица материалов.Общий объём материала" tp="PLC_LA_DB612_DBR_" ts="0126"/>
+</items>

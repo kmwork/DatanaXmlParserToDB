@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT17" tp="PLC_RH_DB4011_DBR_" ts="0000"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Готовность горелки" tp="PLC_RH_DB4011_DBX" ts="32"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Водоохлаждение крышки в норме" tp="PLC_RH_DB4011_DBX" ts="33"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Водоохлаждение фурмы в норме" tp="PLC_RH_DB4011_DBX" ts="34"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Программа в работе" tp="PLC_RH_DB4011_DBX" ts="35"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Программа пауза" tp="PLC_RH_DB4011_DBX" ts="36"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Программа остановлена" tp="PLC_RH_DB4011_DBX" ts="37"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Сушка" tp="PLC_RH_DB4011_DBX" ts="38"/>
+  <item type="bool" note="Нагревающие горелки.Станция 1.02610.Нагрев" tp="PLC_RH_DB4011_DBX" ts="39"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Готовность горелки" tp="PLC_RH_DB4011_DBX" ts="40"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Водоохлаждение крышки в норме" tp="PLC_RH_DB4011_DBX" ts="41"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Водоохлаждение фурмы в норме" tp="PLC_RH_DB4011_DBX" ts="42"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Программа в работе" tp="PLC_RH_DB4011_DBX" ts="43"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Программа пауза" tp="PLC_RH_DB4011_DBX" ts="44"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Программа остановлена" tp="PLC_RH_DB4011_DBX" ts="45"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Сушка" tp="PLC_RH_DB4011_DBX" ts="46"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.02620.Нагрев" tp="PLC_RH_DB4011_DBX" ts="47"/>
+  <item type="real" tp="PLC_RH_DB4011_DBR_" ts="0006"/>
+  <item type="real" tp="PLC_RH_DB4011_DBR_" ts="0010"/>
+  <item type="real" tp="PLC_RH_DB4011_DBR_" ts="0014"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 1.02610.Расход воздуха" tp="PLC_RH_DB4011_DBR_" ts="0018"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 1.02610.Расход воды на крышку" tp="PLC_RH_DB4011_DBR_" ts="0022"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 1.02610.Расход воды на фурму" tp="PLC_RH_DB4011_DBR_" ts="0026"/>
+  <item type="word" note="Нагревающие горелки.Станция 1.02610.Номер программы" tp="PLC_RH_DB4011_DBW_" ts="0030"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Температура" tp="PLC_RH_DB4011_DBR_" ts="0032"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Расход природного газа" tp="PLC_RH_DB4011_DBR_" ts="0036"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Расход кислорода" tp="PLC_RH_DB4011_DBR_" ts="0040"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Расход воздуха" tp="PLC_RH_DB4011_DBR_" ts="0044"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Расход воды на крышку" tp="PLC_RH_DB4011_DBR_" ts="0048"/>
+  <item type="real" abs="true" hysteresis="1" note="Нагревающие горелки.Станция 2.02620.Расход воды на фурму" tp="PLC_RH_DB4011_DBR_" ts="0052"/>
+  <item type="word" note="Нагревающие горелки.Станция 2.02620.Номер программы" tp="PLC_RH_DB4011_DBW_" ts="0056"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Крышка вверху" tp="PLC_RH_DB4011_DBX" ts="464"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Крышка внизу" tp="PLC_RH_DB4011_DBX" ts="465"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="466"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="467"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="468"/>
+  <item type="bool" note="Нагревающие горелки.Станция 3.Неисправность горелки" tp="PLC_RH_DB4011_DBX" ts="469"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Горелка вверху" tp="PLC_RH_DB4011_DBX" ts="470"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Горелка внизу" tp="PLC_RH_DB4011_DBX" ts="471"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="472"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="473"/>
+  <item type="bool" note="Нагревающие горелки.Станция 2.Горелка погасла" tp="PLC_RH_DB4011_DBX" ts="474"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="475"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="476"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="477"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="478"/>
+  <item type="bool" tp="PLC_RH_DB4011_DBX" ts="479"/>
+  <item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков. Общее задание" tp="PLC_RH_DB4011_DBR_" ts="0060"/>
+  <item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков. Общее задание" tp="PLC_RH_DB4011_DBR_" ts="0064"/>
+</items>

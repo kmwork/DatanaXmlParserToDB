@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   #############################################################
+   Тэг : <items/>
+   Аттрибуты :
+    - offset     = (опционально) заданное смещение от начала дэбэшки (по дефолту 0)
+   #############################################################
+   Тэг : <item/>
+   Аттрибуты :
+    - type       = (обязателен)  тип переменной 
+    - note       = (опционально) описание переменной 
+    - abs        = (опционально) если "true" то гистерезис в абсолютных значениях, отсутсвует или "false" в процентах (по дефолту "false")
+    - hysteresis = (опционально) значение типа float (по дефолту ".0" )
+-->
+<items>
+  <item type="bool" note="Гидравлика.Уровень масла.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="0"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="2"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="3"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="4"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="5"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="6"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="7"/>
+  <!--1 байт -->
+  <item type="bool" note="Гидравлика.Уровень масла.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="8"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="9"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="10"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="11"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="12"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="13"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="14"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="15"/>
+  <!--2 байт -->
+  <item type="bool" note="Гидравлика.Уровень масла.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="16"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="17"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="18"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="19"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="20"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="21"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="22"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="23"/>
+  <!--3 байт -->
+  <item type="bool" note="Гидравлика.Уровень масла.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="24"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="25"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="26"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="27"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="28"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="29"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="30"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="31"/>
+  <!--4 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="32"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="33"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="34"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="35"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="36"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="37"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="38"/>
+  <item type="bool" note="Гидравлика.Уровень масла.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="39"/>
+  <!--6_Real -->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0006"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.В mA" tp="PLC_LF_DB3004_DBR_" ts="0010"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0014"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0018"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0022"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Уровень масла.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0026"/>
+  <!--30 байт -->
+  <item type="bool" note="Гидравлика.Температура масла.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="240"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="241"/>
+  <item type="bool" note="Гидравлика.Температура масла.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="242"/>
+  <item type="bool" note="Гидравлика.Температура масла.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="243"/>
+  <item type="bool" note="Гидравлика.Температура масла.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="244"/>
+  <item type="bool" note="Гидравлика.Температура масла.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="245"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="246"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="247"/>
+  <!--31 байт -->
+  <item type="bool" note="Гидравлика.Температура масла.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="248"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="249"/>
+  <item type="bool" note="Гидравлика.Температура масла.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="250"/>
+  <item type="bool" note="Гидравлика.Температура масла.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="251"/>
+  <item type="bool" note="Гидравлика.Температура масла.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="252"/>
+  <item type="bool" note="Гидравлика.Температура масла.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="253"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="254"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="255"/>
+  <!--32 байт -->
+  <item type="bool" note="Гидравлика.Температура масла.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="256"/>
+  <item type="bool" note="Гидравлика.Температура масла.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="257"/>
+  <item type="bool" note="Гидравлика.Температура масла.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="258"/>
+  <item type="bool" note="Гидравлика.Температура масла.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="259"/>
+  <item type="bool" note="Гидравлика.Температура масла.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="260"/>
+  <item type="bool" note="Гидравлика.Температура масла.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="261"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="262"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="263"/>
+  <!--33 байт -->
+  <item type="bool" note="Гидравлика.Температура масла.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="264"/>
+  <item type="bool" note="Гидравлика.Температура масла.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="265"/>
+  <item type="bool" note="Гидравлика.Температура масла.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="266"/>
+  <item type="bool" note="Гидравлика.Температура масла.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="267"/>
+  <item type="bool" note="Гидравлика.Температура масла.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="268"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="269"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="270"/>
+  <item type="bool" note="Гидравлика.Температура масла.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="271"/>
+  <!--34 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="272"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="273"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="274"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="275"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="276"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="277"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="278"/>
+  <item type="bool" note="Гидравлика.Температура масла.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="279"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0036"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.В mA" tp="PLC_LF_DB3004_DBR_" ts="0040"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0044"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0048"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0052"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Температура масла.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0056"/>
+  <!--60 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="480"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="481"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="482"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="483"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="484"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="485"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="486"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="487"/>
+  <!--61-->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="488"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="489"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="490"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="491"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="492"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="493"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="494"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="495"/>
+  <!--62 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="496"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="497"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="498"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="499"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="500"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="501"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="502"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="503"/>
+  <!--63-->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="504"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="505"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="506"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="507"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="508"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="509"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="510"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="511"/>
+  <!--64 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="512"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="513"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="514"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="515"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="516"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="517"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="518"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="519"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0066"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.В mA" tp="PLC_LF_DB3004_DBR_" ts="0070"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0074"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0078"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0082"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№1.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0086"/>
+  <!--90 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="720"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="721"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="722"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="723"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="724"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="725"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="726"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="727"/>
+  <!--91 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="728"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="729"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="730"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="731"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="732"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="733"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="734"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="735"/>
+  <!--92 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="736"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="737"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="738"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="739"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="740"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="741"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="742"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="743"/>
+  <!--93 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="744"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="745"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="746"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="747"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="748"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="749"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="750"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="751"/>
+  <!--94 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="752"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="753"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="754"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="755"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="756"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="757"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="758"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="759"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0096"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.В mA" tp="PLC_LF_DB3004_DBR_" ts="0100"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0104"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0108"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0112"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№2.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0116"/>
+  <!--120 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="960"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="961"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="962"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="963"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="964"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="965"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="966"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="967"/>
+  <!--121 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="968"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="969"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="970"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="971"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="972"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="973"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="974"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="975"/>
+  <!--122 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="976"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="977"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="978"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="979"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="980"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="981"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="982"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="983"/>
+  <!--123 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="984"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="985"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="986"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="987"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="988"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="989"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="990"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="991"/>
+  <!--124 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="992"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="993"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="994"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="995"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="996"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="997"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="998"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="999"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0126"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.В mA" tp="PLC_LF_DB3004_DBR_" ts="0130"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0134"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0138"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0142"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление с стороны газа.№3.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0146"/>
+  <!--150 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="1200"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1201"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="1202"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1203"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="1204"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1205"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="1206"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1207"/>
+  <!--151 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="1208"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1209"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="1210"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1211"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="1212"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="1213"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1214"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1215"/>
+  <!--152 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="1216"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="1217"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="1218"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="1219"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="1220"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1221"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1222"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1223"/>
+  <!--153 байт -->
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="1224"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="1225"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="1226"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="1227"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="1228"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="1229"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="1230"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="1231"/>
+  <!--154 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1232"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1233"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1234"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1235"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="1236"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="1237"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="1238"/>
+  <item type="bool" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="1239"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0156"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.В mA" tp="PLC_LF_DB3004_DBR_" ts="0160"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0164"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0168"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0172"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аккумуляторы.Давление со стороны масла.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0176"/>
+  <!--180 байт -->
+  <item type="bool" note="Крышки.LF1.Давление.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="1440"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1441"/>
+  <item type="bool" note="Крышки.LF1.Давление.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="1442"/>
+  <item type="bool" note="Крышки.LF1.Давление.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1443"/>
+  <item type="bool" note="Крышки.LF1.Давление.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="1444"/>
+  <item type="bool" note="Крышки.LF1.Давление.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1445"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="1446"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1447"/>
+  <!--181 байт -->
+  <item type="bool" note="Крышки.LF1.Давление.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="1448"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1449"/>
+  <item type="bool" note="Крышки.LF1.Давление.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="1450"/>
+  <item type="bool" note="Крышки.LF1.Давление.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1451"/>
+  <item type="bool" note="Крышки.LF1.Давление.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="1452"/>
+  <item type="bool" note="Крышки.LF1.Давление.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="1453"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1454"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1455"/>
+  <!--182 байт -->
+  <item type="bool" note="Крышки.LF1.Давление.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="1456"/>
+  <item type="bool" note="Крышки.LF1.Давление.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="1457"/>
+  <item type="bool" note="Крышки.LF1.Давление.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="1458"/>
+  <item type="bool" note="Крышки.LF1.Давление.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="1459"/>
+  <item type="bool" note="Крышки.LF1.Давление.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="1460"/>
+  <item type="bool" note="Крышки.LF1.Давление.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1461"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1462"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1463"/>
+  <!--183 байт -->
+  <item type="bool" note="Крышки.LF1.Давление.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="1464"/>
+  <item type="bool" note="Крышки.LF1.Давление.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="1465"/>
+  <item type="bool" note="Крышки.LF1.Давление.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="1466"/>
+  <item type="bool" note="Крышки.LF1.Давление.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="1467"/>
+  <item type="bool" note="Крышки.LF1.Давление.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="1468"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="1469"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="1470"/>
+  <item type="bool" note="Крышки.LF1.Давление.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="1471"/>
+  <!--184 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1472"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1473"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1474"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1475"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="1476"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="1477"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="1478"/>
+  <item type="bool" note="Крышки.LF1.Давление.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="1479"/>
+  <!--6_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0186"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.В mA" tp="PLC_LF_DB3004_DBR_" ts="0190"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0194"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0198"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0202"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF1.Давление.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0206"/>
+  <!--210 байт -->
+  <item type="bool" note="Крышки.LF2.Давление.Ошибка измерения" tp="PLC_LF_DB3004_DBX" ts="1680"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ошибка измерения неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1681"/>
+  <item type="bool" note="Крышки.LF2.Давление.Превышение HiHi" tp="PLC_LF_DB3004_DBX" ts="1682"/>
+  <item type="bool" note="Крышки.LF2.Давление.Превышение HiHi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1683"/>
+  <item type="bool" note="Крышки.LF2.Давление.Превышение Hi" tp="PLC_LF_DB3004_DBX" ts="1684"/>
+  <item type="bool" note="Крышки.LF2.Давление.Превышение Hi неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1685"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ниже Lo" tp="PLC_LF_DB3004_DBX" ts="1686"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ниже Lo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1687"/>
+  <!--211 байт -->
+  <item type="bool" note="Крышки.LF2.Давление.Ниже LoLo" tp="PLC_LF_DB3004_DBX" ts="1688"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ниже LoLo неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1689"/>
+  <item type="bool" note="Крышки.LF2.Давление.Общая ошибка" tp="PLC_LF_DB3004_DBX" ts="1690"/>
+  <item type="bool" note="Крышки.LF2.Давление.Общая ошибка неподтверждена" tp="PLC_LF_DB3004_DBX" ts="1691"/>
+  <item type="bool" note="Крышки.LF2.Давление.Выбран RTD или TC сигнал" tp="PLC_LF_DB3004_DBX" ts="1692"/>
+  <item type="bool" note="Крышки.LF2.Давление.Значение форсировано" tp="PLC_LF_DB3004_DBX" ts="1693"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включен 1 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1694"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включен 2 фильтр низких частот" tp="PLC_LF_DB3004_DBX" ts="1695"/>
+  <!--212 байт -->
+  <item type="bool" note="Крышки.LF2.Давление.Достигнут HiHi предел" tp="PLC_LF_DB3004_DBX" ts="1696"/>
+  <item type="bool" note="Крышки.LF2.Давление.Достигнут Hi предел" tp="PLC_LF_DB3004_DBX" ts="1697"/>
+  <item type="bool" note="Крышки.LF2.Давление.Достигнут Lo предел" tp="PLC_LF_DB3004_DBX" ts="1698"/>
+  <item type="bool" note="Крышки.LF2.Давление.Достигнут LoLo предел" tp="PLC_LF_DB3004_DBX" ts="1699"/>
+  <item type="bool" note="Крышки.LF2.Давление.Предупреждение" tp="PLC_LF_DB3004_DBX" ts="1700"/>
+  <item type="bool" note="Крышки.LF2.Давление.Предупреждение неподтверждено" tp="PLC_LF_DB3004_DBX" ts="1701"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1702"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1703"/>
+  <!--213 байт -->
+  <item type="bool" note="Крышки.LF2.Давление.Активировать ошибку HiHi" tp="PLC_LF_DB3004_DBX" ts="1704"/>
+  <item type="bool" note="Крышки.LF2.Давление.Активировать ошибку Hi" tp="PLC_LF_DB3004_DBX" ts="1705"/>
+  <item type="bool" note="Крышки.LF2.Давление.Активировать ошибку Lo" tp="PLC_LF_DB3004_DBX" ts="1706"/>
+  <item type="bool" note="Крышки.LF2.Давление.Активировать ошибку LoLo" tp="PLC_LF_DB3004_DBX" ts="1707"/>
+  <item type="bool" note="Крышки.LF2.Давление.Обрыв линии(ток 0 mA)" tp="PLC_LF_DB3004_DBX" ts="1708"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ток на линии больше 20 mA" tp="PLC_LF_DB3004_DBX" ts="1709"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ошибка по температуре для корректировки" tp="PLC_LF_DB3004_DBX" ts="1710"/>
+  <item type="bool" note="Крышки.LF2.Давление.Ошибка по давлению для корректировки" tp="PLC_LF_DB3004_DBX" ts="1711"/>
+  <!--214 байт -->
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1712"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1713"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1714"/>
+  <item type="bool" tp="PLC_LF_DB3004_DBX" ts="1715"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включена компенсация по N2" tp="PLC_LF_DB3004_DBX" ts="1716"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включена компенсация по T" tp="PLC_LF_DB3004_DBX" ts="1717"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включена компенсация по T и P" tp="PLC_LF_DB3004_DBX" ts="1718"/>
+  <item type="bool" note="Крышки.LF2.Давление.Включена компенсация по Vortex " tp="PLC_LF_DB3004_DBX" ts="1719"/>
+  <!--16_Real-->
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.В заданных единицах" tp="PLC_LF_DB3004_DBR_" ts="0216"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.В mA" tp="PLC_LF_DB3004_DBR_" ts="0220"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.Значение при 0 mA" tp="PLC_LF_DB3004_DBR_" ts="0224"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.Значение при 20 mA" tp="PLC_LF_DB3004_DBR_" ts="0228"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.Значение при форсировке" tp="PLC_LF_DB3004_DBR_" ts="0232"/>
+  <item type="real" abs="true" hysteresis=".01" note="Крышки.LF2.Давление.Значение времени низкочастотных фильтров" tp="PLC_LF_DB3004_DBR_" ts="0236"/>
+  <item type="real" abs="true" hysteresis=".1" note="Температура в шкафах.ЭП 23 Шкаф Трайба №1" tp="PLC_LF_DB3004_DBR_" ts="0240"/>
+  <item type="real" abs="true" hysteresis=".1" note="Трайб №1.Направляющая.Положение по энкодеру" tp="PLC_LF_DB3004_DBR_" ts="0244"/>
+  <item type="real" abs="true" hysteresis=".1" note="Трайб №2.Направляющая.Положение по энкодеру" tp="PLC_LF_DB3004_DBR_" ts="0248"/>
+  <item type="real" abs="true" hysteresis=".01" note="Портал.Поворот.Давление в поршневой полости" tp="PLC_LF_DB3004_DBR_" ts="0252"/>
+  <item type="real" abs="true" hysteresis=".01" note="Портал.Поворот.Давление в штоковой полости" tp="PLC_LF_DB3004_DBR_" ts="0256"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Главный насос №1.Аналоговое давление после насоса №1" tp="PLC_LF_DB3004_DBR_" ts="0260"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Главный насос №2.Аналоговое давление после насоса №2" tp="PLC_LF_DB3004_DBR_" ts="0264"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Главный насос №3.Аналоговое давление после насоса №3" tp="PLC_LF_DB3004_DBR_" ts="0268"/>
+  <item type="real" abs="true" hysteresis=".01" note="Гидравлика.Аналоговое давление после насосов" tp="PLC_LF_DB3004_DBR_" ts="0272"/>
+</items>
