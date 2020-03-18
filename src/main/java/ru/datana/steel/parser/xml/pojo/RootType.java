@@ -13,7 +13,7 @@ import lombok.ToString;
 import javax.xml.bind.annotation.*;
 
 
-@XmlRootElement
+@XmlRootElement(namespace = "", name = "root")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "rootType", propOrder = {
         "controllers"
