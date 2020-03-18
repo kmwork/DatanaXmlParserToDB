@@ -29,7 +29,7 @@ public class ControllerS7XmlParserApp {
 
 
             File xmlS7DbFile = new File(appOptions.getDataFileDir() + File.separator + "UPK2" + File.separator + "PLC_LA" + File.separator + "db601.xml");
-            ItemsType items = XmlUtil.xmlFileToObject(xmlS7RootFile, ItemsType.class);
+            ItemsType items = XmlUtil.xmlFileToObject(xmlS7DbFile, ItemsType.class);
         } catch (Exception ex) {
             log.error(AppConts.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
