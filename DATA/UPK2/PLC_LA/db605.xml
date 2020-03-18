@@ -13,495 +13,777 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0000"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0002"/>
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0004"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0006"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0008"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="96"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0014"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0016"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0020"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0024"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0026"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0028"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0030"/>
-  <!--32 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="256"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="257"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="258"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="259"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="260"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="261"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="262"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="263"/>
-  <!--33 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="264"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="265"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="266"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="267"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="268"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="269"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="270"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="271"/>
-  <!--34 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="272"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="273"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="274"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="275"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="276"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="277"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="278"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="279"/>
-  <!--35 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="280"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="281"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="282"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="283"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="284"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="285"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="286"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="287"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0036"/>
-  <!--Задание №2 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0040"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0042"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0044"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="384"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0050"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0052"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0056"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0060"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0062"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0064"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0066"/>
-  <!--68 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="544"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="545"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="546"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="547"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="548"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="549"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="550"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="551"/>
-  <!--69 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="552"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="553"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="554"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="555"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="556"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="557"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="558"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="559"/>
-  <!--70 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="560"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="561"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="562"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="563"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="564"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="565"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="566"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="567"/>
-  <!--71 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="568"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="569"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="570"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="571"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="572"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="573"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="574"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="575"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0072"/>
-  <!--Задание №3 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0076"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0078"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0080"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="672"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0086"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0088"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0092"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0096"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0098"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0100"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0102"/>
-  <!--104 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="832"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="833"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="834"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="835"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="836"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="837"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="838"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="839"/>
-  <!--105 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="840"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="841"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="842"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="843"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="844"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="845"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="846"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="847"/>
-  <!--106 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="848"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="849"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="850"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="851"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="852"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="853"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="854"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="855"/>
-  <!--107 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="856"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="857"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="858"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="859"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="860"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="861"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="862"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="863"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0108"/>
-  <!--Задание №4 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0112"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0114"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0116"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="960"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0122"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0124"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0128"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0132"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0134"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0136"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0138"/>
-  <!--140 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="1120"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="1121"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="1122"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="1123"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="1124"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="1125"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1126"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1127"/>
-  <!--141 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="1128"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="1129"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="1130"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="1131"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="1132"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1133"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1134"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1135"/>
-  <!--142 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1136"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1137"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1138"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1139"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1140"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1141"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1142"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1143"/>
-  <!--143 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1144"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1145"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1146"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1147"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1148"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1149"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1150"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1151"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0144"/>
-  <!--Задание №5 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0148"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0150"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0152"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="1248"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0158"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0160"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0164"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0168"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0170"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0172"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0174"/>
-  <!--176 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="1408"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="1409"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="1410"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="1411"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="1412"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="1413"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1414"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1415"/>
-  <!--177 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="1416"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="1417"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="1418"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="1419"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="1420"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1421"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1422"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1423"/>
-  <!--178 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1424"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1425"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1426"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1427"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1428"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1429"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1430"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1431"/>
-  <!--179 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1432"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1433"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1434"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1435"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1436"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1437"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1438"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1439"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0180"/>
-  <!--Задание №6 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0184"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0186"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0188"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="1536"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0194"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0196"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0200"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0204"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0206"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0208"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0210"/>
-  <!--212 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="1696"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="1697"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="1698"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="1699"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="1700"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="1701"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1702"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1703"/>
-  <!--213 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="1704"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="1705"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="1706"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="1707"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="1708"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1709"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1710"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1711"/>
-  <!--214 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1712"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1713"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1714"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1715"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1716"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1717"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1718"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1719"/>
-  <!--215 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1720"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1721"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1722"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1723"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1724"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1725"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1726"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1727"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0216"/>
-  <!--Задание №7 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0220"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0222"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0224"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="1824"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0230"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0232"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0236"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0240"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0242"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0244"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0246"/>
-  <!--248 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="1984"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="1985"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="1986"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="1987"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="1988"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="1989"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1990"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1991"/>
-  <!--249 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="1992"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="1993"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="1994"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="1995"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="1996"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1997"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1998"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="1999"/>
-  <!--250 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2000"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2001"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2002"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2003"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2004"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2005"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2006"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2007"/>
-  <!--251 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2008"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2009"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2010"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2011"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2012"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2013"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2014"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2015"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0252"/>
-  <!--Задание №8 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0256"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0258"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0260"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="2112"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0266"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0268"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0272"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0276"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0278"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0280"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0282"/>
-  <!--284 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="2272"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="2273"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="2274"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="2275"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="2276"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="2277"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2278"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2279"/>
-  <!--285 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="2280"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="2281"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="2282"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="2283"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="2284"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2285"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2286"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2287"/>
-  <!--286 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2288"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2289"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2290"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2291"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2292"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2293"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2294"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2295"/>
-  <!--287 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2296"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2297"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2298"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2299"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2300"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2301"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2302"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2303"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0288"/>
-  <!--Задание №9 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0292"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0294"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0296"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="2400"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0302"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0304"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0308"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0312"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0314"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0316"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0318"/>
-  <!--320 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="2560"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="2561"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="2562"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="2563"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="2564"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="2565"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2566"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2567"/>
-  <!--321 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="2568"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="2569"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="2570"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="2571"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="2572"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2573"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2574"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2575"/>
-  <!--322 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2576"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2577"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2578"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2579"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2580"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2581"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2582"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2583"/>
-  <!--323 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2584"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2585"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2586"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2587"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2588"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2589"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2590"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2591"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0324"/>
-  <!--Задание №10 -->
-  <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Номер бункера" tp="PLC_LA_DB605_DBW_" ts="0328"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0330"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Принятое задание веса в кг" tp="PLC_LA_DB605_DBR_" ts="0332"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Разрешение на смешивание материалов" tp="PLC_LA_DB605_DBX" ts="2688"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0338"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Набранный вес в кг" tp="PLC_LA_DB605_DBR_" ts="0340"/>
-  <item type="real" abs="true" hysteresis=".01" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Отданный ве в кг" tp="PLC_LA_DB605_DBR_" ts="0344"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0348"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0350"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0352"/>
-  <item type="word" tp="PLC_LA_DB605_DBW_" ts="0354"/>
-  <!--356 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Составление задания" tp="PLC_LA_DB605_DBX" ts="2848"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Идёт взвешивание" tp="PLC_LA_DB605_DBX" ts="2849"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Идёт отгрузка" tp="PLC_LA_DB605_DBX" ts="2850"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Взвешивание закончено" tp="PLC_LA_DB605_DBX" ts="2851"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Отгрузка закончена" tp="PLC_LA_DB605_DBX" ts="2852"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание на плавку выполнено" tp="PLC_LA_DB605_DBX" ts="2853"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2854"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2855"/>
-  <!--357 байт -->
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание принято" tp="PLC_LA_DB605_DBX" ts="2856"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Уставка принята" tp="PLC_LA_DB605_DBX" ts="2857"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Разрешение принять задание" tp="PLC_LA_DB605_DBX" ts="2858"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание отличается от текущего" tp="PLC_LA_DB605_DBX" ts="2859"/>
-  <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Разрешение принять все задания" tp="PLC_LA_DB605_DBX" ts="2860"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2861"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2862"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2863"/>
-  <!--358 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2864"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2865"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2866"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2867"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2868"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2869"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2870"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2871"/>
-  <!--359 байт -->
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2872"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2873"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2874"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2875"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2876"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2877"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2878"/>
-  <item type="bool" tp="PLC_LA_DB605_DBX" ts="2879"/>
-  <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0360"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0000"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0002"/>
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0004"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0006"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0008"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="96"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0014"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0016"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0020"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0024"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0026"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0028"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0030"/>
+    <!--32 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="256"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="257"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="258"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="259"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="260"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="261"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="262"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="263"/>
+    <!--33 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="264"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="265"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="266"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="267"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №1.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="268"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="269"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="270"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="271"/>
+    <!--34 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="272"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="273"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="274"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="275"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="276"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="277"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="278"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="279"/>
+    <!--35 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="280"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="281"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="282"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="283"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="284"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="285"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="286"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="287"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0036"/>
+    <!--Задание №2 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0040"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0042"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0044"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="384"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0050"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0052"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0056"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0060"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0062"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0064"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0066"/>
+    <!--68 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="544"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="545"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="546"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="547"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="548"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="549"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="550"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="551"/>
+    <!--69 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="552"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="553"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="554"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="555"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №2.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="556"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="557"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="558"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="559"/>
+    <!--70 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="560"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="561"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="562"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="563"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="564"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="565"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="566"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="567"/>
+    <!--71 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="568"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="569"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="570"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="571"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="572"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="573"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="574"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="575"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0072"/>
+    <!--Задание №3 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0076"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0078"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0080"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="672"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0086"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0088"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0092"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0096"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0098"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0100"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0102"/>
+    <!--104 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="832"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="833"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="834"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="835"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="836"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="837"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="838"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="839"/>
+    <!--105 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="840"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="841"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="842"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="843"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №3.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="844"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="845"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="846"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="847"/>
+    <!--106 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="848"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="849"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="850"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="851"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="852"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="853"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="854"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="855"/>
+    <!--107 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="856"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="857"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="858"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="859"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="860"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="861"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="862"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="863"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0108"/>
+    <!--Задание №4 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0112"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0114"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0116"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="960"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0122"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0124"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0128"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0132"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0134"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0136"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0138"/>
+    <!--140 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="1120"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="1121"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="1122"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="1123"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="1124"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="1125"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1126"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1127"/>
+    <!--141 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="1128"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="1129"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="1130"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="1131"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №4.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="1132"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1133"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1134"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1135"/>
+    <!--142 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1136"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1137"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1138"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1139"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1140"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1141"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1142"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1143"/>
+    <!--143 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1144"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1145"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1146"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1147"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1148"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1149"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1150"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1151"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0144"/>
+    <!--Задание №5 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0148"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0150"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0152"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="1248"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0158"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0160"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0164"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0168"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0170"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0172"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0174"/>
+    <!--176 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="1408"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="1409"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="1410"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="1411"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="1412"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="1413"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1414"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1415"/>
+    <!--177 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="1416"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="1417"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="1418"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="1419"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №5.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="1420"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1421"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1422"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1423"/>
+    <!--178 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1424"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1425"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1426"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1427"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1428"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1429"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1430"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1431"/>
+    <!--179 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1432"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1433"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1434"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1435"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1436"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1437"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1438"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1439"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0180"/>
+    <!--Задание №6 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0184"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0186"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0188"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="1536"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0194"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0196"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0200"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0204"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0206"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0208"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0210"/>
+    <!--212 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="1696"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="1697"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="1698"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="1699"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="1700"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="1701"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1702"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1703"/>
+    <!--213 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="1704"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="1705"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="1706"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="1707"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №6.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="1708"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1709"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1710"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1711"/>
+    <!--214 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1712"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1713"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1714"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1715"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1716"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1717"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1718"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1719"/>
+    <!--215 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1720"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1721"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1722"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1723"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1724"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1725"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1726"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1727"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0216"/>
+    <!--Задание №7 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0220"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0222"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0224"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="1824"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0230"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0232"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0236"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0240"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0242"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0244"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0246"/>
+    <!--248 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="1984"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="1985"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="1986"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="1987"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="1988"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="1989"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1990"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1991"/>
+    <!--249 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="1992"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="1993"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="1994"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="1995"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №7.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="1996"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1997"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1998"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="1999"/>
+    <!--250 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2000"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2001"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2002"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2003"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2004"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2005"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2006"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2007"/>
+    <!--251 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2008"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2009"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2010"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2011"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2012"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2013"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2014"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2015"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0252"/>
+    <!--Задание №8 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0256"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0258"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0260"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="2112"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0266"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0268"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0272"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0276"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0278"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0280"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0282"/>
+    <!--284 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="2272"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="2273"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="2274"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="2275"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="2276"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="2277"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2278"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2279"/>
+    <!--285 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="2280"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="2281"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="2282"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="2283"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №8.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="2284"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2285"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2286"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2287"/>
+    <!--286 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2288"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2289"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2290"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2291"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2292"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2293"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2294"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2295"/>
+    <!--287 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2296"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2297"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2298"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2299"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2300"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2301"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2302"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2303"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0288"/>
+    <!--Задание №9 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0292"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0294"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0296"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="2400"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0302"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0304"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0308"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0312"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0314"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0316"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0318"/>
+    <!--320 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="2560"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="2561"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="2562"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="2563"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="2564"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="2565"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2566"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2567"/>
+    <!--321 байт -->
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="2568"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="2569"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="2570"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="2571"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №9.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="2572"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2573"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2574"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2575"/>
+    <!--322 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2576"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2577"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2578"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2579"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2580"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2581"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2582"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2583"/>
+    <!--323 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2584"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2585"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2586"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2587"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2588"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2589"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2590"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2591"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0324"/>
+    <!--Задание №10 -->
+    <item type="word" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Номер бункера"
+          tp="PLC_LA_DB605_DBW_" ts="0328"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0330"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Принятое задание веса в кг"
+          tp="PLC_LA_DB605_DBR_" ts="0332"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Разрешение на смешивание материалов"
+          tp="PLC_LA_DB605_DBX" ts="2688"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0338"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Набранный вес в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0340"/>
+    <item type="real" abs="true" hysteresis=".01"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Отданный ве в кг" tp="PLC_LA_DB605_DBR_"
+          ts="0344"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0348"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0350"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0352"/>
+    <item type="word" tp="PLC_LA_DB605_DBW_" ts="0354"/>
+    <!--356 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Составление задания"
+          tp="PLC_LA_DB605_DBX" ts="2848"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Идёт взвешивание"
+          tp="PLC_LA_DB605_DBX" ts="2849"/>
+    <item type="bool" note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Идёт отгрузка"
+          tp="PLC_LA_DB605_DBX" ts="2850"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Взвешивание закончено"
+          tp="PLC_LA_DB605_DBX" ts="2851"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Отгрузка закончена"
+          tp="PLC_LA_DB605_DBX" ts="2852"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание на плавку выполнено"
+          tp="PLC_LA_DB605_DBX" ts="2853"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2854"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2855"/>
+    <!--357 байт -->
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание принято"
+          tp="PLC_LA_DB605_DBX" ts="2856"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Уставка принята"
+          tp="PLC_LA_DB605_DBX" ts="2857"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Разрешение принять задание"
+          tp="PLC_LA_DB605_DBX" ts="2858"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Задание отличается от текущего"
+          tp="PLC_LA_DB605_DBX" ts="2859"/>
+    <item type="bool"
+          note="Тракт сыпучих.Задание на отгрузку с WinCC.LF2.Задание №10.Состояние процесса.Разрешение принять все задания"
+          tp="PLC_LA_DB605_DBX" ts="2860"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2861"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2862"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2863"/>
+    <!--358 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2864"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2865"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2866"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2867"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2868"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2869"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2870"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2871"/>
+    <!--359 байт -->
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2872"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2873"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2874"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2875"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2876"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2877"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2878"/>
+    <item type="bool" tp="PLC_LA_DB605_DBX" ts="2879"/>
+    <item type="dword" tp="PLC_LA_DB605_DBD_" ts="0360"/>
 </items>

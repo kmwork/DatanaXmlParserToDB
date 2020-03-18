@@ -13,82 +13,155 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Актуальный вес" tp="PLC_RA_DB4002_DBR_" ts="0000"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Актуальная тара" tp="PLC_RA_DB4002_DBR_" ts="0004"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 1.Скорость отдачи_кг/с" tp="PLC_RA_DB4002_DBR_" ts="0008"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Форсированное значение" tp="PLC_RA_DB4002_DBR_" ts="0012"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Empty Limit" tp="PLC_RA_DB4002_DBR_" ts="0016"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Актуальный вес" tp="PLC_RA_DB4002_DBR_" ts="0020"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Актуальная тара" tp="PLC_RA_DB4002_DBR_" ts="0024"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 2.Скорость отдачи_кг/с" tp="PLC_RA_DB4002_DBR_" ts="0028"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Форсированное значение" tp="PLC_RA_DB4002_DBR_" ts="0032"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Empty Limit" tp="PLC_RA_DB4002_DBR_" ts="0036"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Актуальный вес" tp="PLC_RA_DB4002_DBR_" ts="0040"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Актуальная тара" tp="PLC_RA_DB4002_DBR_" ts="0044"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 3.Скорость отдачи_кг/с" tp="PLC_RA_DB4002_DBR_" ts="0048"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Форсированное значение" tp="PLC_RA_DB4002_DBR_" ts="0052"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Empty Limit" tp="PLC_RA_DB4002_DBR_" ts="0056"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 1.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0060"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 2.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0064"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 3.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0068"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 4.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0072"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 5.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0076"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 6.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0080"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 7.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0084"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 8.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0088"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 9.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0092"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 10.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0096"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 11.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0100"/>
-  <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 12.Уровень материала" tp="PLC_RA_DB4002_DBR_" ts="0104"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 1.mA" tp="PLC_RA_DB4002_DBR_" ts="0108"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 2.mA" tp="PLC_RA_DB4002_DBR_" ts="0112"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 3.mA" tp="PLC_RA_DB4002_DBR_" ts="0116"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 4.mA" tp="PLC_RA_DB4002_DBR_" ts="0120"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 5.mA" tp="PLC_RA_DB4002_DBR_" ts="0124"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 6.mA" tp="PLC_RA_DB4002_DBR_" ts="0128"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 7.mA" tp="PLC_RA_DB4002_DBR_" ts="0132"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 8.mA" tp="PLC_RA_DB4002_DBR_" ts="0136"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 9.mA" tp="PLC_RA_DB4002_DBR_" ts="0140"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 10.mA" tp="PLC_RA_DB4002_DBR_" ts="0144"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 11.mA" tp="PLC_RA_DB4002_DBR_" ts="0148"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 12.mA" tp="PLC_RA_DB4002_DBR_" ts="0152"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Давление" tp="PLC_RA_DB4002_DBR_" ts="0156"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.mA" tp="PLC_RA_DB4002_DBR_" ts="0160"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Давление" tp="PLC_RA_DB4002_DBR_" ts="0164"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.mA" tp="PLC_RA_DB4002_DBR_" ts="0168"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0172"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0176"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0180"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0184"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0188"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0192"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0196"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0200"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0204"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0208"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0212"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0216"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0220"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0224"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0228"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0232"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0236"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0240"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0244"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0248"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0252"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0256"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0260"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0264"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0268"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0272"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0276"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0280"/>
-  <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0284"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3.Скорость" tp="PLC_RA_DB4002_DBR_" ts="0288"/>
-  <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH16.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0292"/>
-  <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH17.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0296"/>
-  <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH18.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0300"/>
-  <item type="dword" note="Тракт сыпучих.Конвейера. 02110_JH01.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0304"/>
-  <item type="dword" note="Тракт сыпучих.Конвейера. 02120_JH01.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0308"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Актуальный вес"
+          tp="PLC_RA_DB4002_DBR_" ts="0000"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Актуальная тара"
+          tp="PLC_RA_DB4002_DBR_" ts="0004"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 1.Скорость отдачи_кг/с"
+          tp="PLC_RA_DB4002_DBR_" ts="0008"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Форсированное значение"
+          tp="PLC_RA_DB4002_DBR_" ts="0012"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 1.Empty Limit"
+          tp="PLC_RA_DB4002_DBR_" ts="0016"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Актуальный вес"
+          tp="PLC_RA_DB4002_DBR_" ts="0020"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Актуальная тара"
+          tp="PLC_RA_DB4002_DBR_" ts="0024"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 2.Скорость отдачи_кг/с"
+          tp="PLC_RA_DB4002_DBR_" ts="0028"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Форсированное значение"
+          tp="PLC_RA_DB4002_DBR_" ts="0032"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 2.Empty Limit"
+          tp="PLC_RA_DB4002_DBR_" ts="0036"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Актуальный вес"
+          tp="PLC_RA_DB4002_DBR_" ts="0040"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Актуальная тара"
+          tp="PLC_RA_DB4002_DBR_" ts="0044"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Взвешивающий бункер 3.Скорость отдачи_кг/с"
+          tp="PLC_RA_DB4002_DBR_" ts="0048"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Форсированное значение"
+          tp="PLC_RA_DB4002_DBR_" ts="0052"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Тракт сыпучих.Взвешивающий бункер 3.Empty Limit"
+          tp="PLC_RA_DB4002_DBR_" ts="0056"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 1.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0060"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 2.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0064"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 3.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0068"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 4.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0072"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 5.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0076"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 6.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0080"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 7.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0084"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 8.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0088"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 9.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0092"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 10.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0096"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 11.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0100"/>
+    <item type="real" abs="true" hysteresis="1" note="Тракт сыпучих.Бункера.Бункер 12.Уровень материала"
+          tp="PLC_RA_DB4002_DBR_" ts="0104"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 1.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0108"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 2.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0112"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 3.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0116"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 4.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0120"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 5.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0124"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 6.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0128"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 7.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0132"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 8.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0136"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 9.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0140"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 10.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0144"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 11.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0148"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Бункера.Бункер 12.mA" tp="PLC_RA_DB4002_DBR_"
+          ts="0152"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Давление"
+          tp="PLC_RA_DB4002_DBR_" ts="0156"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.mA"
+          tp="PLC_RA_DB4002_DBR_" ts="0160"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Давление"
+          tp="PLC_RA_DB4002_DBR_" ts="0164"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.mA"
+          tp="PLC_RA_DB4002_DBR_" ts="0168"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0172"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0176"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0180"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0184"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0188"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0192"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0196"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0200"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0204"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0208"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0212"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0216"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0220"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0224"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0228"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0232"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0236"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0240"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0244"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0248"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0252"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0256"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0260"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0264"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0268"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0272"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0280"/>
+    <item type="dword" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3.Наработка" tp="PLC_RA_DB4002_DBD_"
+          ts="0284"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3.Скорость"
+          tp="PLC_RA_DB4002_DBR_" ts="0288"/>
+    <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH16.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0292"/>
+    <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH17.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0296"/>
+    <item type="dword" note="Тракт сыпучих.Конвейера. 02100_JH18.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0300"/>
+    <item type="dword" note="Тракт сыпучих.Конвейера. 02110_JH01.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0304"/>
+    <item type="dword" note="Тракт сыпучих.Конвейера. 02120_JH01.Наработка" tp="PLC_RA_DB4002_DBD_" ts="0308"/>
 </items>

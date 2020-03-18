@@ -71,6 +71,38 @@
     <build>
         <plugins>
             <plugin>
+                <!-- плагин для герерации классов по схемам XSD-SCHEMA -->
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>2.5.0</version>
+
+                <executions>
+                    <execution>
+                        <goals>
+                            <!--                            <goal>xjc</goal>-->
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>javax.activation-api</artifactId>
+                        <version>1.2.0</version>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <packageName>ru.datana.steel.parser.xml.pojo</packageName>
+                    <sources>
+                        <source>${basedir}/src/main/resources/xsd-schema</source>
+                    </sources>
+                    <!--                    <xjbSources>-->
+                    <!--                        <xjbSource>${basedir}/src/main/xjb/v20/bindings.xjb</xjbSource>-->
+                    <!--                    </xjbSources>-->
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <archive>

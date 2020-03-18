@@ -13,85 +13,214 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление природного газа(02700_CP01).Знач " tp="PLC_RH_DB4004_DBR_" ts="0000"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).мА " tp="PLC_RH_DB4004_DBR_" ts="0004"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).мин " tp="PLC_RH_DB4004_DBR_" ts="0008"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).макс " tp="PLC_RH_DB4004_DBR_" ts="0012"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0016"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).Знач " tp="PLC_RH_DB4004_DBR_" ts="0020"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).мА " tp="PLC_RH_DB4004_DBR_" ts="0024"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).мин " tp="PLC_RH_DB4004_DBR_" ts="0028"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).макс " tp="PLC_RH_DB4004_DBR_" ts="0032"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0036"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).Знач " tp="PLC_RH_DB4004_DBR_" ts="0040"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).мА " tp="PLC_RH_DB4004_DBR_" ts="0044"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).мин " tp="PLC_RH_DB4004_DBR_" ts="0048"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).макс " tp="PLC_RH_DB4004_DBR_" ts="0052"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).Форс знач" tp="PLC_RH_DB4004_DBR_" ts="0056"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).Знач " tp="PLC_RH_DB4004_DBR_" ts="0060"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).мА " tp="PLC_RH_DB4004_DBR_" ts="0064"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).мин " tp="PLC_RH_DB4004_DBR_" ts="0068"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).макс " tp="PLC_RH_DB4004_DBR_" ts="0072"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0076"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).Знач " tp="PLC_RH_DB4004_DBR_" ts="0080"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).мА " tp="PLC_RH_DB4004_DBR_" ts="0084"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).мин " tp="PLC_RH_DB4004_DBR_" ts="0088"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).макс " tp="PLC_RH_DB4004_DBR_" ts="0092"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0096"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).Знач " tp="PLC_RH_DB4004_DBR_" ts="0100"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).мА " tp="PLC_RH_DB4004_DBR_" ts="0104"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).мин " tp="PLC_RH_DB4004_DBR_" ts="0108"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).макс " tp="PLC_RH_DB4004_DBR_" ts="0112"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0116"/>
-  <item type="real" abs="true" hysteresis="0.0001" note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).Знач " tp="PLC_RH_DB4004_DBR_" ts="0120"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).мА " tp="PLC_RH_DB4004_DBR_" ts="0124"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).мин " tp="PLC_RH_DB4004_DBR_" ts="0128"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).макс " tp="PLC_RH_DB4004_DBR_" ts="0132"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0136"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).Знач " tp="PLC_RH_DB4004_DBR_" ts="0140"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).мА " tp="PLC_RH_DB4004_DBR_" ts="0144"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).мин " tp="PLC_RH_DB4004_DBR_" ts="0148"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).макс " tp="PLC_RH_DB4004_DBR_" ts="0152"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).Форс зна" tp="PLC_RH_DB4004_DBR_" ts="0156"/>
-  <item type="real" abs="true" hysteresis="0.01" note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).Знач " tp="PLC_RH_DB4004_DBR_" ts="0160"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).мА " tp="PLC_RH_DB4004_DBR_" ts="0164"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).мин " tp="PLC_RH_DB4004_DBR_" ts="0168"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).макс " tp="PLC_RH_DB4004_DBR_" ts="0172"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).Форс зна" tp="PLC_RH_DB4004_DBR_" ts="0176"/>
-  <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).Знач " tp="PLC_RH_DB4004_DBR_" ts="0180"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).мА " tp="PLC_RH_DB4004_DBR_" ts="0184"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).мин " tp="PLC_RH_DB4004_DBR_" ts="0188"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).макс " tp="PLC_RH_DB4004_DBR_" ts="0192"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0196"/>
-  <item type="real" abs="true" hysteresis="0.01" note="Система трубопроводов.Давление уплотн воды (02700_CP22).Знач " tp="PLC_RH_DB4004_DBR_" ts="0200"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).мА " tp="PLC_RH_DB4004_DBR_" ts="0204"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).мин " tp="PLC_RH_DB4004_DBR_" ts="0208"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).макс " tp="PLC_RH_DB4004_DBR_" ts="0212"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0216"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).Знач " tp="PLC_RH_DB4004_DBR_" ts="0220"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).мА " tp="PLC_RH_DB4004_DBR_" ts="0224"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).мин " tp="PLC_RH_DB4004_DBR_" ts="0228"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).макс " tp="PLC_RH_DB4004_DBR_" ts="0232"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0236"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).Знач " tp="PLC_RH_DB4004_DBR_" ts="0240"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).мА " tp="PLC_RH_DB4004_DBR_" ts="0244"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).мин " tp="PLC_RH_DB4004_DBR_" ts="0248"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).макс " tp="PLC_RH_DB4004_DBR_" ts="0252"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0256"/>
-  <item type="real" abs="true" hysteresis="0.0001" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).Знач " tp="PLC_RH_DB4004_DBR_" ts="0260"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).мА " tp="PLC_RH_DB4004_DBR_" ts="0264"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).мин " tp="PLC_RH_DB4004_DBR_" ts="0268"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).макс " tp="PLC_RH_DB4004_DBR_" ts="0272"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0276"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).Знач " tp="PLC_RH_DB4004_DBR_" ts="0280"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).мА " tp="PLC_RH_DB4004_DBR_" ts="0284"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).мин " tp="PLC_RH_DB4004_DBR_" ts="0288"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).макс " tp="PLC_RH_DB4004_DBR_" ts="0292"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0296"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).Знач " tp="PLC_RH_DB4004_DBR_" ts="0300"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).мА " tp="PLC_RH_DB4004_DBR_" ts="0304"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).мин " tp="PLC_RH_DB4004_DBR_" ts="0308"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).макс " tp="PLC_RH_DB4004_DBR_" ts="0312"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0316"/>
-  <!--320 байт -->
+    <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление природного газа(02700_CP01).Знач "
+          tp="PLC_RH_DB4004_DBR_" ts="0000"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).мА "
+          tp="PLC_RH_DB4004_DBR_" ts="0004"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление природного газа(02700_CP01).мин "
+          tp="PLC_RH_DB4004_DBR_" ts="0008"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление природного газа(02700_CP01).макс " tp="PLC_RH_DB4004_DBR_" ts="0012"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление природного газа(02700_CP01).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0016"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0020"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0024"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0028"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0032"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление охл воды в точке передачи(02700_CP03).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0036"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0040"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0044"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0048"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0052"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление кислорода в точке передачи(02700_CP05).Форс знач" tp="PLC_RH_DB4004_DBR_"
+          ts="0056"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0060"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0064"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0068"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0072"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление аргона в точке передачи(02700_CP07).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0076"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0080"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0084"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0088"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0092"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление азота в точке передачи(02700_CP09).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0096"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0100"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0104"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0108"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0112"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление тех воды в точке передачи(02700_CP12).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0116"/>
+    <item type="real" abs="true" hysteresis="0.0001"
+          note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0120"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0124"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0128"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0132"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давления пара в точке передачи(02700_CP14).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0136"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0140"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0144"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0148"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0152"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление инстр возд в точке передачи(02700_CP16).Форс зна" tp="PLC_RH_DB4004_DBR_"
+          ts="0156"/>
+    <item type="real" abs="true" hysteresis="0.01"
+          note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0160"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).мА " tp="PLC_RH_DB4004_DBR_"
+          ts="0164"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0168"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0172"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление воды для охл конденсаторов (02700_CP18).Форс зна" tp="PLC_RH_DB4004_DBR_"
+          ts="0176"/>
+    <item type="real" abs="true" hysteresis="1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).Знач "
+          tp="PLC_RH_DB4004_DBR_" ts="0180"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).мА "
+          tp="PLC_RH_DB4004_DBR_" ts="0184"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).мин " tp="PLC_RH_DB4004_DBR_" ts="0188"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).макс " tp="PLC_RH_DB4004_DBR_" ts="0192"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление сжатого воздуха (02700_CP20).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0196"/>
+    <item type="real" abs="true" hysteresis="0.01" note="Система трубопроводов.Давление уплотн воды (02700_CP22).Знач "
+          tp="PLC_RH_DB4004_DBR_" ts="0200"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).мА "
+          tp="PLC_RH_DB4004_DBR_" ts="0204"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).мин "
+          tp="PLC_RH_DB4004_DBR_" ts="0208"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Давление уплотн воды (02700_CP22).макс "
+          tp="PLC_RH_DB4004_DBR_" ts="0212"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Давление уплотн воды (02700_CP22).Форс знач " tp="PLC_RH_DB4004_DBR_" ts="0216"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).Знач " tp="PLC_RH_DB4004_DBR_" ts="0220"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).мА " tp="PLC_RH_DB4004_DBR_" ts="0224"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).мин " tp="PLC_RH_DB4004_DBR_" ts="0228"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).макс " tp="PLC_RH_DB4004_DBR_" ts="0232"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т охл воды в точке передачи(02700_CТ01).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0236"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).Знач " tp="PLC_RH_DB4004_DBR_" ts="0240"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).мА " tp="PLC_RH_DB4004_DBR_" ts="0244"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).мин " tp="PLC_RH_DB4004_DBR_" ts="0248"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).макс " tp="PLC_RH_DB4004_DBR_" ts="0252"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система трубопроводов.Т тех воды в точке передачи(02700_CТ03).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0256"/>
+    <item type="real" abs="true" hysteresis="0.0001"
+          note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).Знач " tp="PLC_RH_DB4004_DBR_" ts="0260"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).мА "
+          tp="PLC_RH_DB4004_DBR_" ts="0264"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).мин "
+          tp="PLC_RH_DB4004_DBR_" ts="0268"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).макс "
+          tp="PLC_RH_DB4004_DBR_" ts="0272"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т пара в точке передачи(02700_CТ07).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).Знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0280"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).мА " tp="PLC_RH_DB4004_DBR_" ts="0284"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).мин " tp="PLC_RH_DB4004_DBR_"
+          ts="0288"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).макс " tp="PLC_RH_DB4004_DBR_"
+          ts="0292"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система трубопроводов.Т воды для охл конденсаторов (02700_CТ08).Форс знач " tp="PLC_RH_DB4004_DBR_"
+          ts="0296"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).Знач "
+          tp="PLC_RH_DB4004_DBR_" ts="0300"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).мА "
+          tp="PLC_RH_DB4004_DBR_" ts="0304"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).мин "
+          tp="PLC_RH_DB4004_DBR_" ts="0308"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).макс "
+          tp="PLC_RH_DB4004_DBR_" ts="0312"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система трубопроводов.Т уплотн воды (02700_CT16).Форс знач "
+          tp="PLC_RH_DB4004_DBR_" ts="0316"/>
+    <!--320 байт -->
 </items>

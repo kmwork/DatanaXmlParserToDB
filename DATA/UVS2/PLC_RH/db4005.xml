@@ -13,100 +13,289 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).Знач " tp="PLC_RH_DB4005_DBR_" ts="0000"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).мА " tp="PLC_RH_DB4005_DBR_" ts="0004"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).мин " tp="PLC_RH_DB4005_DBR_" ts="0008"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).макс " tp="PLC_RH_DB4005_DBR_" ts="0012"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).Форс знач" tp="PLC_RH_DB4005_DBR_" ts="0016"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).Знач " tp="PLC_RH_DB4005_DBR_" ts="0020"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).мА " tp="PLC_RH_DB4005_DBR_" ts="0024"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).мин " tp="PLC_RH_DB4005_DBR_" ts="0028"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).макс " tp="PLC_RH_DB4005_DBR_" ts="0032"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).Форс зна" tp="PLC_RH_DB4005_DBR_" ts="0036"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).Знач " tp="PLC_RH_DB4005_DBR_" ts="0040"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).мА " tp="PLC_RH_DB4005_DBR_" ts="0044"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).мин " tp="PLC_RH_DB4005_DBR_" ts="0048"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).макс " tp="PLC_RH_DB4005_DBR_" ts="0052"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).Форс зна" tp="PLC_RH_DB4005_DBR_" ts="0056"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).Знач " tp="PLC_RH_DB4005_DBR_" ts="0060"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).мА " tp="PLC_RH_DB4005_DBR_" ts="0064"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).мин " tp="PLC_RH_DB4005_DBR_" ts="0068"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).макс " tp="PLC_RH_DB4005_DBR_" ts="0072"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0076"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).Знач " tp="PLC_RH_DB4005_DBR_" ts="0080"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).мА " tp="PLC_RH_DB4005_DBR_" ts="0084"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).мин " tp="PLC_RH_DB4005_DBR_" ts="0088"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).макс " tp="PLC_RH_DB4005_DBR_" ts="0092"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0096"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).Знач " tp="PLC_RH_DB4005_DBR_" ts="0100"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).мА " tp="PLC_RH_DB4005_DBR_" ts="0104"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).мин " tp="PLC_RH_DB4005_DBR_" ts="0108"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).макс " tp="PLC_RH_DB4005_DBR_" ts="0112"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0116"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).Знач " tp="PLC_RH_DB4005_DBR_" ts="0120"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).мА " tp="PLC_RH_DB4005_DBR_" ts="0124"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).мин " tp="PLC_RH_DB4005_DBR_" ts="0128"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).макс " tp="PLC_RH_DB4005_DBR_" ts="0132"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0136"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).Знач " tp="PLC_RH_DB4005_DBR_" ts="0140"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).мА " tp="PLC_RH_DB4005_DBR_" ts="0144"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).мин " tp="PLC_RH_DB4005_DBR_" ts="0148"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).макс " tp="PLC_RH_DB4005_DBR_" ts="0152"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0156"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).Знач " tp="PLC_RH_DB4005_DBR_" ts="0160"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).мА " tp="PLC_RH_DB4005_DBR_" ts="0164"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).мин " tp="PLC_RH_DB4005_DBR_" ts="0168"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).макс " tp="PLC_RH_DB4005_DBR_" ts="0172"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0176"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).Знач " tp="PLC_RH_DB4005_DBR_" ts="0180"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).мА " tp="PLC_RH_DB4005_DBR_" ts="0184"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).мин " tp="PLC_RH_DB4005_DBR_" ts="0188"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).макс " tp="PLC_RH_DB4005_DBR_" ts="0192"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0196"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).Знач " tp="PLC_RH_DB4005_DBR_" ts="0200"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).мА " tp="PLC_RH_DB4005_DBR_" ts="0204"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).мин " tp="PLC_RH_DB4005_DBR_" ts="0208"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).макс " tp="PLC_RH_DB4005_DBR_" ts="0212"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0216"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).Знач " tp="PLC_RH_DB4005_DBR_" ts="0220"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).мА " tp="PLC_RH_DB4005_DBR_" ts="0224"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).мин " tp="PLC_RH_DB4005_DBR_" ts="0228"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).макс " tp="PLC_RH_DB4005_DBR_" ts="0232"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0236"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).Знач " tp="PLC_RH_DB4005_DBR_" ts="0240"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).мА " tp="PLC_RH_DB4005_DBR_" ts="0244"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).мин " tp="PLC_RH_DB4005_DBR_" ts="0248"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).макс " tp="PLC_RH_DB4005_DBR_" ts="0252"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0256"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).Знач " tp="PLC_RH_DB4005_DBR_" ts="0260"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).мА " tp="PLC_RH_DB4005_DBR_" ts="0264"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).мин " tp="PLC_RH_DB4005_DBR_" ts="0268"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).макс " tp="PLC_RH_DB4005_DBR_" ts="0272"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).Форс зна" tp="PLC_RH_DB4005_DBR_" ts="0276"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).Знач " tp="PLC_RH_DB4005_DBR_" ts="0280"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).мА " tp="PLC_RH_DB4005_DBR_" ts="0284"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).мин " tp="PLC_RH_DB4005_DBR_" ts="0288"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).макс " tp="PLC_RH_DB4005_DBR_" ts="0292"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0296"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).Знач " tp="PLC_RH_DB4005_DBR_" ts="0300"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).мА " tp="PLC_RH_DB4005_DBR_" ts="0304"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).мин " tp="PLC_RH_DB4005_DBR_" ts="0308"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).макс " tp="PLC_RH_DB4005_DBR_" ts="0312"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0316"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).Знач " tp="PLC_RH_DB4005_DBR_" ts="0320"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).мА " tp="PLC_RH_DB4005_DBR_" ts="0324"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).мин " tp="PLC_RH_DB4005_DBR_" ts="0328"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).макс " tp="PLC_RH_DB4005_DBR_" ts="0332"/>
-  <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).Форс знач " tp="PLC_RH_DB4005_DBR_" ts="0336"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).Знач " tp="PLC_RH_DB4005_DBR_" ts="0340"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).мА " tp="PLC_RH_DB4005_DBR_" ts="0344"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).мин " tp="PLC_RH_DB4005_DBR_" ts="0348"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).макс " tp="PLC_RH_DB4005_DBR_" ts="0352"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).Форс знач" tp="PLC_RH_DB4005_DBR_" ts="0356"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).Знач " tp="PLC_RH_DB4005_DBR_" ts="0360"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).мА " tp="PLC_RH_DB4005_DBR_" ts="0364"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).мин " tp="PLC_RH_DB4005_DBR_" ts="0368"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).макс " tp="PLC_RH_DB4005_DBR_" ts="0372"/>
-  <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).Форс зна" tp="PLC_RH_DB4005_DBR_" ts="0376"/>
-  <!--380 байт -->
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0000"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0004"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0008"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0012"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF01).Форс знач" tp="PLC_RH_DB4005_DBR_"
+          ts="0016"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0020"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0024"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0028"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0032"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF02).Форс зна" tp="PLC_RH_DB4005_DBR_"
+          ts="0036"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0040"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0044"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0048"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0052"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(продув) на фурму(04810_CF04).Форс зна" tp="PLC_RH_DB4005_DBR_"
+          ts="0056"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0060"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0064"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0068"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0072"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа(обрат)(04810_CF03).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0076"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0080"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0084"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0088"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0092"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 нагрев(обрат)(04810_CF03).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0096"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0100"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0104"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0108"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0112"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Рег кл О2 продув(обрат)(04810_CF04).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0116"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0120"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0124"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0128"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0132"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Интенсивность пламени(04810_CR01).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0136"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0140"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0144"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0148"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0152"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход азота на фурму(04810_CF05).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0156"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0160"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0164"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0168"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0172"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды на фурму(04810_CF06).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0176"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0180"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).мА " tp="PLC_RH_DB4005_DBR_" ts="0184"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0188"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0192"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход воды с фурмы(04810_CF07).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0196"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0200"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0204"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0208"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0212"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл прир газа на фурму(04810_CP05).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0216"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0220"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0224"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0228"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0232"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(нагрев) на фурму(04810_CP10).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0236"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0240"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0244"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0248"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0252"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Давл О2(продув) на фурму(04810_CP12).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0256"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0260"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0264"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0268"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0272"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.СО на участке вакуумкамеры(04810_CQ01).Форс зна" tp="PLC_RH_DB4005_DBR_"
+          ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0280"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0284"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0288"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0292"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т воды на выходе фурмы(04810_CT03).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0296"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0300"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0304"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0308"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0312"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т прир газа на фурму(04810_CТ04).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0316"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0320"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0324"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0328"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0332"/>
+    <item type="real" abs="true" hysteresis="0.5"
+          note="Система верхней фурмы.Станция 1.Т кислорода на фурму(04810_CТ05).Форс знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0336"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0340"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0344"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0348"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0352"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход прир газа на фурму(04810_CF10).Форс знач" tp="PLC_RH_DB4005_DBR_"
+          ts="0356"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).Знач " tp="PLC_RH_DB4005_DBR_"
+          ts="0360"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).мА " tp="PLC_RH_DB4005_DBR_"
+          ts="0364"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).мин " tp="PLC_RH_DB4005_DBR_"
+          ts="0368"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).макс " tp="PLC_RH_DB4005_DBR_"
+          ts="0372"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.Расход О2(нагрев) на фурму(04810_CF11).Форс зна" tp="PLC_RH_DB4005_DBR_"
+          ts="0376"/>
+    <!--380 байт -->
 </items>

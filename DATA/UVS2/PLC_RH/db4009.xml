@@ -1,138 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
-  <item type="word" note="Акт плавка.Состояние обработки.Позиция1" tp="PLC_RH_DB4009_DBW_" ts="0000"/>
-<item type="word" note="Акт плавка.Состояние обработки.Позиция2" tp="PLC_RH_DB4009_DBW_" ts="0002"/>
-<item type="real" abs="true" hysteresis="0.1" note="Акт плавка.Номер плавки ОЦИ.Позиция1" tp="PLC_RH_DB4009_DBR_" ts="0004"/>
-<item type="real" abs="true" hysteresis="0.1" note="Акт плавка.Номер плавки ОЦИ.Позиция2" tp="PLC_RH_DB4009_DBR_" ts="0008"/>
-<item type="word" note="Акт плавка.Время обработки ПЭН" tp="PLC_RH_DB4009_DBW_" ts="0012"/>
-<item type="dword" note="Акт плавка.Номер плавки WinCC.Позиция1" tp="PLC_RH_DB4009_DBD_" ts="0014"/>
-<item type="dword" note="Акт плавка.Номер плавки WinCC.Позиция2" tp="PLC_RH_DB4009_DBD_" ts="0018"/>
-<item type="real" abs="true" hysteresis="1" note="Акт плавка.Разряжение в ПЭНе" tp="PLC_RH_DB4009_DBR_" ts="0022"/>
-<item type="dword" note="Акт плавка.Стойкость вакуумкамеры.Позиция1" tp="PLC_RH_DB4009_DBD_" ts="0026"/>
-<item type="dword" note="Акт плавка.Стойкость вакуумкамеры.Позиция2" tp="PLC_RH_DB4009_DBD_" ts="0030"/>
-<item type="word" note="Симокод.Водокольцевые насосы.01820_МК01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0034"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0036"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0040"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0044"/>
-<item type="word" note="Симокод.Водокольцевые насосы.01820_МК02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0048"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0050"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0054"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0058"/>
-<item type="word" note="Симокод.Водокольцевые насосы.01820_МК03.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0062"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0064"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0068"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0072"/>
-<item type="word" note="Симокод.Водокольцевые насосы.01820_МК04.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0076"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0078"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0082"/>
-<item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0086"/>
-<item type="word" note="Симокод.Циркуляционные насосы.01800_JP01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0090"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0092"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0096"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0100"/>
-<item type="word" note="Симокод.Циркуляционные насосы.01800_JP02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0104"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0106"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0110"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0114"/>
-<item type="word" note="Симокод.Циркуляционные насосы.01800_JP03.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0118"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0120"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0124"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0128"/>
-<item type="word" note="Симокод.Циркуляционные насосы.01800_JP04.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0132"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0134"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0138"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0142"/>
-<item type="word" note="Симокод.Циркуляционные насосы.01800_JP05.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0146"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0148"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0152"/>
-<item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0156"/>
-<item type="word" note="Симокод.Гидравлика.01000_MD01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0160"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0162"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD01.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0166"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0170"/>
-<item type="word" note="Симокод.Гидравлика.01000_MD02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0174"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0176"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD02.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0180"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0184"/>
-<item type="dword" note="Симокод.Гидравлика.01000_MD03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0188"/>
-<item type="dword" note="Симокод.Верхняя фурма.04810_MM01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0192"/>
-<item type="dword" note="Симокод.Верхняя фурма.04810_MM03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0196"/>
-<item type="dword" note="Симокод.Верхняя фурма.04820_MM01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0200"/>
-<item type="dword" note="Симокод.Верхняя фурма.04820_MM03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0204"/>
-<item type="dword" note="Симокод.Гидравлика.01000_GD01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0208"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Значение AV1" tp="PLC_RH_DB4009_DBR_" ts="0212"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Значение AV2" tp="PLC_RH_DB4009_DBR_" ts="0216"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Разность AV2-AV1" tp="PLC_RH_DB4009_DBR_" ts="0220"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Положение" tp="PLC_RH_DB4009_DBR_" ts="0224"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Глубина погружен" tp="PLC_RH_DB4009_DBR_" ts="0228"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Значение AV1" tp="PLC_RH_DB4009_DBR_" ts="0232"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Значение AV2" tp="PLC_RH_DB4009_DBR_" ts="0236"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Разность AV2-AV1" tp="PLC_RH_DB4009_DBR_" ts="0240"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Положение" tp="PLC_RH_DB4009_DBR_" ts="0244"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Глубина погружен" tp="PLC_RH_DB4009_DBR_" ts="0248"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.Температура стали" tp="PLC_RH_DB4009_DBR_" ts="0252"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.Кислород(ppm)" tp="PLC_RH_DB4009_DBR_" ts="0256"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.AL(%)" tp="PLC_RH_DB4009_DBR_" ts="0260"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.C(%)" tp="PLC_RH_DB4009_DBR_" ts="0264"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.EMF(mV)" tp="PLC_RH_DB4009_DBR_" ts="0268"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.Температура стали" tp="PLC_RH_DB4009_DBR_" ts="0272"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.Кислород(ppm)" tp="PLC_RH_DB4009_DBR_" ts="0276"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.AL(%)" tp="PLC_RH_DB4009_DBR_" ts="0280"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.C(%)" tp="PLC_RH_DB4009_DBR_" ts="0284"/>
-<item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.EMF(mV)" tp="PLC_RH_DB4009_DBR_" ts="0288"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow1" tp="PLC_RH_DB4009_DBR_" ts="0292"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow2" tp="PLC_RH_DB4009_DBR_" ts="0296"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow" tp="PLC_RH_DB4009_DBR_" ts="0300"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow1" tp="PLC_RH_DB4009_DBR_" ts="0304"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow2" tp="PLC_RH_DB4009_DBR_" ts="0308"/>
-<item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow" tp="PLC_RH_DB4009_DBR_" ts="0312"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Соотношение O2 и природного газа PLC" tp="PLC_RH_DB4009_DBR_" ts="0316"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Соотношение O2 и природного газа PLC" tp="PLC_RH_DB4009_DBR_" ts="0320"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание на соотношение O2 и природного газа" tp="PLC_RH_DB4009_DBR_" ts="0324"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание расхода O2" tp="PLC_RH_DB4009_DBR_" ts="0328"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание расхода природного газа" tp="PLC_RH_DB4009_DBR_" ts="0332"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание положения фурмы" tp="PLC_RH_DB4009_DBR_" ts="0336"/>
-<item type="dword" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Общее время последовательности" tp="PLC_RH_DB4009_DBD_" ts="0340"/>
-<item type="word" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Время продувки" tp="PLC_RH_DB4009_DBW_" ts="0344"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание соотношения O2 и природного газа" tp="PLC_RH_DB4009_DBR_" ts="0346"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание расхода O2" tp="PLC_RH_DB4009_DBR_" ts="0350"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание расхода природного газа" tp="PLC_RH_DB4009_DBR_" ts="0354"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание положения фурмы с WinCC" tp="PLC_RH_DB4009_DBR_" ts="0358"/>
-<item type="dword" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Общее время последовательности" tp="PLC_RH_DB4009_DBD_" ts="0362"/>
-<item type="word" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Время продувки" tp="PLC_RH_DB4009_DBW_" ts="0366"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Общий расход на патрубки" tp="PLC_RH_DB4009_DBR_" ts="0368"/>
-<item type="real" abs="true" hysteresis="1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Общий расход на патрубки" tp="PLC_RH_DB4009_DBR_" ts="0372"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Значение энкодера" tp="PLC_RH_DB4009_DBR_" ts="0376"/>
-<item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.Значение энкодера" tp="PLC_RH_DB4009_DBR_" ts="0380"/>
-<item type="dword" note="Подвижный трубопровод.Механизм перемещения.Часы работы 01810_ММ01" tp="PLC_RH_DB4009_DBD_" ts="0384"/>
-<item type="dword" note="Подвижный трубопровод.Механизм подъёма.Часы работы 01810_ММ02" tp="PLC_RH_DB4009_DBD_" ts="0388"/>
-<item type="dword" note="Торкретмашина.Торкреттелега.Часы работы 02500_ММ01" tp="PLC_RH_DB4009_DBD_" ts="0392"/>
-<item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(rpm)" tp="PLC_RH_DB4009_DBR_" ts="0396"/>
-<item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(%)" tp="PLC_RH_DB4009_DBR_" ts="0400"/>
-<item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(ток А)" tp="PLC_RH_DB4009_DBR_" ts="0404"/>
-<item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(ток %)" tp="PLC_RH_DB4009_DBR_" ts="0408"/>
-<item type="dword" note="Тележка для ремонта патрубков №1.SIMOVERT.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0412"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Скорость (rpm)" tp="PLC_RH_DB4009_DBR_" ts="0416"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Скорость (%)" tp="PLC_RH_DB4009_DBR_" ts="0420"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Ток (А)" tp="PLC_RH_DB4009_DBR_" ts="0424"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Ток (%)" tp="PLC_RH_DB4009_DBR_" ts="0428"/>
-<item type="dword" note="Тележка для ремонта патрубков №2.SIMOVERT.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0432"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Скорость (rpm)" tp="PLC_RH_DB4009_DBR_" ts="0436"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Скорость (%)" tp="PLC_RH_DB4009_DBR_" ts="0440"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Ток (А)" tp="PLC_RH_DB4009_DBR_" ts="0444"/>
-<item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Ток (%)" tp="PLC_RH_DB4009_DBR_" ts="0448"/>
-<item type="word" note="Диагностика.Счетчик цикла PLCRH(минуты)" tp="PLC_RH_DB4009_DBW_" ts="0452"/>
-<item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT12" tp="PLC_RH_DB4009_DBR_" ts="0454"/>
-<item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT13" tp="PLC_RH_DB4009_DBR_" ts="0458"/>
-<item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT15" tp="PLC_RH_DB4009_DBR_" ts="0462"/>
-<item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT16" tp="PLC_RH_DB4009_DBR_" ts="0466"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Соотношение O2 и природного газа BCU" tp="PLC_RH_DB4009_DBR_" ts="0470"/>
-<item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Соотношение O2 и природного газа BCU" tp="PLC_RH_DB4009_DBR_" ts="0474"/>
-<item type="real" abs="true" hysteresis="1" note="Симокод.Циркуляционные насосы.01800_JP01.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0478"/>
-<item type="real" abs="true" hysteresis="1" note="Симокод.Циркуляционные насосы.01800_JP02.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0482"/>
-<item type="real" abs="true" hysteresis="1" note="Симокод.Циркуляционные насосы.01800_JP03.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0486"/>
-<item type="real" abs="true" hysteresis="1" note="Симокод.Циркуляционные насосы.01800_JP04.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0490"/>
-<item type="real" abs="true" hysteresis="1" note="Симокод.Циркуляционные насосы.01800_JP05.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0494"/>
-<item type="word" note="Торкретмашина.Время работы торекрмашины(в секундах)" tp="PLC_RH_DB4009_DBW_" ts="0498"/>
-<item type="word" note="Торкретмашина.Порция времени работы торекрмашины(в секундах)" tp="PLC_RH_DB4009_DBW_" ts="0500"/>
+     
+    <item type="word" note="Акт плавка.Состояние обработки.Позиция1" tp="PLC_RH_DB4009_DBW_" ts="0000"/>
+    <item type="word" note="Акт плавка.Состояние обработки.Позиция2" tp="PLC_RH_DB4009_DBW_" ts="0002"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Акт плавка.Номер плавки ОЦИ.Позиция1" tp="PLC_RH_DB4009_DBR_"
+          ts="0004"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Акт плавка.Номер плавки ОЦИ.Позиция2" tp="PLC_RH_DB4009_DBR_"
+          ts="0008"/>
+    <item type="word" note="Акт плавка.Время обработки ПЭН" tp="PLC_RH_DB4009_DBW_" ts="0012"/>
+    <item type="dword" note="Акт плавка.Номер плавки WinCC.Позиция1" tp="PLC_RH_DB4009_DBD_" ts="0014"/>
+    <item type="dword" note="Акт плавка.Номер плавки WinCC.Позиция2" tp="PLC_RH_DB4009_DBD_" ts="0018"/>
+    <item type="real" abs="true" hysteresis="1" note="Акт плавка.Разряжение в ПЭНе" tp="PLC_RH_DB4009_DBR_" ts="0022"/>
+    <item type="dword" note="Акт плавка.Стойкость вакуумкамеры.Позиция1" tp="PLC_RH_DB4009_DBD_" ts="0026"/>
+    <item type="dword" note="Акт плавка.Стойкость вакуумкамеры.Позиция2" tp="PLC_RH_DB4009_DBD_" ts="0030"/>
+    <item type="word" note="Симокод.Водокольцевые насосы.01820_МК01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0034"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0036"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0040"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0044"/>
+    <item type="word" note="Симокод.Водокольцевые насосы.01820_МК02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0048"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0050"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0054"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0058"/>
+    <item type="word" note="Симокод.Водокольцевые насосы.01820_МК03.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0062"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0064"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0068"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0072"/>
+    <item type="word" note="Симокод.Водокольцевые насосы.01820_МК04.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0076"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0078"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0082"/>
+    <item type="dword" note="Симокод.Водокольцевые насосы.01820_МК04.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0086"/>
+    <item type="word" note="Симокод.Циркуляционные насосы.01800_JP01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0090"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0092"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0096"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0100"/>
+    <item type="word" note="Симокод.Циркуляционные насосы.01800_JP02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0104"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0106"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0110"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0114"/>
+    <item type="word" note="Симокод.Циркуляционные насосы.01800_JP03.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0118"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0120"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0124"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0128"/>
+    <item type="word" note="Симокод.Циркуляционные насосы.01800_JP04.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0132"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0134"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0138"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP04.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0142"/>
+    <item type="word" note="Симокод.Циркуляционные насосы.01800_JP05.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_"
+          ts="0146"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0148"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Время охлаждения" tp="PLC_RH_DB4009_DBD_"
+          ts="0152"/>
+    <item type="dword" note="Симокод.Циркуляционные насосы.01800_JP05.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0156"/>
+    <item type="word" note="Симокод.Гидравлика.01000_MD01.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0160"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD01.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0162"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD01.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0166"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0170"/>
+    <item type="word" note="Симокод.Гидравлика.01000_MD02.Ток(% от номинала)" tp="PLC_RH_DB4009_DBW_" ts="0174"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD02.Время работы" tp="PLC_RH_DB4009_DBD_" ts="0176"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD02.Время охлаждения" tp="PLC_RH_DB4009_DBD_" ts="0180"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD02.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0184"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_MD03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0188"/>
+    <item type="dword" note="Симокод.Верхняя фурма.04810_MM01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0192"/>
+    <item type="dword" note="Симокод.Верхняя фурма.04810_MM03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0196"/>
+    <item type="dword" note="Симокод.Верхняя фурма.04820_MM01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0200"/>
+    <item type="dword" note="Симокод.Верхняя фурма.04820_MM03.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0204"/>
+    <item type="dword" note="Симокод.Гидравлика.01000_GD01.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0208"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Значение AV1" tp="PLC_RH_DB4009_DBR_"
+          ts="0212"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Значение AV2" tp="PLC_RH_DB4009_DBR_"
+          ts="0216"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Разность AV2-AV1" tp="PLC_RH_DB4009_DBR_"
+          ts="0220"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Положение" tp="PLC_RH_DB4009_DBR_"
+          ts="0224"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 1.Полож подв площадки(1010_CG0x).Глубина погружен" tp="PLC_RH_DB4009_DBR_"
+          ts="0228"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Значение AV1" tp="PLC_RH_DB4009_DBR_"
+          ts="0232"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Значение AV2" tp="PLC_RH_DB4009_DBR_"
+          ts="0236"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Разность AV2-AV1" tp="PLC_RH_DB4009_DBR_"
+          ts="0240"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Положение" tp="PLC_RH_DB4009_DBR_"
+          ts="0244"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 2.Полож подв площадки(1020_CG0x).Глубина погружен" tp="PLC_RH_DB4009_DBR_"
+          ts="0248"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.Температура стали"
+          tp="PLC_RH_DB4009_DBR_" ts="0252"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.Кислород(ppm)"
+          tp="PLC_RH_DB4009_DBR_" ts="0256"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.AL(%)" tp="PLC_RH_DB4009_DBR_"
+          ts="0260"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.C(%)" tp="PLC_RH_DB4009_DBR_"
+          ts="0264"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 1.CELOX.Измерение.EMF(mV)" tp="PLC_RH_DB4009_DBR_"
+          ts="0268"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.Температура стали"
+          tp="PLC_RH_DB4009_DBR_" ts="0272"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.Кислород(ppm)"
+          tp="PLC_RH_DB4009_DBR_" ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.AL(%)" tp="PLC_RH_DB4009_DBR_"
+          ts="0280"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.C(%)" tp="PLC_RH_DB4009_DBR_"
+          ts="0284"/>
+    <item type="real" abs="true" hysteresis="0.1" note="МЗПП.Станция 2.CELOX.Измерение.EMF(mV)" tp="PLC_RH_DB4009_DBR_"
+          ts="0288"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow1"
+          tp="PLC_RH_DB4009_DBR_" ts="0292"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow2"
+          tp="PLC_RH_DB4009_DBR_" ts="0296"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 1.Разность расходов воды.difFlow"
+          tp="PLC_RH_DB4009_DBR_" ts="0300"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow1"
+          tp="PLC_RH_DB4009_DBR_" ts="0304"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow2"
+          tp="PLC_RH_DB4009_DBR_" ts="0308"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Система верхней фурмы.Станция 2.Разность расходов воды.difFlow"
+          tp="PLC_RH_DB4009_DBR_" ts="0312"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Соотношение O2 и природного газа PLC" tp="PLC_RH_DB4009_DBR_"
+          ts="0316"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Соотношение O2 и природного газа PLC" tp="PLC_RH_DB4009_DBR_"
+          ts="0320"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание на соотношение O2 и природного газа"
+          tp="PLC_RH_DB4009_DBR_" ts="0324"/>
+    <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание расхода O2"
+          tp="PLC_RH_DB4009_DBR_" ts="0328"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание расхода природного газа" tp="PLC_RH_DB4009_DBR_"
+          ts="0332"/>
+    <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Задание положения фурмы"
+          tp="PLC_RH_DB4009_DBR_" ts="0336"/>
+    <item type="dword" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Общее время последовательности"
+          tp="PLC_RH_DB4009_DBD_" ts="0340"/>
+    <item type="word" note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Время продувки" tp="PLC_RH_DB4009_DBW_"
+          ts="0344"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание соотношения O2 и природного газа"
+          tp="PLC_RH_DB4009_DBR_" ts="0346"/>
+    <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание расхода O2"
+          tp="PLC_RH_DB4009_DBR_" ts="0350"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание расхода природного газа" tp="PLC_RH_DB4009_DBR_"
+          ts="0354"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Задание положения фурмы с WinCC" tp="PLC_RH_DB4009_DBR_"
+          ts="0358"/>
+    <item type="dword" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Общее время последовательности"
+          tp="PLC_RH_DB4009_DBD_" ts="0362"/>
+    <item type="word" note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Время продувки" tp="PLC_RH_DB4009_DBW_"
+          ts="0366"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ патрубков.Общий расход на патрубки" tp="PLC_RH_DB4009_DBR_"
+          ts="0368"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ патрубков.Общий расход на патрубки" tp="PLC_RH_DB4009_DBR_"
+          ts="0372"/>
+    <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 1.Значение энкодера"
+          tp="PLC_RH_DB4009_DBR_" ts="0376"/>
+    <item type="real" abs="true" hysteresis="1" note="Система верхней фурмы.Станция 2.Значение энкодера"
+          tp="PLC_RH_DB4009_DBR_" ts="0380"/>
+    <item type="dword" note="Подвижный трубопровод.Механизм перемещения.Часы работы 01810_ММ01" tp="PLC_RH_DB4009_DBD_"
+          ts="0384"/>
+    <item type="dword" note="Подвижный трубопровод.Механизм подъёма.Часы работы 01810_ММ02" tp="PLC_RH_DB4009_DBD_"
+          ts="0388"/>
+    <item type="dword" note="Торкретмашина.Торкреттелега.Часы работы 02500_ММ01" tp="PLC_RH_DB4009_DBD_" ts="0392"/>
+    <item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(rpm)"
+          tp="PLC_RH_DB4009_DBR_" ts="0396"/>
+    <item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(%)"
+          tp="PLC_RH_DB4009_DBR_" ts="0400"/>
+    <item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(ток А)"
+          tp="PLC_RH_DB4009_DBR_" ts="0404"/>
+    <item type="real" abs="true" hysteresis="1" note="Торкретмашина.Торкреттелега.Скорость 02500_ММ01(ток %)"
+          tp="PLC_RH_DB4009_DBR_" ts="0408"/>
+    <item type="dword" note="Тележка для ремонта патрубков №1.SIMOVERT.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0412"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Скорость (rpm)"
+          tp="PLC_RH_DB4009_DBR_" ts="0416"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Скорость (%)"
+          tp="PLC_RH_DB4009_DBR_" ts="0420"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Ток (А)"
+          tp="PLC_RH_DB4009_DBR_" ts="0424"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №1.SIMOVERT.Ток (%)"
+          tp="PLC_RH_DB4009_DBR_" ts="0428"/>
+    <item type="dword" note="Тележка для ремонта патрубков №2.SIMOVERT.Часы работы" tp="PLC_RH_DB4009_DBD_" ts="0432"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Скорость (rpm)"
+          tp="PLC_RH_DB4009_DBR_" ts="0436"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Скорость (%)"
+          tp="PLC_RH_DB4009_DBR_" ts="0440"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Ток (А)"
+          tp="PLC_RH_DB4009_DBR_" ts="0444"/>
+    <item type="real" abs="true" hysteresis="1" note="Тележка для ремонта патрубков №2.SIMOVERT.Ток (%)"
+          tp="PLC_RH_DB4009_DBR_" ts="0448"/>
+    <item type="word" note="Диагностика.Счетчик цикла PLCRH(минуты)" tp="PLC_RH_DB4009_DBW_" ts="0452"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT12" tp="PLC_RH_DB4009_DBR_"
+          ts="0454"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT13" tp="PLC_RH_DB4009_DBR_"
+          ts="0458"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT15" tp="PLC_RH_DB4009_DBR_"
+          ts="0462"/>
+    <item type="real" abs="true" hysteresis="0.5" note="Диагностика.Температура шкафов.DT16" tp="PLC_RH_DB4009_DBR_"
+          ts="0466"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.ГКГ.WinCC.Соотношение O2 и природного газа BCU" tp="PLC_RH_DB4009_DBR_"
+          ts="0470"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.ГКГ.WinCC.Соотношение O2 и природного газа BCU" tp="PLC_RH_DB4009_DBR_"
+          ts="0474"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Симокод.Циркуляционные насосы.01800_JP01.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0478"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Симокод.Циркуляционные насосы.01800_JP02.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0482"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Симокод.Циркуляционные насосы.01800_JP03.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0486"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Симокод.Циркуляционные насосы.01800_JP04.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0490"/>
+    <item type="real" abs="true" hysteresis="1"
+          note="Симокод.Циркуляционные насосы.01800_JP05.Расход электроэнергии(кВт)" tp="PLC_RH_DB4009_DBR_" ts="0494"/>
+    <item type="word" note="Торкретмашина.Время работы торекрмашины(в секундах)" tp="PLC_RH_DB4009_DBW_" ts="0498"/>
+    <item type="word" note="Торкретмашина.Порция времени работы торекрмашины(в секундах)" tp="PLC_RH_DB4009_DBW_"
+          ts="0500"/>
 </items>

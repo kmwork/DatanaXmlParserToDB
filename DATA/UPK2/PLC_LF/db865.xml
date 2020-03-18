@@ -1,328 +1,383 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<items><item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0000"/>
-  <item type="word" note="Profibus.LF.Контролер DD40 DP 1.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0002"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0004"/>
-  <item type="word" note="Profibus.LF.DT40_1-ED401 DP 3.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0006"/>
-  <item type="word" note="Profibus.LF.DT40_2-ED402 DP 4.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0008"/>
-  <item type="word" note="Profibus.LF.DT41_1-ED411 DP 5.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0010"/>
-  <item type="word" note="Profibus.LF.DT41_2-ED412 DP 6.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0012"/>
-  <item type="word" note="Profibus.LF.DT42-ED421 DP 7.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0014"/>
-  <item type="word" note="Profibus.LF.DT43-ED431 DP 8.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0016"/>
-  <item type="word" note="Profibus.LF.DT44-ED441 DP 9.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0018"/>
-  <item type="word" note="Profibus.LF.DT45-ED451 DP 10.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0020"/>
-  <item type="word" note="Profibus.LF.DT46-ED461 DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0022"/>
-  <item type="word" note="Profibus.LF.DT47-ED471 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0024"/>
-  <item type="word" note="Profibus.LF.A001 DP 13.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0026"/>
-  <item type="word" note="Profibus.LF.A002 DP 14.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0028"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0030"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0032"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0034"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0036"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0038"/>
-  <item type="word" note="Profibus.LF.Simocode 09000-MD01 DP20.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0040"/>
-  <item type="word" note="Profibus.LF.Simocode 09000-MD02 DP21.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0042"/>
-  <item type="word" note="Profibus.LF.Simocode 09000-MD03 DP22.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0044"/>
-  <item type="word" note="Profibus.LF.Net Analyzer DP23.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0046"/>
-  <item type="word" note="Profibus.LF.Simeas A001 DP24.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0048"/>
-  <item type="word" note="Profibus.LF.Simeas A002 DP25.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0050"/>
-  <item type="word" note="Profibus.LF.DiagnostRepeater DT42 DP26.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0052"/>
-  <item type="word" note="Profibus.LF.DiagnostRepeater DT44 DP27.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0054"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0056"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0058"/>
-  <item type="word" note="Profibus.LF.Celox 1 DP30.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0060"/>
-  <item type="word" note="Profibus.LF.Celox 2 DP31.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0062"/>
-  <item type="word" note="Profibus.LF.Hydris 1 DP32.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0064"/>
-  <item type="word" note="Profibus.LF.Hydris 2 DP33.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0066"/>
-  <item type="word" note="Profibus.LF.Digitemp 1 DP34.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0068"/>
-  <item type="word" note="Profibus.LF.DP-DP Трайб №1 DP35.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0070"/>
-  <item type="word" note="Profibus.LF.DP-DP Трайб №2 DP36.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0072"/>
-  <item type="word" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0074"/>
-  <item type="word" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0076"/>
-  <item type="word" note="Profibus.LF.Digitemp 2 DP39.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0078"/>
-  <item type="word" note="Profibus.LF.Энкодер поворота портала DP40.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0080"/>
-  <item type="word" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0082"/>
-  <item type="word" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0084"/>
-  <item type="word" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0086"/>
-  <item type="word" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0088"/>
-  <item type="word" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0090"/>
-  <item type="word" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0092"/>
-  <item type="word" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0094"/>
-  <item type="word" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0096"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0098"/>
-  <item type="word" note="Profibus.LF.OLM40 шкаф DD40.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0100"/>
-  <item type="word" note="Profibus.LF.OLM41 шкаф DT41.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0102"/>
-  <item type="word" note="Profibus.LF.OLM42 шкаф DT42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0104"/>
-  <item type="word" note="Profibus.LF.OLM42-1 шкаф DT42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0106"/>
-  <item type="word" note="Profibus.LF.OLM43 шкаф DT44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0108"/>
-  <item type="word" note="Profibus.LF.OLM43-1 шкаф DT44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0110"/>
-  <item type="word" note="Profibus.LF.OLM44 шкаф DT46.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0112"/>
-  <item type="word" note="Profibus.LF.OLM45 шкаф DT47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0114"/>
-  <item type="word" note="Profibus.LF.OLM45-1 шкаф DT47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0116"/>
-  <item type="word" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0118"/>
-  <item type="word" note="Profibus.LF.OLM47 шкаф X2003.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0120"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0122"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0124"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0126"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0128"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0130"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1056"/>
-  <item type="bool" note="Profibus.LF.Контролер DD40 DP 1.Ошибка" tp="PLC_LF_DB865_DBX" ts="1057"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1058"/>
-  <item type="bool" note="Profibus.LF.DT40_1-ED401 DP 3.Ошибка" tp="PLC_LF_DB865_DBX" ts="1059"/>
-  <item type="bool" note="Profibus.LF.DT40_2-ED402 DP 4.Ошибка" tp="PLC_LF_DB865_DBX" ts="1060"/>
-  <item type="bool" note="Profibus.LF.DT41_1-ED411 DP 5.Ошибка" tp="PLC_LF_DB865_DBX" ts="1061"/>
-  <item type="bool" note="Profibus.LF.DT41_2-ED412 DP 6.Ошибка" tp="PLC_LF_DB865_DBX" ts="1062"/>
-  <item type="bool" note="Profibus.LF.DT42-ED421 DP 7.Ошибка" tp="PLC_LF_DB865_DBX" ts="1063"/>
-  <item type="bool" note="Profibus.LF.DT43-ED431 DP 8.Ошибка" tp="PLC_LF_DB865_DBX" ts="1064"/>
-  <item type="bool" note="Profibus.LF.DT44-ED441 DP 9.Ошибка" tp="PLC_LF_DB865_DBX" ts="1065"/>
-  <item type="bool" note="Profibus.LF.DT45-ED451 DP 10.Ошибка" tp="PLC_LF_DB865_DBX" ts="1066"/>
-  <item type="bool" note="Profibus.LF.DT46-ED461 DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1067"/>
-  <item type="bool" note="Profibus.LF.DT47-ED471 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1068"/>
-  <item type="bool" note="Profibus.LF.A001 DP 13.Ошибка" tp="PLC_LF_DB865_DBX" ts="1069"/>
-  <item type="bool" note="Profibus.LF.A002 DP 14.Ошибка" tp="PLC_LF_DB865_DBX" ts="1070"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1071"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1072"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1073"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1074"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1075"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD01 DP20.Ошибка" tp="PLC_LF_DB865_DBX" ts="1076"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD02 DP21.Ошибка" tp="PLC_LF_DB865_DBX" ts="1077"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD03 DP22.Ошибка" tp="PLC_LF_DB865_DBX" ts="1078"/>
-  <item type="bool" note="Profibus.LF.Net Analyzer DP23.Ошибка" tp="PLC_LF_DB865_DBX" ts="1079"/>
-  <item type="bool" note="Profibus.LF.Simeas A001 DP24.Ошибка" tp="PLC_LF_DB865_DBX" ts="1080"/>
-  <item type="bool" note="Profibus.LF.Simeas A002 DP25.Ошибка" tp="PLC_LF_DB865_DBX" ts="1081"/>
-  <item type="bool" note="Profibus.LF.DiagnostRepeater DT42 DP26.Ошибка" tp="PLC_LF_DB865_DBX" ts="1082"/>
-  <item type="bool" note="Profibus.LF.DiagnostRepeater DT44 DP27.Ошибка" tp="PLC_LF_DB865_DBX" ts="1083"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1084"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1085"/>
-  <item type="bool" note="Profibus.LF.Celox 1 DP30.Ошибка" tp="PLC_LF_DB865_DBX" ts="1086"/>
-  <item type="bool" note="Profibus.LF.Celox 2 DP31.Ошибка" tp="PLC_LF_DB865_DBX" ts="1087"/>
-  <item type="bool" note="Profibus.LF.Hydris 1 DP32.Ошибка" tp="PLC_LF_DB865_DBX" ts="1088"/>
-  <item type="bool" note="Profibus.LF.Hydris 2 DP33.Ошибка" tp="PLC_LF_DB865_DBX" ts="1089"/>
-  <item type="bool" note="Profibus.LF.Digitemp 1 DP34.Ошибка" tp="PLC_LF_DB865_DBX" ts="1090"/>
-  <item type="bool" note="Profibus.LF.DP-DP Трайб №1 DP35.Ошибка" tp="PLC_LF_DB865_DBX" ts="1091"/>
-  <item type="bool" note="Profibus.LF.DP-DP Трайб №2 DP36.Ошибка" tp="PLC_LF_DB865_DBX" ts="1092"/>
-  <item type="bool" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Ошибка" tp="PLC_LF_DB865_DBX" ts="1093"/>
-  <item type="bool" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Ошибка" tp="PLC_LF_DB865_DBX" ts="1094"/>
-  <item type="bool" note="Profibus.LF.Digitemp 2 DP39.Ошибка" tp="PLC_LF_DB865_DBX" ts="1095"/>
-  <item type="bool" note="Profibus.LF.Энкодер поворота портала DP40.Ошибка" tp="PLC_LF_DB865_DBX" ts="1096"/>
-  <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Ошибка" tp="PLC_LF_DB865_DBX" ts="1097"/>
-  <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1098"/>
-  <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Ошибка" tp="PLC_LF_DB865_DBX" ts="1099"/>
-  <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1100"/>
-  <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Ошибка" tp="PLC_LF_DB865_DBX" ts="1101"/>
-  <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Ошибка" tp="PLC_LF_DB865_DBX" ts="1102"/>
-  <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1103"/>
-  <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Ошибка" tp="PLC_LF_DB865_DBX" ts="1104"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1105"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1106"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1107"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1108"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1109"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1110"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1111"/>
-  <item type="bool" note="Profibus.LF.OLM40 шкаф DD40.Ошибка" tp="PLC_LF_DB865_DBX" ts="1112"/>
-  <item type="bool" note="Profibus.LF.OLM41 шкаф DT41.Ошибка" tp="PLC_LF_DB865_DBX" ts="1113"/>
-  <item type="bool" note="Profibus.LF.OLM42 шкаф DT42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1114"/>
-  <item type="bool" note="Profibus.LF.OLM42-1 шкаф DT42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1115"/>
-  <item type="bool" note="Profibus.LF.OLM43 шкаф DT44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1116"/>
-  <item type="bool" note="Profibus.LF.OLM43-1 шкаф DT44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1117"/>
-  <item type="bool" note="Profibus.LF.OLM44 шкаф DT46.Ошибка" tp="PLC_LF_DB865_DBX" ts="1118"/>
-  <item type="bool" note="Profibus.LF.OLM45 шкаф DT47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1119"/>
-  <item type="bool" note="Profibus.LF.OLM45-1 шкаф DT47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1120"/>
-  <item type="bool" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Ошибка" tp="PLC_LF_DB865_DBX" ts="1121"/>
-  <item type="bool" note="Profibus.LF.OLM47 шкаф X2003.Ошибка" tp="PLC_LF_DB865_DBX" ts="1122"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1123"/>  
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1124"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1125"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1126"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1127"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1128"/>
-  <item type="bool" note="Profibus.LF.Контролер DD40 DP 1.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1129"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1130"/>
-  <item type="bool" note="Profibus.LF.DT40_1-ED401 DP 3.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1131"/>
-  <item type="bool" note="Profibus.LF.DT40_2-ED402 DP 4.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1132"/>
-  <item type="bool" note="Profibus.LF.DT41_1-ED411 DP 5.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1133"/>
-  <item type="bool" note="Profibus.LF.DT41_2-ED412 DP 6.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1134"/>
-  <item type="bool" note="Profibus.LF.DT42-ED421 DP 7.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1135"/>
-  <item type="bool" note="Profibus.LF.DT43-ED431 DP 8.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1136"/>
-  <item type="bool" note="Profibus.LF.DT44-ED441 DP 9.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1137"/>
-  <item type="bool" note="Profibus.LF.DT45-ED451 DP 10.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1138"/>
-  <item type="bool" note="Profibus.LF.DT46-ED461 DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1139"/>
-  <item type="bool" note="Profibus.LF.DT47-ED471 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1140"/>
-  <item type="bool" note="Profibus.LF.A001 DP 13.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1141"/>
-  <item type="bool" note="Profibus.LF.A002 DP 14.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1142"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1143"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1144"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1145"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1146"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1147"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD01 DP20.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1148"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD02 DP21.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1149"/>
-  <item type="bool" note="Profibus.LF.Simocode 09000-MD03 DP22.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1150"/>
-  <item type="bool" note="Profibus.LF.Net Analyzer DP23.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1151"/>
-  <item type="bool" note="Profibus.LF.Simeas A001 DP24.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1152"/>
-  <item type="bool" note="Profibus.LF.Simeas A002 DP25.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1153"/>
-  <item type="bool" note="Profibus.LF.DiagnostRepeater DT42 DP26.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1154"/>
-  <item type="bool" note="Profibus.LF.DiagnostRepeater DT44 DP27.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1155"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1156"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1157"/>
-  <item type="bool" note="Profibus.LF.Celox 1 DP30.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1158"/>
-  <item type="bool" note="Profibus.LF.Celox 2 DP31.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1159"/>
-  <item type="bool" note="Profibus.LF.Hydris 1 DP32.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1160"/>
-  <item type="bool" note="Profibus.LF.Hydris 2 DP33.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1161"/>
-  <item type="bool" note="Profibus.LF.Digitemp 1 DP34.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1162"/>
-  <item type="bool" note="Profibus.LF.DP-DP Трайб №1 DP35.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1163"/>
-  <item type="bool" note="Profibus.LF.DP-DP Трайб №2 DP36.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1164"/>
-  <item type="bool" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1165"/>
-  <item type="bool" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1166"/>
-  <item type="bool" note="Profibus.LF.Digitemp 2 DP39.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1167"/>
-  <item type="bool" note="Profibus.LF.Энкодер поворота портала DP40.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1168"/>
-  <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1169"/>
-  <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1170"/>
-  <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1171"/>
-  <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1172"/>
-  <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1173"/>
-  <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1174"/>
-  <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1175"/>
-  <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1176"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1177"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1178"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1179"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1180"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1181"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1182"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1183"/>
-  <item type="bool" note="Profibus.LF.OLM40 шкаф DD40.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1184"/>
-  <item type="bool" note="Profibus.LF.OLM41 шкаф DT41.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1185"/>
-  <item type="bool" note="Profibus.LF.OLM42 шкаф DT42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1186"/>
-  <item type="bool" note="Profibus.LF.OLM42-1 шкаф DT42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1187"/>
-  <item type="bool" note="Profibus.LF.OLM43 шкаф DT44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1188"/>
-  <item type="bool" note="Profibus.LF.OLM43-1 шкаф DT44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1189"/>
-  <item type="bool" note="Profibus.LF.OLM44 шкаф DT46.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1190"/>
-  <item type="bool" note="Profibus.LF.OLM45 шкаф DT47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1191"/>
-  <item type="bool" note="Profibus.LF.OLM45-1 шкаф DT47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1192"/>
-  <item type="bool" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1193"/>
-  <item type="bool" note="Profibus.LF.OLM47 шкаф X2003.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1194"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1195"/>
-  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Режим работы.Ручной" tp="PLC_LF_DB865_DBX" ts="1196"/>
-  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Режим работы.Автомат" tp="PLC_LF_DB865_DBX" ts="1197"/>
-  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Режим работы.Ручной" tp="PLC_LF_DB865_DBX" ts="1198"/>
-  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Режим работы.Автомат" tp="PLC_LF_DB865_DBX" ts="1199"/>
-  <item type="word" note="Profibus.DD60.Контролер DD60 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0150"/>
-  <item type="word" note="Profibus.DD60.DP-DP DD40 DP 5.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0152"/>
-  <item type="word" note="Profibus.DD60.10DT01 DP 7.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0154"/>
-  <item type="word" note="Profibus.DD60.20DT01 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0156"/>
-  <item type="word" note="Profibus.DD60.OLM 52 DD60.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0158"/>
-  <item type="word" note="Profibus.DD60.OLM 53 10DT01.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0160"/>
-  <item type="word" note="Profibus.DD61.Контролер DD61 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0162"/>
-  <item type="word" note="Profibus.DD61.DP-DP DD40 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0164"/>
-  <item type="word" note="Profibus.DD61.Энкодер направляющей DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0166"/>
-  <item type="word" note="Profibus.DD62.Контролер DD62 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0168"/>
-  <item type="word" note="Profibus.DD62.DP-DP DD40 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0170"/>
-  <item type="word" note="Profibus.DD62.Энкодер направляющей DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0172"/>
-  <item type="bool" note="Profibus.DD60.Контролер DD60 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1392"/>
-  <item type="bool" note="Profibus.DD60.DP-DP DD40 DP 5.Ошибка" tp="PLC_LF_DB865_DBX" ts="1393"/>
-  <item type="bool" note="Profibus.DD60.10DT01 DP 7.Ошибка" tp="PLC_LF_DB865_DBX" ts="1394"/>
-  <item type="bool" note="Profibus.DD60.20DT01 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1395"/>
-  <item type="bool" note="Profibus.DD60.OLM 52 DD60.Ошибка" tp="PLC_LF_DB865_DBX" ts="1396"/>
-  <item type="bool" note="Profibus.DD60.OLM 53 10DT01.Ошибка" tp="PLC_LF_DB865_DBX" ts="1397"/>
-  <item type="bool" note="Profibus.DD61.Контролер DD61 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1398"/>
-  <item type="bool" note="Profibus.DD61.DP-DP DD40 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1399"/>
-  <item type="bool" note="Profibus.DD61.Энкодер направляющей DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1400"/>
-  <item type="bool" note="Profibus.DD62.Контролер DD62 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1401"/>
-  <item type="bool" note="Profibus.DD62.DP-DP DD40 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1402"/>
-  <item type="bool" note="Profibus.DD62.Энкодер направляющей DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1403"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1404"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1405"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1406"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1407"/>
-  <item type="bool" note="Profibus.DD60.Контролер DD60 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1408"/>
-  <item type="bool" note="Profibus.DD60.DP-DP DD40 DP 5.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1409"/>
-  <item type="bool" note="Profibus.DD60.10DT01 DP 7.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1410"/>
-  <item type="bool" note="Profibus.DD60.20DT01 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1411"/>
-  <item type="bool" note="Profibus.DD60.OLM 52 DD60.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1412"/>
-  <item type="bool" note="Profibus.DD60.OLM 53 10DT01.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1413"/>
-  <item type="bool" note="Profibus.DD61.Контролер DD61 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1414"/>
-  <item type="bool" note="Profibus.DD61.DP-DP DD40 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1415"/>
-  <item type="bool" note="Profibus.DD61.Энкодер направляющей DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1416"/>
-  <item type="bool" note="Profibus.DD62.Контролер DD62 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1417"/>
-  <item type="bool" note="Profibus.DD62.DP-DP DD40 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1418"/>
-  <item type="bool" note="Profibus.DD62.Энкодер направляющей DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1419"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1420"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1421"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1422"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1423"/>
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок в автомате" tp="PLC_LF_DB865_DBW_" ts="0178"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок в автомате" tp="PLC_LF_DB865_DBW_" ts="0180"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество открытий в автомате" tp="PLC_LF_DB865_DBW_" ts="0182"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество открытий в автомате" tp="PLC_LF_DB865_DBW_" ts="0184"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество не открытий в автомате" tp="PLC_LF_DB865_DBW_" ts="0186"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество не открытий в автомате" tp="PLC_LF_DB865_DBW_" ts="0188"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок в дистанции" tp="PLC_LF_DB865_DBW_" ts="0190"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок в дистанции" tp="PLC_LF_DB865_DBW_" ts="0192"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество открытий в дистанции" tp="PLC_LF_DB865_DBW_" ts="0194"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество открытий в дистанции" tp="PLC_LF_DB865_DBW_" ts="0196"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество не открытий в дистанции" tp="PLC_LF_DB865_DBW_" ts="0198"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество не открытий в дистанции" tp="PLC_LF_DB865_DBW_" ts="0200"/> 
-  <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок" tp="PLC_LF_DB865_DBW_" ts="0202"/> 
-  <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок" tp="PLC_LF_DB865_DBW_" ts="0204"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Обработка в автомате" tp="PLC_LF_DB865_DBX" ts="1648"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Обработка в автомате" tp="PLC_LF_DB865_DBX" ts="1649"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Обработка в дистанции" tp="PLC_LF_DB865_DBX" ts="1650"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Обработка в дистанции" tp="PLC_LF_DB865_DBX" ts="1651"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1652"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1653"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1654"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1655"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Не открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1656"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Не открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1657"/> 
-  <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Не открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1658"/> 
-  <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Не открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1659"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1660"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1661"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1662"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1663"/>
-  <item type="dword" note="Продувка.Пробки LF1.Линия №1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0208"/> 
-  <item type="dword" note="Продувка.Пробки LF1.Линия №2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0212"/> 
-  <item type="dword" note="Продувка.Фурма LF1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0216"/> 
-  <item type="dword" note="Продувка.Пробки LF2.Линия №1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0220"/> 
-  <item type="dword" note="Продувка.Пробки LF2.Линия №2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0224"/> 
-  <item type="dword" note="Продувка.Фурма LF2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0228"/> 
-  <item type="dword" note="Продувка.Общее время продувки(1 позиция)" tp="PLC_LF_DB865_DBD_" ts="0232"/> 
-  <item type="dword" note="Продувка.Общее время продувки(2 позиция)" tp="PLC_LF_DB865_DBD_" ts="0236"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF1.Линия №1.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0240"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF1.Линия №2.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0244"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Фурма LF1.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0248"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF2.Линия №1.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0252"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF2.Линия №2.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0256"/> 
-  <item type="real" abs="true" hysteresis="1." note="Продувка.Фурма LF2.Суммарный расход" tp="PLC_LF_DB865_DBR_" ts="0260"/>
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0264"/> 
-  <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0266"/> 
-  <item type="word" note="Система контроля электродов.Отключение нагрева по времени.Счетчик команд остановить нагрев по времени" tp="PLC_LF_DB865_DBW_" ts="0268"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2160"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2161"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2162"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2163"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2164"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2165"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2166"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2167"/>
-  <item type="real" abs="true" hysteresis="0.9" note="Трансформатор.Переключатель ступеней.Счётчик команд ступень вверх" tp="PLC_LF_DB865_DBR_" ts="0272"/>
-  <item type="real" abs="true" hysteresis="0.9" note="Трансформатор.Переключатель ступеней.Счётчик команд ступень вниз" tp="PLC_LF_DB865_DBR_" ts="0276"/>
-  <item type="real" abs="true" hysteresis="0.9" note="Трансформатор.Переключатель ступеней.Счётчик состояния переключатель в работе" tp="PLC_LF_DB865_DBR_" ts="0280"/>
-  <item type="bool" note="Портал.Поворот.Диагностика.Работа на большой скорости" tp="PLC_LF_DB865_DBX" ts="2272"/> 
-  <item type="bool" note="Портал.Поворот.Диагностика.Переход на малую" tp="PLC_LF_DB865_DBX" ts="2273"/> 
-  <item type="bool" note="Портал.Поворот.Диагностика.Работа на малой скорости" tp="PLC_LF_DB865_DBX" ts="2274"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2275"/> 
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2276"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2277"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2278"/>
-  <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2279"/>
-  <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода А за сутки" tp="PLC_LF_DB865_DBW_" ts="0286"/> 
-  <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода В за сутки" tp="PLC_LF_DB865_DBW_" ts="0288"/> 
-  <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода С за сутки" tp="PLC_LF_DB865_DBW_" ts="0290"/> 
-  <item type="word" note="Портал.Поворот.Диагностика.Количество движений портала" tp="PLC_LF_DB865_DBW_" ts="0292"/> 
-  <item type="word" note="Портал.Поворот.Диагностика.Количество перемещений портала по позициям" tp="PLC_LF_DB865_DBW_" ts="0294"/> 
-  <item type="word" note="Портал.Поворот.Диагностика.Количество остановок портала с WinCC" tp="PLC_LF_DB865_DBW_" ts="0296"/> 
+<items>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0000"/>
+     
+    <item type="word" note="Profibus.LF.Контролер DD40 DP 1.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0002"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0004"/>
+     
+    <item type="word" note="Profibus.LF.DT40_1-ED401 DP 3.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0006"/>
+     
+    <item type="word" note="Profibus.LF.DT40_2-ED402 DP 4.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0008"/>
+     
+    <item type="word" note="Profibus.LF.DT41_1-ED411 DP 5.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0010"/>
+     
+    <item type="word" note="Profibus.LF.DT41_2-ED412 DP 6.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0012"/>
+     
+    <item type="word" note="Profibus.LF.DT42-ED421 DP 7.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0014"/>
+     
+    <item type="word" note="Profibus.LF.DT43-ED431 DP 8.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0016"/>
+     
+    <item type="word" note="Profibus.LF.DT44-ED441 DP 9.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0018"/>
+     
+    <item type="word" note="Profibus.LF.DT45-ED451 DP 10.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0020"/>
+     
+    <item type="word" note="Profibus.LF.DT46-ED461 DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0022"/>
+     
+    <item type="word" note="Profibus.LF.DT47-ED471 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0024"/>
+    <item type="word" note="Profibus.LF.A001 DP 13.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0026"/>
+     
+    <item type="word" note="Profibus.LF.A002 DP 14.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0028"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0030"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0032"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0034"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0036"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0038"/>
+     
+    <item type="word" note="Profibus.LF.Simocode 09000-MD01 DP20.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0040"/>
+    <item type="word" note="Profibus.LF.Simocode 09000-MD02 DP21.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0042"/>
+    <item type="word" note="Profibus.LF.Simocode 09000-MD03 DP22.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0044"/>
+    <item type="word" note="Profibus.LF.Net Analyzer DP23.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0046"/>
+    <item type="word" note="Profibus.LF.Simeas A001 DP24.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0048"/>
+    <item type="word" note="Profibus.LF.Simeas A002 DP25.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0050"/>
+    <item type="word" note="Profibus.LF.DiagnostRepeater DT42 DP26.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0052"/>
+    <item type="word" note="Profibus.LF.DiagnostRepeater DT44 DP27.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0054"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0056"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0058"/>
+    <item type="word" note="Profibus.LF.Celox 1 DP30.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0060"/>
+    <item type="word" note="Profibus.LF.Celox 2 DP31.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0062"/>
+    <item type="word" note="Profibus.LF.Hydris 1 DP32.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0064"/>
+    <item type="word" note="Profibus.LF.Hydris 2 DP33.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0066"/>
+    <item type="word" note="Profibus.LF.Digitemp 1 DP34.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0068"/>
+    <item type="word" note="Profibus.LF.DP-DP Трайб №1 DP35.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0070"/>
+    <item type="word" note="Profibus.LF.DP-DP Трайб №2 DP36.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0072"/>
+    <item type="word" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0074"/>
+    <item type="word" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0076"/>
+    <item type="word" note="Profibus.LF.Digitemp 2 DP39.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0078"/>
+    <item type="word" note="Profibus.LF.Энкодер поворота портала DP40.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0080"/>
+    <item type="word" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0082"/>
+    <item type="word" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0084"/>
+    <item type="word" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0086"/>
+    <item type="word" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0088"/>
+    <item type="word" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0090"/>
+    <item type="word" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0092"/>
+    <item type="word" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0094"/>
+    <item type="word" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Счётчик ошибок" tp="PLC_LF_DB865_DBW_"
+          ts="0096"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0098"/>
+    <item type="word" note="Profibus.LF.OLM40 шкаф DD40.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0100"/>
+    <item type="word" note="Profibus.LF.OLM41 шкаф DT41.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0102"/>
+    <item type="word" note="Profibus.LF.OLM42 шкаф DT42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0104"/>
+    <item type="word" note="Profibus.LF.OLM42-1 шкаф DT42.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0106"/>
+    <item type="word" note="Profibus.LF.OLM43 шкаф DT44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0108"/>
+    <item type="word" note="Profibus.LF.OLM43-1 шкаф DT44.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0110"/>
+    <item type="word" note="Profibus.LF.OLM44 шкаф DT46.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0112"/>
+    <item type="word" note="Profibus.LF.OLM45 шкаф DT47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0114"/>
+    <item type="word" note="Profibus.LF.OLM45-1 шкаф DT47.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0116"/>
+    <item type="word" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0118"/>
+    <item type="word" note="Profibus.LF.OLM47 шкаф X2003.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0120"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0122"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0124"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0126"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0128"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0130"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1056"/>
+    <item type="bool" note="Profibus.LF.Контролер DD40 DP 1.Ошибка" tp="PLC_LF_DB865_DBX" ts="1057"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1058"/>
+    <item type="bool" note="Profibus.LF.DT40_1-ED401 DP 3.Ошибка" tp="PLC_LF_DB865_DBX" ts="1059"/>
+     
+    <item type="bool" note="Profibus.LF.DT40_2-ED402 DP 4.Ошибка" tp="PLC_LF_DB865_DBX" ts="1060"/>
+    <item type="bool" note="Profibus.LF.DT41_1-ED411 DP 5.Ошибка" tp="PLC_LF_DB865_DBX" ts="1061"/>
+     
+    <item type="bool" note="Profibus.LF.DT41_2-ED412 DP 6.Ошибка" tp="PLC_LF_DB865_DBX" ts="1062"/>
+    <item type="bool" note="Profibus.LF.DT42-ED421 DP 7.Ошибка" tp="PLC_LF_DB865_DBX" ts="1063"/>
+     
+    <item type="bool" note="Profibus.LF.DT43-ED431 DP 8.Ошибка" tp="PLC_LF_DB865_DBX" ts="1064"/>
+    <item type="bool" note="Profibus.LF.DT44-ED441 DP 9.Ошибка" tp="PLC_LF_DB865_DBX" ts="1065"/>
+    <item type="bool" note="Profibus.LF.DT45-ED451 DP 10.Ошибка" tp="PLC_LF_DB865_DBX" ts="1066"/>
+    <item type="bool" note="Profibus.LF.DT46-ED461 DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1067"/>
+    <item type="bool" note="Profibus.LF.DT47-ED471 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1068"/>
+    <item type="bool" note="Profibus.LF.A001 DP 13.Ошибка" tp="PLC_LF_DB865_DBX" ts="1069"/>
+    <item type="bool" note="Profibus.LF.A002 DP 14.Ошибка" tp="PLC_LF_DB865_DBX" ts="1070"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1071"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1072"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1073"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1074"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1075"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD01 DP20.Ошибка" tp="PLC_LF_DB865_DBX" ts="1076"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD02 DP21.Ошибка" tp="PLC_LF_DB865_DBX" ts="1077"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD03 DP22.Ошибка" tp="PLC_LF_DB865_DBX" ts="1078"/>
+    <item type="bool" note="Profibus.LF.Net Analyzer DP23.Ошибка" tp="PLC_LF_DB865_DBX" ts="1079"/>
+    <item type="bool" note="Profibus.LF.Simeas A001 DP24.Ошибка" tp="PLC_LF_DB865_DBX" ts="1080"/>
+    <item type="bool" note="Profibus.LF.Simeas A002 DP25.Ошибка" tp="PLC_LF_DB865_DBX" ts="1081"/>
+    <item type="bool" note="Profibus.LF.DiagnostRepeater DT42 DP26.Ошибка" tp="PLC_LF_DB865_DBX" ts="1082"/>
+    <item type="bool" note="Profibus.LF.DiagnostRepeater DT44 DP27.Ошибка" tp="PLC_LF_DB865_DBX" ts="1083"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1084"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1085"/>
+    <item type="bool" note="Profibus.LF.Celox 1 DP30.Ошибка" tp="PLC_LF_DB865_DBX" ts="1086"/>
+    <item type="bool" note="Profibus.LF.Celox 2 DP31.Ошибка" tp="PLC_LF_DB865_DBX" ts="1087"/>
+    <item type="bool" note="Profibus.LF.Hydris 1 DP32.Ошибка" tp="PLC_LF_DB865_DBX" ts="1088"/>
+    <item type="bool" note="Profibus.LF.Hydris 2 DP33.Ошибка" tp="PLC_LF_DB865_DBX" ts="1089"/>
+    <item type="bool" note="Profibus.LF.Digitemp 1 DP34.Ошибка" tp="PLC_LF_DB865_DBX" ts="1090"/>
+    <item type="bool" note="Profibus.LF.DP-DP Трайб №1 DP35.Ошибка" tp="PLC_LF_DB865_DBX" ts="1091"/>
+    <item type="bool" note="Profibus.LF.DP-DP Трайб №2 DP36.Ошибка" tp="PLC_LF_DB865_DBX" ts="1092"/>
+    <item type="bool" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Ошибка" tp="PLC_LF_DB865_DBX" ts="1093"/>
+    <item type="bool" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Ошибка" tp="PLC_LF_DB865_DBX" ts="1094"/>
+    <item type="bool" note="Profibus.LF.Digitemp 2 DP39.Ошибка" tp="PLC_LF_DB865_DBX" ts="1095"/>
+    <item type="bool" note="Profibus.LF.Энкодер поворота портала DP40.Ошибка" tp="PLC_LF_DB865_DBX" ts="1096"/>
+    <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Ошибка" tp="PLC_LF_DB865_DBX" ts="1097"/>
+    <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1098"/>
+    <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Ошибка" tp="PLC_LF_DB865_DBX" ts="1099"/>
+    <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1100"/>
+    <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Ошибка" tp="PLC_LF_DB865_DBX" ts="1101"/>
+    <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Ошибка" tp="PLC_LF_DB865_DBX" ts="1102"/>
+    <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1103"/>
+    <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Ошибка" tp="PLC_LF_DB865_DBX" ts="1104"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1105"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1106"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1107"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1108"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1109"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1110"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1111"/>
+    <item type="bool" note="Profibus.LF.OLM40 шкаф DD40.Ошибка" tp="PLC_LF_DB865_DBX" ts="1112"/>
+    <item type="bool" note="Profibus.LF.OLM41 шкаф DT41.Ошибка" tp="PLC_LF_DB865_DBX" ts="1113"/>
+    <item type="bool" note="Profibus.LF.OLM42 шкаф DT42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1114"/>
+    <item type="bool" note="Profibus.LF.OLM42-1 шкаф DT42.Ошибка" tp="PLC_LF_DB865_DBX" ts="1115"/>
+    <item type="bool" note="Profibus.LF.OLM43 шкаф DT44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1116"/>
+    <item type="bool" note="Profibus.LF.OLM43-1 шкаф DT44.Ошибка" tp="PLC_LF_DB865_DBX" ts="1117"/>
+    <item type="bool" note="Profibus.LF.OLM44 шкаф DT46.Ошибка" tp="PLC_LF_DB865_DBX" ts="1118"/>
+    <item type="bool" note="Profibus.LF.OLM45 шкаф DT47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1119"/>
+    <item type="bool" note="Profibus.LF.OLM45-1 шкаф DT47.Ошибка" tp="PLC_LF_DB865_DBX" ts="1120"/>
+    <item type="bool" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Ошибка" tp="PLC_LF_DB865_DBX" ts="1121"/>
+    <item type="bool" note="Profibus.LF.OLM47 шкаф X2003.Ошибка" tp="PLC_LF_DB865_DBX" ts="1122"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1123"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1124"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1125"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1126"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1127"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1128"/>
+    <item type="bool" note="Profibus.LF.Контролер DD40 DP 1.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1129"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1130"/>
+    <item type="bool" note="Profibus.LF.DT40_1-ED401 DP 3.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1131"/>
+     
+    <item type="bool" note="Profibus.LF.DT40_2-ED402 DP 4.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1132"/>
+    <item type="bool" note="Profibus.LF.DT41_1-ED411 DP 5.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1133"/>
+     
+    <item type="bool" note="Profibus.LF.DT41_2-ED412 DP 6.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1134"/>
+    <item type="bool" note="Profibus.LF.DT42-ED421 DP 7.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1135"/>
+     
+    <item type="bool" note="Profibus.LF.DT43-ED431 DP 8.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1136"/>
+    <item type="bool" note="Profibus.LF.DT44-ED441 DP 9.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1137"/>
+    <item type="bool" note="Profibus.LF.DT45-ED451 DP 10.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1138"/>
+    <item type="bool" note="Profibus.LF.DT46-ED461 DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1139"/>
+    <item type="bool" note="Profibus.LF.DT47-ED471 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1140"/>
+    <item type="bool" note="Profibus.LF.A001 DP 13.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1141"/>
+    <item type="bool" note="Profibus.LF.A002 DP 14.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1142"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1143"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1144"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1145"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1146"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1147"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD01 DP20.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1148"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD02 DP21.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1149"/>
+    <item type="bool" note="Profibus.LF.Simocode 09000-MD03 DP22.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1150"/>
+    <item type="bool" note="Profibus.LF.Net Analyzer DP23.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1151"/>
+    <item type="bool" note="Profibus.LF.Simeas A001 DP24.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1152"/>
+    <item type="bool" note="Profibus.LF.Simeas A002 DP25.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1153"/>
+    <item type="bool" note="Profibus.LF.DiagnostRepeater DT42 DP26.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1154"/>
+    <item type="bool" note="Profibus.LF.DiagnostRepeater DT44 DP27.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1155"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1156"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1157"/>
+    <item type="bool" note="Profibus.LF.Celox 1 DP30.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1158"/>
+    <item type="bool" note="Profibus.LF.Celox 2 DP31.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1159"/>
+    <item type="bool" note="Profibus.LF.Hydris 1 DP32.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1160"/>
+    <item type="bool" note="Profibus.LF.Hydris 2 DP33.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1161"/>
+    <item type="bool" note="Profibus.LF.Digitemp 1 DP34.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1162"/>
+    <item type="bool" note="Profibus.LF.DP-DP Трайб №1 DP35.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1163"/>
+    <item type="bool" note="Profibus.LF.DP-DP Трайб №2 DP36.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1164"/>
+    <item type="bool" note="Profibus.LF.DP-DP Порошковый эжектор DP37.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1165"/>
+    <item type="bool" note="Profibus.LF.DP-DP 90Х Сталевозы DP38.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1166"/>
+    <item type="bool" note="Profibus.LF.Digitemp 2 DP39.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1167"/>
+    <item type="bool" note="Profibus.LF.Энкодер поворота портала DP40.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1168"/>
+    <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №1 DP41.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1169"/>
+    <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №1 DP42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1170"/>
+    <item type="bool" note="Profibus.LF.Энкодер термозонда МЗП №2 DP43.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1171"/>
+    <item type="bool" note="Profibus.LF.Энкодер пробника МЗП №2 DP44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1172"/>
+    <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №1 DP45.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1173"/>
+    <item type="bool" note="Profibus.LF.Энкодер порошковой фурмы №2 DP46.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1174"/>
+    <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №1 DP47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1175"/>
+    <item type="bool" note="Profibus.LF.Энкодер аргонной фурмы №2 DP48.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1176"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1177"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1178"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1179"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1180"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1181"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1182"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1183"/>
+    <item type="bool" note="Profibus.LF.OLM40 шкаф DD40.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1184"/>
+    <item type="bool" note="Profibus.LF.OLM41 шкаф DT41.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1185"/>
+    <item type="bool" note="Profibus.LF.OLM42 шкаф DT42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1186"/>
+    <item type="bool" note="Profibus.LF.OLM42-1 шкаф DT42.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1187"/>
+    <item type="bool" note="Profibus.LF.OLM43 шкаф DT44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1188"/>
+    <item type="bool" note="Profibus.LF.OLM43-1 шкаф DT44.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1189"/>
+    <item type="bool" note="Profibus.LF.OLM44 шкаф DT46.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1190"/>
+    <item type="bool" note="Profibus.LF.OLM45 шкаф DT47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1191"/>
+    <item type="bool" note="Profibus.LF.OLM45-1 шкаф DT47.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1192"/>
+    <item type="bool" note="Profibus.LF.OLM46 шкаф 90Х Сталевозов.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1193"/>
+    <item type="bool" note="Profibus.LF.OLM47 шкаф X2003.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1194"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1195"/>
+    <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Режим работы.Ручной" tp="PLC_LF_DB865_DBX" ts="1196"/>
+    <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Режим работы.Автомат" tp="PLC_LF_DB865_DBX" ts="1197"/>
+    <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Режим работы.Ручной" tp="PLC_LF_DB865_DBX" ts="1198"/>
+    <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Режим работы.Автомат" tp="PLC_LF_DB865_DBX" ts="1199"/>
+    <item type="word" note="Profibus.DD60.Контролер DD60 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0150"/>
+    <item type="word" note="Profibus.DD60.DP-DP DD40 DP 5.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0152"/>
+    <item type="word" note="Profibus.DD60.10DT01 DP 7.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0154"/>
+    <item type="word" note="Profibus.DD60.20DT01 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0156"/>
+    <item type="word" note="Profibus.DD60.OLM 52 DD60.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0158"/>
+    <item type="word" note="Profibus.DD60.OLM 53 10DT01.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0160"/>
+    <item type="word" note="Profibus.DD61.Контролер DD61 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0162"/>
+    <item type="word" note="Profibus.DD61.DP-DP DD40 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0164"/>
+    <item type="word" note="Profibus.DD61.Энкодер направляющей DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0166"/>
+    <item type="word" note="Profibus.DD62.Контролер DD62 DP 2.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0168"/>
+    <item type="word" note="Profibus.DD62.DP-DP DD40 DP 12.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0170"/>
+    <item type="word" note="Profibus.DD62.Энкодер направляющей DP 11.Счётчик ошибок" tp="PLC_LF_DB865_DBW_" ts="0172"/>
+    <item type="bool" note="Profibus.DD60.Контролер DD60 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1392"/>
+    <item type="bool" note="Profibus.DD60.DP-DP DD40 DP 5.Ошибка" tp="PLC_LF_DB865_DBX" ts="1393"/>
+    <item type="bool" note="Profibus.DD60.10DT01 DP 7.Ошибка" tp="PLC_LF_DB865_DBX" ts="1394"/>
+    <item type="bool" note="Profibus.DD60.20DT01 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1395"/>
+    <item type="bool" note="Profibus.DD60.OLM 52 DD60.Ошибка" tp="PLC_LF_DB865_DBX" ts="1396"/>
+    <item type="bool" note="Profibus.DD60.OLM 53 10DT01.Ошибка" tp="PLC_LF_DB865_DBX" ts="1397"/>
+    <item type="bool" note="Profibus.DD61.Контролер DD61 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1398"/>
+    <item type="bool" note="Profibus.DD61.DP-DP DD40 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1399"/>
+    <item type="bool" note="Profibus.DD61.Энкодер направляющей DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1400"/>
+    <item type="bool" note="Profibus.DD62.Контролер DD62 DP 2.Ошибка" tp="PLC_LF_DB865_DBX" ts="1401"/>
+    <item type="bool" note="Profibus.DD62.DP-DP DD40 DP 12.Ошибка" tp="PLC_LF_DB865_DBX" ts="1402"/>
+    <item type="bool" note="Profibus.DD62.Энкодер направляющей DP 11.Ошибка" tp="PLC_LF_DB865_DBX" ts="1403"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1404"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1405"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1406"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1407"/>
+    <item type="bool" note="Profibus.DD60.Контролер DD60 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1408"/>
+    <item type="bool" note="Profibus.DD60.DP-DP DD40 DP 5.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1409"/>
+    <item type="bool" note="Profibus.DD60.10DT01 DP 7.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1410"/>
+    <item type="bool" note="Profibus.DD60.20DT01 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1411"/>
+    <item type="bool" note="Profibus.DD60.OLM 52 DD60.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1412"/>
+    <item type="bool" note="Profibus.DD60.OLM 53 10DT01.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1413"/>
+    <item type="bool" note="Profibus.DD61.Контролер DD61 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1414"/>
+    <item type="bool" note="Profibus.DD61.DP-DP DD40 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1415"/>
+    <item type="bool" note="Profibus.DD61.Энкодер направляющей DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1416"/>
+    <item type="bool" note="Profibus.DD62.Контролер DD62 DP 2.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1417"/>
+    <item type="bool" note="Profibus.DD62.DP-DP DD40 DP 12.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1418"/>
+    <item type="bool" note="Profibus.DD62.Энкодер направляющей DP 11.Сброс ошибки" tp="PLC_LF_DB865_DBX" ts="1419"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1420"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1421"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1422"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1423"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0178"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0180"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество открытий в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0182"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество открытий в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0184"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество не открытий в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0186"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество не открытий в автомате" tp="PLC_LF_DB865_DBW_"
+          ts="0188"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0190"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0192"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество открытий в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0194"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество открытий в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0196"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество не открытий в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0198"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество не открытий в дистанции" tp="PLC_LF_DB865_DBW_"
+          ts="0200"/>
+    <item type="word" note="Крышки.LF1.Газоход.Диагностика.Количество обработок" tp="PLC_LF_DB865_DBW_" ts="0202"/>
+    <item type="word" note="Крышки.LF2.Газоход.Диагностика.Количество обработок" tp="PLC_LF_DB865_DBW_" ts="0204"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Обработка в автомате" tp="PLC_LF_DB865_DBX" ts="1648"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Обработка в автомате" tp="PLC_LF_DB865_DBX" ts="1649"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Обработка в дистанции" tp="PLC_LF_DB865_DBX" ts="1650"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Обработка в дистанции" tp="PLC_LF_DB865_DBX" ts="1651"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1652"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1653"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1654"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1655"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Не открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1656"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Не открывался в автомате" tp="PLC_LF_DB865_DBX" ts="1657"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Диагностика.Не открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1658"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Диагностика.Не открывался в дистанции" tp="PLC_LF_DB865_DBX" ts="1659"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1660"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1661"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1662"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="1663"/>
+    <item type="dword" note="Продувка.Пробки LF1.Линия №1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0208"/>
+    <item type="dword" note="Продувка.Пробки LF1.Линия №2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0212"/>
+    <item type="dword" note="Продувка.Фурма LF1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0216"/>
+    <item type="dword" note="Продувка.Пробки LF2.Линия №1.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0220"/>
+    <item type="dword" note="Продувка.Пробки LF2.Линия №2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0224"/>
+    <item type="dword" note="Продувка.Фурма LF2.Время продувки на байпасе" tp="PLC_LF_DB865_DBD_" ts="0228"/>
+    <item type="dword" note="Продувка.Общее время продувки(1 позиция)" tp="PLC_LF_DB865_DBD_" ts="0232"/>
+    <item type="dword" note="Продувка.Общее время продувки(2 позиция)" tp="PLC_LF_DB865_DBD_" ts="0236"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF1.Линия №1.Суммарный расход"
+          tp="PLC_LF_DB865_DBR_" ts="0240"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF1.Линия №2.Суммарный расход"
+          tp="PLC_LF_DB865_DBR_" ts="0244"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Фурма LF1.Суммарный расход" tp="PLC_LF_DB865_DBR_"
+          ts="0248"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF2.Линия №1.Суммарный расход"
+          tp="PLC_LF_DB865_DBR_" ts="0252"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Пробки LF2.Линия №2.Суммарный расход"
+          tp="PLC_LF_DB865_DBR_" ts="0256"/>
+    <item type="real" abs="true" hysteresis="1." note="Продувка.Фурма LF2.Суммарный расход" tp="PLC_LF_DB865_DBR_"
+          ts="0260"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0264"/>
+    <item type="word" note="Резерв" tp="PLC_LF_DB865_DBW_" ts="0266"/>
+    <item type="word"
+          note="Система контроля электродов.Отключение нагрева по времени.Счетчик команд остановить нагрев по времени"
+          tp="PLC_LF_DB865_DBW_" ts="0268"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2160"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2161"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2162"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2163"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2164"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2165"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2166"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2167"/>
+    <item type="real" abs="true" hysteresis="0.9"
+          note="Трансформатор.Переключатель ступеней.Счётчик команд ступень вверх" tp="PLC_LF_DB865_DBR_" ts="0272"/>
+    <item type="real" abs="true" hysteresis="0.9"
+          note="Трансформатор.Переключатель ступеней.Счётчик команд ступень вниз" tp="PLC_LF_DB865_DBR_" ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.9"
+          note="Трансформатор.Переключатель ступеней.Счётчик состояния переключатель в работе" tp="PLC_LF_DB865_DBR_"
+          ts="0280"/>
+    <item type="bool" note="Портал.Поворот.Диагностика.Работа на большой скорости" tp="PLC_LF_DB865_DBX" ts="2272"/>
+    <item type="bool" note="Портал.Поворот.Диагностика.Переход на малую" tp="PLC_LF_DB865_DBX" ts="2273"/>
+    <item type="bool" note="Портал.Поворот.Диагностика.Работа на малой скорости" tp="PLC_LF_DB865_DBX" ts="2274"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2275"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2276"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2277"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2278"/>
+    <item type="bool" note="Резерв" tp="PLC_LF_DB865_DBX" ts="2279"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода А за сутки" tp="PLC_LF_DB865_DBW_"
+          ts="0286"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода В за сутки" tp="PLC_LF_DB865_DBW_"
+          ts="0288"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество падений электрода С за сутки" tp="PLC_LF_DB865_DBW_"
+          ts="0290"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество движений портала" tp="PLC_LF_DB865_DBW_" ts="0292"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество перемещений портала по позициям"
+          tp="PLC_LF_DB865_DBW_" ts="0294"/>
+    <item type="word" note="Портал.Поворот.Диагностика.Количество остановок портала с WinCC" tp="PLC_LF_DB865_DBW_"
+          ts="0296"/>
 </items>

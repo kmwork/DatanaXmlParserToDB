@@ -13,252 +13,290 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="0"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="1"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="2"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="3"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="4"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="5"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="6"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="7"/>
-  <item type="bool" note="Трайб №1.Направляющая.Местный пост.Поднять(кнопка)" tp="PLC_LF_DB3006_DBX" ts="8"/>
-  <item type="bool" note="Трайб №1.Направляющая.Местный пост.Опустить(кнопка)" tp="PLC_LF_DB3006_DBX" ts="9"/>
-  <item type="bool" note="Трайб №1.Направляющая.Направляющая поднята(концевой)" tp="PLC_LF_DB3006_DBX" ts="10"/>
-  <item type="bool" note="Трайб №1.Направляющая.Направляющая опущена(концевой)" tp="PLC_LF_DB3006_DBX" ts="11"/>
-  <item type="bool" note="Трайб №1.Направляющая.Направляющая поднята(аварийный концевой)" tp="PLC_LF_DB3006_DBX" ts="12"/>
-  <item type="bool" note="Трайб №1.Направляющая.Направляющая опущена(аварийный концевой)" tp="PLC_LF_DB3006_DBX" ts="13"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="14"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="15"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="16"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="17"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX" ts="18"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX" ts="19"/>
-  <item type="bool" note="Трайб №1.Местный пост ручей №1(3).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="20"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="21"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="22"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="23"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="24"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX" ts="25"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX" ts="26"/>
-  <item type="bool" note="Трайб №1.Местный пост ручей №2(4).Тест лампочек(кнопка)" tp="PLC_LF_DB3006_DBX" ts="27"/>
-  <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 1 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="28"/>
-  <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 2 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="29"/>
-  <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 3 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="30"/>
-  <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 4 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="31"/>
-  <item type="bool" note="Трайб №1.Общее.Давление в норме(реле давления)" tp="PLC_LF_DB3006_DBX" ts="32"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="33"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="34"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Концевые.Прижат ролик 2 ручья 1" tp="PLC_LF_DB3006_DBX" ts="35"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Концевые.Прижат ролик 1 ручья 2" tp="PLC_LF_DB3006_DBX" ts="36"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Концевые.Прижат ролик 2 ручья 2" tp="PLC_LF_DB3006_DBX" ts="37"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Концевые.Прижат ролик 1 ручья 3" tp="PLC_LF_DB3006_DBX" ts="38"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Концевые.Прижат ролик 2 ручья 3" tp="PLC_LF_DB3006_DBX" ts="39"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Концевые.Прижат ролик 1 ручья 4" tp="PLC_LF_DB3006_DBX" ts="40"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Концевые.Прижат ролик 2 ручья 4" tp="PLC_LF_DB3006_DBX" ts="41"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Концевые.Обрыв ручья 1" tp="PLC_LF_DB3006_DBX" ts="42"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Концевые.Обрыв ручья 2" tp="PLC_LF_DB3006_DBX" ts="43"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Концевые.Обрыв ручья 3" tp="PLC_LF_DB3006_DBX" ts="44"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Концевые.Обрыв ручья 4" tp="PLC_LF_DB3006_DBX" ts="45"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="46"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="47"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="48"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="49"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="50"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="51"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="52"/>
-  <item type="bool" note="Трайб №1.Общее.WinCC.Старт(кнопка)" tp="PLC_LF_DB3006_DBX" ts="53"/>
-  <item type="bool" note="Трайб №1.Общее.WinCC.Стоп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="54"/>
-  <item type="bool" note="Трайб №1.Вывор режима.Задание.WinCC.Автоматический режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="55"/>
-  <item type="bool" note="Трайб №1.Вывор режима.Задание.WinCC.Ручной режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="56"/>
-  <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 1" tp="PLC_LF_DB3006_DBX" ts="57"/>
-  <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 2" tp="PLC_LF_DB3006_DBX" ts="58"/>
-  <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 3" tp="PLC_LF_DB3006_DBX" ts="59"/>
-  <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 4" tp="PLC_LF_DB3006_DBX" ts="60"/>
-  <item type="bool" note="Трайб №1.Общее.WinCC.Ошибка сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="61"/>
-  <item type="bool" note="Трайб №1.Общее.WinCC.Аварийный Стоп Сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="62"/>
-  <item type="bool" note="Трайб №1.Питание.Общее питание" tp="PLC_LF_DB3006_DBX" ts="63"/>
-  <item type="bool" note="Трайб №1.Питание.Питание на панель 1 " tp="PLC_LF_DB3006_DBX" ts="64"/>
-  <item type="bool" note="Трайб №1.Питание.Питание на панель 2" tp="PLC_LF_DB3006_DBX" ts="65"/>
-  <item type="bool" note="Трайб №1.Питание.Питание на направляющей" tp="PLC_LF_DB3006_DBX" ts="66"/>
-  <item type="bool" note="Трайб №1.Питание.Питание на трайб" tp="PLC_LF_DB3006_DBX" ts="67"/>
-  <item type="bool" note="Трайб №1.Направляющая.Ошибка направляющей" tp="PLC_LF_DB3006_DBX" ts="68"/>
-  <item type="bool" note="Трайб №1.Автомат Q7 вкл" tp="PLC_LF_DB3006_DBX" ts="69"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="70"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="71"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="72"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="73"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="74"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="75"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="76"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="77"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="78"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="79"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="80"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="81"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="82"/>
-  <item type="bool" note="Трайб №1.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 1 или 3 ручья)" tp="PLC_LF_DB3006_DBX" ts="83"/>
-  <item type="bool" note="Трайб №1.Местный пост ручей №1(3).Окончание бухты для 1 или 3 ручья(лампа)" tp="PLC_LF_DB3006_DBX" ts="84"/>
-  <item type="bool" note="Трайб №1.Направляющая.Местный пост.Вверху(лампа)" tp="PLC_LF_DB3006_DBX" ts="85"/>
-  <item type="bool" note="Трайб №1.Направляющая.Местный пост.Внизу(лампа)" tp="PLC_LF_DB3006_DBX" ts="86"/>
-  <item type="bool" note="Трайб №1.Общее.Команда(выходной сигнал).Сборка аварийной готовности" tp="PLC_LF_DB3006_DBX" ts="87"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="88"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="89"/>
-  <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="90"/>
-  <item type="bool" note="Трайб №1.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 2 или 4 ручья)" tp="PLC_LF_DB3006_DBX" ts="91"/>
-  <item type="bool" note="Трайб №1.Местный пост ручей №2(4).Окончание бухты для 2 или 4 ручья(лампа)" tp="PLC_LF_DB3006_DBX" ts="92"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="93"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="94"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="95"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="96"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="97"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="98"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="99"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="100"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Команда(выходной сигнал).Включить(вперёд)" tp="PLC_LF_DB3006_DBX" ts="101"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX" ts="102"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Команда(выходной сигнал).Включить(вперёд)" tp="PLC_LF_DB3006_DBX" ts="103"/>
-  <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX" ts="104"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="105"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="106"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="107"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="108"/>
-  <item type="bool" note="Трайб №1.Направляющая.Команда(выходной сигнал).Поднять" tp="PLC_LF_DB3006_DBX" ts="109"/>
-  <item type="bool" note="Трайб №1.Направляющая.Команда(выходной сигнал).Опустить" tp="PLC_LF_DB3006_DBX" ts="110"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="111"/>
-  <item type="bool" note="Трайб №1.Ручей №1.Симуляция прижима роликов 1 ручья" tp="PLC_LF_DB3006_DBX" ts="112"/>
-  <item type="bool" note="Трайб №1.Ручей №2.Симуляция прижима роликов 2 ручья" tp="PLC_LF_DB3006_DBX" ts="113"/>
-  <item type="bool" note="Трайб №1.Ручей №3.Симуляция прижима роликов 3 ручья" tp="PLC_LF_DB3006_DBX" ts="114"/>
-  <item type="bool" note="Трайб №1.Ручей №4.Симуляция прижима роликов 4 ручья" tp="PLC_LF_DB3006_DBX" ts="115"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="116"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="117"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="118"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="119"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="120"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="121"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="122"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="123"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="124"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="125"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="126"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="127"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="128"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="129"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="130"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="131"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="132"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="133"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="134"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="135"/>
-  <item type="bool" note="Трайб №2.Направляющая.Местный пост.Поднять(кнопка)" tp="PLC_LF_DB3006_DBX" ts="136"/>
-  <item type="bool" note="Трайб №2.Направляющая.Местный пост.Опустить(кнопка)" tp="PLC_LF_DB3006_DBX" ts="137"/>
-  <item type="bool" note="Трайб №2.Направляющая.Направляющая поднята(концевой)" tp="PLC_LF_DB3006_DBX" ts="138"/>
-  <item type="bool" note="Трайб №2.Направляющая.Направляющая опущена(концевой)" tp="PLC_LF_DB3006_DBX" ts="139"/>
-  <item type="bool" note="Трайб №2.Направляющая.Направляющая поднята(аварийный концевой)" tp="PLC_LF_DB3006_DBX" ts="140"/>
-  <item type="bool" note="Трайб №2.Направляющая.Направляющая опущена(аварийный концевой)" tp="PLC_LF_DB3006_DBX" ts="141"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="142"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="143"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="144"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="145"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX" ts="146"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX" ts="147"/>
-  <item type="bool" note="Трайб №2.Местный пост ручей №1(3).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="148"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="149"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="150"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="151"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="152"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX" ts="153"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX" ts="154"/>
-  <item type="bool" note="Трайб №2.Местный пост ручей №2(4).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="155"/>
-  <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 1 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="156"/>
-  <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 2 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="157"/>
-  <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 3 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="158"/>
-  <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 4 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="159"/>
-  <item type="bool" note="Трайб №2.Общее.Давление в норме(реле давления)" tp="PLC_LF_DB3006_DBX" ts="160"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="161"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="162"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Концевые.Прижат ролик 2 ручья 1" tp="PLC_LF_DB3006_DBX" ts="163"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="164"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Концевые.Прижат ролик 2 ручья 2" tp="PLC_LF_DB3006_DBX" ts="165"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Концевые.Прижат ролик 1 ручья 3" tp="PLC_LF_DB3006_DBX" ts="166"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Концевые.Прижат ролик 2 ручья 3" tp="PLC_LF_DB3006_DBX" ts="167"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Концевые.Прижат ролик 1 ручья 4" tp="PLC_LF_DB3006_DBX" ts="168"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Концевые.Прижат ролик 2 ручья 4" tp="PLC_LF_DB3006_DBX" ts="169"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Концевые.Обрыв ручья 1" tp="PLC_LF_DB3006_DBX" ts="170"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Концевые.Обрыв ручья 2" tp="PLC_LF_DB3006_DBX" ts="171"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Концевые.Обрыв ручья 3" tp="PLC_LF_DB3006_DBX" ts="172"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Концевые.Обрыв ручья 4" tp="PLC_LF_DB3006_DBX" ts="173"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="174"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="175"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="176"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="177"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="178"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="179"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="180"/>
-  <item type="bool" note="Трайб №2.Общее.WinCC.Старт(кнопка)" tp="PLC_LF_DB3006_DBX" ts="181"/>
-  <item type="bool" note="Трайб №2.Общее.WinCC.Стоп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="182"/>
-  <item type="bool" note="Трайб №2.Вывор режима.Задание.WinCC.Автоматический режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="183"/>
-  <item type="bool" note="Трайб №2.Вывор режима.Задание.WinCC.Ручной режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="184"/>
-  <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 1" tp="PLC_LF_DB3006_DBX" ts="185"/>
-  <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 2" tp="PLC_LF_DB3006_DBX" ts="186"/>
-  <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 3" tp="PLC_LF_DB3006_DBX" ts="187"/>
-  <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 4" tp="PLC_LF_DB3006_DBX" ts="188"/>
-  <item type="bool" note="Трайб №2.Общее.WinCC.Ошибка сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="189"/>
-  <item type="bool" note="Трайб №2.Общее.WinCC.Аварийный Стоп Сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="190"/>
-  <item type="bool" note="Трайб №2.Питание.Общее питание" tp="PLC_LF_DB3006_DBX" ts="191"/>
-  <item type="bool" note="Трайб №2.Питание.Питание на панель 1 " tp="PLC_LF_DB3006_DBX" ts="192"/>
-  <item type="bool" note="Трайб №2.Питание.Питание на панель 2" tp="PLC_LF_DB3006_DBX" ts="193"/>
-  <item type="bool" note="Трайб №2.Питание.Питание на направляющей" tp="PLC_LF_DB3006_DBX" ts="194"/>
-  <item type="bool" note="Трайб №2.Питание.Питание на трайб" tp="PLC_LF_DB3006_DBX" ts="195"/>
-  <item type="bool" note="Трайб №2.Направляющая.Ошибка направляющей" tp="PLC_LF_DB3006_DBX" ts="196"/>
-  <item type="bool" note="Трайб №2.Автомат Q7 вкл" tp="PLC_LF_DB3006_DBX" ts="197"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="198"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="199"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="200"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="201"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="202"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="203"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="204"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="205"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="206"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="207"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="208"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="209"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="210"/>
-  <item type="bool" note="Трайб №2.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 1 или 3 ручья)" tp="PLC_LF_DB3006_DBX" ts="211"/>
-  <item type="bool" note="Трайб №2.Местный пост ручей №1(3).Окончание бухты для 1 или 3 ручья(лампа)" tp="PLC_LF_DB3006_DBX" ts="212"/>
-  <item type="bool" note="Трайб №2.Направляющая.Местный пост.Вверху(лампа)" tp="PLC_LF_DB3006_DBX" ts="213"/>
-  <item type="bool" note="Трайб №2.Направляющая.Местный пост.Внизу(лампа)" tp="PLC_LF_DB3006_DBX" ts="214"/>
-  <item type="bool" note="Трайб №2.Общее.Команда(выходной сигнал).Сборка аварийной готовности" tp="PLC_LF_DB3006_DBX" ts="215"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="216"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="217"/>
-  <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="218"/>
-  <item type="bool" note="Трайб №2.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 2 или 4 ручья)" tp="PLC_LF_DB3006_DBX" ts="219"/>
-  <item type="bool" note="Трайб №2.Местный пост ручей №2(4).Окончание бухты для 2 или 4 ручья(лампа)" tp="PLC_LF_DB3006_DBX" ts="220"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="221"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="222"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="223"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="224"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="225"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="226"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="227"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="228"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Команда(выходной сигнал).Включить(вперёд)" tp="PLC_LF_DB3006_DBX" ts="229"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX" ts="230"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Команда(выходной сигнал).Включить(вперёд)" tp="PLC_LF_DB3006_DBX" ts="231"/>
-  <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX" ts="232"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="233"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="234"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="235"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="236"/>
-  <item type="bool" note="Трайб №2.Направляющая.Команда(выходной сигнал).Поднять" tp="PLC_LF_DB3006_DBX" ts="237"/>
-  <item type="bool" note="Трайб №2.Направляющая.Команда(выходной сигнал).Опустить" tp="PLC_LF_DB3006_DBX" ts="238"/>
-  <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="239"/>
-  <item type="bool" note="Трайб №2.Ручей №1.Симуляция прижима роликов 1 ручья" tp="PLC_LF_DB3006_DBX" ts="240"/>
-  <item type="bool" note="Трайб №2.Ручей №2.Симуляция прижима роликов 2 ручья" tp="PLC_LF_DB3006_DBX" ts="241"/>
-  <item type="bool" note="Трайб №2.Ручей №3.Симуляция прижима роликов 3 ручья" tp="PLC_LF_DB3006_DBX" ts="242"/>
-  <item type="bool" note="Трайб №2.Ручей №4.Симуляция прижима роликов 4 ручья" tp="PLC_LF_DB3006_DBX" ts="243"/>
-  <item type="bool" note="Трайб №1.Кнопка форсирования наличия плавки" tp="PLC_LF_DB3006_DBX" ts="244"/>
-  <item type="bool" note="Трайб №2.Кнопка форсирования наличия плавки" tp="PLC_LF_DB3006_DBX" ts="245"/>
-  <item type="bool" note="Трайб №1.Кнопка сброса счетчика" tp="PLC_LF_DB3006_DBX" ts="246"/>
-  <item type="bool" note="Трайб №2.Кнопка сброса счетчика" tp="PLC_LF_DB3006_DBX" ts="247"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="0"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="1"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="2"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX" ts="3"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="4"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX" ts="5"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="6"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="7"/>
+    <item type="bool" note="Трайб №1.Направляющая.Местный пост.Поднять(кнопка)" tp="PLC_LF_DB3006_DBX" ts="8"/>
+    <item type="bool" note="Трайб №1.Направляющая.Местный пост.Опустить(кнопка)" tp="PLC_LF_DB3006_DBX" ts="9"/>
+    <item type="bool" note="Трайб №1.Направляющая.Направляющая поднята(концевой)" tp="PLC_LF_DB3006_DBX" ts="10"/>
+    <item type="bool" note="Трайб №1.Направляющая.Направляющая опущена(концевой)" tp="PLC_LF_DB3006_DBX" ts="11"/>
+    <item type="bool" note="Трайб №1.Направляющая.Направляющая поднята(аварийный концевой)" tp="PLC_LF_DB3006_DBX"
+          ts="12"/>
+    <item type="bool" note="Трайб №1.Направляющая.Направляющая опущена(аварийный концевой)" tp="PLC_LF_DB3006_DBX"
+          ts="13"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="14"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="15"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="16"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="17"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="18"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="19"/>
+    <item type="bool" note="Трайб №1.Местный пост ручей №1(3).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="20"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="21"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="22"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="23"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="24"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="25"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="26"/>
+    <item type="bool" note="Трайб №1.Местный пост ручей №2(4).Тест лампочек(кнопка)" tp="PLC_LF_DB3006_DBX" ts="27"/>
+    <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 1 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="28"/>
+    <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 2 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="29"/>
+    <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 3 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="30"/>
+    <item type="bool" note="Трайб №1.Общее.Дверки.Дверка 4 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="31"/>
+    <item type="bool" note="Трайб №1.Общее.Давление в норме(реле давления)" tp="PLC_LF_DB3006_DBX" ts="32"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="33"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="34"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Концевые.Прижат ролик 2 ручья 1" tp="PLC_LF_DB3006_DBX" ts="35"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Концевые.Прижат ролик 1 ручья 2" tp="PLC_LF_DB3006_DBX" ts="36"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Концевые.Прижат ролик 2 ручья 2" tp="PLC_LF_DB3006_DBX" ts="37"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Концевые.Прижат ролик 1 ручья 3" tp="PLC_LF_DB3006_DBX" ts="38"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Концевые.Прижат ролик 2 ручья 3" tp="PLC_LF_DB3006_DBX" ts="39"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Концевые.Прижат ролик 1 ручья 4" tp="PLC_LF_DB3006_DBX" ts="40"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Концевые.Прижат ролик 2 ручья 4" tp="PLC_LF_DB3006_DBX" ts="41"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Концевые.Обрыв ручья 1" tp="PLC_LF_DB3006_DBX" ts="42"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Концевые.Обрыв ручья 2" tp="PLC_LF_DB3006_DBX" ts="43"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Концевые.Обрыв ручья 3" tp="PLC_LF_DB3006_DBX" ts="44"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Концевые.Обрыв ручья 4" tp="PLC_LF_DB3006_DBX" ts="45"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="46"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="47"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="48"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="49"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="50"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="51"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="52"/>
+    <item type="bool" note="Трайб №1.Общее.WinCC.Старт(кнопка)" tp="PLC_LF_DB3006_DBX" ts="53"/>
+    <item type="bool" note="Трайб №1.Общее.WinCC.Стоп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="54"/>
+    <item type="bool" note="Трайб №1.Вывор режима.Задание.WinCC.Автоматический режим(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="55"/>
+    <item type="bool" note="Трайб №1.Вывор режима.Задание.WinCC.Ручной режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="56"/>
+    <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 1" tp="PLC_LF_DB3006_DBX" ts="57"/>
+    <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 2" tp="PLC_LF_DB3006_DBX" ts="58"/>
+    <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 3" tp="PLC_LF_DB3006_DBX" ts="59"/>
+    <item type="bool" note="Трайб №1.Общее.Изменилась бухта для ручья 4" tp="PLC_LF_DB3006_DBX" ts="60"/>
+    <item type="bool" note="Трайб №1.Общее.WinCC.Ошибка сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="61"/>
+    <item type="bool" note="Трайб №1.Общее.WinCC.Аварийный Стоп Сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="62"/>
+    <item type="bool" note="Трайб №1.Питание.Общее питание" tp="PLC_LF_DB3006_DBX" ts="63"/>
+    <item type="bool" note="Трайб №1.Питание.Питание на панель 1 " tp="PLC_LF_DB3006_DBX" ts="64"/>
+    <item type="bool" note="Трайб №1.Питание.Питание на панель 2" tp="PLC_LF_DB3006_DBX" ts="65"/>
+    <item type="bool" note="Трайб №1.Питание.Питание на направляющей" tp="PLC_LF_DB3006_DBX" ts="66"/>
+    <item type="bool" note="Трайб №1.Питание.Питание на трайб" tp="PLC_LF_DB3006_DBX" ts="67"/>
+    <item type="bool" note="Трайб №1.Направляющая.Ошибка направляющей" tp="PLC_LF_DB3006_DBX" ts="68"/>
+    <item type="bool" note="Трайб №1.Автомат Q7 вкл" tp="PLC_LF_DB3006_DBX" ts="69"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="70"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="71"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="72"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="73"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="74"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="75"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="76"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="77"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="78"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="79"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="80"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="81"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №1(3).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="82"/>
+    <item type="bool" note="Трайб №1.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 1 или 3 ручья)"
+          tp="PLC_LF_DB3006_DBX" ts="83"/>
+    <item type="bool" note="Трайб №1.Местный пост ручей №1(3).Окончание бухты для 1 или 3 ручья(лампа)"
+          tp="PLC_LF_DB3006_DBX" ts="84"/>
+    <item type="bool" note="Трайб №1.Направляющая.Местный пост.Вверху(лампа)" tp="PLC_LF_DB3006_DBX" ts="85"/>
+    <item type="bool" note="Трайб №1.Направляющая.Местный пост.Внизу(лампа)" tp="PLC_LF_DB3006_DBX" ts="86"/>
+    <item type="bool" note="Трайб №1.Общее.Команда(выходной сигнал).Сборка аварийной готовности" tp="PLC_LF_DB3006_DBX"
+          ts="87"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="88"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="89"/>
+    <item type="bool" note="Трайб №1.Двигатели.Местный пост ручей №2(4).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="90"/>
+    <item type="bool" note="Трайб №1.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 2 или 4 ручья)"
+          tp="PLC_LF_DB3006_DBX" ts="91"/>
+    <item type="bool" note="Трайб №1.Местный пост ручей №2(4).Окончание бухты для 2 или 4 ручья(лампа)"
+          tp="PLC_LF_DB3006_DBX" ts="92"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="93"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="94"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="95"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="96"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="97"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="98"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="99"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="100"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Команда(выходной сигнал).Включить(вперёд)"
+          tp="PLC_LF_DB3006_DBX" ts="101"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 1.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX"
+          ts="102"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Команда(выходной сигнал).Включить(вперёд)"
+          tp="PLC_LF_DB3006_DBX" ts="103"/>
+    <item type="bool" note="Трайб №1.Двигатели.Двигатель 2.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX"
+          ts="104"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="105"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="106"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="107"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="108"/>
+    <item type="bool" note="Трайб №1.Направляющая.Команда(выходной сигнал).Поднять" tp="PLC_LF_DB3006_DBX" ts="109"/>
+    <item type="bool" note="Трайб №1.Направляющая.Команда(выходной сигнал).Опустить" tp="PLC_LF_DB3006_DBX" ts="110"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="111"/>
+    <item type="bool" note="Трайб №1.Ручей №1.Симуляция прижима роликов 1 ручья" tp="PLC_LF_DB3006_DBX" ts="112"/>
+    <item type="bool" note="Трайб №1.Ручей №2.Симуляция прижима роликов 2 ручья" tp="PLC_LF_DB3006_DBX" ts="113"/>
+    <item type="bool" note="Трайб №1.Ручей №3.Симуляция прижима роликов 3 ручья" tp="PLC_LF_DB3006_DBX" ts="114"/>
+    <item type="bool" note="Трайб №1.Ручей №4.Симуляция прижима роликов 4 ручья" tp="PLC_LF_DB3006_DBX" ts="115"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="116"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="117"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="118"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="119"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="120"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="121"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="122"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="123"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="124"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="125"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="126"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="127"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX"
+          ts="128"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX"
+          ts="129"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX"
+          ts="130"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Частотник ОК(входной сигнал)" tp="PLC_LF_DB3006_DBX"
+          ts="131"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Ошибка 1(вход с частотника)" tp="PLC_LF_DB3006_DBX"
+          ts="132"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Ошибка 2(вход с частотника)" tp="PLC_LF_DB3006_DBX"
+          ts="133"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="134"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="135"/>
+    <item type="bool" note="Трайб №2.Направляющая.Местный пост.Поднять(кнопка)" tp="PLC_LF_DB3006_DBX" ts="136"/>
+    <item type="bool" note="Трайб №2.Направляющая.Местный пост.Опустить(кнопка)" tp="PLC_LF_DB3006_DBX" ts="137"/>
+    <item type="bool" note="Трайб №2.Направляющая.Направляющая поднята(концевой)" tp="PLC_LF_DB3006_DBX" ts="138"/>
+    <item type="bool" note="Трайб №2.Направляющая.Направляющая опущена(концевой)" tp="PLC_LF_DB3006_DBX" ts="139"/>
+    <item type="bool" note="Трайб №2.Направляющая.Направляющая поднята(аварийный концевой)" tp="PLC_LF_DB3006_DBX"
+          ts="140"/>
+    <item type="bool" note="Трайб №2.Направляющая.Направляющая опущена(аварийный концевой)" tp="PLC_LF_DB3006_DBX"
+          ts="141"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="142"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="143"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="144"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="145"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="146"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="147"/>
+    <item type="bool" note="Трайб №2.Местный пост ручей №1(3).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="148"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="149"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="150"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Отжать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="151"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Прижать(кнопка)" tp="PLC_LF_DB3006_DBX" ts="152"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Привода вперёд(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="153"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Привода назад(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="154"/>
+    <item type="bool" note="Трайб №2.Местный пост ручей №2(4).Тест ламп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="155"/>
+    <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 1 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="156"/>
+    <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 2 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="157"/>
+    <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 3 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="158"/>
+    <item type="bool" note="Трайб №2.Общее.Дверки.Дверка 4 открыта(концевой)" tp="PLC_LF_DB3006_DBX" ts="159"/>
+    <item type="bool" note="Трайб №2.Общее.Давление в норме(реле давления)" tp="PLC_LF_DB3006_DBX" ts="160"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="161"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="162"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Концевые.Прижат ролик 2 ручья 1" tp="PLC_LF_DB3006_DBX" ts="163"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Концевые.Прижат ролик 1 ручья 1" tp="PLC_LF_DB3006_DBX" ts="164"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Концевые.Прижат ролик 2 ручья 2" tp="PLC_LF_DB3006_DBX" ts="165"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Концевые.Прижат ролик 1 ручья 3" tp="PLC_LF_DB3006_DBX" ts="166"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Концевые.Прижат ролик 2 ручья 3" tp="PLC_LF_DB3006_DBX" ts="167"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Концевые.Прижат ролик 1 ручья 4" tp="PLC_LF_DB3006_DBX" ts="168"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Концевые.Прижат ролик 2 ручья 4" tp="PLC_LF_DB3006_DBX" ts="169"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Концевые.Обрыв ручья 1" tp="PLC_LF_DB3006_DBX" ts="170"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Концевые.Обрыв ручья 2" tp="PLC_LF_DB3006_DBX" ts="171"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Концевые.Обрыв ручья 3" tp="PLC_LF_DB3006_DBX" ts="172"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Концевые.Обрыв ручья 4" tp="PLC_LF_DB3006_DBX" ts="173"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="174"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="175"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="176"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="177"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="178"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="179"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="180"/>
+    <item type="bool" note="Трайб №2.Общее.WinCC.Старт(кнопка)" tp="PLC_LF_DB3006_DBX" ts="181"/>
+    <item type="bool" note="Трайб №2.Общее.WinCC.Стоп(кнопка)" tp="PLC_LF_DB3006_DBX" ts="182"/>
+    <item type="bool" note="Трайб №2.Вывор режима.Задание.WinCC.Автоматический режим(кнопка)" tp="PLC_LF_DB3006_DBX"
+          ts="183"/>
+    <item type="bool" note="Трайб №2.Вывор режима.Задание.WinCC.Ручной режим(кнопка)" tp="PLC_LF_DB3006_DBX" ts="184"/>
+    <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 1" tp="PLC_LF_DB3006_DBX" ts="185"/>
+    <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 2" tp="PLC_LF_DB3006_DBX" ts="186"/>
+    <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 3" tp="PLC_LF_DB3006_DBX" ts="187"/>
+    <item type="bool" note="Трайб №2.Общее.Изменилась бухта для ручья 4" tp="PLC_LF_DB3006_DBX" ts="188"/>
+    <item type="bool" note="Трайб №2.Общее.WinCC.Ошибка сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="189"/>
+    <item type="bool" note="Трайб №2.Общее.WinCC.Аварийный Стоп Сброс(кнопка)" tp="PLC_LF_DB3006_DBX" ts="190"/>
+    <item type="bool" note="Трайб №2.Питание.Общее питание" tp="PLC_LF_DB3006_DBX" ts="191"/>
+    <item type="bool" note="Трайб №2.Питание.Питание на панель 1 " tp="PLC_LF_DB3006_DBX" ts="192"/>
+    <item type="bool" note="Трайб №2.Питание.Питание на панель 2" tp="PLC_LF_DB3006_DBX" ts="193"/>
+    <item type="bool" note="Трайб №2.Питание.Питание на направляющей" tp="PLC_LF_DB3006_DBX" ts="194"/>
+    <item type="bool" note="Трайб №2.Питание.Питание на трайб" tp="PLC_LF_DB3006_DBX" ts="195"/>
+    <item type="bool" note="Трайб №2.Направляющая.Ошибка направляющей" tp="PLC_LF_DB3006_DBX" ts="196"/>
+    <item type="bool" note="Трайб №2.Автомат Q7 вкл" tp="PLC_LF_DB3006_DBX" ts="197"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="198"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="199"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="200"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="201"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="202"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="203"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="204"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="205"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="206"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="207"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="208"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="209"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №1(3).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="210"/>
+    <item type="bool" note="Трайб №2.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 1 или 3 ручья)"
+          tp="PLC_LF_DB3006_DBX" ts="211"/>
+    <item type="bool" note="Трайб №2.Местный пост ручей №1(3).Окончание бухты для 1 или 3 ручья(лампа)"
+          tp="PLC_LF_DB3006_DBX" ts="212"/>
+    <item type="bool" note="Трайб №2.Направляющая.Местный пост.Вверху(лампа)" tp="PLC_LF_DB3006_DBX" ts="213"/>
+    <item type="bool" note="Трайб №2.Направляющая.Местный пост.Внизу(лампа)" tp="PLC_LF_DB3006_DBX" ts="214"/>
+    <item type="bool" note="Трайб №2.Общее.Команда(выходной сигнал).Сборка аварийной готовности" tp="PLC_LF_DB3006_DBX"
+          ts="215"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="216"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Местный пост.Прижат(лампа)" tp="PLC_LF_DB3006_DBX" ts="217"/>
+    <item type="bool" note="Трайб №2.Двигатели.Местный пост ручей №2(4).Ошибка(лампа)" tp="PLC_LF_DB3006_DBX" ts="218"/>
+    <item type="bool" note="Трайб №2.Вывор режима.Отображение.Местный пост.Локальный режим(лампа для 2 или 4 ручья)"
+          tp="PLC_LF_DB3006_DBX" ts="219"/>
+    <item type="bool" note="Трайб №2.Местный пост ручей №2(4).Окончание бухты для 2 или 4 ручья(лампа)"
+          tp="PLC_LF_DB3006_DBX" ts="220"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="221"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="222"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="223"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="224"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="225"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="226"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="227"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="228"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Команда(выходной сигнал).Включить(вперёд)"
+          tp="PLC_LF_DB3006_DBX" ts="229"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 1.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX"
+          ts="230"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Команда(выходной сигнал).Включить(вперёд)"
+          tp="PLC_LF_DB3006_DBX" ts="231"/>
+    <item type="bool" note="Трайб №2.Двигатели.Двигатель 2.Команда(выходной сигнал).Реверс" tp="PLC_LF_DB3006_DBX"
+          ts="232"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="233"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="234"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="235"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Команда(выходной сигнал).Прижать" tp="PLC_LF_DB3006_DBX" ts="236"/>
+    <item type="bool" note="Трайб №2.Направляющая.Команда(выходной сигнал).Поднять" tp="PLC_LF_DB3006_DBX" ts="237"/>
+    <item type="bool" note="Трайб №2.Направляющая.Команда(выходной сигнал).Опустить" tp="PLC_LF_DB3006_DBX" ts="238"/>
+    <item type="bool" note="" tp="PLC_LF_DB3006_DBX" ts="239"/>
+    <item type="bool" note="Трайб №2.Ручей №1.Симуляция прижима роликов 1 ручья" tp="PLC_LF_DB3006_DBX" ts="240"/>
+    <item type="bool" note="Трайб №2.Ручей №2.Симуляция прижима роликов 2 ручья" tp="PLC_LF_DB3006_DBX" ts="241"/>
+    <item type="bool" note="Трайб №2.Ручей №3.Симуляция прижима роликов 3 ручья" tp="PLC_LF_DB3006_DBX" ts="242"/>
+    <item type="bool" note="Трайб №2.Ручей №4.Симуляция прижима роликов 4 ручья" tp="PLC_LF_DB3006_DBX" ts="243"/>
+    <item type="bool" note="Трайб №1.Кнопка форсирования наличия плавки" tp="PLC_LF_DB3006_DBX" ts="244"/>
+    <item type="bool" note="Трайб №2.Кнопка форсирования наличия плавки" tp="PLC_LF_DB3006_DBX" ts="245"/>
+    <item type="bool" note="Трайб №1.Кнопка сброса счетчика" tp="PLC_LF_DB3006_DBX" ts="246"/>
+    <item type="bool" note="Трайб №2.Кнопка сброса счетчика" tp="PLC_LF_DB3006_DBX" ts="247"/>
 </items>

@@ -13,741 +13,909 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2011.Сборка реле 00000_ZK111-EK11" tp="PLC_LF_DB3001_DBX" ts="0"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2001_1.Сборка реле 00000_ZK101-EK121" tp="PLC_LF_DB3001_DBX" ts="1"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2013.Сборка реле 00000_ZK113-EK131" tp="PLC_LF_DB3001_DBX" ts="2"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2014.Сборка реле 00000_ZK114-EK141" tp="PLC_LF_DB3001_DBX" ts="3"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2015.Сборка реле 00000_ZK115-EK151" tp="PLC_LF_DB3001_DBX" ts="4"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2021.Сборка реле 00000_ZK121-EK211" tp="PLC_LF_DB3001_DBX" ts="5"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2001_3.Сборка реле00000_ZK103-EK221" tp="PLC_LF_DB3001_DBX" ts="6"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2023.Сборка реле00000_ZK123-EK231" tp="PLC_LF_DB3001_DBX" ts="7"/>
-  <!--1 байт -->
-  <item type="bool" note="Аварийный останов.DE_40_1.X2024.Сборка реле00000_ZK124-EK241" tp="PLC_LF_DB3001_DBX" ts="8"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2025.Сборка реле00000_ZK125-EK251" tp="PLC_LF_DB3001_DBX" ts="9"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2001_2.Сборка реле00000_ZK102-EK311" tp="PLC_LF_DB3001_DBX" ts="10"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.X2004.Сборка реле00000_ZK104-EK321" tp="PLC_LF_DB3001_DBX" ts="11"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.Система нагрева.Сборка реле01600_ZK131-EK381" tp="PLC_LF_DB3001_DBX" ts="12"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.Газоочистка.Сборка  реле02410_ZK132-EK391" tp="PLC_LF_DB3001_DBX" ts="13"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.Распредустройства.Сборка реле03100_ZK134-EK411" tp="PLC_LF_DB3001_DBX" ts="14"/>
-  <item type="bool" note="Аварийный останов.DE_40_1.Машина скачивания шлака.Сборка реле00000_ZK100-EK421" tp="PLC_LF_DB3001_DBX" ts="15"/>
-  <!--2 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="16"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="17"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="18"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="19"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="20"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="21"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="22"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="23"/>
-  <!--3 байт -->
-  <item type="bool" note="Машина удаления шлака.Колпак газочистки.Управление.В позицию обработки" tp="PLC_LF_DB3001_DBX" ts="24"/>
-  <item type="bool" note="Машина удаления шлака.Колпак газочистки.Управление.В позицию парковки" tp="PLC_LF_DB3001_DBX" ts="25"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="26"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="27"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="28"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="29"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="30"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="31"/>
-  <!--4 байт -->
-  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Включить.00900_MD04" tp="PLC_LF_DB3001_DBX" ts="32"/>
-  <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Включить.00900_MD05" tp="PLC_LF_DB3001_DBX" ts="33"/>
-  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 1-4.Включить ТЭН." tp="PLC_LF_DB3001_DBX" ts="34"/>
-  <item type="bool" note="Гидравлика.Обогрев масла ТЭН 5-9.Включить ТЭН." tp="PLC_LF_DB3001_DBX" ts="35"/>
-  <item type="bool" note="МЗП.LF1.Температурная фурма.Вверх" tp="PLC_LF_DB3001_DBX" ts="36"/>
-  <item type="bool" note="МЗП.LF1.Температурная фурма.Вниз" tp="PLC_LF_DB3001_DBX" ts="37"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.Вверх" tp="PLC_LF_DB3001_DBX" ts="38"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.Вниз" tp="PLC_LF_DB3001_DBX" ts="39"/>
-  <!--5 байт -->
-  <item type="bool" note="МЗП.LF1.Наклон.В измерение" tp="PLC_LF_DB3001_DBX" ts="40"/>
-  <item type="bool" note="МЗП.LF1.Наклон.В парковку" tp="PLC_LF_DB3001_DBX" ts="41"/>
-  <item type="bool" note="МЗП.LF2.Температурная фурма.Вверх" tp="PLC_LF_DB3001_DBX" ts="42"/>
-  <item type="bool" note="МЗП.LF2.Температурная фурма.Вниз" tp="PLC_LF_DB3001_DBX" ts="43"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.Вверх" tp="PLC_LF_DB3001_DBX" ts="44"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.Вниз" tp="PLC_LF_DB3001_DBX" ts="45"/>
-  <item type="bool" note="МЗП.LF2.Наклон.В измерение" tp="PLC_LF_DB3001_DBX" ts="46"/>
-  <item type="bool" note="МЗП.LF2.Наклон.В парковку" tp="PLC_LF_DB3001_DBX" ts="47"/>
-  <!--6 байт -->
-  <item type="bool" note="Крышки.LF1.Газоход.Управление.Заслонку открыть" tp="PLC_LF_DB3001_DBX" ts="48"/>
-  <item type="bool" note="Крышки.LF1.Газоход.Управление.Заслонку закрыть" tp="PLC_LF_DB3001_DBX" ts="49"/>
-  <item type="bool" note="Крышки.LF2.Газоход.Управление.Заслонку открыть" tp="PLC_LF_DB3001_DBX" ts="50"/>
-  <item type="bool" note="Крышки.LF2.Газоход.Управление.Заслонку закрыть" tp="PLC_LF_DB3001_DBX" ts="51"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="52"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="53"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="54"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="55"/>
-  <!--7 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="56"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="57"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="58"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="59"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="60"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="61"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="62"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="63"/>
-  <!--8 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="64"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="65"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="66"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="67"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="68"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="69"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="70"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="71"/>
-  <!--9 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="72"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="73"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="74"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="75"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="76"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="77"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="78"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="79"/>
-  <!--10 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="80"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="81"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="82"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="83"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="84"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="85"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="86"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="87"/>
-  <!--11 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="88"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="89"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="90"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="91"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="92"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="93"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="94"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="95"/>
-  <!--12 байт -->
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX" ts="96"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX" ts="97"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="98"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="99"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="100"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="101"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX" ts="102"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX" ts="103"/>
-  <!--13-->
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="104"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="105"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="106"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="107"/>
-  <item type="bool" note="Фурмы.LF1.Поворот.Управление.Продувочная фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="108"/>
-  <item type="bool" note="Фурмы.LF1.Поворот.Управление.Порошковая фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="109"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="110"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="111"/>
-  <!--14 байт -->
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="112"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="113"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="114"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="115"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="116"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="117"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="118"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="119"/>
-  <!--15-->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="120"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="121"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="122"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="123"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="124"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="125"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="126"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="127"/>
-  <!--16 байт -->
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX" ts="128"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX" ts="129"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="130"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="131"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="132"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="133"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX" ts="134"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX" ts="135"/>
-  <!--17 байт -->
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="136"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="137"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="138"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="139"/>
-  <item type="bool" note="Фурмы.LF2.Поворот.Управление.Продувочная фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="140"/>
-  <item type="bool" note="Фурмы.LF2.Поворот.Управление.Порошковая фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="141"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="142"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="143"/>
-  <!--18 байт -->
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="144"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="145"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="146"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="147"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="148"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="149"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="150"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="151"/>
-  <!--19 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="152"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="153"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="154"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="155"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="156"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="157"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="158"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="159"/>
-  <!--20 байт -->
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.Локальный пост включен" tp="PLC_LF_DB3001_DBX" ts="160"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х2001_1(LF  ГПУ)" tp="PLC_LF_DB3001_DBX" ts="161"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1013(Под RH на нуле)" tp="PLC_LF_DB3001_DBX" ts="162"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1011(RH ГПУ)" tp="PLC_LF_DB3001_DBX" ts="163"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1017(LTS ГПУ)" tp="PLC_LF_DB3001_DBX" ts="164"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В конечной позиции" tp="PLC_LF_DB3001_DBX" ts="165"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="166"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки LF" tp="PLC_LF_DB3001_DBX" ts="167"/>
-  <!--21 байт -->
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="168"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки RH" tp="PLC_LF_DB3001_DBX" ts="169"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции замены вакуумкамеры" tp="PLC_LF_DB3001_DBX" ts="170"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции ХХХ (резерв)" tp="PLC_LF_DB3001_DBX" ts="171"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки LTS" tp="PLC_LF_DB3001_DBX" ts="172"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 4 RH" tp="PLC_LF_DB3001_DBX" ts="173"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В конечной позиции" tp="PLC_LF_DB3001_DBX" ts="174"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На конечную позицию" tp="PLC_LF_DB3001_DBX" ts="175"/>
-  <!--22 байт -->
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На точку передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="176"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.В позицию обработки LF" tp="PLC_LF_DB3001_DBX" ts="177"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На точку передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="178"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.На точку передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="179"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.В позицию обработки LF" tp="PLC_LF_DB3001_DBX" ts="180"/>
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.На точку передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="181"/>
-  <item type="bool" note="Сталевозы.LF 901.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="182"/>
-  <item type="bool" note="Сталевозы.RH 801.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="183"/>
-  <!--23 байт -->
-  <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.Торкрет-тележка в парковке" tp="PLC_LF_DB3001_DBX" ts="184"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="185"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="186"/>
-  <item type="bool" note="Портал.Выбор поста.Х2001_2.Включен(лампа)" tp="PLC_LF_DB3001_DBX" ts="187"/>
-  <item type="bool" note="Распредустройства.А001.Выбор в работу.Пульт Х2001_2.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="188"/>
-  <item type="bool" note="Распредустройства.А002.Выбор в работу.Пульт Х2001_2.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="189"/>
-  <item type="bool" note="Вакуумный выключатель.Х2001_2.Выключен(лампа)" tp="PLC_LF_DB3001_DBX" ts="190"/>
-  <item type="bool" note="Вакуумный выключатель.Х2001_2.Включен(лампа)" ts="191" tp="PLC_LF_DB3001_DBX"/>
-  <!--24 байт -->
-  <item type="bool" note="Гидравлика.Х2001_2(нагрев).Лампа.Гидравлика работает" tp="PLC_LF_DB3001_DBX" ts="192"/>
-  <item type="bool" note="Портал.Поворот.Х2001_2.Портал в LF1(лампа)" tp="PLC_LF_DB3001_DBX" ts="193"/>
-  <item type="bool" note="Портал.Поворот.Х2001_2.Портал в нипеле(лампа)" tp="PLC_LF_DB3001_DBX" ts="194"/>
-  <item type="bool" note="Портал.Поворот.Х2001_2.Портал в LF2(лампа)" tp="PLC_LF_DB3001_DBX" ts="195"/>
-  <item type="bool" note="Крышки.Х2001_2.Подъём.Крышка на нижнем концевом(лампа)" tp="PLC_LF_DB3001_DBX" ts="196"/>
-  <item type="bool" note="Портал.Электрод А.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="197"/>
-  <item type="bool" note="Портал.Электрод А.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="198"/>
-  <item type="bool" note="Портал.Электрод В.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="199"/>
-  <!--25 байт -->
-  <item type="bool" note="Портал.Электрод В.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="200"/>
-  <item type="bool" note="Портал.Электрод С.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="201"/>
-  <item type="bool" note="Портал.Электрод С.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="202"/>
-  <item type="bool" note="Портал.Поворот.Х2001_2.Управление от пульта X2004(лампа)" tp="PLC_LF_DB3001_DBX" ts="203"/>
-  <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Лампа Запрет" tp="PLC_LF_DB3001_DBX" ts="204"/>
-  <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Лампа Разрешение" tp="PLC_LF_DB3001_DBX" ts="205"/>
-  <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Лампа.Трансформатор включен" tp="PLC_LF_DB3001_DBX" ts="206"/>
-  <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Лампа.Отключен трансформаторный разъединитель" tp="PLC_LF_DB3001_DBX" ts="207"/>
-  <!--26 байт -->
-  <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Лампа.Трансформатор заземлён" tp="PLC_LF_DB3001_DBX" ts="208"/>
-  <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Лампа.Отключен трансформаторный заземлитель" tp="PLC_LF_DB3001_DBX" ts="209"/>
-  <item type="bool" note="Машина удаления шлака.Колпак газочистки.В позиции обработки(лампа)" tp="PLC_LF_DB3001_DBX" ts="210"/>
-  <item type="bool" note="Машина удаления шлака.Колпак газочистки.В позиции парковки(лампа)" tp="PLC_LF_DB3001_DBX" ts="211"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Локальный пост включен" tp="PLC_LF_DB3001_DBX" ts="212"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х2001_3(LF  ГПУ)" tp="PLC_LF_DB3001_DBX" ts="213"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х1023(Под RH на нуле)" tp="PLC_LF_DB3001_DBX" ts="214"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х1021(RH ГПУ)" tp="PLC_LF_DB3001_DBX" ts="215"/>
-  <!--27 байт -->
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.С пульта Х1027(LTS ГПУ)" tp="PLC_LF_DB3001_DBX" ts="216"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В конечной позиции (тупик LF)" tp="PLC_LF_DB3001_DBX" ts="217"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="218"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки LF" tp="PLC_LF_DB3001_DBX" ts="219"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="220"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки RH" tp="PLC_LF_DB3001_DBX" ts="221"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции замены вакуумкамеры" tp="PLC_LF_DB3001_DBX" ts="222"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз901-801).Положение.Лампа.В позиции ХХХ (резерв)" tp="PLC_LF_DB3001_DBX" ts="223"/>
-  <!--28 байт -->
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки LTS" tp="PLC_LF_DB3001_DBX" ts="224"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 4 RH" tp="PLC_LF_DB3001_DBX" ts="225"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В конечной позиции" tp="PLC_LF_DB3001_DBX" ts="226"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На конечную позицию" tp="PLC_LF_DB3001_DBX" ts="227"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На точку передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="228"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.В позицию обработки LF" tp="PLC_LF_DB3001_DBX" ts="229"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На точку передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="230"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.На точку передачи 1 LF" tp="PLC_LF_DB3001_DBX" ts="231"/>
-  <!--29 байт -->
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.В позицию обработки LF" tp="PLC_LF_DB3001_DBX" ts="232"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.На точку передачи 2 RH" tp="PLC_LF_DB3001_DBX" ts="233"/>
-  <item type="bool" note="Сталевозы.LF 902.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="234"/>
-  <item type="bool" note="Сталевозы.RH 802.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="235"/>
-  <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.Торкрет-тележка в парковке" tp="PLC_LF_DB3001_DBX" ts="236"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="237"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="238"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="239"/>
-  <!--30 байт -->
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="240" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="241" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="242" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="243" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="Машина удаления шлака.Пылеулавливающая заслонка.Команда.Открыть" tp="PLC_LF_DB3001_DBX" ts="244"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="245"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="246"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="247"/>
-  <!--31 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="248"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="249"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="250"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="251"/>
-  <item type="bool" note="Машина удаления шлака.Аварийный стоп.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="252"/>
-  <item type="bool" note="Машина удаления шлака.РЕЗЕРВ" tp="PLC_LF_DB3001_DBX" ts="253"/>
-  <item type="bool" note="Машина удаления шлака.Колпак газочистки.Сигнализация" tp="PLC_LF_DB3001_DBX" ts="254"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="255"/>
-  <!--32 байт -->
-  <item type="bool" note="Портал.Выбор поста.Х2004.В работе(лампа)" tp="PLC_LF_DB3001_DBX" ts="256"/>
-  <item type="bool" note="Гидравлика.X2004.Лампа.Гидравлика работает" tp="PLC_LF_DB3001_DBX" ts="257"/>
-  <item type="bool" note="Портал.Блокиратор.X2004.Разблокирован(лампа)" tp="PLC_LF_DB3001_DBX" ts="258"/>
-  <item type="bool" note="Портал.Блокиратор.X2004.Заблокирован(лампа)" tp="PLC_LF_DB3001_DBX" ts="259"/>
-  <item type="bool" note="Портал.Поворот.X2004.В LF1(лампа)" tp="PLC_LF_DB3001_DBX" ts="260"/>
-  <item type="bool" note="Портал.Поворот.X2004.В замене(лампа)" tp="PLC_LF_DB3001_DBX" ts="261"/>
-  <item type="bool" note="Портал.Поворот.X2004.В LF2(лампа)" tp="PLC_LF_DB3001_DBX" ts="262"/>
-  <item type="bool" note="Портал.Поворот.X2004.Идёт поворот(лампа)" tp="PLC_LF_DB3001_DBX" ts="263"/>
-  <!--33 байт -->
-  <item type="bool" note="Портал.Электрод А.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="264"/>
-  <item type="bool" note="Портал.Электрод А.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="265"/>
-  <item type="bool" note="Портал.Электрод А.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="266"/>
-  <item type="bool" note="Портал.Электрод А.Зажим.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="267"/>
-  <item type="bool" note="Портал.Электрод А.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="268"/>
-  <item type="bool" note="Портал.Электрод В.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="269"/>
-  <item type="bool" note="Портал.Электрод В.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="270"/>
-  <item type="bool" note="Портал.Электрод В.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="271"/>
-  <!--34 байт -->
-  <item type="bool" note="Портал.Электрод В.Зажим.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="272"/>
-  <item type="bool" note="Портал.Электрод В.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="273"/>
-  <item type="bool" note="Портал.Электрод С.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="274"/>
-  <item type="bool" note="Портал.Электрод С.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="275"/>
-  <item type="bool" note="Портал.Электрод С.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="276"/>
-  <item type="bool" note="Портал.Электрод С.Подъём.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="277"/>
-  <item type="bool" note="Портал.Электрод С.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="278"/>
-  <item type="bool" note="Портал.Выбор поста.Х2004.В работе X2001_2(лампа)" tp="PLC_LF_DB3001_DBX" ts="279"/>
-  <!--35 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="280"/>
-  <item type="bool" note="Портал.Поворот.Звуковая сигнализация." tp="PLC_LF_DB3001_DBX" ts="281"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="282"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="283"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="284"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="285"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="286"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="287"/>
-  <!--36 байт -->
-  <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="288"/>
-  <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="289"/>
-  <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="290"/>
-  <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="291"/>
-  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="292"/>
-  <item type="bool" note="Продувка.Пробки LF1.Линия №1.Отсечной клапан(FH04).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="293"/>
-  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="294"/>
-  <item type="bool" note="Продувка.Пробки LF1.Линия №2.Отсечной клапан(FH04).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="295"/>
-  <!--37 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="296"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="297"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="298"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="299"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="300"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="301"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="302"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="303"/>
-  <!--38 байт -->
-  <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="304"/>
-  <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="305"/>
-  <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="306"/>
-  <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="307"/>
-  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="308"/>
-  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="309"/>
-  <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="310"/>
-  <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="311"/>
-  <!--39 байт -->
-  <item type="bool" note="Продувка.Фурма LF1.Байпас.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="312"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="313" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="314" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="315" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="316"/>
-  <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="317"/>
-  <item type="bool" note="Крышки.LF1.Подъём.Сигнализация подъёма" tp="PLC_LF_DB3001_DBX" ts="318"/>
-  <item type="bool" note="C2328_LF_DB3001_DBX" ts="319" tp="PLC_LF_DB3001_DBX"/>
-  <!--40 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="320"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="321"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="322"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="323"/>
-  <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="324"/>
-  <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="325"/>
-  <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="326"/>
-  <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="327"/>
-  <!--41 байт -->
-  <item type="bool" note="Продувка.Фурма LF1.Отсечной клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="328"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="329"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="330"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="331"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="332"/>
-  <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Управление.Старт" tp="PLC_LF_DB3001_DBX" ts="333"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="334"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="335"/>
-  <!--42 байт -->
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="336"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="337"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="338"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="339"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="340"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="341"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="342"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="343"/>
-  <!--43 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="344"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="345"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="346"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="347"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="348"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="349"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="350"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="351"/>
-  <!--44 байт -->
-  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="352"/>
-  <item type="bool" note="Фурмы.LF1.Шибер.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="353"/>
-  <item type="bool" note="Фурмы.LF1.Шибер.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="354"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="355"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="356"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Поворот.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="357"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="358"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="359"/>
-  <!--45 байт -->
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="360"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="361"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="362"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="363"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Поворот.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="364"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="365"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="366"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="367"/>
-  <!--46 байт -->
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="368"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="369"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="370"/>
-  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Автоматический(лампа)" tp="PLC_LF_DB3001_DBX" ts="371"/>
-  <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Ручной(лампа)" tp="PLC_LF_DB3001_DBX" ts="372"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="373"/>
-  <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX" ts="374"/>
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX" ts="375"/>
-  <!--47 байт -->
-  <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="376"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="377"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="378"/>
-  <item type="bool" note="Крышки.LF1.X2014.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="379"/>
-  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.X2014.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="380"/>
-  <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.X2014.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="381"/>
-  <item type="bool" note="Продувка.Фурма LF1.X2014.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="382"/>
-  <item type="bool" note="Продувка.Пробки LF1.X2014.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="383"/>
-  <!--48 байт -->
-  <item type="bool" note="Продувка.Пробки LF1.X2014.Байпас(лампа)" tp="PLC_LF_DB3001_DBX" ts="384"/>
-  <item type="bool" note="Гидравлика.X2014.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="385"/>
-  <item type="bool" note="Крышки.LF1.Подъём.X2014.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="386"/>
-  <item type="bool" note="Крышки.LF1.Подъём.X2014.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="387"/>
-  <item type="bool" note="Сталевозы.X2014.901-801.В позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="388"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="389"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="390"/>
-  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="391"/>
-  <!--49 байт -->
-  <item type="bool" note="МЗП.LF1.X2015.Готовность в измерению(лампа) " tp="PLC_LF_DB3001_DBX" ts="392"/>
-  <item type="bool" note="МЗП.LF1.X2015.Измерение(лампа) " tp="PLC_LF_DB3001_DBX" ts="393"/>
-  <item type="bool" note="МЗП.LF1.X2015.Измерение окончено(лампа) " tp="PLC_LF_DB3001_DBX" ts="394"/>
-  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Последовательный(лампа) " tp="PLC_LF_DB3001_DBX" ts="395"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Пробник одет(лампа) " tp="PLC_LF_DB3001_DBX" ts="396"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Проба взята(лампа) " tp="PLC_LF_DB3001_DBX" ts="397"/>
-  <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Ручной(лампа) " tp="PLC_LF_DB3001_DBX" ts="398"/>
-  <item type="bool" note="МЗП.LF1.Шибер.X2015.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="399"/>
-  <!--50 байт -->
-  <item type="bool" note="МЗП.LF1.Шибер.X2015.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="400"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="401"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="402"/>
-  <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="403"/>
-  <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="404"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="405"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="406"/>
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="407"/>
-  <!--51 байт -->
-  <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="408"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="409"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="410"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="411"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="412"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="413"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="414"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="415"/>
-  <!--52 байт -->
-  <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="416"/>
-  <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="417"/>
-  <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="418"/>
-  <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="419"/>
-  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="420"/>
-  <item type="bool" note="Продувка.Пробки LF2.Линия №1.Отсечной клапан(FH04).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="421"/>
-  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="422"/>
-  <item type="bool" note="Продувка.Пробки LF2.Линия №2.Отсечной клапан(FH04).Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="423"/>
-  <!--53 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="424"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="425"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="426"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="427"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="428"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="429"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="430"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="431"/>
-  <!--54 байт -->
-  <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="432"/>
-  <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="433"/>
-  <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="434"/>
-  <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="435"/>
-  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="436"/>
-  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="437"/>
-  <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="438"/>
-  <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="439"/>
-  <!--55 байт -->
-  <item type="bool" note="Продувка.Фурма LF2.Байпас.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="440"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="441"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="442"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="443"/>
-  <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="444"/>
-  <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="445"/>
-  <item type="bool" note="Крышки.LF2.Подъём.Сигнализация подъёма" tp="PLC_LF_DB3001_DBX" ts="446"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="447"/>
-  <!--56 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="448"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="449"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="450"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="451"/>
-  <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="452"/>
-  <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="453"/>
-  <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="454"/>
-  <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="455"/>
-  <!--57 байт -->
-  <item type="bool" note="Продувка.Фурма LF2.Отсечной клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="456"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="457"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="458"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="459"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="460"/>
-  <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Управление.Старт" tp="PLC_LF_DB3001_DBX" ts="461"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="462"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="463"/>
-  <!--58 байт -->
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="464"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="465"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="466"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="467"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="468"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="469"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="470"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="471"/>
-  <!--59 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="472"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="473"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="474"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="475"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="476"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="477"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="478"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="479"/>
-  <!--60 байт -->
-  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима.Локальный(лампа) " ts="480" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="Фурмы.LF2.Шибер.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="481"/>
-  <item type="bool" note="Фурмы.LF2.Шибер.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="482"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="483"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="484"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Поворот.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="485"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="486"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="487"/>
-  <!--61 байт -->
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="488"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="489"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="490"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="491"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Поворот.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="492"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="493"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="494"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="495"/>
-  <!--62 байт -->
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="496"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="497"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="498"/>
-  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Автоматический(лампа)" tp="PLC_LF_DB3001_DBX" ts="499"/>
-  <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Ручной(лампа)" tp="PLC_LF_DB3001_DBX" ts="500"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="501"/>
-  <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX" ts="502"/>
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX" ts="503"/>
-  <!--63 байт -->
-  <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="504"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="505"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="506"/>
-  <item type="bool" note="Крышки.LF2.X2024.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="507"/>
-  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.X2024.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="508"/>
-  <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.X2024.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="509"/>
-  <item type="bool" note="Продувка.Фурма LF2.X2024.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="510"/>
-  <item type="bool" note="Продувка.Пробки LF2.X2024.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="511"/>
-  <!--64 байт -->
-  <item type="bool" note="Продувка.Пробки LF2.X2024.Байпас(лампа)" tp="PLC_LF_DB3001_DBX" ts="512"/>
-  <item type="bool" note="Гидравлика.X2024.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="513"/>
-  <item type="bool" note="Крышки.LF2.Подъём.X2024.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="514"/>
-  <item type="bool" note="Крышки.LF2.Подъём.X2024.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="515"/>
-  <item type="bool" note="Сталевозы.X2024.902-802.В позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="516"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="517"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="518"/>
-  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="519"/>
-  <!--65 байт -->
-  <item type="bool" note="МЗП.LF2.X2025.Готовность в измерению" tp="PLC_LF_DB3001_DBX" ts="520"/>
-  <item type="bool" note="МЗП.LF2.X2025.Измерение" tp="PLC_LF_DB3001_DBX" ts="521"/>
-  <item type="bool" note="МЗП.LF2.X2025.Измерение окончено" tp="PLC_LF_DB3001_DBX" ts="522"/>
-  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Последовательный(лампа) " tp="PLC_LF_DB3001_DBX" ts="523"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Пробник одет(лампа) " tp="PLC_LF_DB3001_DBX" ts="524"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Проба взята(лампа) " tp="PLC_LF_DB3001_DBX" ts="525"/>
-  <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Ручной(лампа) " tp="PLC_LF_DB3001_DBX" ts="526"/>
-  <item type="bool" note="МЗП.LF2.Шибер.X2025.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="527"/>
-  <!--66 байт -->
-  <item type="bool" note="МЗП.LF2.Шибер.X2025.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="528"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="529"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="530"/>
-  <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="531"/>
-  <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="532"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="533"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="534"/>
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="535"/>
-  <!--67 байт -->
-  <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="536"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="537"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="538"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="539"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="540"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="541"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="542"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="543"/>
-  <!--68 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="544"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="545"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="546"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="547"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="548"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="549"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="550"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="551"/>
-  <!--69 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="552"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="553"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="554"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="555"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="556"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="557"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="558"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="559"/>
-  <!--70 байт -->
-  <item type="bool" note="Трансформатор.Переключатель ступеней.Управление.Ступень поднять " tp="PLC_LF_DB3001_DBX" ts="560"/>
-  <item type="bool" note="Трансформатор.Переключатель ступеней.Управление.Ступень понизить " tp="PLC_LF_DB3001_DBX" ts="561"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="562"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="563"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="564"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="565"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="566"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="567"/>
-  <!--71 байт -->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="568"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="569"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="570"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="571"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="572"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="573"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="574"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="575"/>
-  <!--72 байт -->
-  <item type="bool" note="Гидравлика.Главный насос №1.Управляющий клапан.Включить .00900_FH01_EY01" tp="PLC_LF_DB3001_DBX" ts="576"/>
-  <item type="bool" note="Гидравлика.Главный насос №2.Управляющий клапан.Включить .00900_FH02_EY01" tp="PLC_LF_DB3001_DBX" ts="577"/>
-  <item type="bool" note="Гидравлика.Главный насос №3.Управляющий клапан.Включить .00900_FH03_EY01" tp="PLC_LF_DB3001_DBX" ts="578"/>
-  <item type="bool" note="Гидравлика.Циркуляция.Управляющий клапан.Включить .00900_FH04_EY01" tp="PLC_LF_DB3001_DBX" ts="579"/>
-  <item type="bool" note="Охлаждение.Гидравлика.Управляющий клапан.Включить .00900_FH05_EY01" tp="PLC_LF_DB3001_DBX" ts="580"/>
-  <item type="bool" note="Гидравлика.Акумуляторы.Управляющий клапан.Включить .00900_FH06_EY01" tp="PLC_LF_DB3001_DBX" ts="581"/>
-  <item type="bool" note="Портал.Электрод А.Клапан блокировки пропорциональника.Включить .00900_FH07_EY01" tp="PLC_LF_DB3001_DBX" ts="582"/>
-  <item type="bool" note="Портал.Электрод А.Гидрозамок.Включить .00900_FH09_EY01" tp="PLC_LF_DB3001_DBX" ts="583"/>
-  <!--71 байт -->
-  <item type="bool" note="Портал.Электрод А.Гидрозамок.Выключить .00900_FH09_EY02" tp="PLC_LF_DB3001_DBX" ts="584"/>
-  <item type="bool" note="Портал.Электрод В.Клапан блокировки пропорциональника.Включить .00900_FH10_EY01" tp="PLC_LF_DB3001_DBX" ts="585"/>
-  <item type="bool" note="Портал.Электрод В.Гидрозамок.Включить .00900_FH12_EY01" tp="PLC_LF_DB3001_DBX" ts="586"/>
-  <item type="bool" note="Портал.Электрод В.Гидрозамок.Выключить .00900_FH12_EY02" tp="PLC_LF_DB3001_DBX" ts="587"/>
-  <item type="bool" note="Портал.Электрод С.Клапан блокировки пропорциональника.Включить .00900_FH13_EY01" tp="PLC_LF_DB3001_DBX" ts="588"/>
-  <item type="bool" note="Портал.Электрод С.Гидрозамок.Включить .00900_FH15_EY01" tp="PLC_LF_DB3001_DBX" ts="589"/>
-  <item type="bool" note="Портал.Электрод С.Гидрозамок.Выключить .00900_FH15_EY02" tp="PLC_LF_DB3001_DBX" ts="590"/>
-  <item type="bool" note="Портал.Электрод А.Зажим.Управляющий клапан.Промыть.00900_FH16_EY01" tp="PLC_LF_DB3001_DBX" ts="591"/>
-  <!--74 байт -->
-  <item type="bool" note="Портал.Электрод А.Зажим.Управляющий клапан.Разжать00900_FH16_EY02" tp="PLC_LF_DB3001_DBX" ts="592"/>
-  <item type="bool" note="Портал.Электрод В.Зажим.Управляющий клапан.Промыть.00900_FH17_EY01" tp="PLC_LF_DB3001_DBX" ts="593"/>
-  <item type="bool" note="Портал.Электрод В.Зажим.Управляющий клапан.Разжать00900_FH17_EY02" tp="PLC_LF_DB3001_DBX" ts="594"/>
-  <item type="bool" note="Портал.Электрод С.Зажим.Управляющий клапан.Промыть.00900_FH18_EY01" tp="PLC_LF_DB3001_DBX" ts="595"/>
-  <item type="bool" note="Портал.Электрод С.Зажим.Управляющий клапан.Разжать00900_FH18_EY02" tp="PLC_LF_DB3001_DBX" ts="596"/>
-  <item type="bool" note="Портал.Блокиратор.Управляющий клапан.Вверх(разблокировать).00900_FH22_EY01" tp="PLC_LF_DB3001_DBX" ts="597"/>
-  <item type="bool" note="Портал.Блокиратор.Управляющий клапан.Вниз(заблокировать).00900_FH22_EY02" tp="PLC_LF_DB3001_DBX" ts="598"/>
-  <item type="bool" note="Портал.Поворот.Управляющий клапан промывки.Открыть промывку.00900_FH23_EY01" tp="PLC_LF_DB3001_DBX" ts="599"/>
-  <!--75 байт -->
-  <item type="bool" note="Крышки.LF2.Подъём.Управляющий клапан промывки.Открыть промывку.00900_FH24_EY01" tp="PLC_LF_DB3001_DBX" ts="600"/>
-  <item type="bool" note="Крышки.LF1.Подъём.Управляющий клапан промывки.Открыть промывку.00900_FH25_EY01" tp="PLC_LF_DB3001_DBX" ts="601"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="602"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="603"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="604"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="605"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="606"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="607"/>
-  <!--76 байт -->
-  <item type="bool" note="Вакуумный выключатель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="608"/>
-  <item type="bool" note="Вакуумный выключатель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="609"/>
-  <item type="bool" note="Распредустройства.А001.Внешнее квитирование" tp="PLC_LF_DB3001_DBX" ts="610"/>
-  <item type="bool" note="Распредустройства.А001.Аварийное выключение" tp="PLC_LF_DB3001_DBX" ts="611"/>
-  <item type="bool" note="Распредустройства.А001.Быстрое выключение" tp="PLC_LF_DB3001_DBX" ts="612"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="613"/>
-  <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="614"/>
-  <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="615"/>
-  <!--77 байт -->
-  <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="616"/>
-  <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="617"/>
-  <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="618"/>
-  <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="619"/>
-  <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="620"/>
-  <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="621"/>
-  <item type="bool" note="Трансформаторный разъединитель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="622"/>
-  <item type="bool" note="Трансформаторный разъединитель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="623"/>
-  <!--78 байт -->
-  <item type="bool" note="Трансформаторный заземлитель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="624"/>
-  <item type="bool" note="Трансформаторный заземлитель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="625"/>
-  <item type="bool" note="Распредустройства.А001.Готовность(лампа)" tp="PLC_LF_DB3001_DBX" ts="626"/>
-  <item type="bool" note="Распредустройства.А001.Ошибка(лампа)" tp="PLC_LF_DB3001_DBX" ts="627"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="628"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="629"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="630"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="631"/>
-  <!--79-->
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="632"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="633"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="634"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="635"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="636"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="637"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="638"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="639"/>
-  <!--80-->
-  <item type="bool" note="Вакуумный выключатель.А002.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="640"/>
-  <item type="bool" note="Вакуумный выключатель.А002.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="641"/>
-  <item type="bool" note="Распредустройства.А002.Внешнее квитирование" tp="PLC_LF_DB3001_DBX" ts="642"/>
-  <item type="bool" note="Распредустройства.А002.Аварийное выключение" ts="643" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" note="Распредустройства.А002.Быстрое выключение" ts="644" tp="PLC_LF_DB3001_DBX"/>
-  <item type="bool" tp="PLC_LF_DB3001_DBX" ts="645"/>
-  <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="646"/>
-  <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="647"/>
-  <!--81-->
-  <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="648"/>
-  <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="649"/>
-  <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="650"/>
-  <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="651"/>
-  <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="652"/>
-  <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="653"/>
-  <item type="bool" note="Распредустройства.А002.Готовность(лампа)" tp="PLC_LF_DB3001_DBX" ts="654"/>
-  <item type="bool" note="Распредустройства.А002.Ошибка(лампа)" tp="PLC_LF_DB3001_DBX" ts="655"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2011.Сборка реле 00000_ZK111-EK11" tp="PLC_LF_DB3001_DBX"
+          ts="0"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2001_1.Сборка реле 00000_ZK101-EK121" tp="PLC_LF_DB3001_DBX"
+          ts="1"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2013.Сборка реле 00000_ZK113-EK131" tp="PLC_LF_DB3001_DBX"
+          ts="2"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2014.Сборка реле 00000_ZK114-EK141" tp="PLC_LF_DB3001_DBX"
+          ts="3"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2015.Сборка реле 00000_ZK115-EK151" tp="PLC_LF_DB3001_DBX"
+          ts="4"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2021.Сборка реле 00000_ZK121-EK211" tp="PLC_LF_DB3001_DBX"
+          ts="5"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2001_3.Сборка реле00000_ZK103-EK221" tp="PLC_LF_DB3001_DBX"
+          ts="6"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2023.Сборка реле00000_ZK123-EK231" tp="PLC_LF_DB3001_DBX"
+          ts="7"/>
+    <!--1 байт -->
+    <item type="bool" note="Аварийный останов.DE_40_1.X2024.Сборка реле00000_ZK124-EK241" tp="PLC_LF_DB3001_DBX"
+          ts="8"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2025.Сборка реле00000_ZK125-EK251" tp="PLC_LF_DB3001_DBX"
+          ts="9"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2001_2.Сборка реле00000_ZK102-EK311" tp="PLC_LF_DB3001_DBX"
+          ts="10"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.X2004.Сборка реле00000_ZK104-EK321" tp="PLC_LF_DB3001_DBX"
+          ts="11"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.Система нагрева.Сборка реле01600_ZK131-EK381"
+          tp="PLC_LF_DB3001_DBX" ts="12"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.Газоочистка.Сборка  реле02410_ZK132-EK391" tp="PLC_LF_DB3001_DBX"
+          ts="13"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.Распредустройства.Сборка реле03100_ZK134-EK411"
+          tp="PLC_LF_DB3001_DBX" ts="14"/>
+    <item type="bool" note="Аварийный останов.DE_40_1.Машина скачивания шлака.Сборка реле00000_ZK100-EK421"
+          tp="PLC_LF_DB3001_DBX" ts="15"/>
+    <!--2 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="16"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="17"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="18"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="19"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="20"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="21"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="22"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="23"/>
+    <!--3 байт -->
+    <item type="bool" note="Машина удаления шлака.Колпак газочистки.Управление.В позицию обработки"
+          tp="PLC_LF_DB3001_DBX" ts="24"/>
+    <item type="bool" note="Машина удаления шлака.Колпак газочистки.Управление.В позицию парковки"
+          tp="PLC_LF_DB3001_DBX" ts="25"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="26"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="27"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="28"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="29"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="30"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="31"/>
+    <!--4 байт -->
+    <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №1.Включить.00900_MD04" tp="PLC_LF_DB3001_DBX"
+          ts="32"/>
+    <item type="bool" note="Гидравлика.Циркуляция.Циркуляционный насос №2.Включить.00900_MD05" tp="PLC_LF_DB3001_DBX"
+          ts="33"/>
+    <item type="bool" note="Гидравлика.Обогрев масла ТЭН 1-4.Включить ТЭН." tp="PLC_LF_DB3001_DBX" ts="34"/>
+    <item type="bool" note="Гидравлика.Обогрев масла ТЭН 5-9.Включить ТЭН." tp="PLC_LF_DB3001_DBX" ts="35"/>
+    <item type="bool" note="МЗП.LF1.Температурная фурма.Вверх" tp="PLC_LF_DB3001_DBX" ts="36"/>
+    <item type="bool" note="МЗП.LF1.Температурная фурма.Вниз" tp="PLC_LF_DB3001_DBX" ts="37"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.Вверх" tp="PLC_LF_DB3001_DBX" ts="38"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.Вниз" tp="PLC_LF_DB3001_DBX" ts="39"/>
+    <!--5 байт -->
+    <item type="bool" note="МЗП.LF1.Наклон.В измерение" tp="PLC_LF_DB3001_DBX" ts="40"/>
+    <item type="bool" note="МЗП.LF1.Наклон.В парковку" tp="PLC_LF_DB3001_DBX" ts="41"/>
+    <item type="bool" note="МЗП.LF2.Температурная фурма.Вверх" tp="PLC_LF_DB3001_DBX" ts="42"/>
+    <item type="bool" note="МЗП.LF2.Температурная фурма.Вниз" tp="PLC_LF_DB3001_DBX" ts="43"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.Вверх" tp="PLC_LF_DB3001_DBX" ts="44"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.Вниз" tp="PLC_LF_DB3001_DBX" ts="45"/>
+    <item type="bool" note="МЗП.LF2.Наклон.В измерение" tp="PLC_LF_DB3001_DBX" ts="46"/>
+    <item type="bool" note="МЗП.LF2.Наклон.В парковку" tp="PLC_LF_DB3001_DBX" ts="47"/>
+    <!--6 байт -->
+    <item type="bool" note="Крышки.LF1.Газоход.Управление.Заслонку открыть" tp="PLC_LF_DB3001_DBX" ts="48"/>
+    <item type="bool" note="Крышки.LF1.Газоход.Управление.Заслонку закрыть" tp="PLC_LF_DB3001_DBX" ts="49"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Управление.Заслонку открыть" tp="PLC_LF_DB3001_DBX" ts="50"/>
+    <item type="bool" note="Крышки.LF2.Газоход.Управление.Заслонку закрыть" tp="PLC_LF_DB3001_DBX" ts="51"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="52"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="53"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="54"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="55"/>
+    <!--7 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="56"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="57"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="58"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="59"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="60"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="61"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="62"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="63"/>
+    <!--8 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="64"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="65"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="66"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="67"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="68"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="69"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="70"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="71"/>
+    <!--9 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="72"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="73"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="74"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="75"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="76"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="77"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="78"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="79"/>
+    <!--10 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="80"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="81"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="82"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="83"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="84"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="85"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="86"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="87"/>
+    <!--11 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="88"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="89"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="90"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="91"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="92"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="93"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="94"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="95"/>
+    <!--12 байт -->
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX"
+          ts="96"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX" ts="97"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="98"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="99"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="100"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="101"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX"
+          ts="102"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX"
+          ts="103"/>
+    <!--13-->
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX"
+          ts="104"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="105"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX"
+          ts="106"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="107"/>
+    <item type="bool" note="Фурмы.LF1.Поворот.Управление.Продувочная фурма в обработку" tp="PLC_LF_DB3001_DBX"
+          ts="108"/>
+    <item type="bool" note="Фурмы.LF1.Поворот.Управление.Порошковая фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="109"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="110"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="111"/>
+    <!--14 байт -->
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="112"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="113"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="114"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="115"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="116"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="117"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="118"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="119"/>
+    <!--15-->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="120"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="121"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="122"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="123"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="124"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="125"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="126"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="127"/>
+    <!--16 байт -->
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX"
+          ts="128"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX"
+          ts="129"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX" ts="130"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="131"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX" ts="132"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="133"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Медленно вверх" tp="PLC_LF_DB3001_DBX"
+          ts="134"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Медленно вниз" tp="PLC_LF_DB3001_DBX"
+          ts="135"/>
+    <!--17 байт -->
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Быстро вверх" tp="PLC_LF_DB3001_DBX"
+          ts="136"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Быстро вниз" tp="PLC_LF_DB3001_DBX" ts="137"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.Управление.Разтормозить" tp="PLC_LF_DB3001_DBX"
+          ts="138"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Тепловая защита.Собрать -EK22" tp="PLC_LF_DB3001_DBX" ts="139"/>
+    <item type="bool" note="Фурмы.LF2.Поворот.Управление.Продувочная фурма в обработку" tp="PLC_LF_DB3001_DBX"
+          ts="140"/>
+    <item type="bool" note="Фурмы.LF2.Поворот.Управление.Порошковая фурма в обработку" tp="PLC_LF_DB3001_DBX" ts="141"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="142"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="143"/>
+    <!--18 байт -->
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Управление.Вправо" tp="PLC_LF_DB3001_DBX" ts="144"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.Управление.Влево" tp="PLC_LF_DB3001_DBX" ts="145"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="146"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="147"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="148"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="149"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="150"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="151"/>
+    <!--19 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="152"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="153"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="154"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="155"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="156"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="157"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="158"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="159"/>
+    <!--20 байт -->
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.Локальный пост включен"
+          tp="PLC_LF_DB3001_DBX" ts="160"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х2001_1(LF  ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="161"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1013(Под RH на нуле)"
+          tp="PLC_LF_DB3001_DBX" ts="162"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1011(RH ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="163"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Выбор поста.Лампа.С пульта Х1017(LTS ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="164"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В конечной позиции"
+          tp="PLC_LF_DB3001_DBX" ts="165"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="166"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="167"/>
+    <!--21 байт -->
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="168"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки RH"
+          tp="PLC_LF_DB3001_DBX" ts="169"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции замены вакуумкамеры"
+          tp="PLC_LF_DB3001_DBX" ts="170"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции ХХХ (резерв)"
+          tp="PLC_LF_DB3001_DBX" ts="171"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В позиции обработки LTS"
+          tp="PLC_LF_DB3001_DBX" ts="172"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В точке передачи 4 RH"
+          tp="PLC_LF_DB3001_DBX" ts="173"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.В конечной позиции"
+          tp="PLC_LF_DB3001_DBX" ts="174"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На конечную позицию"
+          tp="PLC_LF_DB3001_DBX" ts="175"/>
+    <!--22 байт -->
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На точку передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="176"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.В позицию обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="177"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 901.Лампа.На точку передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="178"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.На точку передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="179"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.В позицию обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="180"/>
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Направление 801.Лампа.На точку передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="181"/>
+    <item type="bool" note="Сталевозы.LF 901.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="182"/>
+    <item type="bool" note="Сталевозы.RH 801.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="183"/>
+    <!--23 байт -->
+    <item type="bool" note="Сталевозы.Х2001_1(сталевоз 901_801).Положение.Лампа.Торкрет-тележка в парковке"
+          tp="PLC_LF_DB3001_DBX" ts="184"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="185"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="186"/>
+    <item type="bool" note="Портал.Выбор поста.Х2001_2.Включен(лампа)" tp="PLC_LF_DB3001_DBX" ts="187"/>
+    <item type="bool" note="Распредустройства.А001.Выбор в работу.Пульт Х2001_2.Работает(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="188"/>
+    <item type="bool" note="Распредустройства.А002.Выбор в работу.Пульт Х2001_2.Работает(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="189"/>
+    <item type="bool" note="Вакуумный выключатель.Х2001_2.Выключен(лампа)" tp="PLC_LF_DB3001_DBX" ts="190"/>
+    <item type="bool" note="Вакуумный выключатель.Х2001_2.Включен(лампа)" ts="191" tp="PLC_LF_DB3001_DBX"/>
+    <!--24 байт -->
+    <item type="bool" note="Гидравлика.Х2001_2(нагрев).Лампа.Гидравлика работает" tp="PLC_LF_DB3001_DBX" ts="192"/>
+    <item type="bool" note="Портал.Поворот.Х2001_2.Портал в LF1(лампа)" tp="PLC_LF_DB3001_DBX" ts="193"/>
+    <item type="bool" note="Портал.Поворот.Х2001_2.Портал в нипеле(лампа)" tp="PLC_LF_DB3001_DBX" ts="194"/>
+    <item type="bool" note="Портал.Поворот.Х2001_2.Портал в LF2(лампа)" tp="PLC_LF_DB3001_DBX" ts="195"/>
+    <item type="bool" note="Крышки.Х2001_2.Подъём.Крышка на нижнем концевом(лампа)" tp="PLC_LF_DB3001_DBX" ts="196"/>
+    <item type="bool" note="Портал.Электрод А.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="197"/>
+    <item type="bool" note="Портал.Электрод А.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="198"/>
+    <item type="bool" note="Портал.Электрод В.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="199"/>
+    <!--25 байт -->
+    <item type="bool" note="Портал.Электрод В.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="200"/>
+    <item type="bool" note="Портал.Электрод С.Х2001_2.Электрод вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="201"/>
+    <item type="bool" note="Портал.Электрод С.Х2001_2.Электрод внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="202"/>
+    <item type="bool" note="Портал.Поворот.Х2001_2.Управление от пульта X2004(лампа)" tp="PLC_LF_DB3001_DBX" ts="203"/>
+    <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Лампа Запрет" tp="PLC_LF_DB3001_DBX"
+          ts="204"/>
+    <item type="bool" note="Вакуумный выключатель.Х2001_2.Разрешение на включение.Лампа Разрешение"
+          tp="PLC_LF_DB3001_DBX" ts="205"/>
+    <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Лампа.Трансформатор включен" tp="PLC_LF_DB3001_DBX"
+          ts="206"/>
+    <item type="bool" note="Трансформаторный заземлитель.Х2001_2.Лампа.Отключен трансформаторный разъединитель"
+          tp="PLC_LF_DB3001_DBX" ts="207"/>
+    <!--26 байт -->
+    <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Лампа.Трансформатор заземлён" tp="PLC_LF_DB3001_DBX"
+          ts="208"/>
+    <item type="bool" note="Трансформаторный разъединитель.Х2001_2.Лампа.Отключен трансформаторный заземлитель"
+          tp="PLC_LF_DB3001_DBX" ts="209"/>
+    <item type="bool" note="Машина удаления шлака.Колпак газочистки.В позиции обработки(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="210"/>
+    <item type="bool" note="Машина удаления шлака.Колпак газочистки.В позиции парковки(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="211"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Локальный пост включен"
+          tp="PLC_LF_DB3001_DBX" ts="212"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х2001_3(LF  ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="213"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х1023(Под RH на нуле)"
+          tp="PLC_LF_DB3001_DBX" ts="214"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Выбор поста.Лампа.С пульта Х1021(RH ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="215"/>
+    <!--27 байт -->
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.С пульта Х1027(LTS ГПУ)"
+          tp="PLC_LF_DB3001_DBX" ts="216"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В конечной позиции (тупик LF)"
+          tp="PLC_LF_DB3001_DBX" ts="217"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="218"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="219"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="220"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки RH"
+          tp="PLC_LF_DB3001_DBX" ts="221"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции замены вакуумкамеры"
+          tp="PLC_LF_DB3001_DBX" ts="222"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз901-801).Положение.Лампа.В позиции ХХХ (резерв)"
+          tp="PLC_LF_DB3001_DBX" ts="223"/>
+    <!--28 байт -->
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В позиции обработки LTS"
+          tp="PLC_LF_DB3001_DBX" ts="224"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В точке передачи 4 RH"
+          tp="PLC_LF_DB3001_DBX" ts="225"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.В конечной позиции"
+          tp="PLC_LF_DB3001_DBX" ts="226"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На конечную позицию"
+          tp="PLC_LF_DB3001_DBX" ts="227"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На точку передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="228"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.В позицию обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="229"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 902.Лампа.На точку передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="230"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.На точку передачи 1 LF"
+          tp="PLC_LF_DB3001_DBX" ts="231"/>
+    <!--29 байт -->
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.В позицию обработки LF"
+          tp="PLC_LF_DB3001_DBX" ts="232"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Направление 802.Лампа.На точку передачи 2 RH"
+          tp="PLC_LF_DB3001_DBX" ts="233"/>
+    <item type="bool" note="Сталевозы.LF 902.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="234"/>
+    <item type="bool" note="Сталевозы.RH 802.Лампа.Разрешение на движение" tp="PLC_LF_DB3001_DBX" ts="235"/>
+    <item type="bool" note="Сталевозы.Х2001_3(сталевоз902-802).Положение.Лампа.Торкрет-тележка в парковке"
+          tp="PLC_LF_DB3001_DBX" ts="236"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="237"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="238"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="239"/>
+    <!--30 байт -->
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="240" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="241" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="242" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="243" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="Машина удаления шлака.Пылеулавливающая заслонка.Команда.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="244"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="245"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="246"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="247"/>
+    <!--31 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="248"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="249"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="250"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="251"/>
+    <item type="bool" note="Машина удаления шлака.Аварийный стоп.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="252"/>
+    <item type="bool" note="Машина удаления шлака.РЕЗЕРВ" tp="PLC_LF_DB3001_DBX" ts="253"/>
+    <item type="bool" note="Машина удаления шлака.Колпак газочистки.Сигнализация" tp="PLC_LF_DB3001_DBX" ts="254"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="255"/>
+    <!--32 байт -->
+    <item type="bool" note="Портал.Выбор поста.Х2004.В работе(лампа)" tp="PLC_LF_DB3001_DBX" ts="256"/>
+    <item type="bool" note="Гидравлика.X2004.Лампа.Гидравлика работает" tp="PLC_LF_DB3001_DBX" ts="257"/>
+    <item type="bool" note="Портал.Блокиратор.X2004.Разблокирован(лампа)" tp="PLC_LF_DB3001_DBX" ts="258"/>
+    <item type="bool" note="Портал.Блокиратор.X2004.Заблокирован(лампа)" tp="PLC_LF_DB3001_DBX" ts="259"/>
+    <item type="bool" note="Портал.Поворот.X2004.В LF1(лампа)" tp="PLC_LF_DB3001_DBX" ts="260"/>
+    <item type="bool" note="Портал.Поворот.X2004.В замене(лампа)" tp="PLC_LF_DB3001_DBX" ts="261"/>
+    <item type="bool" note="Портал.Поворот.X2004.В LF2(лампа)" tp="PLC_LF_DB3001_DBX" ts="262"/>
+    <item type="bool" note="Портал.Поворот.X2004.Идёт поворот(лампа)" tp="PLC_LF_DB3001_DBX" ts="263"/>
+    <!--33 байт -->
+    <item type="bool" note="Портал.Электрод А.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="264"/>
+    <item type="bool" note="Портал.Электрод А.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="265"/>
+    <item type="bool" note="Портал.Электрод А.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="266"/>
+    <item type="bool" note="Портал.Электрод А.Зажим.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="267"/>
+    <item type="bool" note="Портал.Электрод А.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="268"/>
+    <item type="bool" note="Портал.Электрод В.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="269"/>
+    <item type="bool" note="Портал.Электрод В.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="270"/>
+    <item type="bool" note="Портал.Электрод В.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="271"/>
+    <!--34 байт -->
+    <item type="bool" note="Портал.Электрод В.Зажим.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="272"/>
+    <item type="bool" note="Портал.Электрод В.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="273"/>
+    <item type="bool" note="Портал.Электрод С.Подъём.Вверху или едет вверх(лампа)" tp="PLC_LF_DB3001_DBX" ts="274"/>
+    <item type="bool" note="Портал.Электрод С.Подъём.Резерв" tp="PLC_LF_DB3001_DBX" ts="275"/>
+    <item type="bool" note="Портал.Электрод С.Подъём.Внизу или едет вниз(лампа)" tp="PLC_LF_DB3001_DBX" ts="276"/>
+    <item type="bool" note="Портал.Электрод С.Подъём.Разжат или разжимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="277"/>
+    <item type="bool" note="Портал.Электрод С.Зажим.Зажат или зажимается(лампа)" tp="PLC_LF_DB3001_DBX" ts="278"/>
+    <item type="bool" note="Портал.Выбор поста.Х2004.В работе X2001_2(лампа)" tp="PLC_LF_DB3001_DBX" ts="279"/>
+    <!--35 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="280"/>
+    <item type="bool" note="Портал.Поворот.Звуковая сигнализация." tp="PLC_LF_DB3001_DBX" ts="281"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="282"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="283"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="284"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="285"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="286"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="287"/>
+    <!--36 байт -->
+    <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="288"/>
+    <item type="bool" note="Продувка.Пробки LF1.Выбор Аргона.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="289"/>
+    <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="290"/>
+    <item type="bool" note="Продувка.Пробки LF1.Выбор Азота.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="291"/>
+    <item type="bool" note="Продувка.Пробки LF1.Линия №1.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="292"/>
+    <item type="bool" note="Продувка.Пробки LF1.Линия №1.Отсечной клапан(FH04).Управление.Открыть"
+          tp="PLC_LF_DB3001_DBX" ts="293"/>
+    <item type="bool" note="Продувка.Пробки LF1.Линия №2.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="294"/>
+    <item type="bool" note="Продувка.Пробки LF1.Линия №2.Отсечной клапан(FH04).Управление.Открыть"
+          tp="PLC_LF_DB3001_DBX" ts="295"/>
+    <!--37 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="296"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="297"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="298"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="299"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="300"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="301"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="302"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="303"/>
+    <!--38 байт -->
+    <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="304"/>
+    <item type="bool" note="Фурмы.LF1.Шибер.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="305"/>
+    <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="306"/>
+    <item type="bool" note="МЗП.LF1.Шибер.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="307"/>
+    <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="308"/>
+    <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="309"/>
+    <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="310"/>
+    <item type="bool" note="Тракт сыпучих.LF1.Шаравой затвор.Клапан FH04.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="311"/>
+    <!--39 байт -->
+    <item type="bool" note="Продувка.Фурма LF1.Байпас.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="312"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="313" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="314" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="315" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="316"/>
+    <item type="bool" note="Охлаждение.Крышка №1.Задвижка подачи воды.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="317"/>
+    <item type="bool" note="Крышки.LF1.Подъём.Сигнализация подъёма" tp="PLC_LF_DB3001_DBX" ts="318"/>
+    <item type="bool" note="C2328_LF_DB3001_DBX" ts="319" tp="PLC_LF_DB3001_DBX"/>
+    <!--40 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="320"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="321"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="322"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="323"/>
+    <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="324"/>
+    <item type="bool" note="Продувка.Фурма LF1.Выбор Азота.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="325"/>
+    <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="326"/>
+    <item type="bool" note="Продувка.Фурма LF1.Выбор Аргона.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="327"/>
+    <!--41 байт -->
+    <item type="bool" note="Продувка.Фурма LF1.Отсечной клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="328"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="329"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="330"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="331"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="332"/>
+    <item type="bool" note="Фурмы.LF1.Гидравлический агрегат.Управление.Старт" tp="PLC_LF_DB3001_DBX" ts="333"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="334"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="335"/>
+    <!--42 байт -->
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="336"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="337"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="338"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="339"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="340"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="341"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="342"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="343"/>
+    <!--43 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="344"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="345"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="346"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="347"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="348"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="349"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="350"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="351"/>
+    <!--44 байт -->
+    <item type="bool" note="Фурмы.LF1.X2013.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="352"/>
+    <item type="bool" note="Фурмы.LF1.Шибер.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="353"/>
+    <item type="bool" note="Фурмы.LF1.Шибер.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="354"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="355"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="356"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Поворот.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="357"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="358"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Наклон.X2013.В парковке(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="359"/>
+    <!--45 байт -->
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="360"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Подъём.X2013.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="361"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="362"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Зажим.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="363"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Поворот.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="364"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="365"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Наклон.X2013.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="366"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="367"/>
+    <!--46 байт -->
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Подъём.X2013.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="368"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="369"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Зажим.X2013.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="370"/>
+    <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Автоматический(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="371"/>
+    <item type="bool" note="Фурмы.LF1.X2013.Выбор режима магазинов.Ручной(лампа)" tp="PLC_LF_DB3001_DBX" ts="372"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="373"/>
+    <item type="bool" note="Фурмы.LF1.Продувочная фурма.Магазин 1.X2013.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="374"/>
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="375"/>
+    <!--47 байт -->
+    <item type="bool" note="Фурмы.LF1.Порошковая фурма.Магазин 2.X2013.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="376"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="377"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="378"/>
+    <item type="bool" note="Крышки.LF1.X2014.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="379"/>
+    <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.X2014.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="380"/>
+    <item type="bool" note="Крышки.LF1.Рабочее окно.Клапан FH03.X2014.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="381"/>
+    <item type="bool" note="Продувка.Фурма LF1.X2014.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="382"/>
+    <item type="bool" note="Продувка.Пробки LF1.X2014.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="383"/>
+    <!--48 байт -->
+    <item type="bool" note="Продувка.Пробки LF1.X2014.Байпас(лампа)" tp="PLC_LF_DB3001_DBX" ts="384"/>
+    <item type="bool" note="Гидравлика.X2014.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="385"/>
+    <item type="bool" note="Крышки.LF1.Подъём.X2014.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="386"/>
+    <item type="bool" note="Крышки.LF1.Подъём.X2014.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="387"/>
+    <item type="bool" note="Сталевозы.X2014.901-801.В позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="388"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="389"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="390"/>
+    <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="391"/>
+    <!--49 байт -->
+    <item type="bool" note="МЗП.LF1.X2015.Готовность в измерению(лампа) " tp="PLC_LF_DB3001_DBX" ts="392"/>
+    <item type="bool" note="МЗП.LF1.X2015.Измерение(лампа) " tp="PLC_LF_DB3001_DBX" ts="393"/>
+    <item type="bool" note="МЗП.LF1.X2015.Измерение окончено(лампа) " tp="PLC_LF_DB3001_DBX" ts="394"/>
+    <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Последовательный(лампа) " tp="PLC_LF_DB3001_DBX" ts="395"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Пробник одет(лампа) " tp="PLC_LF_DB3001_DBX" ts="396"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Проба взята(лампа) " tp="PLC_LF_DB3001_DBX" ts="397"/>
+    <item type="bool" note="МЗП.LF1.X2015.Выбор режима.Ручной(лампа) " tp="PLC_LF_DB3001_DBX" ts="398"/>
+    <item type="bool" note="МЗП.LF1.Шибер.X2015.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="399"/>
+    <!--50 байт -->
+    <item type="bool" note="МЗП.LF1.Шибер.X2015.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="400"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="401"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="402"/>
+    <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="403"/>
+    <item type="bool" note="МЗП.LF1.Температурная фурма.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="404"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="405"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="406"/>
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="407"/>
+    <!--51 байт -->
+    <item type="bool" note="МЗП.LF1.Пробоотборник.X2015.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="408"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="409"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="410"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="411"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="412"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="413"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="414"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="415"/>
+    <!--52 байт -->
+    <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="416"/>
+    <item type="bool" note="Продувка.Пробки LF2.Выбор Аргона.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="417"/>
+    <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="418"/>
+    <item type="bool" note="Продувка.Пробки LF2.Выбор Азота.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="419"/>
+    <item type="bool" note="Продувка.Пробки LF2.Линия №1.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="420"/>
+    <item type="bool" note="Продувка.Пробки LF2.Линия №1.Отсечной клапан(FH04).Управление.Открыть"
+          tp="PLC_LF_DB3001_DBX" ts="421"/>
+    <item type="bool" note="Продувка.Пробки LF2.Линия №2.Байпас(FH03).Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="422"/>
+    <item type="bool" note="Продувка.Пробки LF2.Линия №2.Отсечной клапан(FH04).Управление.Открыть"
+          tp="PLC_LF_DB3001_DBX" ts="423"/>
+    <!--53 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="424"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="425"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="426"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="427"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="428"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="429"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="430"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="431"/>
+    <!--54 байт -->
+    <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="432"/>
+    <item type="bool" note="Фурмы.LF2.Шибер.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="433"/>
+    <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="434"/>
+    <item type="bool" note="МЗП.LF2.Шибер.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="435"/>
+    <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="436"/>
+    <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.Управление.Закрыть" tp="PLC_LF_DB3001_DBX" ts="437"/>
+    <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="438"/>
+    <item type="bool" note="Тракт сыпучих.LF2.Шаравой затвор.Клапан FH04.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="439"/>
+    <!--55 байт -->
+    <item type="bool" note="Продувка.Фурма LF2.Байпас.Управление.Открыть" tp="PLC_LF_DB3001_DBX" ts="440"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="441"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="442"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="443"/>
+    <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="444"/>
+    <item type="bool" note="Охлаждение.Крышка №2.Задвижка подачи воды.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="445"/>
+    <item type="bool" note="Крышки.LF2.Подъём.Сигнализация подъёма" tp="PLC_LF_DB3001_DBX" ts="446"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="447"/>
+    <!--56 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="448"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="449"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="450"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="451"/>
+    <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="452"/>
+    <item type="bool" note="Продувка.Фурма LF2.Выбор Азота.Клапан FH01.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="453"/>
+    <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="454"/>
+    <item type="bool" note="Продувка.Фурма LF2.Выбор Аргона.Клапан FH02.Управление.Закрыть" tp="PLC_LF_DB3001_DBX"
+          ts="455"/>
+    <!--57 байт -->
+    <item type="bool" note="Продувка.Фурма LF2.Отсечной клапан FH03.Управление.Открыть" tp="PLC_LF_DB3001_DBX"
+          ts="456"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="457"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="458"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="459"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="460"/>
+    <item type="bool" note="Фурмы.LF2.Гидравлический агрегат.Управление.Старт" tp="PLC_LF_DB3001_DBX" ts="461"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="462"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="463"/>
+    <!--58 байт -->
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Управление.В обработку" tp="PLC_LF_DB3001_DBX" ts="464"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.Управление.В парковку" tp="PLC_LF_DB3001_DBX" ts="465"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="466"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.Управление.Разжать" tp="PLC_LF_DB3001_DBX" ts="467"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="468"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="469"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="470"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="471"/>
+    <!--59 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="472"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="473"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="474"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="475"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="476"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="477"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="478"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="479"/>
+    <!--60 байт -->
+    <item type="bool" note="Фурмы.LF2.X2023.Выбор режима.Локальный(лампа) " ts="480" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="Фурмы.LF2.Шибер.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="481"/>
+    <item type="bool" note="Фурмы.LF2.Шибер.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="482"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="483"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="484"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Поворот.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="485"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="486"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Наклон.X2023.В парковке(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="487"/>
+    <!--61 байт -->
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="488"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Подъём.X2023.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="489"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="490"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Зажим.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="491"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Поворот.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="492"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В рабочей позиции(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="493"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Наклон.X2023.В парковке(лампа)" tp="PLC_LF_DB3001_DBX" ts="494"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="495"/>
+    <!--62 байт -->
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Подъём.X2023.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="496"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="497"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Зажим.X2023.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="498"/>
+    <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Автоматический(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="499"/>
+    <item type="bool" note="Фурмы.LF2.X2023.Выбор режима магазинов.Ручной(лампа)" tp="PLC_LF_DB3001_DBX" ts="500"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="501"/>
+    <item type="bool" note="Фурмы.LF2.Продувочная фурма.Магазин 1.X2023.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="502"/>
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Выбран в работу(лампа)" tp="PLC_LF_DB3001_DBX"
+          ts="503"/>
+    <!--63 байт -->
+    <item type="bool" note="Фурмы.LF2.Порошковая фурма.Магазин 2.X2023.Авария(лампа)" tp="PLC_LF_DB3001_DBX" ts="504"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="505"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="506"/>
+    <item type="bool" note="Крышки.LF2.X2024.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="507"/>
+    <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.X2024.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="508"/>
+    <item type="bool" note="Крышки.LF2.Рабочее окно.Клапан FH03.X2024.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="509"/>
+    <item type="bool" note="Продувка.Фурма LF2.X2024.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="510"/>
+    <item type="bool" note="Продувка.Пробки LF2.X2024.Продувка(лампа)" tp="PLC_LF_DB3001_DBX" ts="511"/>
+    <!--64 байт -->
+    <item type="bool" note="Продувка.Пробки LF2.X2024.Байпас(лампа)" tp="PLC_LF_DB3001_DBX" ts="512"/>
+    <item type="bool" note="Гидравлика.X2024.Работает(лампа)" tp="PLC_LF_DB3001_DBX" ts="513"/>
+    <item type="bool" note="Крышки.LF2.Подъём.X2024.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="514"/>
+    <item type="bool" note="Крышки.LF2.Подъём.X2024.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="515"/>
+    <item type="bool" note="Сталевозы.X2024.902-802.В позиции(лампа)" tp="PLC_LF_DB3001_DBX" ts="516"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="517"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="518"/>
+    <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Локальный(лампа) " tp="PLC_LF_DB3001_DBX" ts="519"/>
+    <!--65 байт -->
+    <item type="bool" note="МЗП.LF2.X2025.Готовность в измерению" tp="PLC_LF_DB3001_DBX" ts="520"/>
+    <item type="bool" note="МЗП.LF2.X2025.Измерение" tp="PLC_LF_DB3001_DBX" ts="521"/>
+    <item type="bool" note="МЗП.LF2.X2025.Измерение окончено" tp="PLC_LF_DB3001_DBX" ts="522"/>
+    <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Последовательный(лампа) " tp="PLC_LF_DB3001_DBX" ts="523"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Пробник одет(лампа) " tp="PLC_LF_DB3001_DBX" ts="524"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Проба взята(лампа) " tp="PLC_LF_DB3001_DBX" ts="525"/>
+    <item type="bool" note="МЗП.LF2.X2025.Выбор режима.Ручной(лампа) " tp="PLC_LF_DB3001_DBX" ts="526"/>
+    <item type="bool" note="МЗП.LF2.Шибер.X2025.Открыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="527"/>
+    <!--66 байт -->
+    <item type="bool" note="МЗП.LF2.Шибер.X2025.Закрыт(лампа)" tp="PLC_LF_DB3001_DBX" ts="528"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="529"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="530"/>
+    <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="531"/>
+    <item type="bool" note="МЗП.LF2.Температурная фурма.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="532"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="533"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="534"/>
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Вверху(лампа)" tp="PLC_LF_DB3001_DBX" ts="535"/>
+    <!--67 байт -->
+    <item type="bool" note="МЗП.LF2.Пробоотборник.X2025.Внизу(лампа)" tp="PLC_LF_DB3001_DBX" ts="536"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="537"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="538"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="539"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="540"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="541"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="542"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="543"/>
+    <!--68 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="544"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="545"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="546"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="547"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="548"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="549"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="550"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="551"/>
+    <!--69 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="552"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="553"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="554"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="555"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="556"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="557"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="558"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="559"/>
+    <!--70 байт -->
+    <item type="bool" note="Трансформатор.Переключатель ступеней.Управление.Ступень поднять " tp="PLC_LF_DB3001_DBX"
+          ts="560"/>
+    <item type="bool" note="Трансформатор.Переключатель ступеней.Управление.Ступень понизить " tp="PLC_LF_DB3001_DBX"
+          ts="561"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="562"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="563"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="564"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="565"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="566"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="567"/>
+    <!--71 байт -->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="568"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="569"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="570"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="571"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="572"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="573"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="574"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="575"/>
+    <!--72 байт -->
+    <item type="bool" note="Гидравлика.Главный насос №1.Управляющий клапан.Включить .00900_FH01_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="576"/>
+    <item type="bool" note="Гидравлика.Главный насос №2.Управляющий клапан.Включить .00900_FH02_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="577"/>
+    <item type="bool" note="Гидравлика.Главный насос №3.Управляющий клапан.Включить .00900_FH03_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="578"/>
+    <item type="bool" note="Гидравлика.Циркуляция.Управляющий клапан.Включить .00900_FH04_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="579"/>
+    <item type="bool" note="Охлаждение.Гидравлика.Управляющий клапан.Включить .00900_FH05_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="580"/>
+    <item type="bool" note="Гидравлика.Акумуляторы.Управляющий клапан.Включить .00900_FH06_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="581"/>
+    <item type="bool" note="Портал.Электрод А.Клапан блокировки пропорциональника.Включить .00900_FH07_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="582"/>
+    <item type="bool" note="Портал.Электрод А.Гидрозамок.Включить .00900_FH09_EY01" tp="PLC_LF_DB3001_DBX" ts="583"/>
+    <!--71 байт -->
+    <item type="bool" note="Портал.Электрод А.Гидрозамок.Выключить .00900_FH09_EY02" tp="PLC_LF_DB3001_DBX" ts="584"/>
+    <item type="bool" note="Портал.Электрод В.Клапан блокировки пропорциональника.Включить .00900_FH10_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="585"/>
+    <item type="bool" note="Портал.Электрод В.Гидрозамок.Включить .00900_FH12_EY01" tp="PLC_LF_DB3001_DBX" ts="586"/>
+    <item type="bool" note="Портал.Электрод В.Гидрозамок.Выключить .00900_FH12_EY02" tp="PLC_LF_DB3001_DBX" ts="587"/>
+    <item type="bool" note="Портал.Электрод С.Клапан блокировки пропорциональника.Включить .00900_FH13_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="588"/>
+    <item type="bool" note="Портал.Электрод С.Гидрозамок.Включить .00900_FH15_EY01" tp="PLC_LF_DB3001_DBX" ts="589"/>
+    <item type="bool" note="Портал.Электрод С.Гидрозамок.Выключить .00900_FH15_EY02" tp="PLC_LF_DB3001_DBX" ts="590"/>
+    <item type="bool" note="Портал.Электрод А.Зажим.Управляющий клапан.Промыть.00900_FH16_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="591"/>
+    <!--74 байт -->
+    <item type="bool" note="Портал.Электрод А.Зажим.Управляющий клапан.Разжать00900_FH16_EY02" tp="PLC_LF_DB3001_DBX"
+          ts="592"/>
+    <item type="bool" note="Портал.Электрод В.Зажим.Управляющий клапан.Промыть.00900_FH17_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="593"/>
+    <item type="bool" note="Портал.Электрод В.Зажим.Управляющий клапан.Разжать00900_FH17_EY02" tp="PLC_LF_DB3001_DBX"
+          ts="594"/>
+    <item type="bool" note="Портал.Электрод С.Зажим.Управляющий клапан.Промыть.00900_FH18_EY01" tp="PLC_LF_DB3001_DBX"
+          ts="595"/>
+    <item type="bool" note="Портал.Электрод С.Зажим.Управляющий клапан.Разжать00900_FH18_EY02" tp="PLC_LF_DB3001_DBX"
+          ts="596"/>
+    <item type="bool" note="Портал.Блокиратор.Управляющий клапан.Вверх(разблокировать).00900_FH22_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="597"/>
+    <item type="bool" note="Портал.Блокиратор.Управляющий клапан.Вниз(заблокировать).00900_FH22_EY02"
+          tp="PLC_LF_DB3001_DBX" ts="598"/>
+    <item type="bool" note="Портал.Поворот.Управляющий клапан промывки.Открыть промывку.00900_FH23_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="599"/>
+    <!--75 байт -->
+    <item type="bool" note="Крышки.LF2.Подъём.Управляющий клапан промывки.Открыть промывку.00900_FH24_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="600"/>
+    <item type="bool" note="Крышки.LF1.Подъём.Управляющий клапан промывки.Открыть промывку.00900_FH25_EY01"
+          tp="PLC_LF_DB3001_DBX" ts="601"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="602"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="603"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="604"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="605"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="606"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="607"/>
+    <!--76 байт -->
+    <item type="bool" note="Вакуумный выключатель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="608"/>
+    <item type="bool" note="Вакуумный выключатель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="609"/>
+    <item type="bool" note="Распредустройства.А001.Внешнее квитирование" tp="PLC_LF_DB3001_DBX" ts="610"/>
+    <item type="bool" note="Распредустройства.А001.Аварийное выключение" tp="PLC_LF_DB3001_DBX" ts="611"/>
+    <item type="bool" note="Распредустройства.А001.Быстрое выключение" tp="PLC_LF_DB3001_DBX" ts="612"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="613"/>
+    <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="614"/>
+    <item type="bool" note="Распредустройства.А001.Кабельный разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="615"/>
+    <!--77 байт -->
+    <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="616"/>
+    <item type="bool" note="Распредустройства.А001.Кабельный заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="617"/>
+    <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="618"/>
+    <item type="bool" note="Распредустройства.А001.Выходной разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="619"/>
+    <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="620"/>
+    <item type="bool" note="Распредустройства.А001.Выходной заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="621"/>
+    <item type="bool" note="Трансформаторный разъединитель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="622"/>
+    <item type="bool" note="Трансформаторный разъединитель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="623"/>
+    <!--78 байт -->
+    <item type="bool" note="Трансформаторный заземлитель.А001.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="624"/>
+    <item type="bool" note="Трансформаторный заземлитель.А001.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="625"/>
+    <item type="bool" note="Распредустройства.А001.Готовность(лампа)" tp="PLC_LF_DB3001_DBX" ts="626"/>
+    <item type="bool" note="Распредустройства.А001.Ошибка(лампа)" tp="PLC_LF_DB3001_DBX" ts="627"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="628"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="629"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="630"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="631"/>
+    <!--79-->
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="632"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="633"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="634"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="635"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="636"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="637"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="638"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="639"/>
+    <!--80-->
+    <item type="bool" note="Вакуумный выключатель.А002.Управление.Включить" tp="PLC_LF_DB3001_DBX" ts="640"/>
+    <item type="bool" note="Вакуумный выключатель.А002.Управление.Выключить " tp="PLC_LF_DB3001_DBX" ts="641"/>
+    <item type="bool" note="Распредустройства.А002.Внешнее квитирование" tp="PLC_LF_DB3001_DBX" ts="642"/>
+    <item type="bool" note="Распредустройства.А002.Аварийное выключение" ts="643" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" note="Распредустройства.А002.Быстрое выключение" ts="644" tp="PLC_LF_DB3001_DBX"/>
+    <item type="bool" tp="PLC_LF_DB3001_DBX" ts="645"/>
+    <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="646"/>
+    <item type="bool" note="Распредустройства.А002.Кабельный разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="647"/>
+    <!--81-->
+    <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="648"/>
+    <item type="bool" note="Распредустройства.А002.Кабельный заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="649"/>
+    <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Включить" tp="PLC_LF_DB3001_DBX" ts="650"/>
+    <item type="bool" note="Распредустройства.А002.Выходной разъединитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="651"/>
+    <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Включить" tp="PLC_LF_DB3001_DBX" ts="652"/>
+    <item type="bool" note="Распредустройства.А002.Выходной заземлитель.Выключить " tp="PLC_LF_DB3001_DBX" ts="653"/>
+    <item type="bool" note="Распредустройства.А002.Готовность(лампа)" tp="PLC_LF_DB3001_DBX" ts="654"/>
+    <item type="bool" note="Распредустройства.А002.Ошибка(лампа)" tp="PLC_LF_DB3001_DBX" ts="655"/>
 </items>

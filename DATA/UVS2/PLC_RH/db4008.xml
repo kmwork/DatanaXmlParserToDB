@@ -13,133 +13,305 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Разрежение на позиции №1" tp="PLC_RH_DB4008_DBR_" ts="0000"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Положение подвижной площадки х1011/1012" tp="PLC_RH_DB4008_DBR_" ts="0004"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Глубина погружения" tp="PLC_RH_DB4008_DBR_" ts="0008"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл прир газа.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0012"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл прир газа.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0016"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл O2(нагрев).Задание % открытия " tp="PLC_RH_DB4008_DBR_" ts="0020"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл O2(нагрев).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0024"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл O2(продувка).Задание % открытия " tp="PLC_RH_DB4008_DBR_" ts="0028"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл O2(продувка).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0032"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл прир газа.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0036"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл прир газа.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0040"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл O2(нагрев).Задание % открытия " tp="PLC_RH_DB4008_DBR_" ts="0044"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл O2(нагрев).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0048"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл O2(продувка).Задание % открытия " tp="PLC_RH_DB4008_DBR_" ts="0052"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл O2(продувка).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0056"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0060"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0064"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0068"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0072"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0076"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0080"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0084"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0088"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0092"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0096"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0100"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0104"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0108"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0112"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0116"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0120"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0124"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0128"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0132"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0136"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0140"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0144"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0148"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0152"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0156"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0160"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0164"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0168"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0172"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0176"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0180"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0184"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0188"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0192"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0196"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0200"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0204"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0208"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0212"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0216"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0220"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0224"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0228"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0232"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0236"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0240"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0244"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0248"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0252"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0256"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0260"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0264"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0268"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0272"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0276"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0280"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0284"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0288"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0292"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0296"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0300"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0304"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0308"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0312"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0316"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0320"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0324"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0328"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0332"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0336"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0340"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0344"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0348"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0352"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0356"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0360"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0364"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0368"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0372"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0376"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0380"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0384"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0388"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0392"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0396"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0400"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0404"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0408"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0412"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0416"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0420"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0424"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0428"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_" ts="0432"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0436"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0440"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1015.Положение верхней фурмы на позиции №1" tp="PLC_RH_DB4008_DBR_" ts="0444"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1025.Положение верхней фурмы на позиции №2" tp="PLC_RH_DB4008_DBR_" ts="0448"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Разрежение на позиции №2" tp="PLC_RH_DB4008_DBR_" ts="0452"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Положение подвижной площадки х1021/1022" tp="PLC_RH_DB4008_DBR_" ts="0456"/>
-  <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Глубина погружения" tp="PLC_RH_DB4008_DBR_" ts="0460"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S2.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0464"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S2.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0468"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S3а.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0472"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S3а.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0476"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S3б.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0480"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Контроль вакуум давления пар насоса S3б.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0484"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Управляющий клапан подачи пара.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0488"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Управляющий клапан подачи пара.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0492"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Пропорциональный клапан FH07.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0496"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Пропорциональный клапан FH07.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0500"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Пропорциональный клапан FH09.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0504"/>
-  <item type="real" abs="true" hysteresis="0.1" note="Система поднятия сосуда.Пропорциональный клапан FH09.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0508"/>
-  <!--512 байт -->
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Разрежение на позиции №1" tp="PLC_RH_DB4008_DBR_"
+          ts="0000"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Положение подвижной площадки х1011/1012"
+          tp="PLC_RH_DB4008_DBR_" ts="0004"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1011.Глубина погружения" tp="PLC_RH_DB4008_DBR_"
+          ts="0008"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл прир газа.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0012"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл прир газа.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0016"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл O2(нагрев).Задание % открытия " tp="PLC_RH_DB4008_DBR_"
+          ts="0020"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 1.Рег кл O2(нагрев).Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0024"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл O2(продувка).Задание % открытия " tp="PLC_RH_DB4008_DBR_"
+          ts="0028"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 1.Рег кл O2(продувка).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0032"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.Рег кл прир газа.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0036"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл прир газа.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0040"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.Рег кл O2(нагрев).Задание % открытия " tp="PLC_RH_DB4008_DBR_"
+          ts="0044"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система верхней фурмы.Станция 2.Рег кл O2(нагрев).Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0048"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.Рег кл O2(продувка).Задание % открытия " tp="PLC_RH_DB4008_DBR_"
+          ts="0052"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система верхней фурмы.Станция 2.Рег кл O2(продувка).Положение % " tp="PLC_RH_DB4008_DBR_" ts="0056"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0060"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0064"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF10.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0068"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0072"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0076"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF11.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0080"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0084"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0088"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF12.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0092"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0096"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0100"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF13.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0104"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0108"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0112"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF14.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0116"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0120"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0124"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF15.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0128"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0132"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0136"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF16.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0140"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0144"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0148"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF17.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0152"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0156"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0160"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF18.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0164"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0168"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0172"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF19.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0176"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0180"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0184"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF20.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0188"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0192"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0196"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF21.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0200"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0204"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0208"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF22.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0212"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0216"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0220"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF23.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0224"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0228"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0232"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF24.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0236"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0240"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0244"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 1.Цирк газ.CF25.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0248"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0252"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0256"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF10.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0260"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0264"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0268"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF11.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0272"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0276"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0280"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF12.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0284"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0288"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0292"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF13.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0296"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0300"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0304"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF14.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0308"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0312"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0316"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF15.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0320"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0324"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0328"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF16.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0332"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0336"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0340"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF17.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0344"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0348"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0352"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF18.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0356"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0360"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0364"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF19.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0368"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0372"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0376"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF20.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0380"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0384"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0388"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF21.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0392"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0396"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0400"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF22.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0404"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0408"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0412"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF23.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0416"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0420"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0424"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF24.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0428"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Задание с WinCC расхода" tp="PLC_RH_DB4008_DBR_"
+          ts="0432"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0436"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Система вакуумкамер.Вакуум-ра 2.Цирк газ.CF25.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0440"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1015.Положение верхней фурмы на позиции №1"
+          tp="PLC_RH_DB4008_DBR_" ts="0444"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1025.Положение верхней фурмы на позиции №2"
+          tp="PLC_RH_DB4008_DBR_" ts="0448"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Разрежение на позиции №2" tp="PLC_RH_DB4008_DBR_"
+          ts="0452"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Положение подвижной площадки х1021/1022"
+          tp="PLC_RH_DB4008_DBR_" ts="0456"/>
+    <item type="real" abs="true" hysteresis="1" note="Пульты.X1021.Глубина погружения" tp="PLC_RH_DB4008_DBR_"
+          ts="0460"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S2.Задание % открытия" tp="PLC_RH_DB4008_DBR_"
+          ts="0464"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S2.Положение % " tp="PLC_RH_DB4008_DBR_"
+          ts="0468"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S3а.Задание % открытия" tp="PLC_RH_DB4008_DBR_"
+          ts="0472"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S3а.Положение % " tp="PLC_RH_DB4008_DBR_"
+          ts="0476"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S3б.Задание % открытия" tp="PLC_RH_DB4008_DBR_"
+          ts="0480"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Контроль вакуум давления пар насоса S3б.Положение % " tp="PLC_RH_DB4008_DBR_"
+          ts="0484"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Вакуумная система.Управляющий клапан подачи пара.Задание % открытия" tp="PLC_RH_DB4008_DBR_" ts="0488"/>
+    <item type="real" abs="true" hysteresis="0.1" note="Вакуумная система.Управляющий клапан подачи пара.Положение % "
+          tp="PLC_RH_DB4008_DBR_" ts="0492"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система поднятия сосуда.Пропорциональный клапан FH07.Задание % открытия" tp="PLC_RH_DB4008_DBR_"
+          ts="0496"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система поднятия сосуда.Пропорциональный клапан FH07.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0500"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система поднятия сосуда.Пропорциональный клапан FH09.Задание % открытия" tp="PLC_RH_DB4008_DBR_"
+          ts="0504"/>
+    <item type="real" abs="true" hysteresis="0.1"
+          note="Система поднятия сосуда.Пропорциональный клапан FH09.Положение % " tp="PLC_RH_DB4008_DBR_" ts="0508"/>
+    <!--512 байт -->
 </items>

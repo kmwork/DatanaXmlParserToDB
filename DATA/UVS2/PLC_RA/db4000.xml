@@ -13,245 +13,360 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Сборный ленточный конвейер" tp="PLC_RA_DB4000_DBX" ts="0"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Z-образный ленточный конвейер" tp="PLC_RA_DB4000_DBX" ts="1"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Горизонтальный ленточный конвейер" tp="PLC_RA_DB4000_DBX" ts="2"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 1" tp="PLC_RA_DB4000_DBX" ts="3"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 2" tp="PLC_RA_DB4000_DBX" ts="4"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 3" tp="PLC_RA_DB4000_DBX" ts="5"/>
-  <item type="bool" note="Тракт сыпучих.Аварийный стоп.ОК" tp="PLC_RA_DB4000_DBX" ts="6"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. В работе" tp="PLC_RA_DB4000_DBX" ts="7"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="8"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. Готов" tp="PLC_RA_DB4000_DBX" ts="9"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Выбор" tp="PLC_RA_DB4000_DBX" ts="10"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Выбор" tp="PLC_RA_DB4000_DBX" ts="11"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Выбор" tp="PLC_RA_DB4000_DBX" ts="12"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Выбор" tp="PLC_RA_DB4000_DBX" ts="13"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5- №8. В работе" tp="PLC_RA_DB4000_DBX" ts="14"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5-№8. Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="15"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5-№8. Готов" tp="PLC_RA_DB4000_DBX" ts="16"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Выбор" tp="PLC_RA_DB4000_DBX" ts="17"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Выбор" tp="PLC_RA_DB4000_DBX" ts="18"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Выбор" tp="PLC_RA_DB4000_DBX" ts="19"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Выбор" tp="PLC_RA_DB4000_DBX" ts="20"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.В работе" tp="PLC_RA_DB4000_DBX" ts="21"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="22"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.Готов" tp="PLC_RA_DB4000_DBX" ts="23"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Выбор" tp="PLC_RA_DB4000_DBX" ts="24"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Выбор" tp="PLC_RA_DB4000_DBX" ts="25"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Выбор" tp="PLC_RA_DB4000_DBX" ts="26"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Выбор" tp="PLC_RA_DB4000_DBX" ts="27"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.В работе" tp="PLC_RA_DB4000_DBX" ts="28"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="29"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Готовность(Автомат EQ11,EF21 включение)" tp="PLC_RA_DB4000_DBX" ts="30"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Режим управления. Локальный(Кнопка Старт)" tp="PLC_RA_DB4000_DBX" ts="31"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. В работе" tp="PLC_RA_DB4000_DBX" ts="32"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="33"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Готовность(Автомат EQ11,EF21 включены)" tp="PLC_RA_DB4000_DBX" ts="34"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Режим управления. Локальный(Кнопка Старт)" tp="PLC_RA_DB4000_DBX" ts="35"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. В работе" tp="PLC_RA_DB4000_DBX" ts="36"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="37"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Готовность(Автомат EQ11,EF21 включены)" tp="PLC_RA_DB4000_DBX" ts="38"/>
-  <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Режим управления. Локальный(Кнопка Старт)" tp="PLC_RA_DB4000_DBX" ts="39"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.В работе. Вперед" tp="PLC_RA_DB4000_DBX" ts="40"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.В работе. Назад" tp="PLC_RA_DB4000_DBX" ts="41"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="42"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="43"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX" ts="44"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX" ts="45"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="46"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="47"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.В работе" tp="PLC_RA_DB4000_DBX" ts="48"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="49"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="50"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX" ts="51"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX" ts="52"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="53"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="54"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.В работе" tp="PLC_RA_DB4000_DBX" ts="55"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="56"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="57"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX" ts="58"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX" ts="59"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="60"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="61"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="62"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="63"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.В работе" tp="PLC_RA_DB4000_DBX" ts="64"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="65"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Готовность" tp="PLC_RA_DB4000_DBX" ts="66"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX" ts="67"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX" ts="68"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск. Ошибка" tp="PLC_RA_DB4000_DBX" ts="69"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="70"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.В работе" tp="PLC_RA_DB4000_DBX" ts="71"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX" ts="72"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Готовность" tp="PLC_RA_DB4000_DBX" ts="73"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX" ts="74"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX" ts="75"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.Ошибка" tp="PLC_RA_DB4000_DBX" ts="76"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="77"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="78"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="79"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="80"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="81"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="82"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="83"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="84"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="85"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="86"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="87"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="88"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="89"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="90"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="91"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="92"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="93"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="94"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="95"/>
-  <item type="bool" note="Тракт сыпучих.Питание шкафа.DT21.Питание 24 V" tp="PLC_RA_DB4000_DBX" ts="96"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="97"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="98"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="99"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="100"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="101"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="102"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="103"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="104"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="105"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="106"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="107"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="108"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="109"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="110"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="111"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="112"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="113"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="114"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="115"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="116"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="117"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="118"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="119"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="120"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="121"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="122"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="123"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="124"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="125"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="126"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="127"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="128"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="129"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="130"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="131"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="132"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Готовность" tp="PLC_RA_DB4000_DBX" ts="133"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Открыт" tp="PLC_RA_DB4000_DBX" ts="134"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Закрыт" tp="PLC_RA_DB4000_DBX" ts="135"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Готовность" tp="PLC_RA_DB4000_DBX" ts="136"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Открыт" tp="PLC_RA_DB4000_DBX" ts="137"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Закрыт" tp="PLC_RA_DB4000_DBX" ts="138"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Готовность" tp="PLC_RA_DB4000_DBX" ts="139"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Открыт" tp="PLC_RA_DB4000_DBX" ts="140"/>
-  <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Закрыт" tp="PLC_RA_DB4000_DBX" ts="141"/>
-  <item type="bool" note="Тракт сыпучих.Переключательный желоб.Готовность" tp="PLC_RA_DB4000_DBX" ts="142"/>
-  <item type="bool" note="Тракт сыпучих.Переключательный желоб.Позиция RH-1" tp="PLC_RA_DB4000_DBX" ts="143"/>
-  <item type="bool" note="Тракт сыпучих.Переключательный желоб.Позиция RH-2" tp="PLC_RA_DB4000_DBX" ts="144"/>
-  <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX" ts="145"/>
-  <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX" ts="146"/>
-  <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX" ts="147"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="148"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="149"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="150"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="151"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="152"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="153"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="154"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="155"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="156"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="157"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="158"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="159"/>
-  <item type="bool" note="Тракт сыпучих.Питание шкафа.DT22.Питание 24V" tp="PLC_RA_DB4000_DBX" ts="160"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Измеритель скорости" tp="PLC_RA_DB4000_DBX" ts="161"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.Готовность" tp="PLC_RA_DB4000_DBX" ts="162"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.На FH1" tp="PLC_RA_DB4000_DBX" ts="163"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.На FH2" tp="PLC_RA_DB4000_DBX" ts="164"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="165"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="166"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="167"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="168"/>
-  <item type="bool" note="Тракт сыпучих.Компенсатор легирующих.Проток воды 02210_CF01" tp="PLC_RA_DB4000_DBX" ts="169"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Готовность" tp="PLC_RA_DB4000_DBX" ts="170"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Открыта" tp="PLC_RA_DB4000_DBX" ts="171"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Закрыта" tp="PLC_RA_DB4000_DBX" ts="172"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Готовность" tp="PLC_RA_DB4000_DBX" ts="173"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Открыта" tp="PLC_RA_DB4000_DBX" ts="174"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Закрыта" tp="PLC_RA_DB4000_DBX" ts="175"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Готовность" tp="PLC_RA_DB4000_DBX" ts="176"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Открыт" tp="PLC_RA_DB4000_DBX" ts="177"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Закрыт" tp="PLC_RA_DB4000_DBX" ts="178"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Готовность" tp="PLC_RA_DB4000_DBX" ts="179"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Открыт" tp="PLC_RA_DB4000_DBX" ts="180"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Закрыт" tp="PLC_RA_DB4000_DBX" ts="181"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Готовность" tp="PLC_RA_DB4000_DBX" ts="182"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Открыт" tp="PLC_RA_DB4000_DBX" ts="183"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Закрыт" tp="PLC_RA_DB4000_DBX" ts="184"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Готовность" tp="PLC_RA_DB4000_DBX" ts="185"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 1" tp="PLC_RA_DB4000_DBX" ts="186"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 1" tp="PLC_RA_DB4000_DBX" ts="187"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 2" tp="PLC_RA_DB4000_DBX" ts="188"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 2" tp="PLC_RA_DB4000_DBX" ts="189"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 3" tp="PLC_RA_DB4000_DBX" ts="190"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 3" tp="PLC_RA_DB4000_DBX" ts="191"/>
-  <item type="bool" note="Тракт сыпучих.Питание шкафа.DT23.Питание 24V" tp="PLC_RA_DB4000_DBX" ts="192"/>
-  <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Измеритель скорости" tp="PLC_RA_DB4000_DBX" ts="193"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.Готовность" tp="PLC_RA_DB4000_DBX" ts="194"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH1" tp="PLC_RA_DB4000_DBX" ts="195"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH2" tp="PLC_RA_DB4000_DBX" ts="196"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="197"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="198"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="199"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="200"/>
-  <item type="bool" note="Тракт сыпучих.Компенсатор легирующих.Проток воды 02220_CF01" tp="PLC_RA_DB4000_DBX" ts="201"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Готовность" tp="PLC_RA_DB4000_DBX" ts="202"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Открыта" tp="PLC_RA_DB4000_DBX" ts="203"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Закрыта" tp="PLC_RA_DB4000_DBX" ts="204"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Готовность" tp="PLC_RA_DB4000_DBX" ts="205"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Открыта" tp="PLC_RA_DB4000_DBX" ts="206"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Закрыта" tp="PLC_RA_DB4000_DBX" ts="207"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Готовность" tp="PLC_RA_DB4000_DBX" ts="208"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Открыт" tp="PLC_RA_DB4000_DBX" ts="209"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Закрыт" tp="PLC_RA_DB4000_DBX" ts="210"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Готовность" tp="PLC_RA_DB4000_DBX" ts="211"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Открыт" tp="PLC_RA_DB4000_DBX" ts="212"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Закрыт" tp="PLC_RA_DB4000_DBX" ts="213"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Готовность" tp="PLC_RA_DB4000_DBX" ts="214"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Открыт" tp="PLC_RA_DB4000_DBX" ts="215"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Закрыт" tp="PLC_RA_DB4000_DBX" ts="216"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Готовность" tp="PLC_RA_DB4000_DBX" ts="217"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 1" tp="PLC_RA_DB4000_DBX" ts="218"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 1" tp="PLC_RA_DB4000_DBX" ts="219"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 2" tp="PLC_RA_DB4000_DBX" ts="220"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 2" tp="PLC_RA_DB4000_DBX" ts="221"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 3" tp="PLC_RA_DB4000_DBX" ts="222"/>
-  <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 3" tp="PLC_RA_DB4000_DBX" ts="223"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="224"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="225"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="226"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="227"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="228"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="229"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="230"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="231"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="232"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="233"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="234"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="235"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="236"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="237"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="238"/>
-  <item type="bool" tp="PLC_RA_DB4000_DBX" ts="239"/>
-  <item type="word" note="Диагностика.Счетчик цикла PLCRA(минуты)" tp="PLC_RA_DB4000_DBW_" ts="0030"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Сборный ленточный конвейер" tp="PLC_RA_DB4000_DBX" ts="0"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Z-образный ленточный конвейер" tp="PLC_RA_DB4000_DBX" ts="1"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Горизонтальный ленточный конвейер" tp="PLC_RA_DB4000_DBX"
+          ts="2"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 1" tp="PLC_RA_DB4000_DBX"
+          ts="3"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 2" tp="PLC_RA_DB4000_DBX"
+          ts="4"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.Подвижный ленточный конвейер.Позиция 3" tp="PLC_RA_DB4000_DBX"
+          ts="5"/>
+    <item type="bool" note="Тракт сыпучих.Аварийный стоп.ОК" tp="PLC_RA_DB4000_DBX" ts="6"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. В работе" tp="PLC_RA_DB4000_DBX"
+          ts="7"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="8"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №1-№4. Готов" tp="PLC_RA_DB4000_DBX"
+          ts="9"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №1.Выбор" tp="PLC_RA_DB4000_DBX" ts="10"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №2.Выбор" tp="PLC_RA_DB4000_DBX" ts="11"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №3.Выбор" tp="PLC_RA_DB4000_DBX" ts="12"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №4.Выбор" tp="PLC_RA_DB4000_DBX" ts="13"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5- №8. В работе" tp="PLC_RA_DB4000_DBX"
+          ts="14"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5-№8. Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="15"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №5-№8. Готов" tp="PLC_RA_DB4000_DBX"
+          ts="16"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №5.Выбор" tp="PLC_RA_DB4000_DBX" ts="17"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №6.Выбор" tp="PLC_RA_DB4000_DBX" ts="18"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №7.Выбор" tp="PLC_RA_DB4000_DBX" ts="19"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №8.Выбор" tp="PLC_RA_DB4000_DBX" ts="20"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="21"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="22"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Для бункеров №9-№12.Готов" tp="PLC_RA_DB4000_DBX"
+          ts="23"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №9.Выбор" tp="PLC_RA_DB4000_DBX" ts="24"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №10.Выбор" tp="PLC_RA_DB4000_DBX" ts="25"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №11.Выбор" tp="PLC_RA_DB4000_DBX" ts="26"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Бункер №12.Выбор" tp="PLC_RA_DB4000_DBX" ts="27"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="28"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="29"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Готовность(Автомат EQ11,EF21 включение)"
+          tp="PLC_RA_DB4000_DBX" ts="30"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №1. Режим управления. Локальный(Кнопка Старт)"
+          tp="PLC_RA_DB4000_DBX" ts="31"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. В работе" tp="PLC_RA_DB4000_DBX"
+          ts="32"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="33"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Готовность(Автомат EQ11,EF21 включены)"
+          tp="PLC_RA_DB4000_DBX" ts="34"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №2. Режим управления. Локальный(Кнопка Старт)"
+          tp="PLC_RA_DB4000_DBX" ts="35"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. В работе" tp="PLC_RA_DB4000_DBX"
+          ts="36"/>
+    <item type="bool" note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="37"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Готовность(Автомат EQ11,EF21 включены)"
+          tp="PLC_RA_DB4000_DBX" ts="38"/>
+    <item type="bool"
+          note="Тракт сыпучих.Вибрационный питатель. Весовой бункер №3. Режим управления. Локальный(Кнопка Старт)"
+          tp="PLC_RA_DB4000_DBX" ts="39"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.В работе. Вперед" tp="PLC_RA_DB4000_DBX" ts="40"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.В работе. Назад" tp="PLC_RA_DB4000_DBX" ts="41"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Режим управления(Удаленный)" tp="PLC_RA_DB4000_DBX"
+          ts="42"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="43"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX"
+          ts="44"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="45"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="46"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="47"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.В работе" tp="PLC_RA_DB4000_DBX" ts="48"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="49"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="50"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX"
+          ts="51"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="52"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="53"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX" ts="54"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.В работе" tp="PLC_RA_DB4000_DBX" ts="55"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="56"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Готовность" tp="PLC_RA_DB4000_DBX" ts="57"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Мягкий пуск.Байпас" tp="PLC_RA_DB4000_DBX"
+          ts="58"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Мягкий пуск.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="59"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Ошибка" tp="PLC_RA_DB4000_DBX" ts="60"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Тормоз выкл" tp="PLC_RA_DB4000_DBX"
+          ts="61"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="62"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="63"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="64"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="65"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="66"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск.Байпас"
+          tp="PLC_RA_DB4000_DBX" ts="67"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск.В работе"
+          tp="PLC_RA_DB4000_DBX" ts="68"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Мягкий пуск. Ошибка"
+          tp="PLC_RA_DB4000_DBX" ts="69"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Тормоз выкл" tp="PLC_RA_DB4000_DBX"
+          ts="70"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.В работе" tp="PLC_RA_DB4000_DBX"
+          ts="71"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Режим управления(Удаленный)"
+          tp="PLC_RA_DB4000_DBX" ts="72"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="73"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.Байпас"
+          tp="PLC_RA_DB4000_DBX" ts="74"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.В работе"
+          tp="PLC_RA_DB4000_DBX" ts="75"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Мягкий пуск.Ошибка"
+          tp="PLC_RA_DB4000_DBX" ts="76"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Тормоз выкл" tp="PLC_RA_DB4000_DBX"
+          ts="77"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="78"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="79"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="80"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="81"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="82"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="83"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="84"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="85"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="86"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="87"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="88"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="89"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="90"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="91"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="92"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="93"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="94"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="95"/>
+    <item type="bool" note="Тракт сыпучих.Питание шкафа.DT21.Питание 24 V" tp="PLC_RA_DB4000_DBX" ts="96"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="97"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="98"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="99"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="100"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="101"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="102"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="103"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="104"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="105"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="106"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="107"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="108"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="109"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="110"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="111"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="112"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="113"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="114"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="115"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="116"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="117"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="118"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="119"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="120"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="121"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="122"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="123"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="124"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="125"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="126"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="127"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="128"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="129"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="130"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="131"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="132"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="133"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Открыт" tp="PLC_RA_DB4000_DBX"
+          ts="134"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 1.Шибер 02100_FH13.Закрыт" tp="PLC_RA_DB4000_DBX"
+          ts="135"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="136"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Открыт" tp="PLC_RA_DB4000_DBX"
+          ts="137"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 2.Шибер 02100_FH14.Закрыт" tp="PLC_RA_DB4000_DBX"
+          ts="138"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="139"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Открыт" tp="PLC_RA_DB4000_DBX"
+          ts="140"/>
+    <item type="bool" note="Тракт сыпучих.Взвешивающий бункер 3.Шибер 02100_FH15.Закрыт" tp="PLC_RA_DB4000_DBX"
+          ts="141"/>
+    <item type="bool" note="Тракт сыпучих.Переключательный желоб.Готовность" tp="PLC_RA_DB4000_DBX" ts="142"/>
+    <item type="bool" note="Тракт сыпучих.Переключательный желоб.Позиция RH-1" tp="PLC_RA_DB4000_DBX" ts="143"/>
+    <item type="bool" note="Тракт сыпучих.Переключательный желоб.Позиция RH-2" tp="PLC_RA_DB4000_DBX" ts="144"/>
+    <item type="bool" note="Тракт сыпучих.Сборный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX"
+          ts="145"/>
+    <item type="bool" note="Тракт сыпучих.Z–образный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX"
+          ts="146"/>
+    <item type="bool" note="Тракт сыпучих.Горизонтальный ленточный конвейер.Измеритель скорости" tp="PLC_RA_DB4000_DBX"
+          ts="147"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="148"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="149"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="150"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="151"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="152"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="153"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="154"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="155"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="156"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="157"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="158"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="159"/>
+    <item type="bool" note="Тракт сыпучих.Питание шкафа.DT22.Питание 24V" tp="PLC_RA_DB4000_DBX" ts="160"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 1.Измеритель скорости"
+          tp="PLC_RA_DB4000_DBX" ts="161"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.Готовность" tp="PLC_RA_DB4000_DBX" ts="162"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.На FH1" tp="PLC_RA_DB4000_DBX" ts="163"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Поворотное устройство.На FH2" tp="PLC_RA_DB4000_DBX" ts="164"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="165"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="166"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="167"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="168"/>
+    <item type="bool" note="Тракт сыпучих.Компенсатор легирующих.Проток воды 02210_CF01" tp="PLC_RA_DB4000_DBX"
+          ts="169"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="170"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Открыта" tp="PLC_RA_DB4000_DBX"
+          ts="171"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH01.Закрыта" tp="PLC_RA_DB4000_DBX"
+          ts="172"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="173"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Открыта" tp="PLC_RA_DB4000_DBX"
+          ts="174"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Засыпная воронка 02210_FH02.Закрыта" tp="PLC_RA_DB4000_DBX"
+          ts="175"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="176"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Открыт" tp="PLC_RA_DB4000_DBX"
+          ts="177"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Шибер 02210_FH03.Закрыт" tp="PLC_RA_DB4000_DBX"
+          ts="178"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Готовность"
+          tp="PLC_RA_DB4000_DBX" ts="179"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Открыт"
+          tp="PLC_RA_DB4000_DBX" ts="180"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Клапан наполнения воздухом 02210_FH04.Закрыт"
+          tp="PLC_RA_DB4000_DBX" ts="181"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Готовность"
+          tp="PLC_RA_DB4000_DBX" ts="182"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Открыт"
+          tp="PLC_RA_DB4000_DBX" ts="183"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Вакуумный бункер.Разгрузочный клапан 02210_FH05.Закрыт"
+          tp="PLC_RA_DB4000_DBX" ts="184"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="185"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 1" tp="PLC_RA_DB4000_DBX"
+          ts="186"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 1" tp="PLC_RA_DB4000_DBX"
+          ts="187"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 2" tp="PLC_RA_DB4000_DBX"
+          ts="188"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 2" tp="PLC_RA_DB4000_DBX"
+          ts="189"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Подключен 3" tp="PLC_RA_DB4000_DBX"
+          ts="190"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 1.Расширительная муфта 02210_FH06.Отключен 3" tp="PLC_RA_DB4000_DBX"
+          ts="191"/>
+    <item type="bool" note="Тракт сыпучих.Питание шкафа.DT23.Питание 24V" tp="PLC_RA_DB4000_DBX" ts="192"/>
+    <item type="bool" note="Тракт сыпучих.Подвижный ленточный конвейер.Позиция 2.Измеритель скорости"
+          tp="PLC_RA_DB4000_DBX" ts="193"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.Готовность" tp="PLC_RA_DB4000_DBX" ts="194"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH1" tp="PLC_RA_DB4000_DBX" ts="195"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Поворотное устройство.На FH2" tp="PLC_RA_DB4000_DBX" ts="196"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="197"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="198"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="199"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="200"/>
+    <item type="bool" note="Тракт сыпучих.Компенсатор легирующих.Проток воды 02220_CF01" tp="PLC_RA_DB4000_DBX"
+          ts="201"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="202"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Открыта" tp="PLC_RA_DB4000_DBX"
+          ts="203"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH01.Закрыта" tp="PLC_RA_DB4000_DBX"
+          ts="204"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="205"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Открыта" tp="PLC_RA_DB4000_DBX"
+          ts="206"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Засыпная воронка 02220_FH02.Закрыта" tp="PLC_RA_DB4000_DBX"
+          ts="207"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="208"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Открыт" tp="PLC_RA_DB4000_DBX"
+          ts="209"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Шибер 02220_FH03.Закрыт" tp="PLC_RA_DB4000_DBX"
+          ts="210"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Готовность"
+          tp="PLC_RA_DB4000_DBX" ts="211"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Открыт"
+          tp="PLC_RA_DB4000_DBX" ts="212"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Клапан наполнения воздухом 02220_FH04.Закрыт"
+          tp="PLC_RA_DB4000_DBX" ts="213"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Готовность"
+          tp="PLC_RA_DB4000_DBX" ts="214"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Открыт"
+          tp="PLC_RA_DB4000_DBX" ts="215"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Вакуумный бункер.Разгрузочный клапан 02220_FH05.Закрыт"
+          tp="PLC_RA_DB4000_DBX" ts="216"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Готовность" tp="PLC_RA_DB4000_DBX"
+          ts="217"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 1" tp="PLC_RA_DB4000_DBX"
+          ts="218"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 1" tp="PLC_RA_DB4000_DBX"
+          ts="219"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 2" tp="PLC_RA_DB4000_DBX"
+          ts="220"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 2" tp="PLC_RA_DB4000_DBX"
+          ts="221"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Подключен 3" tp="PLC_RA_DB4000_DBX"
+          ts="222"/>
+    <item type="bool" note="Тракт сыпучих.Позиция 2.Расширительная муфта 02220_FH06.Отключен 3" tp="PLC_RA_DB4000_DBX"
+          ts="223"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="224"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="225"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="226"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="227"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="228"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="229"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="230"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="231"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="232"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="233"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="234"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="235"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="236"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="237"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="238"/>
+    <item type="bool" tp="PLC_RA_DB4000_DBX" ts="239"/>
+    <item type="word" note="Диагностика.Счетчик цикла PLCRA(минуты)" tp="PLC_RA_DB4000_DBW_" ts="0030"/>
 </items>

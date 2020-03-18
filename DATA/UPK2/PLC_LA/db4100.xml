@@ -13,291 +13,395 @@
     - hysteresis = (опционально) значение типа float (по дефолту ".0" )
 -->
 <items>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда на установку '0'" tp="PLC_LA_DB4100_DBX" ts="0"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX" ts="2"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX" ts="3"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX" ts="4"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX" ts="5"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="6"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="7"/>
-  <!--2 байт -->
-  <item type="word" note="Тракт сыпучих.Взешивающий бункер 1.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_" ts="0002"/>
-  <!--4 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX" ts="32"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="33"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX" ts="34"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX" ts="35"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX" ts="36"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Actual Value is approximately Zero" tp="PLC_LA_DB4100_DBX" ts="37"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="38"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="39"/>
-  <!--5 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Предупреждение не подтверждено" tp="PLC_LA_DB4100_DBX" ts="40"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="41"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="42"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX" ts="43"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX" ts="44"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX" ts="45"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="46"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="47"/>
-  <!--6 байт -->
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Актуальный вес" tp="PLC_LA_DB4100_DBR_" ts="0006"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Актуальная тара" tp="PLC_LA_DB4100_DBR_" ts="0010"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Feed Rate" tp="PLC_LA_DB4100_DBR_" ts="0014"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0018"/>
-  <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0022"/>
-  <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0026"/>
-  <!--28 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX" ts="224"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX" ts="225"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="226"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX" ts="227"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="228"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="229"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="230"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX" ts="231"/>
-  <!--29 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="232"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="233"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="234"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="235"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="236"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="237"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="238"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="239"/>
-  <!--30байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="240"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="241"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="242"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="243"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="244"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="245"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="246"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="247"/>
-  <!--31 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="248"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="249"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="250"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="251"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="252"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="253"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="254"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="255"/>
-  <!--32 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда на установку 0" tp="PLC_LA_DB4100_DBX" ts="256"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="257"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX" ts="258"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX" ts="259"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX" ts="260"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX" ts="261"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="262"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="263"/>
-  <!--34 байт -->
-  <item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_" ts="0034"/>
-  <!--36 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX" ts="288"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="289"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX" ts="290"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX" ts="291"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX" ts="292"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Actual Value is approximately Zero" tp="PLC_LA_DB4100_DBX" ts="293"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="294"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="295"/>
-  <!--37 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Предупреждение не подтверждено" tp="PLC_LA_DB4100_DBX" ts="296"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="297"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="298"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX" ts="299"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX" ts="300"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX" ts="301"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="302"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="303"/>
-  <!--38 байт -->
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Актуальный вес" tp="PLC_LA_DB4100_DBR_" ts="0038"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Актуальная тара" tp="PLC_LA_DB4100_DBR_" ts="0042"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Feed Rate" tp="PLC_LA_DB4100_DBR_" ts="0046"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0050"/>
-  <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0054"/>
-  <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0058"/>
-  <!--60 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX" ts="480"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX" ts="481"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="482"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX" ts="483"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="484"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="485"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="486"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX" ts="487"/>
-  <!--61 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="488"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="489"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="490"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="491"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="492"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="493"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="494"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="495"/>
-  <!--62 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="496"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="497"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="498"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="499"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="500"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="501"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="502"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="503"/>
-  <!--63 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="504"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="505"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="506"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="507"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="508"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="509"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="510"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="511"/>
-  <!--64 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда на установку '0'" tp="PLC_LA_DB4100_DBX" ts="512"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="513"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX" ts="514"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX" ts="515"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX" ts="516"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX" ts="517"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="518"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="519"/>
-  <!--66 байт -->
-  <item type="word" note="Тракт сыпучих.Взешивающий бункер 3.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_" ts="0066"/>
-  <!--68 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX" ts="544"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="545"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX" ts="546"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX" ts="547"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX" ts="548"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Actual Value is approximately Zero" tp="PLC_LA_DB4100_DBX" ts="549"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="550"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="551"/>
-  <!--69 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Предупреждение не подтверждено" tp="PLC_LA_DB4100_DBX" ts="552"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="553"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="554"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX" ts="555"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX" ts="556"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX" ts="557"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="558"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="559"/>
-  <!--70 байт -->
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Актуальный вес" tp="PLC_LA_DB4100_DBR_" ts="0070"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Актуальная тара" tp="PLC_LA_DB4100_DBR_" ts="0074"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Feed Rate" tp="PLC_LA_DB4100_DBR_" ts="0078"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0082"/>
-  <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0086"/>
-  <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0090"/>
-  <!--92 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX" ts="736"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX" ts="737"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="738"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX" ts="739"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="740"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="741"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="742"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX" ts="743"/>
-  <!--93 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="744"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="745"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="746"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="747"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="748"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="749"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="750"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="751"/>
-  <!--94 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="752"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="753"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="754"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="755"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="756"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="757"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="758"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="759"/>
-  <!--95 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="760"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="761"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="762"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="763"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="764"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="765"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="766"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="767"/>
-  <!--96 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда на установку 0" tp="PLC_LA_DB4100_DBX" ts="768"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="769"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX" ts="770"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX" ts="771"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX" ts="772"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX" ts="773"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="774"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="775"/>
-  <!--98 байт -->
-  <item type="word" note="Тракт сыпучих.Взешивающий бункер 4.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_" ts="0098"/>
-  <!--100 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX" ts="800"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="801"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX" ts="802"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX" ts="803"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX" ts="804"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Actual Value is approximately Zero" tp="PLC_LA_DB4100_DBX" ts="805"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="806"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="807"/>
-  <!--101 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Предупреждение не подтверждено" tp="PLC_LA_DB4100_DBX" ts="808"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="809"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="810"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX" ts="811"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX" ts="812"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX" ts="813"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus ошибка не подтверждена" tp="PLC_LA_DB4100_DBX" ts="814"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="815"/>
-  <!--102 байт -->
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Актуальный вес" tp="PLC_LA_DB4100_DBR_" ts="0102"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Актуальная тара" tp="PLC_LA_DB4100_DBR_" ts="0106"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Feed Rate" tp="PLC_LA_DB4100_DBR_" ts="0110"/>
-  <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0114"/>
-  <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0118"/>
-  <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0122"/>
-  <!--124 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX" ts="992"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX" ts="993"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="994"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX" ts="995"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="996"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="997"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="998"/>
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX" ts="999"/>
-  <!--125 байт -->
-  <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX" ts="1000"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1001"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1002"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1003"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1004"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1005"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1006"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1007"/>
-  <!--126 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1008"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1009"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1010"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1011"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1012"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1013"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1014"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1015"/>
-  <!--127 байт -->
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1016"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1017"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1018"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1019"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1020"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1021"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1022"/>
-  <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1023"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда на установку '0'" tp="PLC_LA_DB4100_DBX" ts="0"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX" ts="2"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="3"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="4"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX"
+          ts="5"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="6"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="7"/>
+    <!--2 байт -->
+    <item type="word" note="Тракт сыпучих.Взешивающий бункер 1.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_"
+          ts="0002"/>
+    <!--4 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX"
+          ts="32"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="33"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX"
+          ts="34"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX"
+          ts="35"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX"
+          ts="36"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Actual Value is approximately Zero"
+          tp="PLC_LA_DB4100_DBX" ts="37"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX"
+          ts="38"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="39"/>
+    <!--5 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Предупреждение не подтверждено"
+          tp="PLC_LA_DB4100_DBX" ts="40"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="41"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="42"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX"
+          ts="43"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX"
+          ts="44"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX"
+          ts="45"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Связь по Profibus ошибка не подтверждена"
+          tp="PLC_LA_DB4100_DBX" ts="46"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="47"/>
+    <!--6 байт -->
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Актуальный вес"
+          tp="PLC_LA_DB4100_DBR_" ts="0006"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Актуальная тара"
+          tp="PLC_LA_DB4100_DBR_" ts="0010"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Feed Rate"
+          tp="PLC_LA_DB4100_DBR_" ts="0014"/>
+    <item type="real" abs="true" hysteresis="1.0"
+          note="Тракт сыпучих.Взешивающий бункер 1.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0018"/>
+    <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0022"/>
+    <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0026"/>
+    <!--28 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="224"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="225"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="226"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX"
+          ts="227"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="228"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="229"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="230"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX"
+          ts="231"/>
+    <!--29 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 1.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="232"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="233"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="234"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="235"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="236"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="237"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="238"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="239"/>
+    <!--30байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="240"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="241"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="242"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="243"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="244"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="245"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="246"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="247"/>
+    <!--31 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="248"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="249"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="250"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="251"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="252"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="253"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="254"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="255"/>
+    <!--32 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда на установку 0" tp="PLC_LA_DB4100_DBX" ts="256"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="257"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX"
+          ts="258"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="259"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="260"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX"
+          ts="261"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="262"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="263"/>
+    <!--34 байт -->
+    <item type="word" note="Тракт сыпучих.Взешивающий бункер 2.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_"
+          ts="0034"/>
+    <!--36 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX"
+          ts="288"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="289"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX"
+          ts="290"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX"
+          ts="291"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX"
+          ts="292"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Actual Value is approximately Zero"
+          tp="PLC_LA_DB4100_DBX" ts="293"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX"
+          ts="294"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="295"/>
+    <!--37 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Предупреждение не подтверждено"
+          tp="PLC_LA_DB4100_DBX" ts="296"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="297"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="298"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX"
+          ts="299"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX"
+          ts="300"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX"
+          ts="301"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Связь по Profibus ошибка не подтверждена"
+          tp="PLC_LA_DB4100_DBX" ts="302"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="303"/>
+    <!--38 байт -->
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Актуальный вес"
+          tp="PLC_LA_DB4100_DBR_" ts="0038"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Актуальная тара"
+          tp="PLC_LA_DB4100_DBR_" ts="0042"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Feed Rate"
+          tp="PLC_LA_DB4100_DBR_" ts="0046"/>
+    <item type="real" abs="true" hysteresis="1.0"
+          note="Тракт сыпучих.Взешивающий бункер 2.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0050"/>
+    <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0054"/>
+    <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0058"/>
+    <!--60 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="480"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="481"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="482"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX"
+          ts="483"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="484"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="485"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="486"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX"
+          ts="487"/>
+    <!--61 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 2.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="488"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="489"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="490"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="491"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="492"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="493"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="494"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="495"/>
+    <!--62 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="496"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="497"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="498"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="499"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="500"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="501"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="502"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="503"/>
+    <!--63 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="504"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="505"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="506"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="507"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="508"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="509"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="510"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="511"/>
+    <!--64 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда на установку '0'" tp="PLC_LA_DB4100_DBX"
+          ts="512"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="513"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX"
+          ts="514"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="515"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="516"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX"
+          ts="517"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="518"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="519"/>
+    <!--66 байт -->
+    <item type="word" note="Тракт сыпучих.Взешивающий бункер 3.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_"
+          ts="0066"/>
+    <!--68 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX"
+          ts="544"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="545"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX"
+          ts="546"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX"
+          ts="547"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX"
+          ts="548"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Actual Value is approximately Zero"
+          tp="PLC_LA_DB4100_DBX" ts="549"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX"
+          ts="550"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="551"/>
+    <!--69 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Предупреждение не подтверждено"
+          tp="PLC_LA_DB4100_DBX" ts="552"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="553"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="554"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX"
+          ts="555"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX"
+          ts="556"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX"
+          ts="557"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Связь по Profibus ошибка не подтверждена"
+          tp="PLC_LA_DB4100_DBX" ts="558"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="559"/>
+    <!--70 байт -->
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Актуальный вес"
+          tp="PLC_LA_DB4100_DBR_" ts="0070"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Актуальная тара"
+          tp="PLC_LA_DB4100_DBR_" ts="0074"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Feed Rate"
+          tp="PLC_LA_DB4100_DBR_" ts="0078"/>
+    <item type="real" abs="true" hysteresis="1.0"
+          note="Тракт сыпучих.Взешивающий бункер 3.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0082"/>
+    <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0086"/>
+    <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0090"/>
+    <!--92 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="736"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="737"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="738"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX"
+          ts="739"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="740"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="741"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="742"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX"
+          ts="743"/>
+    <!--93 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 3.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="744"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="745"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="746"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="747"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="748"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="749"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="750"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="751"/>
+    <!--94 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="752"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="753"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="754"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="755"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="756"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="757"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="758"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="759"/>
+    <!--95 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="760"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="761"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="762"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="763"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="764"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="765"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="766"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="767"/>
+    <!--96 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда на установку 0" tp="PLC_LA_DB4100_DBX" ts="768"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="769"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'подтверждение'" tp="PLC_LA_DB4100_DBX"
+          ts="770"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'включить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="771"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Команда 'выключить форсировку'" tp="PLC_LA_DB4100_DBX"
+          ts="772"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Вход по состоянию Profibus" tp="PLC_LA_DB4100_DBX"
+          ts="773"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="774"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="775"/>
+    <!--98 байт -->
+    <item type="word" note="Тракт сыпучих.Взешивающий бункер 4.Начальное поле адреса Disomat" tp="PLC_LA_DB4100_DBW_"
+          ts="0098"/>
+    <!--100 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Текущее значение правильное" tp="PLC_LA_DB4100_DBX"
+          ts="800"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Ошибка" tp="PLC_LA_DB4100_DBX" ts="801"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Actual Value is esact Zero" tp="PLC_LA_DB4100_DBX"
+          ts="802"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Нет изменения веса" tp="PLC_LA_DB4100_DBX"
+          ts="803"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Установка тары активна" tp="PLC_LA_DB4100_DBX"
+          ts="804"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Actual Value is approximately Zero"
+          tp="PLC_LA_DB4100_DBX" ts="805"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Ошибка не подтверждена" tp="PLC_LA_DB4100_DBX"
+          ts="806"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Предупреждение" tp="PLC_LA_DB4100_DBX" ts="807"/>
+    <!--101 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Предупреждение не подтверждено"
+          tp="PLC_LA_DB4100_DBX" ts="808"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="809"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="810"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Включена фосировка" tp="PLC_LA_DB4100_DBX"
+          ts="811"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus работает" tp="PLC_LA_DB4100_DBX"
+          ts="812"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus ошибка" tp="PLC_LA_DB4100_DBX"
+          ts="813"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Связь по Profibus ошибка не подтверждена"
+          tp="PLC_LA_DB4100_DBX" ts="814"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="815"/>
+    <!--102 байт -->
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Актуальный вес"
+          tp="PLC_LA_DB4100_DBR_" ts="0102"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Актуальная тара"
+          tp="PLC_LA_DB4100_DBR_" ts="0106"/>
+    <item type="real" abs="true" hysteresis="1.0" note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Feed Rate"
+          tp="PLC_LA_DB4100_DBR_" ts="0110"/>
+    <item type="real" abs="true" hysteresis="1.0"
+          note="Тракт сыпучих.Взешивающий бункер 4.WinCC.Значение для форсировки" tp="PLC_LA_DB4100_DBR_" ts="0114"/>
+    <item type="real" tp="PLC_LA_DB4100_DBR_" ts="0118"/>
+    <item type="word" tp="PLC_LA_DB4100_DBW_" ts="0122"/>
+    <!--124 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слишком низкий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="992"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слишком высокий сигнал" tp="PLC_LA_DB4100_DBX"
+          ts="993"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Ошибка Disomat" tp="PLC_LA_DB4100_DBX" ts="994"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Текущий вес неправильный" tp="PLC_LA_DB4100_DBX"
+          ts="995"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Set zero" tp="PLC_LA_DB4100_DBX" ts="996"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Get Tare" tp="PLC_LA_DB4100_DBX" ts="997"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.TimeOut Zero Tare" tp="PLC_LA_DB4100_DBX" ts="998"/>
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Max вес тары достигнут" tp="PLC_LA_DB4100_DBX"
+          ts="999"/>
+    <!--125 байт -->
+    <item type="bool" note="Тракт сыпучих.Взешивающий бункер 4.Flt.Слэйв отсутствует в сети" tp="PLC_LA_DB4100_DBX"
+          ts="1000"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1001"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1002"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1003"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1004"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1005"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1006"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1007"/>
+    <!--126 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1008"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1009"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1010"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1011"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1012"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1013"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1014"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1015"/>
+    <!--127 байт -->
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1016"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1017"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1018"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1019"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1020"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1021"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1022"/>
+    <item type="bool" tp="PLC_LA_DB4100_DBX" ts="1023"/>
 </items>
