@@ -1,12 +1,15 @@
 package ru.datana.steel.parser.config;
 
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+
 /**
  * Константы программы
  */
 public class AppConst {
 
     public static final String SYS_DIR_PROP = "app.dir";
-    public static final String ENCODING = "UTF8";
+    public static final Charset ENCODING = StandardCharsets.UTF_8;
     public final static String EXT_CONFIG_NAME = "application-dev_postgres.yaml";
 
     public static final String SUCCESS_LOG_PREFIX = "[App-Успешно] ";

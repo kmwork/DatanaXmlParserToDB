@@ -11,7 +11,6 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 import java.io.File;
 import java.io.FileReader;
-import java.nio.charset.Charset;
 
 @Slf4j
 public class XmlUtil {
@@ -25,7 +24,7 @@ public class XmlUtil {
     private int failCount = 0;
 
     public <XML_CLASS> XML_CLASS xmlFileToObject(File xmlFile, Class<XML_CLASS> clazz) throws AppException {
-        try (FileReader fileReader = new FileReader(xmlFile, Charset.forName(AppConst.ENCODING))) {
+        try (FileReader fileReader = new FileReader(xmlFile, AppConst.ENCODING)) {
             log.info(PREFIX_LOG + " Начало разбора файла " + xmlFile.getAbsolutePath() + " для класса " + clazz.getSimpleName());
             XMLInputFactory factory = XMLInputFactory.newInstance();
             XMLStreamReader xmlStream = factory.createXMLStreamReader(fileReader);
