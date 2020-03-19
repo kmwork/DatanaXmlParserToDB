@@ -28,8 +28,9 @@ public class ControllerS7XmlParserApp {
             appOptions.load();
             log.info(AppConts.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + appOptions.getAppVersion());
 
+            XmlUtil xmlUtil = new XmlUtil();
             File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConts.S7_ROOT_CONFIG_FILE_NAME);
-            RootType rootConfig = XmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
+            RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
             Set<String> nodes = new LinkedHashSet<>(controllerTypeList.size());
@@ -61,10 +62,10 @@ public class ControllerS7XmlParserApp {
             log.info(AppConts.APP_LOG_PREFIX + " Найдено нод: " + nodes.toString());
 
 
-            StringBuilder dir = new StringBuilder(1024);
-            dir.append(appOptions.getDataFileDir());
-            dir.append(File.separator);
             for (String node : nodes) {
+                StringBuilder dir = new StringBuilder(1024);
+                dir.append(appOptions.getDataFileDir());
+                dir.append(File.separator);
                 dir.append(node);
                 dir.append(File.separator);
                 Set<String> names = nameByNode.get(node);
@@ -100,10 +101,13 @@ public class ControllerS7XmlParserApp {
                     }
 
                     for (File f : selectedDBFiles) {
-                        ItemsType items = XmlUtil.xmlFileToObject(f, ItemsType.class);
+                        ItemsType items = xmlUtil.xmlFileToObject(f, ItemsType.class);
                     }
                 }
             }
+
+            log.info(AppConts.SUCCESS_LOG_PREFIX + "Обработано без ошибок " + xmlUtil.getSuccessCount() + " файлов");
+            log.info(AppConts.SUCCESS_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
         } catch (Exception ex) {
             log.error(AppConts.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
