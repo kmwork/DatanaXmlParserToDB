@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="urn://datana-ru/integration/1.0.0"
+           targetNamespace="urn://datana-ru/integration/1.0.0"
+           elementFormDefault="qualified">
+
+
+    <xs:element name="root" type="tns:ControllersRootType"/>
+    <xs:element name="items" type="tns:ItemsType"/>
+
+    <!--
+        контроллеры
+    -->
+    <xs:complexType name="ControllersRootType">
+        <xs:annotation>
+            <xs:documentation>Корневой элемент</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="controllers" type="tns:ControllersType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Описание контроллеров</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ControllersType">
+        <xs:annotation>
+            <xs:documentation>Описание контроллеров</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="controller" type="tns:ControllerType" minOccurs="1" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Описание контроллера</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ControllerType">
+        <xs:annotation>
+            <xs:documentation>Описание Контроллера</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="name" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Наименование контроллера</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ip" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>IP адрес контроллера</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="rack" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Корзина</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="slot" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Место в корзине</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!--
+         блоки данных
+     -->
+    <xs:complexType name="ItemsType">
+        <xs:annotation>
+            <xs:documentation>Описание занных контроллера</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="item" type="tns:ItemType" minOccurs="1" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Описание переменной в контроллере</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="ItemType">
+        <xs:annotation>
+            <xs:documentation>Описание данных в дата блоке контроллера</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="type" type="tns:DataTypeType" use="required">
+            <xs:annotation>
+                <xs:documentation>Тип данных</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="sign" type="tns:TrueFalseType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Значение знаковое</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="abs" type="tns:TrueFalseType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Гистерезис в обсалютных значенияих или в процентах</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="husteresis" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Гистерезис</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="rt" type="tns:TrueFalseType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Записывать значение в runtime таблицу</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="note" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Описание переменной</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="tp" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Префикс таблицы в базе ММК</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="ts" type="xs:string" use="required">
+            <xs:annotation>
+                <xs:documentation>Сдвиг в битах или байтах</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:simpleType name="TrueFalseType">
+        <xs:annotation>
+            <xs:documentation>Тип данных в true или false</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="true">
+                <xs:annotation>
+                    <xs:documentation>Значение true</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="false">
+                <xs:annotation>
+                    <xs:documentation>Значение false</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="DataTypeType">
+        <xs:annotation>
+            <xs:documentation>Тип данных в контроллере</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="bool">
+                <xs:annotation>
+                    <xs:documentation>Битовые данные</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="byte">
+                <xs:annotation>
+                    <xs:documentation>Тип данных байт</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="word">
+                <xs:annotation>
+                    <xs:documentation>Тип данных слово</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="dword">
+                <xs:annotation>
+                    <xs:documentation>Тип данных двойное слово</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="real">
+                <xs:annotation>
+                    <xs:documentation>Реальное число</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
