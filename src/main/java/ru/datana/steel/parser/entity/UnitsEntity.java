@@ -4,7 +4,7 @@ import lombok.Data;
 import ru.datana.steel.parser.config.DbConst;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "units", schema = DbConst.DB_SCHEMA, catalog = DbConst.DB_CATALOG)
@@ -20,5 +20,5 @@ public class UnitsEntity {
 
 
     @Column(name = "rec_dt")
-    private Timestamp recDt;
+    private LocalDateTime recDt;
 }
