@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import ru.datana.steel.parser.config.AppConts;
+import ru.datana.steel.parser.config.AppConst;
 import ru.datana.steel.parser.config.AppOptions;
 import ru.datana.steel.parser.utils.AppException;
 import ru.datana.steel.parser.utils.TypeException;
@@ -23,16 +23,16 @@ public class S7AppRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        log.info(AppConts.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args.getSourceArgs()));
+        log.info(AppConst.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args.getSourceArgs()));
 
 
         try {
             AppOptions appOptions = new AppOptions();
             appOptions.load();
-            log.info(AppConts.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + appOptions.getAppVersion());
+            log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + appOptions.getAppVersion());
 
             XmlUtil xmlUtil = new XmlUtil();
-            File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConts.S7_ROOT_CONFIG_FILE_NAME);
+            File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
@@ -62,7 +62,7 @@ public class S7AppRunner implements ApplicationRunner {
 
                 names.add(nameController);
             }
-            log.info(AppConts.APP_LOG_PREFIX + " Найдено нод: " + nodes.toString());
+            log.info(AppConst.APP_LOG_PREFIX + " Найдено нод: " + nodes.toString());
 
 
             for (String node : nodes) {
@@ -95,8 +95,8 @@ public class S7AppRunner implements ApplicationRunner {
                     for (String fileName : dbFile) {
                         File f = new File(xmlS7DbFileDir, fileName);
 
-                        if (f.isDirectory() || !f.getName().matches(AppConts.S7_REG_EXPRESSION_DB_NAME)) {
-                            log.warn(AppConts.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());
+                        if (f.isDirectory() || !f.getName().matches(AppConst.S7_REG_EXPRESSION_DB_NAME)) {
+                            log.warn(AppConst.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());
                             continue;
                         }
 
@@ -109,14 +109,14 @@ public class S7AppRunner implements ApplicationRunner {
                 }
             }
 
-            log.info(AppConts.SUCCESS_LOG_PREFIX + "Обработано без ошибок " + xmlUtil.getSuccessCount() + " файлов");
+            log.info(AppConst.SUCCESS_LOG_PREFIX + "Обработано без ошибок " + xmlUtil.getSuccessCount() + " файлов");
 
             if (xmlUtil.getFailCount() > 0)
-                log.error(AppConts.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
+                log.error(AppConst.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
         } catch (Exception ex) {
-            log.error(AppConts.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
+            log.error(AppConst.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
-        log.info(AppConts.APP_LOG_PREFIX + "********* Завершение программы *********");
+        log.info(AppConst.APP_LOG_PREFIX + "********* Завершение программы *********");
     }
 
 }

@@ -1,0 +1,47 @@
+lanit:
+  global:
+    appVersion: DEMO-K3
+    debug: true
+    testSteelPercentValue: 30
+    log:
+      level: DEBUG
+spring:
+  application:
+    name: ${lanit.global.appVersion}
+camunda:
+  bpm:
+    application:
+      delete-upon-undeploy: false
+      scan-for-process-definitions: false
+      deploy-changed-only: true
+      resume-previous-versions: true
+      resume-previous-by: a value
+    job-execution:
+      enabled: true
+    metrics:
+      enabled: false
+      db-reporter-activate: false
+
+#camunda.bpm.auto-deployment-enabled: false
+### logging ###
+logging:
+  level:
+    root: ${lanit.global.log.level}
+    executableSql: ${lanit.global.log.level}
+    org:
+      apache:
+        tomcat:
+          util: INFO
+      hibernate:
+        engine:
+          transaction: ${lanit.global.log.level}
+        SQL: ${lanit.global.log.level}
+      springframework:
+        web: ${lanit.global.log.level}
+    ru:
+      lanit: DEBUG
+    sun: INFO
+    javax: INFO
+server:
+  servlet:
+    context-path: /k3
