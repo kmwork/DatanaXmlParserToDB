@@ -23,7 +23,7 @@ public class S7AppRunner implements ApplicationRunner {
 
 
     @Autowired
-    private LanitSpringConfig springConfig;
+    private LanitSpringConfig lanitSpringConfig;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
@@ -31,10 +31,10 @@ public class S7AppRunner implements ApplicationRunner {
 
 
         try {
-            log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + springConfig.getAppVersion());
+            log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + lanitSpringConfig.getAppVersion());
 
             XmlUtil xmlUtil = new XmlUtil();
-            File xmlS7RootFile = new File(springConfig.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
+            File xmlS7RootFile = new File(lanitSpringConfig.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
@@ -69,7 +69,7 @@ public class S7AppRunner implements ApplicationRunner {
 
             for (String node : nodes) {
                 StringBuilder dir = new StringBuilder(1024);
-                dir.append(springConfig.getDataFileDir());
+                dir.append(lanitSpringConfig.getDataFileDir());
                 dir.append(File.separator);
                 dir.append(node);
                 dir.append(File.separator);
