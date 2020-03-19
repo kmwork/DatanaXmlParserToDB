@@ -1,18 +1,35 @@
 package ru.datana.steel.parser.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import ru.datana.steel.parser.config.DbConst;
 import ru.datana.steel.parser.model.entity.ControllersEntity;
 import ru.datana.steel.parser.model.xml.ControllerType;
-import ru.datana.steel.parser.model.xml.RootType;
+import ru.datana.steel.parser.model.xml.ItemsType;
 
+import javax.persistence.EntityManager;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+@Component
 public class LanitEntryBuilder {
 
-    public List<ControllersEntity> fromXmlRootType(RootType xmlRootType) {
-        List<ControllerType> xmlList = xmlRootType.getControllers().getController();
-        List<ControllersEntity> result = new ArrayList<>(xmlList.size());
+    @Autowired
+    private EntityManager entityManager;
+    private final List<ControllersEntity> result = new ArrayList<>();
+
+    /**
+     * ключ note-nameController-fileName
+     */
+    private final Map<String, Map<String, Map<String, List<ItemsType>>>> itemsByComplexKey = new HashMap<>();
+
+    public LanitEntryBuilder() {
+
+    }
+
+    public void addControllerList(List<ControllerType> xmlList) {
         for (ControllerType xml : xmlList) {
             ControllersEntity entity = new ControllersEntity();
             entity.setControllerName(xml.getName());
@@ -22,7 +39,25 @@ public class LanitEntryBuilder {
             entity.setSlot(Integer.parseInt(xml.getSlot()));
             entity.setTimeout(DbConst.DEFAULT_TIMEOUT);
         }
-        return result;
+    }
 
+    public void addItems(String node, String nameController, String fileName, ItemsType items) {
+        Map<String, Map<String, List<ItemsType>>> mapNode = itemsByComplexKey.get(node);
+        if (mapNode == null) {
+            mapNode = new HashMap<>();
+            itemsByComplexKey.put(node, mapNode);
+        }
+        Map<String, List<ItemsType>> mapController = mapNode.get(nameController);
+        if (mapController == null) {
+            mapController = new HashMap<>();
+            mapNode.put(nameController, mapController);
+        }
+
+        List<ItemsType> itemsByFileName = mapController.get(fileName);
+        if (itemsByFileName == null) {
+            itemsByFileName = new ArrayList<>();
+            mapController.put(fileName, itemsByFileName);
+        }
+        itemsByFileName.add(items);
     }
 }

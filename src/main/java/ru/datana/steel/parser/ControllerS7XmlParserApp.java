@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import ru.datana.steel.parser.config.AppConst;
 import ru.datana.steel.parser.config.LanitSpringConfig;
+import ru.datana.steel.parser.model.LanitEntryBuilder;
 import ru.datana.steel.parser.model.xml.ControllerType;
 import ru.datana.steel.parser.model.xml.ItemsType;
 import ru.datana.steel.parser.model.xml.RootType;
@@ -67,8 +68,11 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             XmlUtil xmlUtil = new XmlUtil();
             File xmlS7RootFile = new File(lanitSpringConfig.getDataDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
-
+            LanitEntryBuilder builder = new LanitEntryBuilder();
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
+            builder.addControllerList(controllerTypeList);
+
+
             Set<String> nodes = new LinkedHashSet<>(controllerTypeList.size());
             Map<String, Set<String>> nameByNode = new HashMap<>(controllerTypeList.size());
             for (ControllerType controllerType : controllerTypeList) {
@@ -97,7 +101,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             }
             log.info(AppConst.APP_LOG_PREFIX + " Найдено нод: " + nodes.toString());
 
-
+            Map<String, ItemsType> controllerByNode = new HashMap<>(nodes.size());
             for (String node : nodes) {
                 StringBuilder dir = new StringBuilder(1024);
                 dir.append(lanitSpringConfig.getDataDir());
@@ -115,30 +119,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
                     throw new AppException(TypeException.DIR_NOT_FOUND, "Нет папки для скана с нодой котроллера", strArgs, null);
                 }
                 for (String nameController : names) {
-                    File xmlS7DbFileDir = new File(dir.toString() + File.separator + nameController + File.separator);
-
-
-                    if (!xmlS7DbFileDir.exists()) {
-                        String strArgs = "dir file: " + xmlS7DbFileDir.getAbsoluteFile() + " node: " + node + ", nameController:" + nameController;
-                        throw new AppException(TypeException.DIR_NOT_FOUND, "Нет папки для скана db-файлов", strArgs, null);
-                    }
-
-                    String[] dbFile = xmlS7DbFileDir.list();
-                    List<File> selectedDBFiles = new ArrayList<>(dbFile.length);
-                    for (String fileName : dbFile) {
-                        File f = new File(xmlS7DbFileDir, fileName);
-
-                        if (f.isDirectory() || !f.getName().matches(AppConst.S7_REG_EXPRESSION_DB_NAME)) {
-                            log.warn(AppConst.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());
-                            continue;
-                        }
-
-                        selectedDBFiles.add(f);
-                    }
-
-                    for (File f : selectedDBFiles) {
-                        ItemsType items = xmlUtil.xmlFileToObject(f, ItemsType.class);
-                    }
+                    parseSingleController(builder, node, dir.toString(), nameController);
                 }
             }
 
@@ -150,6 +131,35 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             log.error(AppConst.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
         log.info(AppConst.APP_LOG_PREFIX + "********* Завершение программы *********");
+    }
+
+    private void parseSingleController(LanitEntryBuilder builder, String node, String dir, String nameController) throws AppException {
+        XmlUtil xmlUtil = XmlUtil.getInstance();
+        File xmlS7DbFileDir = new File(dir + File.separator + nameController + File.separator);
+
+
+        if (!xmlS7DbFileDir.exists()) {
+            String strArgs = "dir file: " + xmlS7DbFileDir.getAbsoluteFile() + " node: " + node + ", nameController:" + nameController;
+            throw new AppException(TypeException.DIR_NOT_FOUND, "Нет папки для скана db-файлов", strArgs, null);
+        }
+
+        String[] dbFile = xmlS7DbFileDir.list();
+        List<File> selectedDBFiles = new ArrayList<>(dbFile.length);
+        for (String fileName : dbFile) {
+            File f = new File(xmlS7DbFileDir, fileName);
+
+            if (f.isDirectory() || !f.getName().matches(AppConst.S7_REG_EXPRESSION_DB_NAME)) {
+                log.warn(AppConst.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());
+                continue;
+            }
+
+            selectedDBFiles.add(f);
+        }
+
+        for (File f : selectedDBFiles) {
+            ItemsType items = xmlUtil.xmlFileToObject(f, ItemsType.class);
+            builder.addItems(node, nameController, f.getName(), items);
+        }
     }
 
 }
