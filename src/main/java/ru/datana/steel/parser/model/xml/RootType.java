@@ -6,7 +6,7 @@
 //
 
 
-package ru.datana.steel.parser.xml.pojo;
+package ru.datana.steel.parser.model.xml;
 
 import lombok.ToString;
 

@@ -1,4 +1,4 @@
-package ru.datana.steel.parser.entity;
+package ru.datana.steel.parser.model.entity;
 
 import lombok.Data;
 import ru.datana.steel.parser.config.DbConst;

@@ -6,7 +6,7 @@
 //
 
 
-package ru.datana.steel.parser.xml.pojo;
+package ru.datana.steel.parser.model.xml;
 
 import lombok.ToString;
 
@@ -14,22 +14,24 @@ import javax.xml.bind.annotation.*;
 
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "itemType", propOrder = {
+@XmlType(name = "controllerType", propOrder = {
         "value"
 })
 @ToString
-public class ItemType {
+public class ControllerType {
 
     @XmlValue
     protected String value;
-    @XmlAttribute(name = "type")
-    protected String type;
+    @XmlAttribute(name = "name")
+    protected String name;
+    @XmlAttribute(name = "ip")
+    protected String ip;
+    @XmlAttribute(name = "rack")
+    protected String rack;
+    @XmlAttribute(name = "slot")
+    protected String slot;
     @XmlAttribute(name = "note")
     protected String note;
-    @XmlAttribute(name = "tp")
-    protected String tp;
-    @XmlAttribute(name = "ts")
-    protected String ts;
 
     /**
      * Gets the value of the value property.
@@ -52,23 +54,83 @@ public class ItemType {
     }
 
     /**
-     * Gets the value of the type property.
+     * Gets the value of the name property.
      *
      * @return possible object is
      * {@link String }
      */
-    public String getType() {
-        return type;
+    public String getName() {
+        return name;
     }
 
     /**
-     * Sets the value of the type property.
+     * Sets the value of the name property.
      *
      * @param value allowed object is
      *              {@link String }
      */
-    public void setType(String value) {
-        this.type = value;
+    public void setName(String value) {
+        this.name = value;
+    }
+
+    /**
+     * Gets the value of the ip property.
+     *
+     * @return possible object is
+     * {@link String }
+     */
+    public String getIp() {
+        return ip;
+    }
+
+    /**
+     * Sets the value of the ip property.
+     *
+     * @param value allowed object is
+     *              {@link String }
+     */
+    public void setIp(String value) {
+        this.ip = value;
+    }
+
+    /**
+     * Gets the value of the rack property.
+     *
+     * @return possible object is
+     * {@link String }
+     */
+    public String getRack() {
+        return rack;
+    }
+
+    /**
+     * Sets the value of the rack property.
+     *
+     * @param value allowed object is
+     *              {@link String }
+     */
+    public void setRack(String value) {
+        this.rack = value;
+    }
+
+    /**
+     * Gets the value of the slot property.
+     *
+     * @return possible object is
+     * {@link String }
+     */
+    public String getSlot() {
+        return slot;
+    }
+
+    /**
+     * Sets the value of the slot property.
+     *
+     * @param value allowed object is
+     *              {@link String }
+     */
+    public void setSlot(String value) {
+        this.slot = value;
     }
 
     /**
@@ -89,46 +151,6 @@ public class ItemType {
      */
     public void setNote(String value) {
         this.note = value;
-    }
-
-    /**
-     * Gets the value of the tp property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getTp() {
-        return tp;
-    }
-
-    /**
-     * Sets the value of the tp property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setTp(String value) {
-        this.tp = value;
-    }
-
-    /**
-     * Gets the value of the ts property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getTs() {
-        return ts;
-    }
-
-    /**
-     * Sets the value of the ts property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setTs(String value) {
-        this.ts = value;
     }
 
 }

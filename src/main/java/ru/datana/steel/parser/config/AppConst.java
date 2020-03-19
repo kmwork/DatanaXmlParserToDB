@@ -19,4 +19,6 @@ public class AppConst {
     public static final String S7_REG_EXPRESSION_DB_NAME = "^db[0-9]+\\.xml$";
 
     public static final String DB_POSTGRES_PROFILE = "datana_db_postgres";
+
+
 }

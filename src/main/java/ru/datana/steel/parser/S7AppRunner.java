@@ -7,12 +7,12 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import ru.datana.steel.parser.config.AppConst;
 import ru.datana.steel.parser.config.AppOptions;
+import ru.datana.steel.parser.model.xml.ControllerType;
+import ru.datana.steel.parser.model.xml.ItemsType;
+import ru.datana.steel.parser.model.xml.RootType;
 import ru.datana.steel.parser.utils.AppException;
 import ru.datana.steel.parser.utils.TypeException;
 import ru.datana.steel.parser.utils.XmlUtil;
-import ru.datana.steel.parser.xml.pojo.ControllerType;
-import ru.datana.steel.parser.xml.pojo.ItemsType;
-import ru.datana.steel.parser.xml.pojo.RootType;
 
 import java.io.File;
 import java.util.*;
