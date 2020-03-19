@@ -10,7 +10,7 @@ import java.util.List;
 
 public class LanitEntryBuilder {
 
-    ControllersEntity fromXmlRootType(RootType xmlRootType) {
+    public List<ControllersEntity> fromXmlRootType(RootType xmlRootType) {
         List<ControllerType> xmlList = xmlRootType.getControllers().getController();
         List<ControllersEntity> result = new ArrayList<>(xmlList.size());
         for (ControllerType xml : xmlList) {
@@ -22,7 +22,7 @@ public class LanitEntryBuilder {
             entity.setSlot(Integer.parseInt(xml.getSlot()));
             entity.setTimeout(DbConst.DEFAULT_TIMEOUT);
         }
-
+        return result;
 
     }
 }
