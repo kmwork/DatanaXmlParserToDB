@@ -1,86 +1,39 @@
 package ru.datana.steel.parser.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import lombok.Data;
+import ru.datana.steel.parser.config.DbConst;
+
+import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.Objects;
 
 @Entity
-@Table(name = "controllers_data", schema = "datalake", catalog = "postgres")
+@Table(name = "controllers_data", schema = DbConst.DB_SCHEMA, catalog = DbConst.DB_CATALOG)
+@Data
+@Access(AccessType.FIELD)
 public class ControllersDataEntity {
+    @Id
     private int id;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "unit_id")
     private int unitId;
+
+    @Column(name = "controller_id")
     private int controllerId;
+
+    @Column(name = "data_block")
     private int dataBlock;
+
+    @Column(name = "data_type")
     private String dataType;
     private int dataOffset;
     private String bitmask;
     private Timestamp recDt;
 
-    @Basic
-    @Column(name = "id")
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    @Basic
-    @Column(name = "description")
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    @Basic
-    @Column(name = "unit_id")
-    public int getUnitId() {
-        return unitId;
-    }
-
-    public void setUnitId(int unitId) {
-        this.unitId = unitId;
-    }
-
-    @Basic
-    @Column(name = "controller_id")
-    public int getControllerId() {
-        return controllerId;
-    }
-
-    public void setControllerId(int controllerId) {
-        this.controllerId = controllerId;
-    }
-
-    @Basic
-    @Column(name = "data_block")
-    public int getDataBlock() {
-        return dataBlock;
-    }
-
-    public void setDataBlock(int dataBlock) {
-        this.dataBlock = dataBlock;
-    }
-
-    @Basic
-    @Column(name = "data_type")
-    public String getDataType() {
-        return dataType;
-    }
-
-    public void setDataType(String dataType) {
-        this.dataType = dataType;
-    }
-
-    @Basic
     @Column(name = "data_offset")
     public int getDataOffset() {
         return dataOffset;
@@ -90,7 +43,7 @@ public class ControllersDataEntity {
         this.dataOffset = dataOffset;
     }
 
-    @Basic
+
     @Column(name = "bitmask")
     public String getBitmask() {
         return bitmask;
@@ -100,7 +53,7 @@ public class ControllersDataEntity {
         this.bitmask = bitmask;
     }
 
-    @Basic
+
     @Column(name = "rec_dt")
     public Timestamp getRecDt() {
         return recDt;

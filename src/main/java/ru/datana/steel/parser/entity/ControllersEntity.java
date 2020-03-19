@@ -1,120 +1,38 @@
 package ru.datana.steel.parser.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import java.util.Objects;
+import lombok.Data;
+import ru.datana.steel.parser.config.DbConst;
+
+import javax.persistence.*;
 
 @Entity
-@Table(name = "controllers", schema = "datalake", catalog = "postgres")
+@Table(name = "controllers", schema = DbConst.DB_SCHEMA, catalog = DbConst.DB_CATALOG)
+@Data
+@Access(AccessType.FIELD)
 public class ControllersEntity {
+    @Id
     private int id;
-    private String controllerName;
-    private int rack;
-    private int slot;
-    private String ip;
-    private boolean writeEnable;
-    private Boolean permanentConnection;
-    private Integer timeout;
 
-    @Basic
-    @Column(name = "id")
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    @Basic
     @Column(name = "controller_name")
-    public String getControllerName() {
-        return controllerName;
-    }
+    private String controllerName;
 
-    public void setControllerName(String controllerName) {
-        this.controllerName = controllerName;
-    }
 
-    @Basic
     @Column(name = "rack")
-    public int getRack() {
-        return rack;
-    }
+    private int rack;
 
-    public void setRack(int rack) {
-        this.rack = rack;
-    }
 
-    @Basic
     @Column(name = "slot")
-    public int getSlot() {
-        return slot;
-    }
+    private int slot;
 
-    public void setSlot(int slot) {
-        this.slot = slot;
-    }
-
-    @Basic
     @Column(name = "ip")
-    public String getIp() {
-        return ip;
-    }
+    private String ip;
 
-    public void setIp(String ip) {
-        this.ip = ip;
-    }
-
-    @Basic
     @Column(name = "write_enable")
-    public boolean isWriteEnable() {
-        return writeEnable;
-    }
+    private boolean writeEnable;
 
-    public void setWriteEnable(boolean writeEnable) {
-        this.writeEnable = writeEnable;
-    }
-
-    @Basic
     @Column(name = "permanent_connection")
-    public Boolean getPermanentConnection() {
-        return permanentConnection;
-    }
+    private Boolean permanentConnection;
 
-    public void setPermanentConnection(Boolean permanentConnection) {
-        this.permanentConnection = permanentConnection;
-    }
-
-    @Basic
     @Column(name = "timeout")
-    public Integer getTimeout() {
-        return timeout;
-    }
-
-    public void setTimeout(Integer timeout) {
-        this.timeout = timeout;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ControllersEntity that = (ControllersEntity) o;
-        return id == that.id &&
-                rack == that.rack &&
-                slot == that.slot &&
-                writeEnable == that.writeEnable &&
-                Objects.equals(controllerName, that.controllerName) &&
-                Objects.equals(ip, that.ip) &&
-                Objects.equals(permanentConnection, that.permanentConnection) &&
-                Objects.equals(timeout, that.timeout);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, controllerName, rack, slot, ip, writeEnable, permanentConnection, timeout);
-    }
+    private Integer timeout;
 }

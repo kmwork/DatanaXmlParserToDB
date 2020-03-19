@@ -1,61 +1,24 @@
 package ru.datana.steel.parser.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import lombok.Data;
+import ru.datana.steel.parser.config.DbConst;
+
+import javax.persistence.*;
 import java.sql.Timestamp;
-import java.util.Objects;
 
 @Entity
-@Table(name = "units", schema = "datalake", catalog = "postgres")
+@Table(name = "units", schema = DbConst.DB_SCHEMA, catalog = DbConst.DB_CATALOG)
+@Data
+@Access(AccessType.FIELD)
 public class UnitsEntity {
+
+    @Id
     private int id;
-    private String name;
-    private Timestamp recDt;
 
-    @Basic
-    @Column(name = "id")
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    @Basic
     @Column(name = "name")
-    public String getName() {
-        return name;
-    }
+    private String name;
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    @Basic
     @Column(name = "rec_dt")
-    public Timestamp getRecDt() {
-        return recDt;
-    }
-
-    public void setRecDt(Timestamp recDt) {
-        this.recDt = recDt;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        UnitsEntity that = (UnitsEntity) o;
-        return id == that.id &&
-                Objects.equals(name, that.name) &&
-                Objects.equals(recDt, that.recDt);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name, recDt);
-    }
+    private Timestamp recDt;
 }
