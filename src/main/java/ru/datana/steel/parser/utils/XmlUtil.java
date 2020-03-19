@@ -18,7 +18,7 @@ public class XmlUtil {
     @Getter
     private int failCount = 0;
 
-    public <XML_CLASS> XML_CLASS xmlFileToObject(File xmlFile, Class<XML_CLASS> clazz) throws AppException {
+    public <XML_CLASS extends Object> XML_CLASS xmlFileToObject(File xmlFile, Class<XML_CLASS> clazz) throws AppException {
         try {
             log.info(PREFIX_LOG + " Начало разбора файла " + xmlFile.getAbsolutePath() + " для класса " + clazz.getSimpleName());
             JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
