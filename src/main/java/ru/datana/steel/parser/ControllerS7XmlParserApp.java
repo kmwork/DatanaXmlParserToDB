@@ -107,7 +107,9 @@ public class ControllerS7XmlParserApp {
             }
 
             log.info(AppConts.SUCCESS_LOG_PREFIX + "Обработано без ошибок " + xmlUtil.getSuccessCount() + " файлов");
-            log.info(AppConts.SUCCESS_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
+
+            if (xmlUtil.getFailCount() > 0)
+                log.error(AppConts.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
         } catch (Exception ex) {
             log.error(AppConts.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
