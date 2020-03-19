@@ -2,14 +2,18 @@ package ru.datana.steel.parser;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import ru.datana.steel.parser.config.AppConts;
 import ru.datana.steel.parser.config.AppOptions;
+import ru.datana.steel.parser.utils.AppException;
+import ru.datana.steel.parser.utils.TypeException;
 import ru.datana.steel.parser.utils.XmlUtil;
+import ru.datana.steel.parser.xml.pojo.ControllerType;
 import ru.datana.steel.parser.xml.pojo.ItemsType;
 import ru.datana.steel.parser.xml.pojo.RootType;
 
 import java.io.File;
-import java.util.Arrays;
+import java.util.*;
 
 @Slf4j
 public class ControllerS7XmlParserApp {
@@ -22,14 +26,84 @@ public class ControllerS7XmlParserApp {
         try {
             AppOptions appOptions = new AppOptions();
             appOptions.load();
-            log.info("Версия XML Парсера для ММК: " + appOptions.getAppVersion());
+            log.info(AppConts.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + appOptions.getAppVersion());
 
             File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConts.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = XmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
+            List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
+            Set<String> nodes = new LinkedHashSet<>(controllerTypeList.size());
+            Map<String, Set<String>> nameByNode = new HashMap<>(controllerTypeList.size());
+            for (ControllerType controllerType : controllerTypeList) {
+                String node = controllerType.getNote().toUpperCase().trim();
+                String nameController = controllerType.getName().toUpperCase().trim();
 
-            File xmlS7DbFile = new File(appOptions.getDataFileDir() + File.separator + "UPK2" + File.separator + "PLC_LA" + File.separator + "db601.xml");
-            ItemsType items = XmlUtil.xmlFileToObject(xmlS7DbFile, ItemsType.class);
+                if (StringUtils.isEmpty(nameController) || StringUtils.isEmpty(node)) {
+                    String strArgs = "node: '" + node + "', nameController = '" + nameController + "'";
+                    throw new AppException(TypeException.ROOT_XML_NULL_ATTRIBUTE_LINES_ERROR, "Пустое поле [node] или [name]", strArgs, null);
+                }
+
+                nodes.add(node);
+                Set<String> names = nameByNode.get(node);
+                if (names == null) {
+                    names = new TreeSet<>();
+                    nameByNode.put(node, names);
+                }
+
+                if (names.contains(nameController)) {
+                    String strArgs = "root file: " + xmlS7RootFile.getAbsolutePath() + " node: " + node + ", names:" + names + " для nameController = " + nameController;
+                    throw new AppException(TypeException.ROOT_XML_DUPLICATE_LINES_ERROR, "Дублирование пара [node][name]", strArgs, null);
+                }
+
+
+                names.add(nameController);
+            }
+            log.info(AppConts.APP_LOG_PREFIX + " Найдено нод: " + nodes.toString());
+
+
+            StringBuilder dir = new StringBuilder(1024);
+            dir.append(appOptions.getDataFileDir());
+            dir.append(File.separator);
+            for (String node : nodes) {
+                dir.append(node);
+                dir.append(File.separator);
+                Set<String> names = nameByNode.get(node);
+                if (names == null || names.size() == 0) {
+                    continue;
+                }
+
+                File fileDir = new File(dir.toString());
+                if (!fileDir.exists()) {
+                    String strArgs = "dir file: " + fileDir.getAbsoluteFile() + ", node: " + node + ", names:" + names;
+                    throw new AppException(TypeException.DIR_NOT_FOUND, "Нет папки для скана с нодой котроллера", strArgs, null);
+                }
+                for (String nameController : names) {
+                    File xmlS7DbFileDir = new File(dir.toString() + File.separator + nameController + File.separator);
+
+
+                    if (!xmlS7DbFileDir.exists()) {
+                        String strArgs = "dir file: " + xmlS7DbFileDir.getAbsoluteFile() + " node: " + node + ", nameController:" + nameController;
+                        throw new AppException(TypeException.DIR_NOT_FOUND, "Нет папки для скана db-файлов", strArgs, null);
+                    }
+
+                    String[] dbFile = xmlS7DbFileDir.list();
+                    List<File> selectedDBFiles = new ArrayList<>(dbFile.length);
+                    for (String fileName : dbFile) {
+                        File f = new File(fileName);
+
+                        if (f.isDirectory() || !f.getName().matches(AppConts.S7_REG_EXPRESSION_DB_NAME)) {
+                            log.warn(AppConts.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());
+                            continue;
+                        }
+
+                        selectedDBFiles.add(f);
+                    }
+
+                    for (File f : selectedDBFiles) {
+                        ItemsType items = XmlUtil.xmlFileToObject(f, ItemsType.class);
+                    }
+                }
+            }
         } catch (Exception ex) {
             log.error(AppConts.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
