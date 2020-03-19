@@ -31,7 +31,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
     private LanitSpringConfig lanitSpringConfig;
 
     @Autowired
-    SaveToDBService saveToDBService;
+    private SaveToDBService saveToDBServiceImpl;
 
     public static void main(String[] args) throws Exception {
         extConfigure();
@@ -132,7 +132,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             if (xmlUtil.getFailCount() > 0)
                 log.error(AppConst.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
             else {
-                saveToDBService.saveRecords(builder);
+                saveToDBServiceImpl.saveRecords(builder);
             }
         } catch (Exception ex) {
             log.error(AppConst.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
