@@ -107,7 +107,8 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ru.datana.steel.parser.ControllerS7XmlParserApp</mainClass>
+                            <mainClass>org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner
+                            </mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
