@@ -9,6 +9,7 @@ import ru.datana.steel.parser.model.entity.ControllersEntity;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 @Scope(proxyMode = ScopedProxyMode.INTERFACES)
 @Transactional
@@ -30,7 +31,8 @@ public class SaveToDBServiceImpl implements SaveToDBService {
     @Override
     @Transactional
     public void dropRecords() {
-        entityManager.createNativeQuery("delete from datalake.controllers");
+        Query query = entityManager.createNativeQuery("delete from datalake.controllers");
+        query.executeUpdate();
     }
 
 }
