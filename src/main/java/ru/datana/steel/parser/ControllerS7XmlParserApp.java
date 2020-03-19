@@ -132,6 +132,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             if (xmlUtil.getFailCount() > 0)
                 log.error(AppConst.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
             else {
+                saveToDBServiceImpl.dropRecords();
                 saveToDBServiceImpl.saveRecords(builder);
             }
         } catch (Exception ex) {
