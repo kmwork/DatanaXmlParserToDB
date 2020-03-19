@@ -48,9 +48,8 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.batch</groupId>
-            <artifactId>spring-batch-core</artifactId>
-            <version>4.2.1.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
         </dependency>
 
 
@@ -113,8 +112,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner
-                            </mainClass>
+                            <mainClass>ru.datana.steel.parser.ControllerS7XmlParserApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
