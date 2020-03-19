@@ -3,10 +3,11 @@ package ru.datana.steel.parser;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import ru.datana.steel.parser.config.AppConst;
-import ru.datana.steel.parser.config.AppOptions;
+import ru.datana.steel.parser.config.LanitSpringConfig;
 import ru.datana.steel.parser.model.xml.ControllerType;
 import ru.datana.steel.parser.model.xml.ItemsType;
 import ru.datana.steel.parser.model.xml.RootType;
@@ -21,18 +22,19 @@ import java.util.*;
 public class S7AppRunner implements ApplicationRunner {
 
 
+    @Autowired
+    private LanitSpringConfig springConfig;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         log.info(AppConst.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args.getSourceArgs()));
 
 
         try {
-            AppOptions appOptions = new AppOptions();
-            appOptions.load();
-            log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + appOptions.getAppVersion());
+            log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + springConfig.getAppVersion());
 
             XmlUtil xmlUtil = new XmlUtil();
-            File xmlS7RootFile = new File(appOptions.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
+            File xmlS7RootFile = new File(springConfig.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
@@ -67,7 +69,7 @@ public class S7AppRunner implements ApplicationRunner {
 
             for (String node : nodes) {
                 StringBuilder dir = new StringBuilder(1024);
-                dir.append(appOptions.getDataFileDir());
+                dir.append(springConfig.getDataFileDir());
                 dir.append(File.separator);
                 dir.append(node);
                 dir.append(File.separator);

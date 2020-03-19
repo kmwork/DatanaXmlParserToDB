@@ -1,47 +1,54 @@
-lanit:
+datana:
   global:
-    appVersion: DEMO-K3
+    ## просьба версию не менять
+    appVersion: 2020-03-19_xml_parser_V1
     debug: true
-    testSteelPercentValue: 30
     log:
       level: DEBUG
+  data-file-dir: "/home/lin/work-lanit/S7ParserXML-K6/DATA"
+  spring:
+    datasource:
+      driver-class: org.postgresql.Driver
+      password: 1
+      jdbcUrl: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      schema: datalake
+
+
+### НИЖЕ НЕ РЕДАКТИРОВАТЬ ПОЛЬЗОВАТЕЛЯМ !!!! ####
 spring:
   application:
-    name: ${lanit.global.appVersion}
-camunda:
-  bpm:
-    application:
-      delete-upon-undeploy: false
-      scan-for-process-definitions: false
-      deploy-changed-only: true
-      resume-previous-versions: true
-      resume-previous-by: a value
-    job-execution:
-      enabled: true
-    metrics:
-      enabled: false
-      db-reporter-activate: false
-
-#camunda.bpm.auto-deployment-enabled: false
+    name: ${datana.global.appVersion}
+  datasource:
+    driver-class: ${datana.spring.datasource.driver-class}
+    driver-class-name: ${datana.spring.datasource.driver-class}
+    hikari:
+      auto-commit: false
+      connection-timeout: 60000
+      maximum-pool-size: 5
+      schema: ${datana.spring.datasource.schema}
+    password: ${datana.spring.datasource.password}
+    testWhileIdle: true
+    url: ${datana.spring.datasource.jdbcUrl}
+    jdbcUrl: ${datana.spring.datasource.jdbcUrl}
+    username: ${datana.spring.datasource.username}
+    validationQuery: SELECT 1
 ### logging ###
 logging:
   level:
-    root: ${lanit.global.log.level}
-    executableSql: ${lanit.global.log.level}
+    root: ${datana.global.log.level}
+    executableSql: ${datana.global.log.level}
     org:
       apache:
         tomcat:
           util: INFO
       hibernate:
         engine:
-          transaction: ${lanit.global.log.level}
-        SQL: ${lanit.global.log.level}
+          transaction: ${datana.global.log.level}
+        SQL: ${datana.global.log.level}
       springframework:
-        web: ${lanit.global.log.level}
+        web: ${datana.global.log.level}
     ru:
       lanit: DEBUG
     sun: INFO
     javax: INFO
-server:
-  servlet:
-    context-path: /k3
