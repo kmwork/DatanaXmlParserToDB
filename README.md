@@ -3,6 +3,8 @@
 
 ### Тех задание - https://conf.dds.lanit.ru/pages/viewpage.action?pageId=43683818
 (или файл -NIOKR-43683818-180320-1517-61.pdf в папке <this project>/doc-manual)
+#### Задача в JIRA - https://jira.dds.lanit.ru/browse/VACUM-22
+
 ### Конечная цель - https://conf.dds.lanit.ru/display/NIOKR/PLC+Proxy+Server 
 (или файл - NIOKR-PLCProxyServer-180320-1342-59.pdf в папке <this project>/doc-manual)
 ## cборка Maven 3 + JDK 13
