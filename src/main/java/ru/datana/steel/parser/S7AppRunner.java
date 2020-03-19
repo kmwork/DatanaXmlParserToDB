@@ -4,8 +4,8 @@ package ru.datana.steel.parser;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.ApplicationArguments;
-import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 import ru.datana.steel.parser.config.AppConst;
 import ru.datana.steel.parser.config.LanitSpringConfig;
 import ru.datana.steel.parser.model.xml.ControllerType;
@@ -18,16 +18,18 @@ import ru.datana.steel.parser.utils.XmlUtil;
 import java.io.File;
 import java.util.*;
 
+@Component
 @Slf4j
-public class S7AppRunner implements ApplicationRunner {
+public class S7AppRunner implements CommandLineRunner {
 
 
     @Autowired
     private LanitSpringConfig lanitSpringConfig;
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
-        log.info(AppConst.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args.getSourceArgs()));
+    public void run(String... args) throws Exception {
+
+        log.info(AppConst.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args));
 
 
         try {
