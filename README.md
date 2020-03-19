@@ -8,7 +8,7 @@
 ### Конечная цель - https://conf.dds.lanit.ru/display/NIOKR/PLC+Proxy+Server 
 (или файл - NIOKR-PLCProxyServer-180320-1342-59.pdf в папке <this project>/doc-manual)
 ## cборка Maven 3 + JDK 13
-`mvn clean compile assembly:single`
+`mvn clean compile package`
 ## Как пользоваться
 после сборки мавеном, из папки <this project>/etc для bat и sh командые файлы
 ### примерный синтаксис команды

@@ -9,7 +9,7 @@
     <description>Загрузка конфигурации контроллеров из xml</description>
 
     <version>1-alfa</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <properties>
         <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
         <maven.compiler.source>13</maven.compiler.source>
@@ -109,18 +109,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>ru.datana.steel.parser.ControllerS7XmlParserApp</mainClass>
-                        </manifest>
-                    </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
+                    <mainClass>ru.datana.steel.parser.ControllerS7XmlParserApp</mainClass>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
         </plugins>
