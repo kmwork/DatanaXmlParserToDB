@@ -5,13 +5,16 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Import;
 import ru.datana.steel.parser.config.AppConst;
+import ru.datana.steel.parser.config.LanitSpringConfig;
 
 import java.io.File;
 import java.util.Properties;
 
 @Slf4j
 @SpringBootApplication
+@Import(LanitSpringConfig.class)
 public class ControllerS7XmlParserApp {
     public static void main(String[] args) throws Exception {
         extConfigure();
