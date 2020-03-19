@@ -3,6 +3,8 @@ package ru.datana.steel.parser;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
 import ru.datana.steel.parser.config.AppConts;
 import ru.datana.steel.parser.config.AppOptions;
 import ru.datana.steel.parser.utils.AppException;
@@ -16,10 +18,11 @@ import java.io.File;
 import java.util.*;
 
 @Slf4j
-public class ControllerS7XmlParserApp {
+public class ControllerS7XmlParserApp implements ApplicationRunner {
 
 
-    public static void main(String[] args) {
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
         log.info(AppConts.APP_LOG_PREFIX + "================ Запуск  ================. Аргументы = " + Arrays.toString(args));
 
 
