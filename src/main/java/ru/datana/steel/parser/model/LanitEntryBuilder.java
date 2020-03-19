@@ -35,6 +35,7 @@ public class LanitEntryBuilder {
             entity.setRack(Integer.parseInt(xml.getRack()));
             entity.setSlot(Integer.parseInt(xml.getSlot()));
             entity.setTimeout(DbConst.DEFAULT_TIMEOUT);
+            controllersEntities.add(entity);
         }
     }
 
