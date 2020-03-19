@@ -18,13 +18,13 @@ public class XmlUtil {
     @Getter
     private int failCount = 0;
 
+    @SuppressWarnings("unchecked")
     public <XML_CLASS extends Object> XML_CLASS xmlFileToObject(File xmlFile, Class<XML_CLASS> clazz) throws AppException {
         try {
             log.info(PREFIX_LOG + " Начало разбора файла " + xmlFile.getAbsolutePath() + " для класса " + clazz.getSimpleName());
             JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-            Object xmlObj = unmarshaller.unmarshal(xmlFile);
-            XML_CLASS result = (XML_CLASS) xmlObj;
+            XML_CLASS result = (XML_CLASS) unmarshaller.unmarshal(xmlFile);
             log.info(PREFIX_LOG + "Файл разобран как объект класса " + result.getClass().getSimpleName());
             log.trace(PREFIX_LOG + "result = " + result.toString());
 
