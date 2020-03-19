@@ -4,7 +4,7 @@ datana:
     appVersion: 2020-03-19_xml_parser_V1
     debug: true
     log:
-      level: DEBUG
+      level: INFO
     data-dir: "/home/lin/work-lanit/S7ParserXML-K6/DATA"
   spring:
     datasource:
@@ -65,6 +65,6 @@ logging:
       springframework:
         web: ${datana.global.log.level}
     ru:
-      lanit: DEBUG
+      datana: DEBUG
     sun: INFO
     javax: INFO
