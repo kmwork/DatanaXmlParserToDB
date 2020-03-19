@@ -34,14 +34,4 @@ public class LanitSpringConfig {
         log.info(LOG_PREFIX + "Версия XML Парсера для ММК: " + appVersion);
         log.info(LOG_PREFIX + "Папка с xml указана как: " + dataFileDir);
     }
-
-
-//    @Bean
-//    public PropertySource<?> yamlPropertySourceLoader() throws IOException {
-//        YamlPropertySourceLoader loader = new YamlPropertySourceLoader();
-//        PropertySource<?> applicationYamlPropertySource = loader.load("application.yml",
-//                new ClassPathResource("application.yml"), "default");
-//        return applicationYamlPropertySource;
-//    }
-
 }
