@@ -11,6 +11,7 @@ import javax.persistence.*;
 @Access(AccessType.FIELD)
 public class SetupAreasEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
 
     @Column(name = "description")

@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 public class UnitsEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @Column(name = "name")

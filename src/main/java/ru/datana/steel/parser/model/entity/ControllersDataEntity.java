@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Access(AccessType.FIELD)
 public class ControllersDataEntity {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
     @Column(name = "description")

@@ -10,11 +10,8 @@ import javax.persistence.*;
 @Data
 @Access(AccessType.FIELD)
 public class ControllersTasksDataEntity {
-    @Column(name = "controller_task_id")
-    private int controllerTaskId;
-
-    @Column(name = "controller_data_id")
-    private int controllerDataId;
+    @EmbeddedId
+    private EmbeddableControllerID id;
 
 
 }
