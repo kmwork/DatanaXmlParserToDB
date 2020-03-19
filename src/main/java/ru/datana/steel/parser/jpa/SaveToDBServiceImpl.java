@@ -31,7 +31,7 @@ public class SaveToDBServiceImpl implements SaveToDBService {
     @Override
     @Transactional
     public void dropRecords() {
-        Query query = entityManager.createNativeQuery("delete from datalake.controllers");
+        Query query = entityManager.createNativeQuery("truncate datalake.controllers");
         query.executeUpdate();
     }
 
