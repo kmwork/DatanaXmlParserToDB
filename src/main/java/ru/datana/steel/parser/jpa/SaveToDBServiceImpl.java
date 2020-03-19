@@ -21,6 +21,8 @@ public class SaveToDBServiceImpl implements SaveToDBService {
     @Override
     @Transactional
     public void saveRecords(LanitEntryBuilder builder) {
+
+        entityManager.createNativeQuery("delete from datalake.controllers");
         for (ControllersEntity c : builder.getControllersEntities()) {
             entityManager.persist(c);
         }
