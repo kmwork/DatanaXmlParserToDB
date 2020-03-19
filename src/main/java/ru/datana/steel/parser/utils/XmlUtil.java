@@ -13,7 +13,10 @@ public class XmlUtil {
     private static final String PREFIX_LOG = "[XML] ";
 
     @Getter
-    private final static XmlUtil instance = new XmlUtil();
+    private static final XmlUtil instance = new XmlUtil();
+
+    private XmlUtil() {
+    }
 
     @Getter
     private int successCount = 0;

@@ -65,7 +65,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
         try {
             log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + lanitSpringConfig.getAppVersion());
 
-            XmlUtil xmlUtil = new XmlUtil();
+            XmlUtil xmlUtil = XmlUtil.getInstance();
             File xmlS7RootFile = new File(lanitSpringConfig.getDataDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
             LanitEntryBuilder builder = new LanitEntryBuilder();

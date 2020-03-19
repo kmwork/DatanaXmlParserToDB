@@ -1,7 +1,5 @@
 package ru.datana.steel.parser.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import ru.datana.steel.parser.config.DbConst;
 import ru.datana.steel.parser.model.entity.ControllersEntity;
 import ru.datana.steel.parser.model.xml.ControllerType;
@@ -13,10 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component
 public class LanitEntryBuilder {
 
-    @Autowired
     private EntityManager entityManager;
     private final List<ControllersEntity> result = new ArrayList<>();
 
