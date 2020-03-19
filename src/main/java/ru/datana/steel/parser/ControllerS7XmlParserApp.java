@@ -21,6 +21,7 @@ import ru.datana.steel.parser.utils.TypeException;
 import ru.datana.steel.parser.utils.XmlUtil;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.io.File;
 import java.util.*;
 
@@ -32,7 +33,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
     @Autowired
     private LanitSpringConfig lanitSpringConfig;
 
-    @Autowired
+    @PersistenceContext
     private EntityManager entityManager;
 
     public static void main(String[] args) throws Exception {
