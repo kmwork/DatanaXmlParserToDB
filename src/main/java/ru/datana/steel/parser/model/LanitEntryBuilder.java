@@ -1,11 +1,11 @@
 package ru.datana.steel.parser.model;
 
+import lombok.Getter;
 import ru.datana.steel.parser.config.DbConst;
 import ru.datana.steel.parser.model.entity.ControllersEntity;
 import ru.datana.steel.parser.model.xml.ControllerType;
 import ru.datana.steel.parser.model.xml.ItemsType;
 
-import javax.persistence.EntityManager;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,12 +13,13 @@ import java.util.Map;
 
 public class LanitEntryBuilder {
 
-    private EntityManager entityManager;
-    private final List<ControllersEntity> result = new ArrayList<>();
+    @Getter
+    private final List<ControllersEntity> controllersEntities = new ArrayList<>();
 
     /**
      * ключ note-nameController-fileName
      */
+    @Getter
     private final Map<String, Map<String, Map<String, List<ItemsType>>>> itemsByComplexKey = new HashMap<>();
 
     public LanitEntryBuilder() {

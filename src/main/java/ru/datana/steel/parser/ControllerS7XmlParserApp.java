@@ -8,9 +8,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
+import org.springframework.transaction.annotation.Transactional;
 import ru.datana.steel.parser.config.AppConst;
 import ru.datana.steel.parser.config.LanitSpringConfig;
 import ru.datana.steel.parser.model.LanitEntryBuilder;
+import ru.datana.steel.parser.model.entity.ControllersEntity;
 import ru.datana.steel.parser.model.xml.ControllerType;
 import ru.datana.steel.parser.model.xml.ItemsType;
 import ru.datana.steel.parser.model.xml.RootType;
@@ -18,6 +20,7 @@ import ru.datana.steel.parser.utils.AppException;
 import ru.datana.steel.parser.utils.TypeException;
 import ru.datana.steel.parser.utils.XmlUtil;
 
+import javax.persistence.EntityManager;
 import java.io.File;
 import java.util.*;
 
@@ -28,6 +31,9 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
 
     @Autowired
     private LanitSpringConfig lanitSpringConfig;
+
+    @Autowired
+    private EntityManager entityManager;
 
     public static void main(String[] args) throws Exception {
         extConfigure();
@@ -127,10 +133,20 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
 
             if (xmlUtil.getFailCount() > 0)
                 log.error(AppConst.ERROR_LOG_PREFIX + "Найдено ошибок в " + xmlUtil.getFailCount() + " файлов");
+            else {
+                saveRecords(builder);
+            }
         } catch (Exception ex) {
             log.error(AppConst.ERROR_LOG_PREFIX + " Ошибка в программе", ex);
         }
         log.info(AppConst.APP_LOG_PREFIX + "********* Завершение программы *********");
+    }
+
+    @Transactional
+    protected void saveRecords(LanitEntryBuilder builder) {
+        for (ControllersEntity c : builder.getControllersEntities()) {
+            entityManager.persist(c);
+        }
     }
 
     private void parseSingleController(LanitEntryBuilder builder, String node, String dir, String nameController) throws AppException {
