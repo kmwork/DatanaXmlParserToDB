@@ -27,11 +27,11 @@ public class LanitSpringConfig {
 
     @Getter
     @Setter
-    protected String dataFileDir;
+    protected String dataDir;
 
     @PostConstruct
     protected void postConstruct() {
         log.info(LOG_PREFIX + "Версия XML Парсера для ММК: " + appVersion);
-        log.info(LOG_PREFIX + "Папка с xml указана как: " + dataFileDir);
+        log.info(LOG_PREFIX + "Папка с xml указана как: " + dataDir);
     }
 }
