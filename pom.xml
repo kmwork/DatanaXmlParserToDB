@@ -9,12 +9,13 @@
     <description>Загрузка конфигурации контроллеров из xml</description>
 
     <version>1-alfa</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <properties>
         <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <app.main.class>ru.datana.steel.parser.ControllerS7XmlParserApp</app.main.class>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -106,21 +107,47 @@
                     <!--                    </xjbSources>-->
                 </configuration>
             </plugin>
+
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
-                    <mainClass>ru.datana.steel.parser.ControllerS7XmlParserApp</mainClass>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>${app.main.class}</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
 
             <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.3</version>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                            <finalName>mmk-xml-parser</finalName>
+                            <archive>
+                                <manifest>
+                                    <addClasspath>true</addClasspath>
+                                    <mainClass>${app.main.class}</mainClass>
+                                </manifest>
+                            </archive>
+                            <descriptors>
+                                <descriptor>src/assembly/datana-assembly.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
+
+
 </project>
