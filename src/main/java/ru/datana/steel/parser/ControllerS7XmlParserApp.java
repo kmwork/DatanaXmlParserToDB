@@ -89,7 +89,7 @@ public class ControllerS7XmlParserApp {
                     String[] dbFile = xmlS7DbFileDir.list();
                     List<File> selectedDBFiles = new ArrayList<>(dbFile.length);
                     for (String fileName : dbFile) {
-                        File f = new File(fileName);
+                        File f = new File(xmlS7DbFileDir, fileName);
 
                         if (f.isDirectory() || !f.getName().matches(AppConts.S7_REG_EXPRESSION_DB_NAME)) {
                             log.warn(AppConts.ERROR_LOG_PREFIX + "Пропущен файл (или каталог)" + f.getAbsoluteFile());

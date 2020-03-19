@@ -16,5 +16,5 @@ public class AppConts {
 
     public static final String S7_ROOT_CONFIG_FILE_NAME = "config-plc.xml";
 
-    public static final String S7_REG_EXPRESSION_DB_NAME = "#^db[0-9]+\\.xml$#";
+    public static final String S7_REG_EXPRESSION_DB_NAME = "^db[0-9]+\\.xml$";
 }
