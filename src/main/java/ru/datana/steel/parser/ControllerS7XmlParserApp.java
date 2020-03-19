@@ -14,6 +14,7 @@ import java.util.Properties;
 @SpringBootApplication
 public class ControllerS7XmlParserApp {
     public static void main(String[] args) throws Exception {
+        extConfigure();
         SpringApplication app = new SpringApplication(S7AppRunner.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
