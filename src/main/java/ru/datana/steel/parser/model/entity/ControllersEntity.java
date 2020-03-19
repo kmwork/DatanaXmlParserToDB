@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Access(AccessType.FIELD)
 public class ControllersEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", unique = true, insertable = false, updatable = false)
     private int id;
 
     @Column(name = "controller_name")
