@@ -65,7 +65,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
             log.info(AppConst.APP_LOG_PREFIX + "Версия XML Парсера для ММК: " + lanitSpringConfig.getAppVersion());
 
             XmlUtil xmlUtil = new XmlUtil();
-            File xmlS7RootFile = new File(lanitSpringConfig.getDataFileDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
+            File xmlS7RootFile = new File(lanitSpringConfig.getDataDir(), AppConst.S7_ROOT_CONFIG_FILE_NAME);
             RootType rootConfig = xmlUtil.xmlFileToObject(xmlS7RootFile, RootType.class);
 
             List<ControllerType> controllerTypeList = rootConfig.getControllers().getController();
@@ -100,7 +100,7 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
 
             for (String node : nodes) {
                 StringBuilder dir = new StringBuilder(1024);
-                dir.append(lanitSpringConfig.getDataFileDir());
+                dir.append(lanitSpringConfig.getDataDir());
                 dir.append(File.separator);
                 dir.append(node);
                 dir.append(File.separator);
