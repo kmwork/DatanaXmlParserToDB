@@ -23,7 +23,8 @@ public class XmlUtil {
             log.info(PREFIX_LOG + " Начало разбора файла " + xmlFile.getAbsolutePath() + " для класса " + clazz.getSimpleName());
             JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-            XML_CLASS result = (XML_CLASS) unmarshaller.unmarshal(xmlFile);
+            Object xmlObj = unmarshaller.unmarshal(xmlFile);
+            XML_CLASS result = (XML_CLASS) xmlObj;
             log.info(PREFIX_LOG + "Файл разобран как объект класса " + result.getClass().getSimpleName());
             log.trace(PREFIX_LOG + "result = " + result.toString());
 
