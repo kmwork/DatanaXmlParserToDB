@@ -12,7 +12,9 @@
 ## Как пользоваться
 после сборки мавеном, из папки <this project>/etc для bat и sh командые файлы
 ### примерный синтаксис команды
-`java -Dapp.dir=<путь к папке config> -jar target/S7ParserXML-K6-1-alfa-spring-boot.jar`
+`java -Dapp.profile="dev_postgres" -Dapp.dir=<путь к папке config> -jar target/S7ParserXML-K6-1-alfa-spring-boot.jar`
+
+dev_postgres -- профиль бд разработчика, есть еще remote_postgres
 путь к папке config - где файл `datana_xml_parser.properties` c настройками
 ## настройка
 файл `datana_xml_parser.properties` c настройками + папка DATA с XML
