@@ -59,7 +59,7 @@ public class SaveToDBServiceImpl implements SaveToDBService {
         log.debug("[Очитка БД] запуск");
         Query query = entityManager.createNativeQuery("truncate " + DbConst.DB_SCHEMA + ".controllers");
         query.executeUpdate();
-        query = entityManager.createNativeQuery("truncate " + DbConst.DB_SCHEMA + ".datalake.units");
+        query = entityManager.createNativeQuery("truncate " + DbConst.DB_SCHEMA + ".units");
         query.executeUpdate();
 
         log.debug("[Очитка БД] завершена");
