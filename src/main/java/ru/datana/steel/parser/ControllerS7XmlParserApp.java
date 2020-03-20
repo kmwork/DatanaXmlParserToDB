@@ -42,12 +42,17 @@ public class ControllerS7XmlParserApp implements CommandLineRunner {
 
     private static void extConfigure() {
         String configLocation = System.getProperty(AppConst.SYS_DIR_PROP); //get the default config directory location
-        if (StringUtils.isEmpty(configLocation)) {
+        if (StringUtils.isEmpty(AppConst.SYS_DIR_PROP)) {
             log.error(AppConst.APP_LOG_PREFIX + "Путь к настройкам не указан по java.options по имени свойства =  " + AppConst.SYS_DIR_PROP);
             System.exit(-100);
         }
 
         String strProfile = System.getProperty(AppConst.SYS_PROFILE_PROP);
+        if (StringUtils.isEmpty(strProfile)) {
+            log.error(AppConst.APP_LOG_PREFIX + "Профиль не указан по java.options: " + AppConst.SYS_PROFILE_PROP);
+            System.exit(-110);
+        }
+
         String springProfile = AppConst.DB_DEV_POSTGRES_PROFILE;
         String springFile = AppConst.EXT_DEV_CONFIG_NAME;
         if (strProfile.equalsIgnoreCase(AppConst.DB_REMOTE_POSTGRES_PROFILE)) {
