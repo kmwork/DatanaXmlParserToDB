@@ -6,6 +6,9 @@ import ru.datana.steel.parser.config.DbConst;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * Список агригатов
+ */
 @Entity
 @Table(name = "units", schema = DbConst.DB_SCHEMA, catalog = DbConst.DB_CATALOG)
 @Data
@@ -13,7 +16,8 @@ import java.time.LocalDateTime;
 public class UnitsEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", unique = true, insertable = false, updatable = false)
     private int id;
 
     @Column(name = "name")

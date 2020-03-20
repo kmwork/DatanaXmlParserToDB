@@ -12,7 +12,8 @@ import java.time.LocalDateTime;
 @Access(AccessType.FIELD)
 public class ControllersDataEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", unique = true, insertable = false, updatable = false)
     private int id;
 
     @Column(name = "description")

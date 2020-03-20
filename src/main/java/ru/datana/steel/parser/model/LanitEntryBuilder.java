@@ -61,15 +61,36 @@ public class LanitEntryBuilder {
         itemsByFileName.add(items);
     }
 
-    public ControllersDataEntity convertItemsToControllersDataEntity(String fileName, ItemType item) {
+    public ControllersDataEntity convertItemsToControllersDataEntity(int controllerId, String fileName, ItemType item) {
         ControllersDataEntity entity = new ControllersDataEntity();
-        entity.setControllerId(1);
+        entity.setControllerId(controllerId);
         int dataBlock = parseFileName(fileName);
         entity.setDataBlock(dataBlock);
         entity.setDataType(item.getType());
         entity.setDescription(item.getNote());
-        entity.getDataOffset();
+        parseDataFormat(item, entity);
+        entity.setRecDt(DbConst.SAVE_TIME);
         return entity;
+    }
+
+
+    private void parseDataFormat(ItemType item, ControllersDataEntity entity) {
+        //    <item type="bool" tp="PLC_LA_DB611_DBX" ts="139"/>
+        int mask;
+        int byteOffset;
+        int intOffset = Integer.parseInt(item.getTs());
+        if (item.getType().equals("bool")) {
+            byteOffset = intOffset / 8;
+            int posBit = intOffset % 8;
+            mask = 1 << posBit;
+        } else {
+            mask = DbConst.DEFAULT_MASK;
+            byteOffset = intOffset;
+        }
+
+        entity.setDataOffset(byteOffset);
+        entity.setDataType(item.getType());
+        entity.setBitmask(Integer.toBinaryString(mask));
     }
 
     /**
@@ -81,5 +102,10 @@ public class LanitEntryBuilder {
     private int parseFileName(String fileName) {
         String strNum = fileName.substring(2, fileName.length() - 4);
         return Integer.parseInt(strNum);
+    }
+
+
+    public static void main(String[] arg) {
+
     }
 }
