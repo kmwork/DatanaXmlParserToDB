@@ -71,6 +71,7 @@ public class LanitEntryBuilder {
         entity.setDescription(item.getNote());
         parseDataFormat(item, entity);
         entity.setRecDt(DbConst.SAVE_TIME);
+        entity.setSign(item.getSign() == null ? DbConst.DEFAULT_DATA_SIGN : item.getSign());
         return entity;
     }
 

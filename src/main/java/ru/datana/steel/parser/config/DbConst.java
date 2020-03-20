@@ -8,6 +8,7 @@ public class DbConst {
     public static final Integer DEFAULT_TIMEOUT = 5000;
     public static final Boolean PERMANENT_CONNECTION_FLAG = Boolean.FALSE;
     public static final int DEFAULT_MASK = 0;
+    public static final Boolean DEFAULT_DATA_SIGN = Boolean.FALSE;
 
     public static final LocalDateTime SAVE_TIME = LocalDateTime.now();
 

@@ -27,6 +27,7 @@ import java.util.List;
 public class ItemsType {
 
     protected List<ItemType> item;
+
     public List<ItemType> getItem() {
         if (item == null) {
             item = new ArrayList<ItemType>();
