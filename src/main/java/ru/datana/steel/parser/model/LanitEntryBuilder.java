@@ -61,10 +61,25 @@ public class LanitEntryBuilder {
         itemsByFileName.add(items);
     }
 
-    public ControllersDataEntity convertItemsToControllersDataEntity(ItemType item) {
+    public ControllersDataEntity convertItemsToControllersDataEntity(String fileName, ItemType item) {
         ControllersDataEntity entity = new ControllersDataEntity();
         entity.setControllerId(1);
-        //entity.getDataBlock(item.)
+        int dataBlock = parseFileName(fileName);
+        entity.setDataBlock(dataBlock);
+        entity.setDataType(item.getType());
+        entity.setDescription(item.getNote());
+        entity.getDataOffset();
         return entity;
+    }
+
+    /**
+     * пример db4000.xml
+     *
+     * @param fileName
+     * @return
+     */
+    private int parseFileName(String fileName) {
+        String strNum = fileName.substring(2, fileName.length() - 4);
+        return Integer.parseInt(strNum);
     }
 }

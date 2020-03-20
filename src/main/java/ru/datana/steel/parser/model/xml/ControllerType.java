@@ -33,23 +33,23 @@ public class ControllerType {
     @XmlAttribute(name = "note")
     protected String note;
 
-    /**
-     * Гистерезис в обсалютных значенияих или в процентах
-     */
-    @XmlAttribute(name = "abs")
-    private Boolean abs;
-
-    /**
-     * Гистерезис
-     */
-    @XmlAttribute(name = "husteresis")
-    private String husteresis;
-
-    /**
-     * Записывать значение в runtime таблицу
-     */
-    @XmlAttribute(name = "rt")
-    private Boolean rt;
-
+//    /**
+//     * Гистерезис в обсалютных значенияих или в процентах
+//     */
+//    @XmlAttribute(name = "abs")
+//    private Boolean abs;
+//
+//    /**
+//     * Гистерезис
+//     */
+//    @XmlAttribute(name = "husteresis")
+//    private String husteresis;
+//
+//    /**
+//     * Записывать значение в runtime таблицу
+//     */
+//    @XmlAttribute(name = "rt")
+//    private Boolean rt;
+//
 
 }
