@@ -6,6 +6,7 @@ datana:
     log:
       level: INFO
     data-dir: "/home/lin/work-lanit/S7ParserXML-K6/DATA"
+  database-options:
   spring:
     datasource:
       driver-class: org.postgresql.Driver

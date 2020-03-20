@@ -2,8 +2,10 @@ package ru.datana.steel.parser.model;
 
 import lombok.Getter;
 import ru.datana.steel.parser.config.DbConst;
+import ru.datana.steel.parser.model.entity.ControllersDataEntity;
 import ru.datana.steel.parser.model.entity.ControllersEntity;
 import ru.datana.steel.parser.model.xml.ControllerType;
+import ru.datana.steel.parser.model.xml.ItemType;
 import ru.datana.steel.parser.model.xml.ItemsType;
 
 import java.util.ArrayList;
@@ -57,5 +59,12 @@ public class LanitEntryBuilder {
             mapController.put(fileName, itemsByFileName);
         }
         itemsByFileName.add(items);
+    }
+
+    public ControllersDataEntity convertItemsToControllersDataEntity(ItemType item) {
+        ControllersDataEntity entity = new ControllersDataEntity();
+        entity.setControllerId(1);
+        //entity.getDataBlock(item.)
+        return entity;
     }
 }

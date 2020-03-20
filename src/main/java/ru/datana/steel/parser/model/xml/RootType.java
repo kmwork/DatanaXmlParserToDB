@@ -8,7 +8,7 @@
 
 package ru.datana.steel.parser.model.xml;
 
-import lombok.ToString;
+import lombok.Data;
 
 import javax.xml.bind.annotation.*;
 
@@ -18,31 +18,11 @@ import javax.xml.bind.annotation.*;
 @XmlType(name = "rootType", propOrder = {
         "controllers"
 })
-
-@ToString
+@Data
 public class RootType {
 
     @XmlElement(required = true)
     protected ControllersType controllers;
 
-    /**
-     * Gets the value of the controllers property.
-     *
-     * @return possible object is
-     * {@link ControllersType }
-     */
-    public ControllersType getControllers() {
-        return controllers;
-    }
-
-    /**
-     * Sets the value of the controllers property.
-     *
-     * @param value allowed object is
-     *              {@link ControllersType }
-     */
-    public void setControllers(ControllersType value) {
-        this.controllers = value;
-    }
 
 }

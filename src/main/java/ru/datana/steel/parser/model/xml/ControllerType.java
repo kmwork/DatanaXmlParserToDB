@@ -8,7 +8,7 @@
 
 package ru.datana.steel.parser.model.xml;
 
-import lombok.ToString;
+import lombok.Data;
 
 import javax.xml.bind.annotation.*;
 
@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.*;
 @XmlType(name = "controllerType", propOrder = {
         "value"
 })
-@ToString
+@Data
 public class ControllerType {
 
     @XmlValue
@@ -34,123 +34,22 @@ public class ControllerType {
     protected String note;
 
     /**
-     * Gets the value of the value property.
-     *
-     * @return possible object is
-     * {@link String }
+     * Гистерезис в обсалютных значенияих или в процентах
      */
-    public String getValue() {
-        return value;
-    }
+    @XmlAttribute(name = "abs")
+    private Boolean abs;
 
     /**
-     * Sets the value of the value property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * Гистерезис
      */
-    public void setValue(String value) {
-        this.value = value;
-    }
+    @XmlAttribute(name = "husteresis")
+    private String husteresis;
 
     /**
-     * Gets the value of the name property.
-     *
-     * @return possible object is
-     * {@link String }
+     * Записывать значение в runtime таблицу
      */
-    public String getName() {
-        return name;
-    }
+    @XmlAttribute(name = "rt")
+    private Boolean rt;
 
-    /**
-     * Sets the value of the name property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setName(String value) {
-        this.name = value;
-    }
-
-    /**
-     * Gets the value of the ip property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getIp() {
-        return ip;
-    }
-
-    /**
-     * Sets the value of the ip property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setIp(String value) {
-        this.ip = value;
-    }
-
-    /**
-     * Gets the value of the rack property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getRack() {
-        return rack;
-    }
-
-    /**
-     * Sets the value of the rack property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setRack(String value) {
-        this.rack = value;
-    }
-
-    /**
-     * Gets the value of the slot property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getSlot() {
-        return slot;
-    }
-
-    /**
-     * Sets the value of the slot property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setSlot(String value) {
-        this.slot = value;
-    }
-
-    /**
-     * Gets the value of the note property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getNote() {
-        return note;
-    }
-
-    /**
-     * Sets the value of the note property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setNote(String value) {
-        this.note = value;
-    }
 
 }

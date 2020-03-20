@@ -39,4 +39,26 @@ public class ControllersDataEntity {
 
     @Column(name = "rec_dt")
     private LocalDateTime recDt;
+
+    @Column(name = "sign")
+    private Boolean sign;
+
+//    /**
+//     * Гистерезис в обсалютных значенияих или в процентах
+//     */
+//    @Column(name = "abs")
+//    private Boolean abs;
+//
+//    /**
+//     * Гистерезис
+//     */
+//    @Column(name = "husteresis")
+//    private String husteresis;
+//
+//    /**
+//     * Записывать значение в runtime таблицу
+//     */
+//    @Column(name = "rt")
+//    private Boolean rt;
+
 }

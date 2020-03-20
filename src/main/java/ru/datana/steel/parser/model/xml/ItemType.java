@@ -8,7 +8,7 @@
 
 package ru.datana.steel.parser.model.xml;
 
-import lombok.ToString;
+import lombok.Data;
 
 import javax.xml.bind.annotation.*;
 
@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.*;
 @XmlType(name = "itemType", propOrder = {
         "value"
 })
-@ToString
+@Data
 public class ItemType {
 
     @XmlValue
@@ -31,104 +31,7 @@ public class ItemType {
     @XmlAttribute(name = "ts")
     protected String ts;
 
-    /**
-     * Gets the value of the value property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getValue() {
-        return value;
-    }
-
-    /**
-     * Sets the value of the value property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setValue(String value) {
-        this.value = value;
-    }
-
-    /**
-     * Gets the value of the type property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getType() {
-        return type;
-    }
-
-    /**
-     * Sets the value of the type property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setType(String value) {
-        this.type = value;
-    }
-
-    /**
-     * Gets the value of the note property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getNote() {
-        return note;
-    }
-
-    /**
-     * Sets the value of the note property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setNote(String value) {
-        this.note = value;
-    }
-
-    /**
-     * Gets the value of the tp property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getTp() {
-        return tp;
-    }
-
-    /**
-     * Sets the value of the tp property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setTp(String value) {
-        this.tp = value;
-    }
-
-    /**
-     * Gets the value of the ts property.
-     *
-     * @return possible object is
-     * {@link String }
-     */
-    public String getTs() {
-        return ts;
-    }
-
-    /**
-     * Sets the value of the ts property.
-     *
-     * @param value allowed object is
-     *              {@link String }
-     */
-    public void setTs(String value) {
-        this.ts = value;
-    }
+    @XmlAttribute(name = "sign")
+    protected Boolean sign;
 
 }
