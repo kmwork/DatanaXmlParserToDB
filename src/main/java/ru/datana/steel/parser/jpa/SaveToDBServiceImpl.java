@@ -48,7 +48,10 @@ public class SaveToDBServiceImpl implements SaveToDBService {
             UnitsEntity unitsEntity = new UnitsEntity();
             unitsEntity.setName(nodeEn.getKey());
             unitsEntity.setRecDt(DbConst.SAVE_TIME);
+
             entityManager.persist(unitsEntity);
+            int unitId = unitsEntity.getId();
+
             log.debug(PREFIX_LOG + " записано - unitsEntity: " + unitsEntity);
             Map<String, Map<String, List<ItemsType>>> mapController = nodeEn.getValue();
             for (Map.Entry<String, Map<String, List<ItemsType>>> controllerEn : mapController.entrySet()) {
@@ -62,7 +65,7 @@ public class SaveToDBServiceImpl implements SaveToDBService {
                     log.debug(PREFIX_LOG + " Запись по файлу : " + fileName);
                     for (ItemsType items : itemsList) {
                         for (ItemType it : items.getItem()) {
-                            ControllersDataEntity entityTask = builder.convertItemsToControllersDataEntity(controllerId, fileName, it);
+                            ControllersDataEntity entityTask = builder.convertItemsToControllersDataEntity(controllerId, unitId, fileName, it);
                             entityManager.persist(entityTask);
                             log.debug(PREFIX_LOG + " записано - entityTask: " + entityTask);
                         }
@@ -82,6 +85,8 @@ public class SaveToDBServiceImpl implements SaveToDBService {
         query = entityManager.createNativeQuery("truncate " + DbConst.DB_SCHEMA + ".units");
         query.executeUpdate();
 
+        query = entityManager.createNativeQuery("truncate " + DbConst.DB_SCHEMA + ".controllers_data");
+        query.executeUpdate();
         log.debug("[Очитка БД] завершена");
     }
 

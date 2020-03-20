@@ -61,11 +61,12 @@ public class LanitEntryBuilder {
         itemsByFileName.add(items);
     }
 
-    public ControllersDataEntity convertItemsToControllersDataEntity(int controllerId, String fileName, ItemType item) {
+    public ControllersDataEntity convertItemsToControllersDataEntity(int controllerId, int unitId, String fileName, ItemType item) {
         ControllersDataEntity entity = new ControllersDataEntity();
         entity.setControllerId(controllerId);
         int dataBlock = parseFileName(fileName);
         entity.setDataBlock(dataBlock);
+        entity.setUnitId(unitId);
         entity.setDataType(item.getType());
         entity.setDescription(item.getNote());
         parseDataFormat(item, entity);
